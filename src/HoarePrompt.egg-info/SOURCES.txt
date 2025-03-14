@@ -29,6 +29,8 @@ src/node_base_style/loop_old.py
 src/node_base_style/merger.py
 src/node_base_style/naive.py
 src/node_base_style/naive_no_fsl.py
+src/node_base_style/naive_test.py
+src/node_base_style/print_triple.py
 src/node_base_style/return_triple.py
 src/node_base_style/single_post.py
 src/node_base_style/single_post_no_fsl.py

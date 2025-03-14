@@ -21,6 +21,7 @@ from node_base_style.annotated_simple import annotated_simple
 from node_base_style.single_post import single_post
 from node_base_style.single_post_no_fsl import single_post_no_fsl
 from verify_entailement import verify_tree ,verify_function_summary
+from node_base_style.naive_test import naive_test, naive_test_verify_ans, test_agentcoder
 
 import cex_generator
 from textwrap import dedent
@@ -451,9 +452,13 @@ def main():
         if type(config["concat_simple"]) != bool:
             print("Error: concat_simple should be a boolean")
             return 
-
-    print("I am here")
-
+    if "COT" not in config:
+        config["COT"] = True
+    else:
+        if type(config["COT"]) != bool:
+            print("Error: COT should be a boolean")
+            return 
+    
     log_directory = None
     if args.log:
         log_directory = Path(args.log)
@@ -621,7 +626,7 @@ def main():
 def assess(description, program, module_name, config, log_directory, cex_path):
     
     cleaned_program, imports = remove_imports_and_comments(program)
-    
+    tester_code =imports +"\n\n" + cleaned_program
     functions_dict = extract_functions(cleaned_program)
     # print("this is the functions dict", functions_dict)
     is_global=  False
@@ -652,45 +657,9 @@ def assess(description, program, module_name, config, log_directory, cex_path):
         test_code = imports +"\n" + CAPTURES1 +"\n"+ CAPTURES2+"\n\n"+ cleaned_program
         test_code_call =imports +"\n" + cleaned_program
 
-    if 'tester' in config:
-        if config['tester']:
-            # print ("Running in tester mode and sving the program to a file")
-            # if the file does not exist then we have to create it
-            remade_program =  CAPTURES +'\n' + remade_program
-            with (log_directory / 'program.py').open("w", encoding="utf-8") as f:
-                f.write(test_code)
-            # print("Program saved to file")
-            model = get_model(config["model"], config["temperature"], log_directory)
-            tests = tester_call(description, test_code_call, model)
-
-            # Save the tests to a file
-            test_file_path = log_directory / 'test_script.py'
-            with test_file_path.open("w", encoding="utf-8") as f:
-                f.write(tests)
-
-            try:
-                # Run the test script with a 30-second timeout
-                result = subprocess.run(['python', str(test_file_path)], capture_output=True, text=True, timeout=30)
-
-                if result.returncode == 0:
-                    print("Correctness: True")
-                    return {"tester": "True"} 
-                else:
-                    if "AssertionError" in result.stderr:
-                        print("Correctness: False (Assertions failed)")
-                        return {"tester": "False"} 
-                    else:
-                        print("Error: Test script execution failed (Invalid test or error in test generation)")
-                        print(result.stderr)
-                        return {"tester": "Failed"} 
-
-            except subprocess.TimeoutExpired:
-                print("Error: Test script execution timed out")
-                return {"tester": "Timeout"}
-
-            except Exception as e:
-                print("Error while running the test script:", e)
-                return {"tester": "Error"}
+    if config['assessment-mode'] == 'naive-test':
+        print("Using naive_test assessment mode")
+        return compute_postcondition_naivetest(description, tester_code, program, config, log_directory)
     
     print(f"the imports are\n{imports}\n")
     print(f"the global code is\n{global_code}\n")
@@ -705,7 +674,7 @@ def assess(description, program, module_name, config, log_directory, cex_path):
         print(f"Using {config['assessment-mode']} assessment mode")
         return compute_postcondition_single(description, functions_list,imports, global_code, cleaned_program, module_name, program, config, log_directory)
     # Ensure assessment mode is set to 'postcondition-entailment'
-    assert config['assessment-mode'] in {'postcondition-entailment', 'total', 'verify'}
+    assert config['assessment-mode'] in {'postcondition-entailment', 'total', 'verify','naive-test'}
 
     
     # Save the program and description to the log directory
@@ -826,7 +795,15 @@ def extract_precondition(description, program, config, log_directory, functions_
         program_def =find_function_definition(program)
         # Use the precondition extractor model to generate the precondition
         return precondition_extractor.default(model, description, program_def)
-
+    
+def compute_postcondition_naivetest(description, program, original_program, config, log_directory):
+    model = get_model(config["model"], config["temperature"], log_directory)
+    if config['entailment-mode'] == "verify-answer":
+        response = test_agentcoder(description, program, original_program, model)
+        # response = naive_test_verify_ans(description, program, original_program, model)
+    else:
+        response = naive_test(description, program, model)
+    return response
 
 def compute_postcondition_single(description, functions_list, imports, global_code, cleaned_program, module_name, program, config, log_directory):
     model = get_model(config["model"], config["temperature"], log_directory)
@@ -869,7 +846,10 @@ def compute_postcondition_single(description, functions_list, imports, global_co
     if config["fsl"]:
         response = naive_question(description, all_funcs, model)
     else:
-        response = naive_question_no_fsl(description, all_funcs, model)
+        if config["COT"]:
+            response = naive_question_no_fsl(description, all_funcs, model)
+        else:
+            response = naive_question_no_fsl_no_cot(description, all_funcs, model)
     return response
             
 
@@ -888,9 +868,15 @@ def compute_postcondition_naive(description, program, config, log_directory):
             # print("I am here")
             response = response, confidence
         else:
-            print("FSL is set to False, using naive_question_no_fsl")
+            print("FSL is set to False")
+            if config["COT"]:
+                print("COT is set to TRUE")
+                response = naive_question_no_fsl(description, program, model)
+            else:
+                print("COT is set to FALSE")
+                response = naive_question_no_fsl_no_cot(description, program, model)
             #dont use few shot learning
-            response = naive_question_no_fsl(description, program, model)
+            
     else:
         response = naive_question(description, program, model)
     

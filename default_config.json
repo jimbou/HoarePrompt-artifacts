@@ -1,6 +1,6 @@
 {
-    "model": "gpt-3.5-turbo-0125",
-    "temperature": 0.7,
+    "model": "qwen2.5-7b-instruct",
+    "temperature": 1.0,
     "assessment-mode": "naive", 
     "postcondition-mode": "hoarecot",
     "postcondition-cot-prompt": "node-based-style",
@@ -9,5 +9,6 @@
     "entailment-mode": "naive",
     "cex-mode": "with-postcondition",
     "annotated" : false,
-    "fsl": false
+    "fsl": false,
+    "COT": false
 }

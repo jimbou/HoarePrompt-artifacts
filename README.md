@@ -65,12 +65,15 @@ For **OpenAI** models:
 export OPENAI_API_KEY="your-openai-api-key"
 ```
 
-For **Groq** models:
+For **Qwen** models:
 ```bash
-export GROQ_API_KEY="your-groq-api-key"
+export DASHSCOPE_API_KEY="your-dashcope-api-key"
 ```
 
 You can add these export commands to your `.bashrc` or `.zshrc` file to avoid having to set them every time.
+
+You can add support for more providers and models in the src/model.py
+
 
 ## Usage
 
@@ -91,10 +94,14 @@ To understand whether a program conforms to a problem description, you can use t
 python src/hoareprompt.py  --description <FILE> --program <FILE>
 or 
 python src/hoareprompt.py --command assess --description <FILE> --program <FILE>
+or
+python src/hoareprompt.py --command assess --description <FILE> --program <FILE> --config <FILE> --log <FILE>
 ```
 
 This will output `CORRECT` or `INCORRECT` depending on the assessment result.
 The  command is a combination of the following 3 commands of the HoarePrompt tool, and they are invoked in the order they are presented below.
+
+THIS IS THE COMMAND USED FOR ALL OUR EXPERIMENTS
 
 
 ### 2.Extract Precondition

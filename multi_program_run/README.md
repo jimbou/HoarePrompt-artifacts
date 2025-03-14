@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td style="width: 20%; text-align: center;">
-      <img src="./assets/HoarePrompt_logo.png" alt="HoarePrompt Logo" width="100"/>
+      <img src="../assets/HoarePrompt_logo.png" alt="HoarePrompt Logo" width="100"/>
     </td>
     <td style="width: 80%; text-align: left;">
       <h1>HoarePrompt-expirement: Experiments guide for the HoarePrompt tool</h1>
@@ -67,10 +67,14 @@ You can add these `export` commands to your `.bashrc` or `.zshrc` files to avoid
 
 ## Running the Project
 
-To run the project, execute the following command, specifying the data, log, and configuration file paths:
+This is used to run many problems in jsopn format together.
+The configuartion options are the same and you can see them on the Readme on the main dir :../README.md, 
+Execute the following command, specifying the data, log, and configuration file paths:
+The data must be a json path with the following options per test case: "description", "correct", "unique_id", "task_id" ,"generated_code"
+You can use our dataset in ../Results/Dataset
 
 ```bash
-python3 -m src.main --data /path/to/data/file --log /path/to/log/dir --config /path/to/config/file
+python3 -m src.main_verify --data /path/to/data/file --log /path/to/log/dir --config /path/to/config/file
 ```
 
 - `--data` : Path to the data file.
@@ -79,43 +83,16 @@ python3 -m src.main --data /path/to/data/file --log /path/to/log/dir --config /p
 
 Example:
 ```bash
-python3 -m src.main --data data/input.json --log logs/experiment1 --config configs/custom_config.json
+python3 -m src.main_verify --data data/input.json --log logs/experiment1 --config configs/custom_config.json
 ```
 
 If you do not provide the `--config` argument, the default configuration file (`default_config.json`) will be used.
 
-## Directory Structure
+The main_verify should be used if you want to test Hoareprompt or hoareprompt no unroll(depending on your config) for all available classifiers other than tester
 
-The experiment are dependent and will create various directories to organize configuration, data, and logs:
-
-Visit **Path:** [scripts/scripts.md](scripts/scripts.md) for documentation on the different scripts you can use to run experiments.
-All the bash scripts in the helper runners folder of the repo are used to schedule experiments.
-
-1. **Data File**: The data file  is read from the path specified with `--data`. For potential data to use you can consider the sanitized-mbpp.json or you can use the example data in the [input_data folder](./input_data)
-
-2. **Configuration File**: Passed via `--config`, this file contains parameters that guide the behavior of the experiment (model type, training options, etc.). If not provided, `default_config.json` will be used.
-3. **Log Directory**: If the log directory doesn't already exist, it will be created automatically. If no log directory is provided the `Results` directory will be used. Inside the log directory, a folder with the current datetime will be created inside which the following will be saved:
-    - **Logs**: Log files documenting the detailed execution of the experiment.
-    - **Configuration Copy**: A copy of the configuration file used for the experiment, saved for future reference.
-    - **Potential failed_tasks_file** : A file detailing any tasks that failed and the failure reason and error code
-    - **CSVs with the tasks and the results of the experiment** : detailed csvs with all the information of the tasks, the HoarePrompt result, potential counter examples etc
-    - **Versioning Information**: A `VERSIONS` file is generated, containing version details of the `hoareprompt` package (the version), the commit hash of the 2 git directories (the HoarePrompt and the HoarePrompt-experiments one), and the LLM model used.
-
-    Our proposal is that you also clone our [data repository](https://github.com/msv-lab/HoarePrompt-data) and use the Results folder in there to store the logs and the results of your experimental run. So using  `--log ../HoarePrompt-data/Results` is advised assuming you have cloned the [data repository](https://github.com/msv-lab/HoarePrompt-data) first.
+If you want to use tester use the tester config and the main_tester script:
 
 
-## Contributions
-This is a project of Peking Univeristy. Feel free to contribute to HoarePrompt-data by opening issues or submitting pull requests on GitHub. Your contributions are highly appreciated!
 
-<div style="display: flex; justify-content: center;">
-  <table style="table-layout: fixed; text-align: center;">
-    <tr>
-      <td style="width: 50%; text-align: center;">
-        <img src="./assets/PKU.png" alt="Image 1" width="300"/>
-      </td>
-      <td style="width: 50%; text-align: center;">
-        <img src="./assets/HoarePrompt_logo.png" alt="Image 2" width="300"/>
-      </td>
-    </tr>
-  </table>
-</div>
+python3 -m src.main_tester --data /path/to/data/file --log /path/to/log/dir --config /path/to/config/file
+

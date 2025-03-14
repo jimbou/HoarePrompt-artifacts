@@ -250,21 +250,7 @@ class FireworksModel(Model):
             temperature=self.temperature
         )
 
-            # Extract usage stats (if the API provides them)
-        if "7b" in self.name:
-            filepath= "/home/dimitris/HoarePrompt-experiments/tokens7_fireworks.json"
-        elif "32b" in self.name:
-            filepath= "/home/dimitris/HoarePrompt-experiments/tokens32_fireworks.json"
-        elif "72b" in self.name:
-            filepath= "/home/dimitris/HoarePrompt-experiments/tokens72_fireworks.json"
-        else: 
-            filepath = "/home/dimitris/HoarePrompt-experiments/tokens_fireworks.json"
-        if response.usage is not None:
-            prompt_tokens = response.usage.prompt_tokens
-            completion_tokens = response.usage.completion_tokens
-            total_tokens = response.usage.total_tokens
-            
-            log_token_usage(prompt_tokens, completion_tokens, total_tokens, filepath)
+      
         
         return response.choices[0].message.content
 
@@ -290,20 +276,7 @@ class QwenModel(Model):
         )
 
             # Extract usage stats (if the API provides them)
-        if "7b" in self.name:
-            filepath= "/home/dimitris/HoarePrompt-experiments/tokens7.json"
-        elif "32b" in self.name:
-            filepath= "/home/dimitris/HoarePrompt-experiments/tokens32.json"
-        elif "72b" in self.name:
-            filepath= "/home/dimitris/HoarePrompt-experiments/tokens72.json"
-        else: 
-            filepath = "/home/dimitris/HoarePrompt-experiments/tokens.json"
-        if response.usage is not None:
-            prompt_tokens = response.usage.prompt_tokens
-            completion_tokens = response.usage.completion_tokens
-            total_tokens = response.usage.total_tokens
-            
-            log_token_usage(prompt_tokens, completion_tokens, total_tokens, filepath)
+      
         
         return response.choices[0].message.content
     
