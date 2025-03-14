@@ -1,0 +1,10 @@
+{
+    "hoareprompt_no_unroll": {
+        "Agreement Count": 1142,
+        "Balanced Accuracy": 0.6149688207564679,
+        "True Positive Rate (TPR)": 0.6178686759956943,
+        "False Negative Rate (FNR)": 0.3821313240043057,
+        "False Positive Rate (FPR)": 0.3879310344827586,
+        "MCC": 0.22994164233259878
+    }
+}
