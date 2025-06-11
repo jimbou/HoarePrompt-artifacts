@@ -1,0 +1,1 @@
+a and p are non-negative integers representing vertices in a tree, adj is an adjacency list representing the tree, x is a non-negative integer representing the minimum size of a connected component, and numCuts is a non-negative integer representing the number of cuts made so far.

@@ -1,0 +1,1 @@
+stdin contains a line of input with two space-separated integers.

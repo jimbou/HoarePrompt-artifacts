@@ -1,0 +1,1 @@
+list is a list of non-negative integers, n is a positive integer such that n is equal to the length of list and n >= 3.

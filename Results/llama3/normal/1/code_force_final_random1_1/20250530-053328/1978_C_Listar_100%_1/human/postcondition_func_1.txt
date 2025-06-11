@@ -1,0 +1,1 @@
+This function swaps the values at two specified indices in a given list and returns the modified list. It takes a list of integers and two non-negative integers as input, where the integers represent valid indices from the end of the list. The function exchanges the values at these indices and returns the updated list with the swapped values.

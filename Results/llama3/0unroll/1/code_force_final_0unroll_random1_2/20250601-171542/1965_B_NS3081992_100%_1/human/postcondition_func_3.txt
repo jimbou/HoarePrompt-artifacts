@@ -1,0 +1,1 @@
+This function generates a list of a specified number of elements, where each element is the result of calling the function 'func_3()'. The function takes a positive integer 'rows_number' as input and returns a list of that length, with each element being the result of a separate call to 'func_3()'.

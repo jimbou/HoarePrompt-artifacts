@@ -1,0 +1,7 @@
+This function reads input from stdin, processes a sequence of lines, and outputs a sequence of lines. It takes no parameters and returns no value. The function iterates over the input lines, performing the following actions: 
+
+- It reads the first line, which contains an integer t, representing the number of test cases.
+- For each test case, it reads two lines: the first line contains two integers n and m, and the second line contains n integers a_1, a_2, ..., a_n.
+- It processes the integers a_1, a_2, ..., a_n by reversing them and checking if the reversed integer has the same number of digits as the original integer. If it does, the original integer is appended to the result string. Otherwise, the reversed integer is stored in a list.
+- The list of reversed integers is sorted, and then the function iterates over the sorted list, appending the integers to the result string in a specific order (every other integer is appended in reverse order).
+- Finally, the function compares the result string with 10 raised to the power of m and prints 'Sasha' if the result string is greater, and 'Anna' otherwise. The function repeats this process for each test case, printing the result for each case.

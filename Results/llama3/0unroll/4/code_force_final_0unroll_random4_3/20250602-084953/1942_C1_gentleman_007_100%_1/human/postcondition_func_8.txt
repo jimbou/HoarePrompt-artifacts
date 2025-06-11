@@ -1,0 +1,1 @@
+This function takes a non-negative integer x as input and returns the number of trailing zeros in its binary representation. If x is 0, it returns 0.

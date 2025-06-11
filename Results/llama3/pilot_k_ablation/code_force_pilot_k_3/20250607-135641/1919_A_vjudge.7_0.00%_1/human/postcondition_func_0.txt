@@ -1,0 +1,1 @@
+This function reads input from stdin, processes multiple test cases, and determines the winner based on the number of coins in Alice's and Bob's wallets. It prints the winner's name ('Alice' or 'Bob') for each test case, with 'Bob' being the default winner in case of a tie. The function consumes all input from stdin and does not return any value.

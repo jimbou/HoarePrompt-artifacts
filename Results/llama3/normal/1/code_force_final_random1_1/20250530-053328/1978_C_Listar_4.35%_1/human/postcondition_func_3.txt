@@ -1,0 +1,1 @@
+This function takes no parameters and returns either nothing or a value. If the positive integer 'n' returned by func_2() is 0, it prints 'NO' and returns nothing. Otherwise, it calls func_1() with 'n' and non-negative integer 'k' as arguments, passes the result to func_3(), and returns the value returned by func_1().

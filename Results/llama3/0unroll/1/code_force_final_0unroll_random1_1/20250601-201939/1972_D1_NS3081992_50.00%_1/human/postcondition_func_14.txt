@@ -1,0 +1,1 @@
+This function calculates the sum of the floor division of (n + i) by (i * i) for all integers i from 1 to the square root of (n + 1), then subtracts 1 from the result and returns the final value. The function takes no input parameters and returns an integer value.

@@ -1,0 +1,1 @@
+n is an integer greater than or equal to 2, edges is a list of pairs of integers representing the edges of a tree with n nodes, and start is an integer representing the starting node of the game. The tree represented by edges has exactly two leaves.

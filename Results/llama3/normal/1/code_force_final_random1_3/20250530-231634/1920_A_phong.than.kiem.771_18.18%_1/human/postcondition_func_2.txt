@@ -1,0 +1,1 @@
+This function takes a list of values and a string as input, converts each value in the list to a string, and concatenates them with the given string in between each value, returning the resulting concatenated string.

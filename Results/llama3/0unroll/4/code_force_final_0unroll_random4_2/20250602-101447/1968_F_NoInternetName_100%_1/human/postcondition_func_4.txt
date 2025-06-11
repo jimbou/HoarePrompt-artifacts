@@ -1,0 +1,10 @@
+This function takes no parameters and returns no value. It performs the following actions: 
+
+1. It generates two positive integers n and q, and a list a of non-negative integers less than 2^30.
+2. It calculates the cumulative XOR of the elements in list a and stores the result in list x.
+3. It creates a dictionary inds that maps each cumulative XOR value in list x to its indices.
+4. It iterates q times, each time taking two integers l and r as input.
+5. For each iteration, it checks if the cumulative XOR value at index l-1 is equal to the cumulative XOR value at index r. If they are equal, it prints 'Yes'.
+6. If the cumulative XOR values are not equal, it finds the largest index lower in inds[x[r]] that is less than l, and the smallest index upper in inds[x[l-1]] that is greater than or equal to r.
+7. If upper is greater than lower, it prints 'Yes'; otherwise, it prints 'No'.
+8. After q iterations, the function concludes without modifying the state of list x and dictionary inds.

@@ -1,0 +1,1 @@
+stdin contains multiple inputs: first an integer t (1 <= t <= 10^4), then for each test case, first three integers n, x, and y (4 <= n <= 10^9, 2 <= x <= min(n, 2 * 10^5), y = 0), and then x distinct integers from 1 to n.

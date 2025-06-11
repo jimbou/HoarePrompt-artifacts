@@ -1,0 +1,1 @@
+pos is a position on the field and goal is a list of two lists, where each sublist contains the positions of the goals of a team (0 for red team and 1 for blue team).

@@ -1,0 +1,1 @@
+The input contains multiple test cases. Each test case contains three integers k, x, and a, where k is an integer between 2 and 30 (inclusive), x is an integer between 1 and 100 (inclusive), and a is an integer between 1 and 10^9 (inclusive).

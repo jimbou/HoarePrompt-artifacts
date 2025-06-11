@@ -1,0 +1,1 @@
+stdin contains multiple lines of input. The first line contains one integer t (1 <= t <= 10^4). Each of the following t lines contains three integers n, x, and y (4 <= n <= 10^9, 2 <= x <= min(n, 2 * 10^5), y = 0). Each of the following t lines contains x distinct integers from 1 to n.

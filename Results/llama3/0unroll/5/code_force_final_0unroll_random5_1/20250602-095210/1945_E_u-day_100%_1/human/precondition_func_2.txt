@@ -1,0 +1,1 @@
+n and k are positive integers, arr is a list of distinct integers from 1 to n, and k is an element in arr.

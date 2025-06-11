@@ -1,0 +1,1 @@
+Determines the index and maximum value of a sequence of integers for multiple test cases and prints the results.

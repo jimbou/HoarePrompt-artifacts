@@ -1,0 +1,1 @@
+Reads a line of input from stdin, splits it into two space-separated integers, and returns them as a list, ensuring the first integer is positive and the second integer is positive and less than or equal to the first integer.

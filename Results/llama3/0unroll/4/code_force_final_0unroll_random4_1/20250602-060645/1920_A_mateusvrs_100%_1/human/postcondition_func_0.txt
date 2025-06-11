@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case contains a set of constraints defining a range of valid integers. It then calculates and prints the number of integers within this range that do not violate any of the given constraints, for each test case.

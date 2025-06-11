@@ -1,0 +1,1 @@
+stdin contains one input: an integer (t) followed by t integers (n), where 1 <= t <= 50 and 2 <= n <= 10^3.

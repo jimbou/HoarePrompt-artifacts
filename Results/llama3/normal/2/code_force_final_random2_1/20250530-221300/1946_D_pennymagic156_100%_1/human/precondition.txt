@@ -1,0 +1,1 @@
+stdin contains multiple lines of input: the first line contains a single integer t (1 <= t <= 10^4), the next lines contain the descriptions of the test cases, each test case consists of two lines, the first line contains two integers n and x (1 <= n <= 10^5, 0 <= x < 2^30), the second line contains n integers a_1, a_2, ..., a_n (0 <= a_i < 2^30).

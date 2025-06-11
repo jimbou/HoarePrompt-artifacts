@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains an integer n followed by n lines, each containing two integers a and x, where a is 1, 2, or 3 and 1 <= x <= 10^9. There is at least one constraint of type 1 and at least one constraint of type 2. No two constraints are the exact same.

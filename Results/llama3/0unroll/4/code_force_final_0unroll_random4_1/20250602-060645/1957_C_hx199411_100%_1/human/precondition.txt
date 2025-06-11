@@ -1,0 +1,1 @@
+t is a positive integer, for each test case, n is a positive integer and k is a non-negative integer such that k <= n, for each move, r_i and c_i are non-negative integers such that 0 <= r_i < n and 0 <= c_i < n.

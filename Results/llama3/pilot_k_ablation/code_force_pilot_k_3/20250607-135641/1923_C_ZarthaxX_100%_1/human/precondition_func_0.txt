@@ -1,0 +1,1 @@
+stdin contains an integer t, then t times: two integers n and q, a list of n integers, and q pairs of integers. All integers are greater than 0.

@@ -1,0 +1,1 @@
+This function takes two pairs of non-negative integers as input, where each pair represents coordinates (x, y) and (dx, dy), and returns two new coordinates (x + dx, y + dy). The returned coordinates are guaranteed to be even integers between 6 and 198.

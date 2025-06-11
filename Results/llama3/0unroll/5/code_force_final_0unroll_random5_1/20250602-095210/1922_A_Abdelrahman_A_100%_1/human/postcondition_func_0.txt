@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of three strings a, b, and c. It checks if string c can be formed by taking characters from strings a and b at the same position. If c can be formed, it prints 'YES', otherwise it prints 'NO'. The function processes all test cases and prints the corresponding results to the console.

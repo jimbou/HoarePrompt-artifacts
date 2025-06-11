@@ -1,0 +1,1 @@
+This function calculates and returns a list of cumulative products of the elements in the input list 'arr', which is a list of positive integers. The function leaves the input list 'arr' unchanged and returns a new list 'ans' where each element at index 'i' is the product of all elements in 'arr' up to index 'i'.

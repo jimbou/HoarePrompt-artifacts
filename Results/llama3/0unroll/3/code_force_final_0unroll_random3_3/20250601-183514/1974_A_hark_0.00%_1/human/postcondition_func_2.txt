@@ -1,0 +1,1 @@
+Executes a specified number of test cases by reading an integer from standard input and running the `func_2` function that many times, leaving the standard input empty after execution.

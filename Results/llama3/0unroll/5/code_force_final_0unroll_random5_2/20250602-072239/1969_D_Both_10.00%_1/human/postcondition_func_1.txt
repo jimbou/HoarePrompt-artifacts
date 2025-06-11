@@ -1,0 +1,1 @@
+This function takes no parameters and returns a map object containing integers. The integers are obtained from a string of space-separated integers returned by the putin() function, which is then split and converted to integer type. The function effectively converts a string of space-separated integers into a map object of integers.

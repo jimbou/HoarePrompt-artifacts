@@ -1,0 +1,1 @@
+This function calls another function named func_2 and returns the value returned by func_2. It does not perform any other actions or modify any input variables, as it does not accept any parameters. The purpose of this function is to delegate its execution to func_2 and return the result.

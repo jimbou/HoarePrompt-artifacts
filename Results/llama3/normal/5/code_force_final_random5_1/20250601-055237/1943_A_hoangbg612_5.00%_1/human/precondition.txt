@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (1 <= integer <= 2 * 10^5) and then a list of integers (0 <= integer < 2 * 10^5). The sum of the first integers over all test cases does not exceed 2 * 10^5.

@@ -1,0 +1,1 @@
+This function finds and returns all occurrences of a given substring within a string by providing a list of indices where the substring starts. If the substring is not found, an empty list is returned.

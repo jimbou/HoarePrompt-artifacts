@@ -1,0 +1,1 @@
+This function reads two positive integers n and m from the standard input, calculates the sum of the minimum of n // ((x + y) * x) and m // ((x + y) * y) for all x and y such that x * x <= n and (x + y) * x <= n and (x + y) * y <= m and math.gcd(x, y) == 1, and prints the result.

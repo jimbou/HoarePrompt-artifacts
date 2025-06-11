@@ -1,0 +1,1 @@
+Prints 'YES' followed by the elements of the input list 'l', exhausting the list, and returns nothing.

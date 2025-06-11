@@ -1,0 +1,1 @@
+Calculates and prints the result of a mathematical expression for each pair of input integers n and k, where the result depends on the values of k and n, and prints the results in t lines, where t is the number of input pairs.

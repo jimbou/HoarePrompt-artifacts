@@ -1,0 +1,14 @@
+{
+    "model": "llama-v3p1-70b-instruct",
+    "temperature": 0.5,
+    "assessment-mode": "postcondition-entailment", 
+    "postcondition-mode": "hoarecot",
+    "postcondition-cot-prompt": "node-based-style",
+    "loop-unrolling-count": 5,
+    "entailment-mode": "naive",
+    "cex-mode": "with-postcondition",
+    "annotated": false,
+    "fsl": true,
+    "confidence": false,
+    "concat_simple" :true
+}

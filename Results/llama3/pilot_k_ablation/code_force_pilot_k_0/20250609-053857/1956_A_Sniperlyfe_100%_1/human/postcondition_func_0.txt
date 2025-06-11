@@ -1,0 +1,1 @@
+Calculates the number of players remaining after each iteration of a game, where players are eliminated based on a given list of unique integers, and returns a list of these remaining player counts, while preserving the original list of integers and the maximum number of players (100).

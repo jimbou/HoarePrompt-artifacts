@@ -1,0 +1,1 @@
+This function searches for the index of a given integer `x` in a list of integers `a`. If `x` is found in `a`, it returns the index of the first occurrence of `x` plus 1. If `x` is not found in `a` or if the input `x` is invalid (less than 0), it returns -1. The function does not modify the input list `a`.

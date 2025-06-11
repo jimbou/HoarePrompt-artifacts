@@ -1,0 +1,1 @@
+Executes a loop a number of times equal to the return value of `func_3()`, calling `func_6()` in each iteration, without modifying any variables or producing any output.

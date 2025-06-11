@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, compares each pair, and prints 'Bob' if the first integer is greater than or equal to the second, and 'Alice' otherwise. The function does not modify the input values or return any values, only producing output based on the comparisons.

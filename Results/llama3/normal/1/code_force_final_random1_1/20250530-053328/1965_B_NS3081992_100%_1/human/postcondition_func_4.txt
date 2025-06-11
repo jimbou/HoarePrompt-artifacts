@@ -1,0 +1,1 @@
+Reads a line of input from the standard input (stdin), removes the trailing newline character if present, and returns the resulting string. If the standard input is empty, returns an empty string.

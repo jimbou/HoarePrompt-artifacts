@@ -1,0 +1,1 @@
+This function caches the result of a given function `func` for a specific set of arguments `args` in a dictionary `d`. If the arguments are not already a key in the dictionary, it computes the result using `func` and stores it in the dictionary. The function then returns the cached or newly computed result associated with the given arguments.

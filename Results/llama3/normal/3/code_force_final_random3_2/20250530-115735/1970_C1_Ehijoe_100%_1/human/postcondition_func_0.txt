@@ -1,0 +1,1 @@
+This function reads input from stdin, constructs a tree from the input, and determines whether a given starting point is closer to one end of the tree or the other. It then prints 'Ron' if the number of moves to one end is odd, and 'Hermione' if the number of moves to both ends is even.

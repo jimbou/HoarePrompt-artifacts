@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, counts the number of consecutive '0' and '1' pairs in each string, and prints the count. If a '0' is followed by a '1' in a string, it decrements the count by 1. The function processes multiple strings as specified by the initial integer input, and it empties the standard input buffer in the process.

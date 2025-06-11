@@ -1,0 +1,1 @@
+The function takes a string of "+" and "-" characters and its length as input, and returns the count of negative balances that occurred during a cumulative sum of the string, plus 1 if the final balance is positive.

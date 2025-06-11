@@ -1,0 +1,1 @@
+Calculates a weighted sum of products involving non-negative integers k, n, a, and b, where k is within the range of 0 to the minimum of n and b, and returns the result.

@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 10^4) representing the number of test cases. For each test case, stdin contains two integers n and k (1 <= n <= 3 * 10^5, 0 <= k <= n) representing the size of the chessboard and the number of moves already played respectively. For each move, stdin contains two integers r_i and c_i (1 <= r_i, c_i <= n) representing the i-th move made.

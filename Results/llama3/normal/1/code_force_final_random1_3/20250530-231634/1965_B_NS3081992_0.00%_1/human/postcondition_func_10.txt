@@ -1,0 +1,1 @@
+Reads a string of space-separated values from standard input and returns a list of strings, where each string is a value from the input string separated by spaces.

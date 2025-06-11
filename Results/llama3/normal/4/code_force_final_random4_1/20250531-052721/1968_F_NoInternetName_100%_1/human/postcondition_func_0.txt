@@ -1,0 +1,1 @@
+The function takes a string of space-separated values as input, applies a specified cast function to each value, and returns a map object containing the converted values. The function effectively performs type conversion on user-provided input and returns the result as a map object.

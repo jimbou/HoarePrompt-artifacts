@@ -1,0 +1,1 @@
+Calculates and returns the greatest common divisor (GCD) of two positive integers, modifying the input values in the process.

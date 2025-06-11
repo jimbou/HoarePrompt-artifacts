@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains six integers: h, w, x_a, y_a, x_b, y_b, where h and w are the dimensions of the board, and (x_a, y_a) and (x_b, y_b) are the initial positions of Alice's and Bob's chips, respectively. 1 <= x_a, x_b <= h <= 10^6 and 1 <= y_a, y_b <= w <= 10^9. The sum of h over all test cases does not exceed 10^6.

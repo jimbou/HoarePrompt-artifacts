@@ -1,0 +1,1 @@
+Reads an integer from standard input and calls the function `func_2()` that many times.

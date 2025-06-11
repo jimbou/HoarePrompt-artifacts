@@ -1,0 +1,1 @@
+n and m are positive integers, and the function func_3() returns a tuple of two positive integers, and the function DSU() is a class that implements the disjoint-set data structure.

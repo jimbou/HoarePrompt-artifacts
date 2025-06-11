@@ -1,0 +1,1 @@
+Reads a series of test cases from standard input, where each case consists of two integers n and k, and for each case, prints the smallest integer greater than or equal to k/2.

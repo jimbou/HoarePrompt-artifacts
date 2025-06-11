@@ -1,0 +1,1 @@
+isOne is a boolean value indicating whether to return 1 or to return an integer read from the standard input.

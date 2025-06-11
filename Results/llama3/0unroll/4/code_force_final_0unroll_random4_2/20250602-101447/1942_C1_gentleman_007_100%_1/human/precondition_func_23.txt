@@ -1,0 +1,1 @@
+ver is a node in the graph, graph is a dictionary where each key is a node and its corresponding value is a list of neighboring nodes, and vis is a list where vis[i] represents whether node i has been visited or not.

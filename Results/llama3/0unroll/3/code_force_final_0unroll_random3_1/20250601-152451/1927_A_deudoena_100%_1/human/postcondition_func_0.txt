@@ -1,0 +1,1 @@
+Calculates the length of the shortest substring containing all 'B' characters in a given string, by finding the positions of the first 'B' characters from the start and end of the string, and returning their difference plus 2.

@@ -1,0 +1,1 @@
+stdin contains one input: an integer (the number of test cases), followed by a sequence of test cases. Each test case consists of one integer (the size of the permutation), followed by a sequence of n integers (the permutation).

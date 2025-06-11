@@ -1,0 +1,1 @@
+This function calculates the modular exponentiation of two integers, 'a' and 'b', with respect to a positive integer 'mod'. It returns the remainder of 'a' raised to the power of the number of times 'b' is odd, divided by 'mod'. The function modifies the original values of 'a' and 'b' during the calculation, but the returned value is based on the original values of 'a' and 'b'.

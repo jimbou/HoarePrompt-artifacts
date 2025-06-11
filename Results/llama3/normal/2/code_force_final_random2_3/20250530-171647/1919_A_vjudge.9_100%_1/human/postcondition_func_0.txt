@@ -1,0 +1,1 @@
+Determines the winner of a series of coin comparisons between Alice and Bob, where the winner is decided based on whether the absolute difference between the number of coins in their wallets is even or odd, and prints the winner's name for each comparison.

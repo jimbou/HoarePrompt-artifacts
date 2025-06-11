@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 100) followed by t test cases. Each test case consists of four lines, each containing two integers x and y (-1000 <= x, y <= 1000). The four points (x, y) form a square with sides parallel to the coordinate axes and positive area.

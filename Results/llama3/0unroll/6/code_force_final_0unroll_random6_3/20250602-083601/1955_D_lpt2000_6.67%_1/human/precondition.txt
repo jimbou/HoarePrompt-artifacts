@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three integers n, m, and k, where 1 <= k <= m <= n <= 2 * 10^5. Then, it contains a list of n integers a_1, a_2, ..., a_n, where 1 <= a_i <= 10^6. Finally, it contains a list of m integers b_1, b_2, ..., b_m, where 1 <= b_i <= 10^6.

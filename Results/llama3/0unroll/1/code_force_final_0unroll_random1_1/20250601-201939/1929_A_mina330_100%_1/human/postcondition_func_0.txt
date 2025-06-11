@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case contains a list of integers. It calculates and prints the difference between the maximum and minimum numbers in each list, without modifying the original input. The function does not return any value, but instead, prints the results directly to the standard output.

@@ -1,0 +1,1 @@
+t is a positive integer, n is a positive integer, f, a, and b are positive integers, m_1, m_2, \dots, m_n are positive integers such that 1 <= m_i <= 10^9 and m_i < m_{i + 1} for all i.

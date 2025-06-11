@@ -1,0 +1,1 @@
+t is a positive integer, n is a positive integer, k is a positive integer, P_B and P_S are positive integers such that 1 <= P_B, P_S <= n, p is a list of n distinct integers from 1 to n, a is a list of n positive integers.

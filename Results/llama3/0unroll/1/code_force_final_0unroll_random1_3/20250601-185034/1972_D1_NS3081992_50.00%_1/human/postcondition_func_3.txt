@@ -1,0 +1,1 @@
+Generates a list of elements by repeatedly calling 'func_3()' a specified number of times, equal to the value of 'rows_number', and returns this list. The list will contain at least one element, as 'rows_number' is a positive integer. The actual content of the list is determined by the results of 'func_3()' calls.

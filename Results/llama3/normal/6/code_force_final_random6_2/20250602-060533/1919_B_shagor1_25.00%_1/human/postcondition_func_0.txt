@@ -1,0 +1,1 @@
+This function reads two inputs from the user: an integer n and a string s of length n consisting of '+' and '-' characters. It then calculates the difference between the number of '+' characters and '-' characters in the string, and prints the result. If the number of '+' characters equals the number of '-' characters, it simply prints the original number n.

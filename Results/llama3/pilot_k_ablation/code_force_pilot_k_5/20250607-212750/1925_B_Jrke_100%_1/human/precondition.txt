@@ -1,0 +1,1 @@
+x and n are positive integers, 1 <= n <= x <= 10^8.

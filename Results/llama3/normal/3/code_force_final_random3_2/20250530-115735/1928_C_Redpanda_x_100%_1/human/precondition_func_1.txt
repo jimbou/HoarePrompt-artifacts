@@ -1,0 +1,1 @@
+primes is a list of prime numbers, factors is a dictionary mapping prime numbers to their powers, and k is a non-negative integer such that 0 <= k < len(primes).

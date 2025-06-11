@@ -1,0 +1,1 @@
+Determines if a tree can be decomposed into connected components with a minimum size, given the number of edges to be removed.

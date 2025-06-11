@@ -1,0 +1,1 @@
+t is a positive integer, n is a positive integer, a, b, c are strings consisting of n lowercase Latin letters.

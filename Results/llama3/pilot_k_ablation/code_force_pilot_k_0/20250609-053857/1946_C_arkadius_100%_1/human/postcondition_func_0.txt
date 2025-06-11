@@ -1,0 +1,1 @@
+Functionality: This function performs a depth-first search (DFS) traversal of a tree, starting from a specified vertex 's', and identifies the number of good components (subtrees with at least 'x' vertices) in the subtree rooted at 's' and the total size of the subtree rooted at 's' that is not part of a good component. It returns a tuple containing these two values.

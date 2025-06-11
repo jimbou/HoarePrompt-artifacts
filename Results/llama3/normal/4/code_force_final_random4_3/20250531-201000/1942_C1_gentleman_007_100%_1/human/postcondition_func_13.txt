@@ -1,0 +1,1 @@
+Calculates the product of the number of keys in a dictionary, the last key raised to the power of its value minus 1, and the last key minus 1, assuming the dictionary has at least one key and all values are integers greater than or equal to 1.

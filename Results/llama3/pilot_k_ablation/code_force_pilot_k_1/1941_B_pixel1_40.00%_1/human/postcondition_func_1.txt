@@ -1,0 +1,1 @@
+Checks if all elements in the input list are 0 or if the list is empty, returning True if the condition is met and False otherwise.

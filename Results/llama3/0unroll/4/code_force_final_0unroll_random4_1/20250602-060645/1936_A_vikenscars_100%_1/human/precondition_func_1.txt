@@ -1,0 +1,1 @@
+n is a positive integer greater than 1, func_1 is a function that takes four non-negative integers less than n and returns a string that is either '<', '=', or '>', and the function func_1 is correctly implemented to compare the bitwise OR of two pairs of elements from a secret sequence p.

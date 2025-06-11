@@ -1,0 +1,1 @@
+Reorders a balanced parentheses sequence to prioritize opening parentheses with lower indices.

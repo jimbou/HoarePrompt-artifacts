@@ -1,0 +1,1 @@
+This function checks if a given list of integers can be rearranged into a specific pattern. It takes as input a list of n^2 integers, and two integers c and d, and returns 'yes' if the list can be rearranged into a sorted list of integers in the form a + k*c + h*d, where a is the minimum value in the list, and 'no' otherwise. The function modifies the input list by sorting it.

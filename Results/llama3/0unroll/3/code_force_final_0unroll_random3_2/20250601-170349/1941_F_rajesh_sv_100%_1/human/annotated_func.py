@@ -1,0 +1,90 @@
+#State of the program right berfore the function call: func is a function
+    d = {}
+    return wrapper
+    #The program returns a variable named wrapper.
+
+#Overall this is what the function does:The function returns a variable named wrapper, which is a dictionary.
+
+#State of the program right berfore the function call: args is a tuple of values of any type and value, d is a dictionary where keys are tuples of values of any type and value and values are results of the function func for corresponding keys.
+    if (args not in d) :
+        d[args] = func(*args)
+    #State: *args is a tuple of values of any type and value, d is a dictionary where keys are tuples of values of any type and value and values are results of the function func for corresponding keys. If args is not in d, then d[args] is the result of func(*args). Otherwise, the state of d remains unchanged.
+    return d[args]
+    #The program returns the result of the function func for the corresponding key args, which is a tuple of values of any type and value, from the dictionary d. If args is not in d, then the result of func(*args) is returned. Otherwise, the state of d remains unchanged.
+
+#Overall this is what the function does:This function memoizes the result of another function `func` by storing its results in a dictionary `d` for each unique tuple of arguments `args`. If `args` is not already in `d`, it computes the result of `func(*args)` and stores it in `d` before returning it. If `args` is already in `d`, it simply returns the previously computed result. The function returns the result of `func` for the given `args`, either by computing it and storing it in `d` or by retrieving it from `d` if it has been computed before.
+
+#State of the program right berfore the function call: stdin is a file-like object that contains a string
+    return sys.stdin.readline().strip()
+    #The program returns a string that was read from the file-like object stdin, with leading and trailing whitespace removed.
+
+#Overall this is what the function does:Reads a line of input from the standard input (stdin) and returns the input string with leading and trailing whitespace removed.
+
+#State of the program right berfore the function call: func_2() returns a string that can be converted to an integer.
+    return int(func_2())
+    #The program returns an integer that is converted from a string returned by func_2()
+
+#Overall this is what the function does:The function converts a string returned by func_2() to an integer and returns the result.
+
+#State of the program right berfore the function call: delimiter is a string
+    return list(map(int, func_2().split(delimiter)))
+    #The program returns a list of integers that are obtained by splitting the string returned by func_2() using the delimiter string and then converting each split string to an integer.
+
+#Overall this is what the function does:The function takes a delimiter string as input and returns a list of integers. It achieves this by splitting a string obtained from another function (func_2) using the provided delimiter, and then converting each resulting substring into an integer. The function does not modify the input delimiter string but uses it to process the string from func_2 into a list of integers.
+
+#State of the program right berfore the function call: No precondition can be determined from the given function signature as it does not contain any parameters.
+    return func_2()
+    #The program returns the value returned by the function `func_2()`
+
+#Overall this is what the function does:This function calls another function named `func_2()` and returns its result, effectively acting as a proxy or wrapper for `func_2()`. It does not perform any additional actions or modifications on the input variables since there are no parameters passed to this function. The final state of the program is determined solely by the execution and return value of `func_2()`.
+
+#State of the program right berfore the function call: n, m, and k are positive integers, A is a list of n non-decreasing integers, D is a sorted list of m unique integers, F is a list of k integers, and inf is a negative infinity value.
+    n, m, k = func_4()
+    A = func_4()
+    D = sorted(set(func_4()))
+    F = func_4()
+    max_diff, next_max_diff, index = -inf, -inf, None
+    for i in range(1, n):
+        diff = A[i] - A[i - 1]
+        
+        if diff > max_diff:
+            next_max_diff = max_diff
+            max_diff = diff
+            index = i
+        elif diff > next_max_diff:
+            next_max_diff = diff
+        
+    #State: Output State: n, m, and k are positive integers, A is a list of n non-decreasing integers, D is a sorted list of m unique integers, F is a list of k integers, max_diff is the maximum difference between any two consecutive elements in A, next_max_diff is the second maximum difference between any two consecutive elements in A, index is the index of the maximum difference in A, inf is a negative infinity value.
+    left, right = A[index - 1], A[index]
+    ans = max_diff
+    for f in F:
+        l = bisect_right(D, left - f)
+        
+        h = bisect_left(D, right - f) - 1
+        
+        while l < h:
+            mid = l + (h - l) // 2
+            mid_sum, mid_next_sum = D[mid] + f, D[mid + 1] + f
+            if mid_sum - left < right - mid_next_sum:
+                l = mid + 1
+            else:
+                h = mid
+        
+        if l == h:
+            ans = min(ans, max(D[l] + f - left, right - D[l] - f))
+        
+    #State: Output State: The output state after the loop executes all the iterations is the minimum value of the maximum difference between any two consecutive elements in A, considering all possible differences that can be obtained by subtracting a value from the list D and adding a value from the list F. The value of ans will be the minimum of its initial value and the minimum value obtained from the loop iterations. The values of n, m, k, A, D, F, max_diff, next_max_diff, index, inf, left, and right remain unchanged.
+    print(max(ans, next_max_diff))
+    #This is printed: the maximum value between the minimum value of the maximum difference between any two consecutive elements in A and the next maximum difference (where the minimum value of the maximum difference between any two consecutive elements in A is the minimum value obtained from the loop iterations and the next maximum difference is the maximum difference obtained from the loop iterations)
+
+#Overall this is what the function does:This function calculates the minimum possible maximum difference between any two consecutive elements in a list A, considering all possible differences that can be obtained by subtracting a value from a sorted list D and adding a value from a list F. It returns the maximum value between the minimum possible maximum difference and the second maximum difference between any two consecutive elements in A.
+
+#State of the program right berfore the function call: testcases is a non-negative integer.
+    testcases = func_3()
+    for _ in range(testcases):
+        func_6()
+        
+    #State: The value of `testcases` is still returned by the function `func_3()`, but the function `func_6()` has been executed `testcases` times.
+
+#Overall this is what the function does:Executes a function (`func_6`) a specified number of times (`testcases`), where `testcases` is determined by another function (`func_3`).
+

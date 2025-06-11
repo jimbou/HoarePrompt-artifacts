@@ -1,0 +1,1 @@
+t is a positive integer, test_cases is a list of lists of integers, where each sublist contains three integers n, x, y, followed by a list of n integers a_1, a_2, ..., a_n, such that 2 <= n <= 2 * 10^5, 1 <= x, y <= 10^9, and 1 <= a_i <= 10^9 for all i.

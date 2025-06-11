@@ -1,0 +1,1 @@
+This function calculates and returns the cumulative product of a list of positive integers. It takes a list of positive integers as input, leaves the original list unchanged, and produces a new list where each element is the product of all elements up to that point in the original list.

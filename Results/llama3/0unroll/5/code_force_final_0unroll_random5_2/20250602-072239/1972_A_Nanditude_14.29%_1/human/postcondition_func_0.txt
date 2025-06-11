@@ -1,0 +1,1 @@
+Sorts a list of three elements in descending order, where the first element is a positive integer and the second and third elements are lists of integers of the same length as the first element, maintaining their non-decreasing order.

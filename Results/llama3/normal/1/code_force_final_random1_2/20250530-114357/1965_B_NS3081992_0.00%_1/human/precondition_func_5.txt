@@ -1,0 +1,1 @@
+stdin contains a single line of input: a string

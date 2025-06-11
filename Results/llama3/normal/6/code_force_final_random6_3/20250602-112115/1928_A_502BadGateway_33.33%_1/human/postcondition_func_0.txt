@@ -1,0 +1,1 @@
+Determines whether a given integer b is even or odd, returning 'yes' for even numbers and 'no' for odd numbers, within the range of 1 to 10^9 (inclusive).

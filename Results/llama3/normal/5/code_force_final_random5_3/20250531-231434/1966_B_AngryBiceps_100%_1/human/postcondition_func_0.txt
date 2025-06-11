@@ -1,0 +1,1 @@
+Determines whether a given grid of characters 'W' and 'B' has a valid configuration, printing 'YES' if the first and last rows or columns have the same character or more than one unique character, and 'NO' otherwise.

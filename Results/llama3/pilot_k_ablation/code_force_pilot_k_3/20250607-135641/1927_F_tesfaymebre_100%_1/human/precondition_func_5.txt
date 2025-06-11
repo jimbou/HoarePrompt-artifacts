@@ -1,0 +1,1 @@
+n and m are positive integers, graph is a dictionary where each key is a node and its corresponding value is a list of its neighboring nodes, edges is a list of tuples where each tuple contains the weight of an edge and the two nodes it connects, and DSU is a disjoint set union data structure with n+1 elements.

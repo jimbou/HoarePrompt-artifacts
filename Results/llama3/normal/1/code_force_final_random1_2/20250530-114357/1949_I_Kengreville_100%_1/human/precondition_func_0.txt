@@ -1,0 +1,1 @@
+stdin contains n+1 inputs: the first input is an integer n (1 ≤ n ≤ 1000), and the next n inputs are three integers each, representing the x, y coordinates and the radius r of a disk, such that -10^9 ≤ x, y ≤ 10^9 and 1 ≤ r ≤ 10^9.

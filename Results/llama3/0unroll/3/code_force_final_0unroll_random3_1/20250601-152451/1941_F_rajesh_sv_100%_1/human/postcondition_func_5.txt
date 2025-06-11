@@ -1,0 +1,1 @@
+This function calls and returns the result of another function named `func_2()`, effectively acting as a proxy or wrapper for `func_2()`. It does not modify or utilize any external state or parameters, solely relying on the outcome of `func_2()` to determine its return value.

@@ -1,0 +1,1 @@
+This function calculates and returns the highest common factor (HCF) of a list of integers. It takes a list of integers as input, iterates through the list to find the HCF, and returns the result. The input list remains unchanged. The function's purpose is to determine the greatest common divisor of all integers in the provided list.

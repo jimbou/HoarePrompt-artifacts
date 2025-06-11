@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 100) followed by t test cases. Each test case consists of an integer n (2 <= n <= 10) followed by n strings of n characters each, where each character is either '0' or '1'. The grid contains exactly one triangle or exactly one square that contains all the '1's in the grid. The size of the triangle or square is greater than 1.

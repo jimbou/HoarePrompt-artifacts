@@ -1,0 +1,1 @@
+This function reads an integer t from standard input, followed by t lines of input, each containing three digits a, b, and c. It then classifies each set of digits into one of three categories: 'STAIR' if a < b < c, 'PEAK' if a < b > c, or 'NONE' otherwise. The function prints the classification for each set of digits on a new line, resulting in a total of t lines of output.

@@ -1,0 +1,1 @@
+stdin contains t test cases. Each test case contains two integers n and m (1 <= n, m <= 500) and a grid of n x m characters 'W' and 'B'.

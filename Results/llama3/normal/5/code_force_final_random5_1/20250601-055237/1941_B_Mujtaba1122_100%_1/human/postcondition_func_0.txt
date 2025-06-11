@@ -1,0 +1,1 @@
+This function checks if all elements in a list up to a given index (n-1) are zero. It accepts a list of integers and a non-negative integer n as parameters, where n is within the bounds of the list. The function returns True if all elements up to index n-1 are zero, and False otherwise. The function does not modify the input list.

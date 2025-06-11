@@ -1,0 +1,1 @@
+n, m, k, and d are positive integers, rows is a list of lists of non-negative integers, each inner list has length m and represents a row in the river grid, and d is the maximum distance between supports.

@@ -1,0 +1,1 @@
+This function calculates and returns the sum of the absolute differences between consecutive elements in a sorted list of integers, where all integers are between 1 and 10^9 (inclusive). The input list is sorted in ascending order, and the function returns the total beauty value, which is the sum of these absolute differences.

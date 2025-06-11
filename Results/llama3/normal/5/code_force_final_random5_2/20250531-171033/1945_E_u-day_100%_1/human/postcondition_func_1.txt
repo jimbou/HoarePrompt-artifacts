@@ -1,0 +1,1 @@
+The function accepts an iterator func_1 as input and returns a list of values produced by the iterator. The function does not modify the input iterator and only consumes its values to create the output list. The final state of the program is that the input iterator is exhausted, and the output list contains all the values produced by the iterator.

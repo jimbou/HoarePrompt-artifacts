@@ -1,0 +1,1 @@
+This function generates a list of cumulative sums of the input list `a` from each index to the end, sorts the list in ascending order, and returns it. The input list `a` remains unchanged. The function takes a list of non-negative integers as input and returns a sorted list of cumulative sums.

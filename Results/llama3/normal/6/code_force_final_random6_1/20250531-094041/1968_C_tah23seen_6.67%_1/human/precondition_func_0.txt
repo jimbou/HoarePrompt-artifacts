@@ -1,0 +1,1 @@
+arr is a list of n-1 positive integers, each less than or equal to 500, and n is an integer greater than or equal to 2 and less than or equal to 500.

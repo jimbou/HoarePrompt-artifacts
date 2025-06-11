@@ -1,0 +1,1 @@
+For each test case, this function determines the number of times the smallest number in a list of integers is replaced by a larger number, and prints this count. It iterates through the list, maintaining the two smallest numbers encountered so far, and increments the count whenever a larger number forces the replacement of the smallest number.

@@ -1,0 +1,1 @@
+Calculates and prints the total cost of buns for multiple test cases, considering the number of buns, usual price, and modified price of the first bun, and outputs the total cost for each test case.

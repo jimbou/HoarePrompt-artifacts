@@ -1,0 +1,1 @@
+This function reads two pairs of integers from standard input, compares the digits of the first pair, and prints the maximum and minimum integers that can be formed using the digits of the first pair. It does not return any value but modifies the console output.

@@ -1,0 +1,1 @@
+Applies a cumulative operation to a list of non-negative integers. The function takes a list of integers as input and returns the result of iteratively applying a given function (`func_1`) to the first integer and each subsequent integer in the list, effectively reducing the list to a single value.

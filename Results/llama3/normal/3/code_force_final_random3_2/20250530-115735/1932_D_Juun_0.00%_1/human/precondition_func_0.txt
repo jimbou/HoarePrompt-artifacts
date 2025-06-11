@@ -1,0 +1,1 @@
+stdin contains an integer t (1 ≤ t ≤ 100), followed by t test cases. Each test case consists of three lines: an integer n (1 ≤ n ≤ 16), a character (one of "CDHS"), and 2n two-character strings (each string consists of one of "23456789" followed by one of "CDHS").

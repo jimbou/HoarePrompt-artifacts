@@ -1,0 +1,1 @@
+array is a list of integers of length n, where n is a positive integer greater than or equal to 2 and each integer is between 1 and 10^9 (inclusive).

@@ -1,0 +1,1 @@
+Counts the number of subarrays of length m in list a that have at least k matches with list b, where a and b are lists of integers and k, m, and n are integers within specific ranges, and returns this count.

@@ -1,0 +1,1 @@
+stdin contains a line of text with space-separated values of any type and value.

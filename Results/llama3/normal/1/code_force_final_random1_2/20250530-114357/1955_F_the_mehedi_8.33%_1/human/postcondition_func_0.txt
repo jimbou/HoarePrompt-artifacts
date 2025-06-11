@@ -1,0 +1,1 @@
+This function reads a series of lines from standard input, where each line contains four integers. For each line, it calculates a count (cnt) by summing the integer division of each number by 2. If the first three numbers are equal and odd, it increments the count by 1. The function then prints the calculated count for each line.

@@ -1,0 +1,1 @@
+Calculates the total cost of buying a specified number of tickets over a given number of days, with a daily limit on ticket purchases, considering the prices per ticket for each day in ascending order.

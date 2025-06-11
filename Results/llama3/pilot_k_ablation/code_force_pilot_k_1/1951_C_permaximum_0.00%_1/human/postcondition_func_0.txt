@@ -1,0 +1,1 @@
+Calculates the minimum cost to purchase a specified number of tickets from a list of daily prices, considering a limit on the number of tickets that can be bought each day, and returns the total cost.

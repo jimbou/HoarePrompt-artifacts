@@ -1,0 +1,1 @@
+This function takes a string of space-separated values as input, applies a specified casting function to each value, and returns a map object containing the casted values.

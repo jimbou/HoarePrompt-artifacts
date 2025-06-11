@@ -1,0 +1,1 @@
+This function reads a positive integer t from standard input, then for each test case, it reads three positive integers n, k, and x, and a list of n positive integers a. It sorts the list a in ascending order and passes k, x, and the sorted list a to another function func_2 to compute a product. Finally, it prints the product to standard output.

@@ -1,0 +1,1 @@
+Reads a line of space-separated integers from standard input and returns a map object containing these integers as separate elements.

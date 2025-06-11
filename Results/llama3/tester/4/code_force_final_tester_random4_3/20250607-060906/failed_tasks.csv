@@ -1,0 +1,88 @@
+task_id,model_created,dataset,model_run,code,fail_reason,type_of_run
+1941_D,human,codeforces2024,llama-v3p1-70b-instruct,"import sys
+from functools import lru_cache
+sys.setrecursionlimit(100000000)
+def read():
+    return sys.stdin.readline().strip()
+def ii():
+    return int(read())
+def il():
+    return list(map(int,read().split()))
+t=ii()
+def solve():
+    n,m,x=il()
+    ans={x}
+    for _ in range(m):
+        r,c=read().split()
+        r=int(r)
+        temp=set()
+        for q in ans:
+            if c=='0' or c=='?':
+                temp.add((q+r)%n)
+            if c=='1' or c=='?':
+                temp.add((q-r)%n)
+        ans=temp
+    if 0 in ans:
+        ans.discard(0)
+        ans.add(n)
+    print(len(ans))
+    print(*ans)
+for i in range(t):
+    solve()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1927_B,human,codeforces2024,llama-v3p1-70b-instruct,"a='abcdefghijklmnopqrstuvwxyz'
+b=[0]*26
+for t in range(int(input())):
+  n=int(input())
+  s=list(map(int,input().split()))
+  r=''
+  for i in s:
+    
+    x=b.index(i)
+  
+    r+=a[x]
+    b[x]+=1
+  print(r)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1921_B,human,codeforces2024,llama-v3p1-70b-instruct,"for _ in range(int(input())):
+  n=int(input())
+  s=input()
+  t=input()
+  s1=s.count('1');t1=t.count('1')
+  cnt=0
+  for i in range(n):
+    cnt+=s[i]!=t[i]
+  if s1==t1:
+    print(s1 if cnt else 0)
+  else:
+    d=abs(s1-t1)
+    print((cnt-d)//2+d)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1956_C,human,codeforces2024,llama-v3p1-70b-instruct,"def solve():
+    n = int(input())
+    print(n*(n+1)*(4*n-1)//6, 2*n)
+    for i in range(1, n+1):
+        print(1, i, *range(n, 0, -1))
+        print(2, i, *range(n, 0, -1))
+ 
+ 
+t = int(input())
+for t in range(t, 0, -1):
+    solve()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1926_D,human,codeforces2024,llama-v3p1-70b-instruct,"times = int(input())
+check = 2**31 -1
+for _ in range(times):
+    n = int(input())
+    data = list(map(int,input().split()))
+    dic = dict()
+    ans = 0
+    check =  2**31-1
+    for i in data:
+        s=i^check
+        if i in dic:
+            dic[i] -= 1
+            if dic[i] == 0:
+                del(dic[i])
+        else:
+            if s not in dic:
+                dic[s] = 0
+            dic[s] += 1
+            ans += 1
+    print(ans)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt

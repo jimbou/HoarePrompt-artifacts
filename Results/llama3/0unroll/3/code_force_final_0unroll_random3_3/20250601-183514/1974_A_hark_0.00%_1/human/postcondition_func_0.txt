@@ -1,0 +1,1 @@
+This function compares two non-negative integers, a and b, and returns the smaller of the two. It does not modify the input variables. The function's purpose is to determine and return the minimum value between the two input integers.

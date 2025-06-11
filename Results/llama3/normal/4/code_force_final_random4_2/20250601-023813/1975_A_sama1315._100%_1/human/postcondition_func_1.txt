@@ -1,0 +1,1 @@
+Reads input from stdin, processes it into blocks of integers, applies the func_1 function to each block, and prints the results.

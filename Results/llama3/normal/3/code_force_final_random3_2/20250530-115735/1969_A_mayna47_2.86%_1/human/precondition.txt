@@ -1,0 +1,1 @@
+stdin contains t test cases. Each test case consists of two lines: the first line contains one integer n (2 <= n <= 50), and the second line contains n integers p_1, p_2, ..., p_n (1 <= p_i <= n; p_i != i; all p_i are distinct).

@@ -1,0 +1,1 @@
+Reads an integer t from standard input, followed by t lines of two space-separated integers x and y. For each line, if x is greater than or equal to y, it prints the swapped values of x and y; otherwise, it prints the original values of x and y.

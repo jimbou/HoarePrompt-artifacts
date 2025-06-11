@@ -1,0 +1,1 @@
+The function takes a list of values 'arr' and a value 'element' as input, and returns a list of indices where 'element' is found in 'arr'. The function does not modify the original list 'arr' and returns an empty list if 'element' is not found in 'arr'.

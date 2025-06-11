@@ -1,0 +1,1 @@
+Converts the string returned by func_1() to an integer and returns it.

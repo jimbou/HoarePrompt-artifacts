@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of an integer array. For each array, it calculates and prints a list of integers representing the minimum value of the array elements that are greater than or equal to the current index, in reverse order. The function processes all test cases and outputs the results in the specified format.

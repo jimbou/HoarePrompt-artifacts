@@ -1,0 +1,1 @@
+This function returns an integer value based on the state of the boolean variable `isOne`. If `isOne` is False, it prompts the user to input an integer value and returns it. If `isOne` is True, it returns the number 1. The function does not modify the value of `isOne`.

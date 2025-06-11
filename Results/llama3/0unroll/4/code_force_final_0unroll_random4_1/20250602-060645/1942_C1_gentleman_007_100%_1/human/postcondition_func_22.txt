@@ -1,0 +1,1 @@
+This function takes a list of distinct integers representing the vertices of a polygon as input, sorts them in ascending order, and returns the number of unique vertices in the sorted list, effectively counting the number of vertices in the polygon.

@@ -1,0 +1,1 @@
+t is a positive integer, n and m are positive integers such that n <= m, a_i is a list of n positive integers, and b_i is a list of m positive integers.

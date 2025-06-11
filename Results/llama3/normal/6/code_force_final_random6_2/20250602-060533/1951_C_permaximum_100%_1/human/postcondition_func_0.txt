@@ -1,0 +1,1 @@
+Calculates the total cost of buying a specified number of tickets with increasing prices.

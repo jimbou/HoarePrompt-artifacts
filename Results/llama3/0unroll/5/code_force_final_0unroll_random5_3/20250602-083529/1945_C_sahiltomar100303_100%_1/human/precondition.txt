@@ -1,0 +1,1 @@
+The input contains multiple test cases. The first line contains the number of test cases t (1 ≤ t ≤ 2*10^4). Each test case contains a single integer n (3 ≤ n ≤ 3*10^5) followed by a string a of length n, consisting only of 0 and 1.

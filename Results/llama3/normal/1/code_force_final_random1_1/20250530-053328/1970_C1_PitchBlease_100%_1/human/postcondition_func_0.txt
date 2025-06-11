@@ -1,0 +1,1 @@
+This function determines the winner of a game based on the parity of the distances from a given start node to the two leaves of a tree represented by a list of edges. It returns 'Ron' if either distance is odd, and 'Hermione' otherwise.

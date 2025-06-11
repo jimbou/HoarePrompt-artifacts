@@ -1,0 +1,1 @@
+This function takes a list of non-negative integers as input and returns the number of unique integers in the list. The function modifies the input list to empty and creates a dictionary where the keys are the unique integers from the original list and the values are all 0. The function's primary purpose is to count the unique integers in the input list.

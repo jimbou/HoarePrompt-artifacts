@@ -1,0 +1,1 @@
+Checks if a password string is sorted with digits first in ascending order followed by letters in ascending order. Returns True if the password is already sorted, False otherwise.

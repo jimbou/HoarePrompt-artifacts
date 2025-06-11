@@ -1,0 +1,399 @@
+#State of the program right berfore the function call: stdin contains a line of space-separated integers.
+    return map(int, input().split())
+    #The program returns a map object that contains integers from the input line, where each integer is a space-separated value from the input line.
+
+#Overall this is what the function does:Reads a line of space-separated integers from standard input and returns a map object containing these integers.
+
+#State of the program right berfore the function call: stdin contains a space-separated list of integers.
+    return list(map(int, input().split()))
+    #The program returns a list of integers that were inputted as a space-separated list.
+
+#Overall this is what the function does:Reads a space-separated list of integers from standard input and returns the list of integers.
+
+#State of the program right berfore the function call: n is a positive integer and v is a value of any type
+    return [v for i in range(n)]
+    #The program returns a list containing 'n' number of elements, where each element is 'v'. 'n' is a positive integer and 'v' is a value of any type.
+
+#Overall this is what the function does:This function creates and returns a list containing a specified number of identical elements. It accepts two parameters: a positive integer 'n' representing the number of elements and a value 'v' of any type, which will be duplicated 'n' times in the returned list. The function's purpose is to generate a list with a specified number of identical elements, effectively replicating the value 'v' 'n' times.
+
+#State of the program right berfore the function call: n and m are positive integers, v is a value of any type
+    return [[v for i in range(m)] for i in range(n)]
+    #The program returns a 2D list with 'n' number of rows and 'm' number of columns, where each element in the list is the value 'v'.
+
+#Overall this is what the function does:The function generates a 2D list with a specified number of rows and columns, where every element is initialized with a given value. It takes three parameters: the number of rows (n), the number of columns (m), and the initial value (v), and returns a 2D list with 'n' rows and 'm' columns, where each element is the value 'v'.
+
+#State of the program right berfore the function call: n is a positive integer and m is a non-negative integer such that m <= n. The function func_1() returns a tuple of two integers.
+    l = [[] for i in range(n + 1)]
+    for i in range(m):
+        x, y = func_1()
+        
+        l[x].append(y)
+        
+        l[y].append(x)
+        
+    #State: n is a positive integer, m is a non-negative integer such that m <= n, l is a list of n+1 lists where the list at index x contains y and the list at index y contains x and both lists also contain each other and themselves, i is m-1, x is an integer, y is an integer
+    return l
+    #The program returns a list of n+1 lists where each list contains itself, its index, and the index of another list that contains it, and the list at index x contains y and the list at index y contains x.
+
+#Overall this is what the function does:The function constructs a list of n+1 lists, where each list contains itself, its index, and the index of another list that contains it. The function pairs up indices x and y, and adds x to the list at index y and y to the list at index x, for m iterations. The function returns this constructed list.
+
+#State of the program right berfore the function call: n is a positive integer and m is a non-negative integer such that 0 <= m <= n.
+    l = [[(0) for i in range(n + 1)] for i in range(n + 1)]
+    for i in range(m):
+        x, y = func_1()
+        
+        l[x][y] = 1
+        
+        l[y][x] = 1
+        
+    #State: n is a positive integer, m is a non-negative integer such that 0 <= m <= n, l is a 2D list of size (n+1) x (n+1) with all elements initialized to 0 except for l[x][y] and l[y][x] which are 1 for all x, y returned by func_1() during the execution of the loop, i is m.
+    return l
+    #The program returns a 2D list 'l' of size (n+1) x (n+1) with all elements initialized to 0 except for l[x][y] and l[y][x] which are 1 for all x, y returned by func_1() during the execution of the loop.
+
+#Overall this is what the function does:This function generates a 2D list representing a graph with n nodes, where m edges are added between nodes based on the output of the func_1() function. The resulting graph is represented as an adjacency matrix, where l[x][y] and l[y][x] are 1 if there is an edge between nodes x and y, and 0 otherwise. The function returns this adjacency matrix.
+
+#State of the program right berfore the function call: l is a list of hashable elements
+    d = {}
+    for i in l:
+        d[i] = d.get(i, 0) + 1
+        
+    #State: `l` is a list of hashable elements, `d` is a dictionary where each key is an element from `l` and its corresponding value is the count of that element in `l`, `i` is the last element in the list
+    return d
+    #The program returns a dictionary `d` where each key is an element from the list `l` and its corresponding value is the count of that element in `l`.
+
+#Overall this is what the function does:This function takes a list of hashable elements as input and returns a dictionary where each key is an element from the list and its corresponding value is the count of that element in the list. The function effectively counts the occurrences of each unique element in the input list and returns these counts in a dictionary format.
+
+#State of the program right berfore the function call: l is a 2D list of integers.
+    n = len(l)
+    m = len(l[0])
+    p = [[(0) for i in range(m + 1)] for j in range(n + 1)]
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            p[i][j] = p[i - 1][j] + p[i][j - 1] + l[i - 1][j - 1] - p[i - 1][j - 1]
+        
+    #State: Output State: `l` is a 2D list of integers, `n` is the number of rows in `l` and must be greater than 0, `m` is the number of columns in `l`, `p` is a 2D list with `n+1` rows and `m+1` columns where `p[i][j]` is equal to `p[i - 1][j]` + `p[i][j - 1]` + `l[i - 1][j - 1]` - `p[i - 1][j - 1]` for all `i` from 1 to `n` and all `j` from 1 to `m`, `i` is `n+1`, `j` is `m+1`.
+    #
+    #In natural language, the output state after the loop executes all iterations is that `l` remains a 2D list of integers with `n` rows and `m` columns, `n` is still greater than 0, and `m` is still the number of columns in `l`. The 2D list `p` still has `n+1` rows and `m+1` columns, and the relationship between `p[i][j]`, `p[i - 1][j]`, `p[i][j - 1]`, `l[i - 1][j - 1]`, and `p[i - 1][j - 1]` holds for all `i` from 1 to `n` and all `j` from 1 to `m`. The variable `i` has reached `n+1`, and `j` has reached `m+1`, indicating the loop has completed all iterations.
+    return p
+    #The program returns a 2D list `p` with `n+1` rows and `m+1` columns, where `n` is greater than 0 and `m` is the number of columns in the 2D list `l` of integers, and `p[i][j]` is equal to `p[i - 1][j]` + `p[i][j - 1]` + `l[i - 1][j - 1]` - `p[i - 1][j - 1]` for all `i` from 1 to `n` and all `j` from 1 to `m`.
+
+#Overall this is what the function does:This function calculates and returns a 2D list `p` with dimensions `(n+1) x (m+1)`, where `n` and `m` are the dimensions of the input 2D list `l` of integers. The value at each position `p[i][j]` is the sum of the values in the rectangle from the top-left corner of `l` to the cell at position `(i-1, j-1)`, for all `i` from 1 to `n` and all `j` from 1 to `m`. The input list `l` remains unchanged.
+
+#State of the program right berfore the function call: x is an integer
+    return max(1 - (x & x - 1), 0)
+    #The program returns the number of trailing zeros in the binary representation of the integer x, or 0 if x is 0
+
+#Overall this is what the function does:This function calculates and returns the number of trailing zeros in the binary representation of a given integer x. If x is 0, it returns 0.
+
+#State of the program right berfore the function call: l is a list of integers.
+    a = 0
+    for i in l:
+        a = gcd(a, i)
+        
+    #State: `l` is a list of integers, `a` is the greatest common divisor of all integers in the list, `i` is the last integer in the list.
+    return a
+    #The program returns the greatest common divisor of all integers in the list 'l'.
+
+#Overall this is what the function does:This function calculates and returns the greatest common divisor (GCD) of all integers in a given list. It takes a list of integers as input and returns a single integer value, which is the GCD of all the integers in the list. The function does not modify the input list.
+
+#State of the program right berfore the function call: num is a positive integer.
+    prime = [(True) for i in range(num + 1)]
+    Highest_Prime = [(0) for i in range(num + 1)]
+    Lowest_Prime = [(0) for i in range(num + 1)]
+    prime[0] = prime[1] = False
+    p = 2
+    while p <= num:
+        if prime[p] == True:
+            Lowest_Prime[p] = p
+            Highest_Prime[p] = p
+            for i in range(2 * p, num + 1, p):
+                prime[i] = False
+                Highest_Prime[i] = p
+                if Lowest_Prime[i] == 0:
+                    Lowest_Prime[i] = p
+        
+        p += 1
+        
+    #State: num remains unchanged, prime is a list of boolean values of length num + 1, where prime[0] and prime[1] are False, and the rest are True if the index is a prime number, otherwise False. Highest_Prime is a list of integers of length num + 1, where Highest_Prime[i] is the highest prime factor of i. Lowest_Prime is a list of integers of length num + 1, where Lowest_Prime[i] is the lowest prime factor of i. p is num + 1.
+    p = []
+    for i in range(num + 1):
+        if prime[i]:
+            p.append(i)
+        
+    #State: `num` is greater than or equal to 0, `i` is `num`, `prime` is a list of boolean values of length `num` + 1, where `prime[0]` and `prime[1]` are False, and the rest are True if the index is a prime number, otherwise False. `Highest_Prime` is a list of integers of length `num` + 1, where `Highest_Prime[i]` is the highest prime factor of i. `Lowest_Prime` is a list of integers of length `num` + 1, where `Lowest_Prime[i]` is the lowest prime factor of i. `p` is a list containing all prime numbers from 2 to `num`.
+    return p
+    #The program returns a list of all prime numbers from 2 to num, where num is greater than or equal to 0.
+
+#Overall this is what the function does:This function generates a list of all prime numbers from 2 to a given positive integer `num`. It initializes three lists: `prime` to track whether each number is prime, `Highest_Prime` to store the highest prime factor of each number, and `Lowest_Prime` to store the lowest prime factor of each number. The function then iterates through numbers from 2 to `num`, marking non-prime numbers and updating their highest and lowest prime factors. Finally, it constructs a list `p` containing all prime numbers from 2 to `num` and returns this list. The function does not modify the input `num` and returns a list of prime numbers within the specified range.
+
+#State of the program right berfore the function call: num is a positive integer and Prime_array is a list of integers such that Prime_array[i] is a prime factor of i for all i in the range of num.
+    d = {}
+    while num != 1:
+        x = Prime_array[num]
+        
+        d[x] = d.get(x, 0) + 1
+        
+        num //= x
+        
+    #State: num is 1, Prime_array is a list of integers such that Prime_array[i] is a prime factor of i for all i in the range of the original value of num, d is a dictionary with one key-value pair where the key is a prime factor of the original value of num and the value is the highest power of the prime factor in the prime factorization of the original value of num.
+    return d
+    #The program returns a dictionary with one key-value pair where the key is a prime factor of the original value of num (which is 1) and the value is the highest power of the prime factor in the prime factorization of the original value of num (which is 1).
+
+#Overall this is what the function does:This function takes a positive integer `num` and a list `Prime_array` as input, where `Prime_array[i]` is a prime factor of `i` for all `i` in the range of `num`. It returns a dictionary with one key-value pair, where the key is a prime factor of the original value of `num` and the value is the highest power of the prime factor in the prime factorization of the original value of `num`. The function effectively calculates the prime factorization of the input number `num` and returns the result as a dictionary.
+
+#State of the program right berfore the function call: n is a positive integer.
+    d = {}
+    x = 2
+    while x * x <= n:
+        while n % x == 0:
+            d[x] = d.get(x, 0) + 1
+            n //= x
+        
+        x += 1
+        
+    #State: Output State: `n` is 1, `d` is a dictionary containing the key-value pairs {2: 3, 3: 4, 4: 4, 5: 1}, `x` is 6.
+    #
+    #In natural language, after the loop executes all its iterations, the value of `n` will be reduced to 1, the dictionary `d` will contain the prime factors of the original value of `n` as keys and their respective powers as values, and the value of `x` will be the next integer after the largest prime factor of `n`.
+    if (n > 1) :
+        d[n] = d.get(n, 0) + 1
+    #State: *`n` is 1, `d` is a dictionary containing the key-value pairs {2: 3, 3: 4, 4: 4, 5: 1}, `x` is 6. If `n` was greater than 1, `d` is updated to include `n` as a key with a value of `d.get(n, 0) + 1`, otherwise `d` remains unchanged.
+    return d
+    #The program returns a dictionary containing the key-value pairs {2: 3, 3: 4, 4: 4, 5: 1}
+
+#Overall this is what the function does:This function takes a positive integer as input and returns a dictionary containing its prime factors as keys and their respective powers as values. The function reduces the input integer to 1 by iteratively dividing it by prime numbers and storing the prime factors and their powers in the dictionary. If the remaining integer is greater than 1, it is also added to the dictionary as a prime factor. The function returns the dictionary containing all prime factors and their powers.
+
+#State of the program right berfore the function call: d is a dictionary where keys are integers greater than 1 and values are integers greater than 0.
+    s = 0
+    for i in d:
+        s += pow(i, d[i] - 1) * (i - 1)
+        
+    #State: `d` is a dictionary where keys are integers greater than 1 and values are integers greater than 0 and has at least `len(d)` keys, `s` is `len(d)` * pow(i, d[i] - 1) * (i - 1), `i` is the last key in the dictionary
+    return s
+    #The program returns s which is equal to the product of the length of dictionary d, the power of i to the value of the last key in dictionary d minus 1, and the last key in dictionary d minus 1, where i is the last key in dictionary d and the value of the last key in dictionary d is greater than 0.
+
+#Overall this is what the function does:This function calculates and returns a value based on the input dictionary `d`. The dictionary `d` is expected to have integer keys greater than 1 and integer values greater than 0. The function iterates through each key in the dictionary, calculates the power of the key to the value minus 1, multiplies it by the key minus 1, and sums up these values. The final result is returned. The function does not modify the input dictionary `d`.
+
+#State of the program right berfore the function call: n is a non-negative integer, mod is a positive integer.
+    f = [1]
+    for i in range(1, n + 1):
+        f.append(f[i - 1] * i % mod % mod)
+        
+    #State: `n` is a non-negative integer, `i` is `n`, `mod` is a positive integer, `f` is a list containing `n + 1` elements: 1, 1, 2 % mod, (2 % mod) * 3 % mod, ..., ((n - 1) % mod) * n % mod
+    return f
+    #The program returns a list 'f' containing 'n + 1' elements, where 'n' is a non-negative integer, and each element is the result of a modular multiplication operation involving consecutive integers from 1 to 'n', with all operations performed modulo a positive integer 'mod'.
+
+#Overall this is what the function does:Computes and returns a list of modular factorials for a given non-negative integer 'n' and a positive integer 'mod'. The list contains 'n + 1' elements, where each element is the result of a modular multiplication operation involving consecutive integers from 1 to 'n', with all operations performed modulo 'mod'.
+
+#State of the program right berfore the function call: n is a positive integer and mod is either -1 or a positive integer.
+    if (mod == -1) :
+        dearr = [1, 0]
+        for i in range(2, n + 1):
+            dearr.append((i - 1) * (dearr[i - 1] + dearr[i - 2]))
+            
+        #State: Output State: `n` is 4, `mod` is -1, `dearr` is a list containing the integers 1, 0, 1, 2, 9, and 32, `i` is 5.
+        #
+        #The output state after the loop executes all the iterations is the same as the output state after the loop executes 4 times, because the loop only executes 4 times when `n` is 4.
+    else :
+        dearr = [1, 0]
+        for i in range(2, n + 1):
+            dearr.append((i - 1) % mod * (dearr[i - 1] + dearr[i - 2]) % mod % mod)
+            
+        #State: `n` is a positive integer, `mod` is a positive integer, `dearr` is a list containing `n+1` elements, where each element at index `i` (starting from 2) is calculated as ((i - 1) % mod * (dearr[i - 1] + dearr[i - 2]) % mod % mod), and `i` is `n+1`.
+    #State: `n` is a positive integer, `mod` is either -1 or a positive integer. If `mod` is -1, then `n` is 4, `mod` is -1, `dearr` is a list containing the integers 1, 0, 1, 2, 9, and 32, and `i` is 5. Otherwise, `dearr` is a list containing `n+1` elements, where each element at index `i` (starting from 2) is calculated as ((i - 1) % mod * (dearr[i - 1] + dearr[i - 2]) % mod % mod), and `i` is `n+1`.
+    return dearr
+    #The program returns a list of integers. If `mod` is -1, then the list contains the integers 1, 0, 1, 2, 9, and 32. Otherwise, the list contains `n+1` elements, where each element at index `i` (starting from 2) is calculated as ((i - 1) % mod * (dearr[i - 1] + dearr[i - 2]) % mod % mod).
+
+#Overall this is what the function does:This function calculates and returns a list of integers based on the input parameters `n` and `mod`. If `mod` is -1, the function returns a fixed list of integers [1, 0, 1, 2, 9, 32] regardless of the value of `n`. If `mod` is a positive integer, the function returns a list of `n+1` elements, where each element at index `i` (starting from 2) is calculated as ((i - 1) % mod * (previous element + element before previous) % mod % mod). The function does not modify the input parameters `n` and `mod`.
+
+#State of the program right berfore the function call: p is a sorted list of integers and x is an integer.
+    i = bisect_left(p, x)
+    if (i != len(p) and p[i] == x) :
+        return i
+        #The program returns the index `i` which is the insertion point for `x` in the sorted list `p` to maintain sorted order, where `i` is not equal to the length of `p` and the element at index `i` in `p` is equal to `x`.
+    else :
+        return -1
+        #The program returns -1
+
+#Overall this is what the function does:Searches for an integer `x` in a sorted list `p` and returns the index where `x` is found if it exists, or -1 if `x` is not in the list.
+
+#State of the program right berfore the function call: p is a sorted list of non-negative integers and x is a non-negative integer.
+    n = len(p)
+    l, r = 0, n - 1
+    if (p[0] > x) :
+        return -1
+        #The program returns -1, indicating that the value x is not found in the list p, as the first element of p is already greater than x, suggesting that x is not present in the sorted list p.
+    #State: *p is a sorted list of non-negative integers, x is a non-negative integer, n is the length of p, l is 0, r is the last index of p, and the first element of p is less than or equal to x
+    while l <= r:
+        mid = (l + r) // 2
+        
+        if p[mid] <= x:
+            if mid != n - 1:
+                if p[mid + 1] > x:
+                    break
+                else:
+                    l = mid + 1
+            else:
+                mid = n - 1
+                break
+        else:
+            r = mid - 1
+        
+    #State: `p` is a sorted list of non-negative integers, `x` is a non-negative integer, `n` is the length of `p` and is greater than or equal to 1, `l` is less than or equal to `r`, `r` is greater than or equal to `l`, `mid` is the index of the middle element of the list from index `l` to `r`, the first element of `p` is less than or equal to `x`. If `p[mid]` is less than or equal to `x`, then if `mid` is not equal to `n - 1`, `l` is updated to `mid + 1` and `mid` is the index of the middle element of the list from index `mid + 1` to `r` if `p[mid + 1]` is not greater than `x`, or the program breaks out of the most internal loop or if statement if `p[mid + 1]` is greater than `x`. If `mid` is equal to `n - 1`, then `mid` is now `n - 1`. If `p[mid]` is greater than `x`, then `r` is updated to `mid - 1`.
+    return mid
+    #The program returns the index of the last element in the sorted list `p` that is less than or equal to `x`. This index is greater than or equal to 0 and less than `n`, where `n` is the length of `p`. If `x` is greater than all elements in `p`, the program returns `n - 1`.
+
+#Overall this is what the function does:This function performs a binary search on a sorted list of non-negative integers to find the index of the last element that is less than or equal to a given non-negative integer. If the given integer is not found in the list, it returns -1. Otherwise, it returns the index of the last element that meets the condition. If the given integer is greater than all elements in the list, it returns the index of the last element in the list.
+
+#State of the program right berfore the function call: p is a list of integers sorted in ascending order, and x is an integer.
+    n = len(p)
+    l, r = 0, n - 1
+    if (p[-1] < x) :
+        return n
+        #The program returns the length of the list `p` which is also equal to `n`
+    #State: *p is a list of integers sorted in ascending order, x is an integer, n is the length of p, l is 0, r is the index of the last element in p, and the last element of p is larger than or equal to x
+    while l <= r:
+        mid = (l + r) // 2
+        
+        if p[mid] >= x:
+            if mid != 0:
+                if p[mid - 1] < x:
+                    break
+                else:
+                    r = mid - 1
+            else:
+                mid = 0
+                break
+        else:
+            l = mid + 1
+        
+    #State: `p` is a list of integers sorted in ascending order, `x` is an integer, `n` is the length of `p`, `l` is the index of the first element in `p` that is greater than or equal to `x`, `r` is the index of the last element in `p` that is less than `x`, and `mid` is the index of the first element in `p` that is greater than or equal to `x`.
+    return mid
+    #The program returns the index of the first element in the list `p` that is greater than or equal to the integer `x`.
+
+#Overall this is what the function does:This function searches for the index of the first element in a sorted list of integers that is greater than or equal to a given integer. If the given integer is greater than all elements in the list, the function returns the length of the list.
+
+#State of the program right berfore the function call: x is a non-negative integer
+    if (x == 0 or x == 1) :
+        return x
+        #The program returns x, which is a non-negative integer and its value is either 0 or 1.
+    #State: x is a non-negative integer, and x is neither 0 nor 1
+    l = 1
+    r = x
+    while l <= r:
+        mid = (l + r) / 2
+        
+        y = mid * mid
+        
+        if y > x:
+            r = mid - 1
+        elif y == x:
+            return mid
+        elif (mid + 1) * (mid + 1) > x:
+            return mid
+        else:
+            l = mid + 1
+        
+    #State: x is a non-negative integer and neither 0 nor 1, l is equal to r, mid is equal to l, y is equal to the square of l.
+
+#Overall this is what the function does:The function takes a non-negative integer x as input and returns the largest integer whose square is less than or equal to x. If x is 0 or 1, the function returns x. Otherwise, it performs a binary search to find the largest integer whose square does not exceed x, and returns this integer.
+
+#State of the program right berfore the function call: a and b are integers and mod is a positive integer.
+    ans = 1
+    a %= mod
+    while b:
+        if b & 1:
+            ans = ans * a % mod
+        
+        a = a * a % mod
+        
+        b >>= 1
+        
+    #State: a is an integer equal to the remainder of its original value to the power of 2 to the power of the number of iterations divided by mod, b is 0, mod is a positive integer, ans is the remainder of the original value of a to the power of the number of times the original value of b is odd divided by mod.
+    return ans
+    #The program returns the remainder of the original value of a to the power of the number of times the original value of b is odd divided by mod, where a is an integer equal to the remainder of its original value to the power of 2 to the power of the number of iterations divided by mod, mod is a positive integer, and b is 0.
+
+#Overall this is what the function does:This function calculates the modular exponentiation of two integers, 'a' and 'b', with respect to a positive integer 'mod'. It returns the remainder of 'a' raised to the power of the number of times 'b' is odd, divided by 'mod'. The function modifies the original values of 'a' and 'b' during the calculation, but the returned value is based on the original values of 'a' and 'b'.
+
+#State of the program right berfore the function call: a and b are lists of values of any type and value
+    dp = [([0] * (len(b) + 1)) for _ in range(len(a) + 1)]
+    for i in range(1, len(a) + 1):
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1] + 1
+            else:
+                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+        
+    #State: Output State: `a` is a list of values with at least 1 element, `b` is a list of values of any type and value that must have at least len(b) elements, `dp` is a 2D list with dimensions (len(a) + 1) x (len(b) + 1). The value of `dp[i][j]` is determined by whether the current value of `a[i - 1]` is equal to the current value of `b[j - 1]`. If they are equal, `dp[i][j]` is equal to `dp[i - 1][j - 1] + 1`. Otherwise, `dp[i][j]` is the maximum of `dp[i - 1][j]` and `dp[i][j - 1]`. The loop has executed len(a) times, so i is equal to len(a) and j is equal to len(b).
+    #
+    #In natural language, the output state after the loop executes all the iterations is that `a` and `b` remain lists of values with at least 1 element and len(b) elements respectively, and `dp` remains a 2D list with dimensions (len(a) + 1) x (len(b) + 1). The value of `dp[i][j]` is determined by whether the current value of `a[i - 1]` is equal to the current value of `b[j - 1]`. If they are equal, `dp[i][j]` is equal to `dp[i - 1][j - 1] + 1`. Otherwise, `dp[i][j]` is the maximum of `dp[i - 1][j]` and `dp[i][j - 1]`. The loop has executed len(a) times, so i is equal to len(a) and j is equal to len(b).
+    i, j = len(a), len(b)
+    l = []
+    while i != 0 and j != 0:
+        if dp[i][j] == dp[i][j - 1]:
+            j -= 1
+        elif dp[i][j] == dp[i - 1][j]:
+            i -= 1
+        else:
+            i -= 1
+            j -= 1
+            l.append(a[i])
+        
+    #State: `a` is a list of values with at least 1 element, `b` is a list of values of any type and value that must have at least `len(b)` elements, `dp` is a 2D list with dimensions `(len(a) + 1) x (len(b) + 1)`, `i` is equal to 0, `j` is equal to 0, and `l` is a list containing the common elements of `a` and `b` in the order they appear in `a`.
+    s = ''.join(l)
+    return s[::-1]
+    #The program returns a string containing the common elements of lists 'a' and 'b' in the reverse order they appear in 'a'.
+
+#Overall this is what the function does:This function takes two lists 'a' and 'b' as input, compares their elements, and returns a string containing the common elements of 'a' and 'b' in the reverse order they appear in 'a'. The function performs a dynamic programming approach to find the longest common subsequence between 'a' and 'b', and then constructs the resulting string by tracing back the common elements from the end of the lists. The function returns an empty string if there are no common elements between 'a' and 'b'.
+
+#State of the program right berfore the function call: arr is a list of integers
+    l = []
+    for i in arr:
+        pos = bisect_left(l, i)
+        
+        if pos == len(l):
+            l.append(i)
+        else:
+            l[pos] = i
+        
+    #State: `arr` is a list of integers, `l` is a sorted list containing all integers from `arr`, `i` is the last integer in the list `arr`, `pos` is the length of `l`
+    return len(l)
+    #The program returns the length of the sorted list 'l' which contains all integers from the list 'arr'
+
+#Overall this is what the function does:This function takes a list of integers as input, sorts the list in ascending order, and returns the length of the sorted list. The function does not modify the original input list. It creates a new sorted list containing all unique integers from the input list, effectively removing duplicates. The function returns the count of unique integers in the sorted list.
+
+#State of the program right berfore the function call: ver is a node in the graph, graph is a dictionary where each key is a node and its corresponding value is a list of its neighboring nodes, and vis is a list where vis[i] represents whether node i has been visited or not.
+    stack = []
+    stack.append(ver)
+    vis[ver] = 1
+    while len(stack):
+        ver = stack.pop()
+        
+        print(ver, end=' ')
+        
+        for node in graph[ver]:
+            if not vis[node]:
+                stack.append(node)
+                vis[node] = 1
+        
+    #State: stack is empty, ver is the last node that was on top of the stack, vis is updated with all nodes marked as visited, and graph remains unchanged.
+
+#Overall this is what the function does:Traverses a graph using depth-first search (DFS) starting from a given node, marking all visited nodes and printing their values, without modifying the graph structure.
+
+#State of the program right berfore the function call: ver is a node in the graph, graph is a dictionary where the keys are nodes and the values are lists of neighboring nodes, and vis is a dictionary where the keys are nodes and the values are boolean flags indicating whether the node has been visited.
+    q = deque()
+    q.append(ver)
+    vis[ver] = 1
+    while len(q):
+        ver = q.popleft()
+        
+        print(ver, end=' ')
+        
+        for node in graph[ver]:
+            if not vis[node]:
+                q.append(node)
+                vis[node] = 1
+        
+    #State: The loop has finished executing, the queue q is empty, all nodes in the graph have been visited and printed, and the output is a string of all nodes in the graph separated by spaces.
+
+#Overall this is what the function does:The function performs a breadth-first traversal of a graph, starting from a given node, and prints all nodes in the graph separated by spaces. It marks all visited nodes and ensures that each node is visited only once. The function does not return any value but produces a string output of all nodes in the graph.
+

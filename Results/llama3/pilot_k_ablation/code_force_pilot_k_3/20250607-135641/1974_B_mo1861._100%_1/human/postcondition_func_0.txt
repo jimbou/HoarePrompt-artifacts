@@ -1,0 +1,1 @@
+Replaces each character in the input string 'encoded' with its corresponding character in a string 'r', which consists of the unique characters in 'encoded' in reverse order, and returns the resulting string.

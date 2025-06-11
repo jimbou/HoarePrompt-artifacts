@@ -1,0 +1,1 @@
+This function calculates the sum of `pow(i, d[i] - 1) * (i - 1)` for all keys `i` in the input dictionary `d`, where `i` is an integer and `d[i]` is a non-negative integer, and returns the result. If the input dictionary `d` is empty, the function returns 0.

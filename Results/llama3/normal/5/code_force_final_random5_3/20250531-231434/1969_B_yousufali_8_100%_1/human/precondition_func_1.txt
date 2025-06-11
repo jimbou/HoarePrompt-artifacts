@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 10^4) followed by t binary strings (strings consisting of only 0-s and/or 1-s) each on a new line. The length of each binary string is between 2 and 2 * 10^5 (inclusive) and the sum of lengths of all binary strings does not exceed 2 * 10^5.

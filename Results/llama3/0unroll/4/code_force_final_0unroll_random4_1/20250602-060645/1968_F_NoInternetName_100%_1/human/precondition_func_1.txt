@@ -1,0 +1,1 @@
+arr is a list of values of any type and predicate is a function that takes one argument and returns a boolean value.

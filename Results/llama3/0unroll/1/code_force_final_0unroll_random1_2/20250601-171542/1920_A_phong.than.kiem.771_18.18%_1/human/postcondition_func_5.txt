@@ -1,0 +1,1 @@
+This function searches for a sub-array in a given 2D array where the element at a specified index position matches a given value. It returns the first matching sub-array if found, otherwise it returns None. The function does not modify the original 2D array, index, or value.

@@ -1,0 +1,1 @@
+Reads a line from standard input, removes trailing bytes, and returns the resulting byte string, which is expected to contain a decodable string representing a valid input for the problem.

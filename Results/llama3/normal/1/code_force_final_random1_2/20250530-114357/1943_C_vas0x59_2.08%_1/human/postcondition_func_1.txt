@@ -1,0 +1,1 @@
+This function reads a graph from standard input, finds the shortest path between the two furthest vertices, and prints a list of operations to be performed on this path. The operations are in the form of "vertex index operation index" where the vertex index is one more than the actual vertex index and the operation index is the index of the operation. The function returns None.

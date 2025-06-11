@@ -1,0 +1,1 @@
+This function generates a graph with n nodes and m edges, finds the minimum edge weight in the graph, and performs a depth-first search (DFS) from the node with the minimum edge weight. It then prints the minimum edge weight, the length of the DFS path, and the nodes in the DFS path.

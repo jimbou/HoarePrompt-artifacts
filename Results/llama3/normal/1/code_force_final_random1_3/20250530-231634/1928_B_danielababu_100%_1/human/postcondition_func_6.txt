@@ -1,0 +1,1 @@
+This function reads a list of strings from standard input, sorts them in ascending order, and returns the sorted list.

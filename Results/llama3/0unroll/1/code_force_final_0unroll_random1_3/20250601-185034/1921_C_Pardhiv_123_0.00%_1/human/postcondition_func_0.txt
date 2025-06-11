@@ -1,0 +1,1 @@
+This function processes multiple test cases from standard input, each containing a set of integers. For each test case, it calculates a value 'f' based on the given integers and their differences, and then prints 'YES' if 'f' is positive and 'NO' otherwise. The function repeats this process for the number of test cases specified by the input 't'.

@@ -1,0 +1,1 @@
+This function compares two integers, a and b, and returns the smaller one. It takes two integer parameters, a and b, and returns a single integer value, which is the minimum of the two input integers.

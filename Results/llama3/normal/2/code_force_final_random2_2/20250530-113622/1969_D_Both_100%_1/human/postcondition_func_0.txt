@@ -1,0 +1,1 @@
+Reads an integer input from stdin and returns it as an integer value greater than 0.

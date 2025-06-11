@@ -1,0 +1,1 @@
+n is an integer greater than or equal to 2, t is 1, edges is a list of pairs of integers between 1 and n (inclusive) representing the edges of the tree, and start is a list containing a single integer between 1 and n (inclusive) representing the starting node.

@@ -1,0 +1,1 @@
+Determines the winner ('Alice' or 'Bob') for a series of integer pairs based on the parity of their absolute difference and prints the result for each pair.

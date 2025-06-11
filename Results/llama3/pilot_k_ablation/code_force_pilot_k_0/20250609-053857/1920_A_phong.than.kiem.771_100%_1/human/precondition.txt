@@ -1,0 +1,1 @@
+stdin contains one or more inputs: an integer (greater than 0) followed by a series of pairs of integers (a, x) where a is 1, 2, or 3 and 1 <= x <= 10^9.

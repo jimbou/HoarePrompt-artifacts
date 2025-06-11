@@ -1,0 +1,1 @@
+A is a positive integer, g is a dictionary where the keys are nodes in a tree and the values are lists of neighboring nodes, k is a non-negative integer representing the number of edges to be removed from the tree.

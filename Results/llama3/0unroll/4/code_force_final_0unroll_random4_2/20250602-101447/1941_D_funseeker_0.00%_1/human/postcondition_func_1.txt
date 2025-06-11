@@ -1,0 +1,1 @@
+The function takes no parameters and returns an integer that is converted from a string returned by another function, func_1().

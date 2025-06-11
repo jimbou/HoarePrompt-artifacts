@@ -1,0 +1,1 @@
+This function determines the length of the longest substring in a given string that is a palindrome, where '?' is considered a wildcard character that can match any character. It takes a string as input, checks for palindromic substrings of decreasing lengths, and returns the length of the longest palindromic substring found. If no palindromic substring is found, it returns 0.

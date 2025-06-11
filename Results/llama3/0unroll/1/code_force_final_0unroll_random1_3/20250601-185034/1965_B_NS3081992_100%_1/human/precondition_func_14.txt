@@ -1,0 +1,1 @@
+func_10() returns a non-negative integer, func_14() returns a value that can be converted to a string.

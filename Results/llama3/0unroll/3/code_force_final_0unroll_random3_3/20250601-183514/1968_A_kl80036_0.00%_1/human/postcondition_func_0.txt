@@ -1,0 +1,1 @@
+Reads a series of integers from standard input, performs integer division by 2 on each number, and prints the results to the console, consuming all input and producing a corresponding number of output lines.

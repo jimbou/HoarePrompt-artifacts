@@ -1,0 +1,1 @@
+This function reads an integer n and a list of n integers from standard input, calculates the absolute differences between each element and a minimum value, updates the minimum value if necessary, and prints the calculated differences.

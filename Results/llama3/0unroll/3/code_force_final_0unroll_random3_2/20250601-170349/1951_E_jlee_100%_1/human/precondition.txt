@@ -1,0 +1,1 @@
+stdin contains an integer t (1 ≤ t ≤ 10^4) followed by t strings, each consisting of lowercase Latin characters (1 ≤ |s| ≤ 10^6).

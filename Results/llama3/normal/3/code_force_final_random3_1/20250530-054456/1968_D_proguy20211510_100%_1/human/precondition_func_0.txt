@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains four integers n, k, P_B, P_S (1 <= n, k, P_B, P_S <= 2*10^5), followed by two lists of n integers p and a.

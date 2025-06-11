@@ -1,0 +1,1 @@
+Determines whether the number of 'U' characters in a given string is odd or even, returning 'YES' if odd and 'NO' if even.

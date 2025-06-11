@@ -1,0 +1,1 @@
+t is a non-negative integer, player is a dictionary where keys are strings of length 2 (first character is either 'R' or 'B' and second character is a digit between 0 and 9) and values are lists of two integers, blud is a list of two integers.

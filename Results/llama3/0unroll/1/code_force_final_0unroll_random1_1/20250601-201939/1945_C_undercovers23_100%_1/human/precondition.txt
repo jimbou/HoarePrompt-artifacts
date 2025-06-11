@@ -1,0 +1,1 @@
+the input contains multiple test cases. Each test case contains two lines. The first line is an integer n (3 <= n <= 3*10^5). The second line is a string a of length n, consisting only of 0 and 1.

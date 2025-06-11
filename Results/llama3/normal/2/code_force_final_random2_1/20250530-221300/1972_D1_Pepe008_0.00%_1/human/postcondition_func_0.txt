@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case contains two positive integers n and m. It calculates the sum of a specific formula for each test case and prints the result minus one. The function does not modify the input values or store any results, it only prints the calculated values.

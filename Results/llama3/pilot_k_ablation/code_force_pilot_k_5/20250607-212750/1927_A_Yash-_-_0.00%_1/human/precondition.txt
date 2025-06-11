@@ -1,0 +1,1 @@
+stdin contains t+2t lines. The first line contains a positive integer t. The next 2t lines are grouped into t pairs. Each pair consists of a positive integer n and a string s of length n consisting of 'W' and 'B' characters.

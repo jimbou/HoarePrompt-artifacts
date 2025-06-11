@@ -1,0 +1,1 @@
+stdin contains t+2t lines. The first line contains an integer t (1 <= t <= 10^4). Each of the following t blocks of 2 lines contains an integer n (1 <= n <= 10) and a string s of length n consisting of 'W' and 'B' characters, with at least one 'B' character.

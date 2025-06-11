@@ -1,0 +1,1 @@
+stdin contains one input: an integer (greater than or equal to 1) and the program has access to a function that takes four indices a, b, c, and d as input and returns the result of the comparison between (p_a | p_b) and (p_c | p_d) as "<", "=", or ">".

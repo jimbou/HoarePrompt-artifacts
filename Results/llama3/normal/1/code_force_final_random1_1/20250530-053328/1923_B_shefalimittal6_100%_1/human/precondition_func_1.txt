@@ -1,0 +1,1 @@
+a is a list of non-negative integers, x is a list of non-zero integers, k is a non-negative integer, and len(a) = len(x) = n.

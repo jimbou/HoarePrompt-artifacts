@@ -1,0 +1,1 @@
+This function searches for a value `x` in a sorted list `p` and returns the insertion point `i` where `x` should be inserted to maintain sorted order if `x` is already present in `p`, otherwise returns -1.

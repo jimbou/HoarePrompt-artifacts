@@ -1,0 +1,1 @@
+Computes and returns a list of modular factorials for a given non-negative integer 'n' and a positive integer 'mod'. The list contains 'n + 1' elements, where each element is the result of a modular multiplication operation involving consecutive integers from 1 to 'n', with all operations performed modulo 'mod'.

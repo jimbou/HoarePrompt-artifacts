@@ -1,0 +1,1 @@
+This function takes a binary string of length at least 2 and at most 2 * 10^5 as input, and returns the total number of '1's in the string plus the number of '0's that are preceded by at least one '1'.

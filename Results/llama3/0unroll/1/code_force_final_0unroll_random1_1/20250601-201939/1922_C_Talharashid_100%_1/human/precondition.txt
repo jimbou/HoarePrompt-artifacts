@@ -1,0 +1,1 @@
+t is a positive integer, for each test case, n is an integer greater than 1, a is a list of n distinct non-negative integers in ascending order, m is a positive integer, and for each query, x and y are integers such that 1 <= x, y <= n and x != y.

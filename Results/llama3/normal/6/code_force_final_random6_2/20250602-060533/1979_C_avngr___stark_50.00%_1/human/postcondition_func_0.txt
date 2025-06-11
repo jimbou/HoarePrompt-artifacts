@@ -1,0 +1,1 @@
+This function calculates and returns the Greatest Common Divisor (GCD) of all elements in a given list of integers. It takes a list of integers as input, where each integer represents a multiplier for the amount of coins for a corresponding winning outcome, and returns the GCD of these multipliers. The function assumes the input list has at least one element.

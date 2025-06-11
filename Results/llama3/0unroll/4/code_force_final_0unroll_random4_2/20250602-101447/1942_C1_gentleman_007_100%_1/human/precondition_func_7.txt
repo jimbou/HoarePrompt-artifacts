@@ -1,0 +1,1 @@
+l is a 2D list of integers, where each inner list has the same length, and all inner lists have the same length as the first inner list.

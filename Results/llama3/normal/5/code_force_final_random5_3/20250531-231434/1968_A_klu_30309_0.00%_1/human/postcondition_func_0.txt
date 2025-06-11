@@ -1,0 +1,1 @@
+This function finds the largest divisor of a given integer `x` that is less than `x/2`, where `x` is an integer between 2 and 1000 (inclusive). It returns this largest divisor.

@@ -1,0 +1,1 @@
+odds is a list of positive integers, n is a positive integer such that n is odd and n >= 3, and the length of odds is equal to (n-1)/2 + 1.

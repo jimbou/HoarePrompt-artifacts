@@ -1,0 +1,1 @@
+Generates 1000 lines of output, each containing three random digits between 1 and 9, followed by a string indicating whether the digits form a "peak", "stair", or "none", based on the relative values of the digits. The function does not accept any parameters and does not return any value. It solely modifies the standard output (stdout) with the generated lines.

@@ -1,0 +1,1 @@
+n is a positive integer, operations is a list of lists of two integers, queries is a list of positive integers, and the length of operations is n.

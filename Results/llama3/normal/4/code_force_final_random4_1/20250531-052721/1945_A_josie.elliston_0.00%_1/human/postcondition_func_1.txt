@@ -1,0 +1,1 @@
+This function takes three non-negative integers (introverts, extroverts, and universals) as input and returns either -1 or the sum of introverts and the result of calling func_1 with extroverts and universals as arguments.

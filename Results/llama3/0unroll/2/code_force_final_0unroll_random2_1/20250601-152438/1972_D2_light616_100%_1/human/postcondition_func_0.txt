@@ -1,0 +1,1 @@
+This function calculates and prints the number of coprime pairs (a, b) such that 1 <= a <= n and 1 <= b <= m, where n and m are positive integers provided as input, and gcd(a, b) = 1.

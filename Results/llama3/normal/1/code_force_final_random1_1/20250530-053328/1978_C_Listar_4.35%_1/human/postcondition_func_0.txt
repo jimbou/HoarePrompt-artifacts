@@ -1,0 +1,1 @@
+Rotates a list of integers from 1 to n by moving the last k elements to the beginning of the list, where n is a positive integer and k is a non-negative integer. The function returns the rotated list. If k is 0, the original list is returned.

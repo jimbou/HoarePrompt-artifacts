@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer n and then a space-separated list of n integers. The integer n is a positive integer and less or equal than 18. The integers in the list are non-negative integers and less or equal than 10^7.

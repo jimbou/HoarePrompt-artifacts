@@ -1,0 +1,1 @@
+N, M1, and M2 are positive integers, L and R are lists of distinct positive integers, L and R are sorted in ascending order, 1 <= L[0] <= N, 1 <= R[-1] <= N, 1 <= M1 <= len(L), 1 <= M2 <= len(R), and MOD is a positive integer.

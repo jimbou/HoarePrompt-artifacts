@@ -1,0 +1,1 @@
+curr and parent are non-negative integers such that 0 <= curr < len(graph) and 0 <= parent < len(graph), graph is a list of lists where each inner list contains non-negative integers, colors is a list of integers with the same length as graph, node_v is a non-negative integer, and path is a list of non-negative integers.

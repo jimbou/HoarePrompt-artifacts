@@ -1,0 +1,1 @@
+stdin contains t+2t lines. The first line contains one integer t (1 <= t <= 1000). Each of the following t blocks of two lines contains an integer n (2 <= n <= 50) and a list of n integers a_1, a_2, ..., a_n (0 <= a_i <= 1) such that at least one a_i equals 1.

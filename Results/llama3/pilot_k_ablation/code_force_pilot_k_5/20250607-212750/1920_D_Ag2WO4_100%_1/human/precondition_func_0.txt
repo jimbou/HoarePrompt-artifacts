@@ -1,0 +1,1 @@
+x is a list of integers where x[0] is the number of test cases, and for each test case, x contains two integers n and q, followed by n lines describing the operations, and a line containing q queries.

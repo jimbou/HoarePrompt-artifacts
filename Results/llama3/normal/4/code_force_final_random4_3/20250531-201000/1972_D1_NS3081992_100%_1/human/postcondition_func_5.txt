@@ -1,0 +1,1 @@
+Reads a line from standard input, decodes it, removes any trailing characters, and returns the resulting string.

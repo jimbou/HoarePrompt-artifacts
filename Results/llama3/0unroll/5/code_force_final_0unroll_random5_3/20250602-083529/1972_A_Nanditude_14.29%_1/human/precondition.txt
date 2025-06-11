@@ -1,0 +1,1 @@
+arr is a 2D list where each sublist contains a positive integer n and two lists a and b of length n, such that a and b are sorted in non-decreasing order and 1 <= a_i, b_i <= 10^9 for all i.

@@ -1,0 +1,1 @@
+stdin contains a series of test cases. Each test case contains: a positive integer n, a list of n positive integers, a positive integer q, and q pairs of positive integers.

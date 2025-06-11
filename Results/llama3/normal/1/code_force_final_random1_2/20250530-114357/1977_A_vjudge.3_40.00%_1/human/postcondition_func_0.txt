@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each case consists of two integers, and determines whether the second integer is compatible with the first integer based on specific rules. It then prints 'Yes' if the integers are compatible and 'No' otherwise. The function processes all test cases and empties the standard input.

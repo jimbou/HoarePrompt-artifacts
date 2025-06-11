@@ -1,0 +1,1 @@
+This function searches for the value `x` in a sorted list `p` and returns the index of `x` if found, or -1 if not found, maintaining the sorted order of the list.

@@ -1,0 +1,1 @@
+The function reads multiple test cases from standard input, where each test case is an integer n. It then rearranges the numbers from 1 to n in a specific pattern, where the value at index 2*i+1 is n-i and the value at index 2*i is i+1. If the length of the list is odd, the value at index n-1 is set to n//2 + 1. Finally, it prints the rearranged list for each test case.

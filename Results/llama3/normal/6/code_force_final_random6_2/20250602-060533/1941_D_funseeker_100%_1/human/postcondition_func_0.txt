@@ -1,0 +1,1 @@
+Reads a string from standard input, removes leading and trailing whitespaces, and returns the resulting string.

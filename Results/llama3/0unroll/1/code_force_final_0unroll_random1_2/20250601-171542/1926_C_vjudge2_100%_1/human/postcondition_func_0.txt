@@ -1,0 +1,1 @@
+This function calculates the sum of the digits of a given positive integer. It takes an integer as input, decomposes it into its individual digits, and returns their sum. The input integer is reduced to 0 in the process.

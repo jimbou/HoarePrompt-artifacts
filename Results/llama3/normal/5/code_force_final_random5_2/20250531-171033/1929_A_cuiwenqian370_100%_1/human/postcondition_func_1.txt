@@ -1,0 +1,1 @@
+Reads input from standard input, processes it into a list of integers, applies the func_1 function to each list, stores the results, and prints each result.

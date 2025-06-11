@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two lines. The first line is an integer (1 <= n <= 5000) and the second line is a string of "+" and "-" of length n.

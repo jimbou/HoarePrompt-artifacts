@@ -1,0 +1,1 @@
+This function reads input from the standard input, expecting an integer t followed by t lines of two space-separated integers x and y. It then compares each pair of x and y, and prints the smaller value first, followed by the larger value. The function does not return any value, but instead prints the sorted pairs to the standard output.

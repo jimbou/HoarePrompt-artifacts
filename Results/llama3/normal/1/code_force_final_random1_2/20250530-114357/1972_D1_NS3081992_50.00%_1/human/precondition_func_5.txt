@@ -1,0 +1,1 @@
+The input is a string read from the standard input buffer, which is expected to be a line of text ending with a newline character, and is decoded using the default encoding.

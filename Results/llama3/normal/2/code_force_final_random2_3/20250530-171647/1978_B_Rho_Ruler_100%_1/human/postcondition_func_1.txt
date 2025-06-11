@@ -1,0 +1,1 @@
+This function calculates and returns the maximum profit that can be obtained from the given values of n, a, and b, which are integers between 1 and 10^9. It performs a binary search to find the optimal value of mid that maximizes the profit, and returns this maximum profit. The function does not modify the input values n, a, and b.

@@ -1,0 +1,1 @@
+stdin contains one integer t (1 <= t <= 10^3) representing the number of test cases. For each test case, stdin contains one integer n (2 <= n <= 10^4) representing the number of elements in the secret sequence. The secret sequence p_0, p_1, ..., p_{n-1} is a permutation of {0,1,...,n-1}.

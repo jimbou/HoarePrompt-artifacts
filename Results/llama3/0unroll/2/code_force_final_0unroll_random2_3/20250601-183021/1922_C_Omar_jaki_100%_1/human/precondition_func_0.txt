@@ -1,0 +1,1 @@
+**stdin contains a series of test cases. Each test case consists of four parts:

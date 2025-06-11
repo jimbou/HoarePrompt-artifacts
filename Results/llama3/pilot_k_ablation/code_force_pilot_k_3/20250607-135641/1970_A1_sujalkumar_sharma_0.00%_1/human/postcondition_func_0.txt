@@ -1,0 +1,1 @@
+This function takes a non-empty string of balanced parentheses as input and returns a rearranged string consisting of the same characters in a specific order, determined by sorting the characters based on their balance and position in the original string.

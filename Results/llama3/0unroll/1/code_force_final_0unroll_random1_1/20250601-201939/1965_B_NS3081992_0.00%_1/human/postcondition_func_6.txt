@@ -1,0 +1,1 @@
+The function reads a line of input from stdin, splits it into two parts at the space character, converts each part to an integer, and returns them as a list of two integers.

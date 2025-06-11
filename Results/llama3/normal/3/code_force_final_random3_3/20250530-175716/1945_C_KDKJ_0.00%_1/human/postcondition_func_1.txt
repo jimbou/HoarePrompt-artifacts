@@ -1,0 +1,1 @@
+Executes a specified number of test cases, each consisting of a sequence of house preferences, and returns the result of processing these test cases, leaving the standard input empty.

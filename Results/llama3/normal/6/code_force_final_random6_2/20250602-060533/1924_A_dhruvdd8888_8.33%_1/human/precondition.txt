@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two lines. The first line contains three integers n, k, and m. The second line contains a string s of length m. n and k are integers between 1 and 26 inclusive, and m is an integer between 1 and 1000 inclusive. The string s consists of only the first k lowercase English alphabets.

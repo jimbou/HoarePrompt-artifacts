@@ -1,0 +1,1 @@
+This function takes a list of integers and an integer k as input, and returns a dictionary where each key is an integer from the list and its corresponding value is the frequency of that integer in the list, capped at k. The function effectively counts the occurrences of each integer in the list, but limits the count to a maximum of k.

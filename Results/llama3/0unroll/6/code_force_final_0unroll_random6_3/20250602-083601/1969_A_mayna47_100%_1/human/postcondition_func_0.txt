@@ -1,0 +1,1 @@
+Determines whether a given permutation of integers contains a pair of elements that are each other's inverse, and prints 2 if such a pair is found, or 3 if no such pair exists.

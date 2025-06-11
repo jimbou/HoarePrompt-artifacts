@@ -1,0 +1,1 @@
+Counts the number of trailing zeros in the string representation of a non-negative integer.

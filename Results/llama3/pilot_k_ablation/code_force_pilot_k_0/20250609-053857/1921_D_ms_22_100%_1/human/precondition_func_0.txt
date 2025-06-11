@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three lines: the first line contains two integers n and m (1 <= n <= m <= 2 * 10^5), the second line contains n integers a_i (1 <= a_i <= 10^9), and the third line contains m integers b_i (1 <= b_i <= 10^9).

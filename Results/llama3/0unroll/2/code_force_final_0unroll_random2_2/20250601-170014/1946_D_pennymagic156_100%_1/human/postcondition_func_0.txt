@@ -1,0 +1,1 @@
+The function reads a space-separated list of integers from standard input, converts them into a list of integers, and returns this list.

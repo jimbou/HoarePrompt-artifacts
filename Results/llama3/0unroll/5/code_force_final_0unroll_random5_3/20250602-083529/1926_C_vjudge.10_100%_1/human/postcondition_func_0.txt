@@ -1,0 +1,1 @@
+This function reads a positive integer (the number of test cases) and a list of integers (the largest number Vladislav writes for each test case) from standard input, calculates the cumulative sum of digits for numbers up to 2 * 10^5, and then prints the cumulative sum of digits for each input number.

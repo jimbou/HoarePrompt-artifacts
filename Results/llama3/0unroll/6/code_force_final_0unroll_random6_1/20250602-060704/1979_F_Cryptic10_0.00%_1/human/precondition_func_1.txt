@@ -1,0 +1,1 @@
+n is a positive integer greater than or equal to 2, func_1 is a function that takes an integer d as input and returns a tuple of two integers (v, u), where v and u are vertices in the graph.

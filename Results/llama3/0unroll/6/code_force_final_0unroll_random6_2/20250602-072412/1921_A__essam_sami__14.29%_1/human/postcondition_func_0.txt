@@ -1,0 +1,1 @@
+Calculates and prints the smaller of the two squared Euclidean distances between two pairs of points for a given number of test cases.

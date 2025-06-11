@@ -1,0 +1,1 @@
+The function generates a sequence of strings, each on a new line, where the number of strings is determined by the return value of func_10(). Each string in the sequence is the result of calling func_15(). The function outputs this sequence to the standard output.

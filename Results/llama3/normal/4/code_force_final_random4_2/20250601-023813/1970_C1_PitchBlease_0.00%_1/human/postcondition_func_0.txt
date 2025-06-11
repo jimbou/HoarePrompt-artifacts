@@ -1,0 +1,1 @@
+This function determines the winner of a game based on the distance from a starting node to the leaves of a tree. It constructs a tree from a list of edges, identifies the leaves, calculates the distance from the start node to each leaf using BFS, and returns 'Ron' if either distance is even, otherwise returns 'Hermione'.

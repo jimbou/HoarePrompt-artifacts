@@ -1,0 +1,1 @@
+This function takes an integer 'number' as input and returns the remainder of its division by 1000000007.

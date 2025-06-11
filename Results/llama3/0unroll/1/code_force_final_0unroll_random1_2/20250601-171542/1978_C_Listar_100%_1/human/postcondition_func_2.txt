@@ -1,0 +1,1 @@
+Swaps the elements at indices c-1 and -c in a list of distinct integers, returning the modified list.

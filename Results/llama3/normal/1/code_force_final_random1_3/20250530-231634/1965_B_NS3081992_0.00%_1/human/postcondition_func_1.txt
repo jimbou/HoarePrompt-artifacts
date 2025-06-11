@@ -1,0 +1,1 @@
+Reads two space-separated integers from standard input and returns them as a map object, where the first integer (n) is a positive integer between 2 and 10^6 (inclusive), and the second integer (k) is a positive integer between 1 and n (inclusive).

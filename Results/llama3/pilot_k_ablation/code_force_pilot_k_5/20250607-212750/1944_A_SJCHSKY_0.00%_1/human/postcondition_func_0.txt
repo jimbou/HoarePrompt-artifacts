@@ -1,0 +1,1 @@
+The function reads multiple test cases from standard input, where each test case contains two integers n and k. It then iteratively calculates the maximum reachable count by subtracting the current reachable count minus one from k, until k is less than the reachable count minus one or k becomes zero. Finally, it prints the calculated reachable count for each test case.

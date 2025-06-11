@@ -1,0 +1,1 @@
+a is a list of n integers, k is a non-negative integer, and n and k are given as input.

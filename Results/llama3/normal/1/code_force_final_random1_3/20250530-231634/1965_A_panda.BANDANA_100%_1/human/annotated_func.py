@@ -1,0 +1,31 @@
+#State of the program right berfore the function call: stdin contains t test cases. Each test case contains two lines. The first line contains a single integer n (1 <= n <= 2*10^5). The second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+    t = int(input())
+    for i in range(t):
+        n = int(input())
+        
+        l = map(int, input().split())
+        
+        lis = sorted(set(l))
+        
+        if 1 not in lis or len(lis) == 1:
+            print('Alice')
+        else:
+            test = True
+            for j in range(1, len(lis)):
+                if lis[j] - lis[j - 1] > 1:
+                    if j % 2 == 1:
+                        print('Bob')
+                    else:
+                        print('Alice')
+                    test = False
+                    break
+            if test == True:
+                if len(lis) % 2 == 1:
+                    print('Alice')
+                else:
+                    print('Bob')
+        
+    #State: t is a positive integer, i is t-1, n is an integer equal to the last input, lis is a sorted list of unique integers from the last input, stdin is empty. If 1 is not in lis or lis has only one element, 'Alice' is printed. If lis has at least two elements, if the difference between any two consecutive elements of lis is not greater than 1, then if the length of lis is odd, 'Alice' is printed. If the length of lis is even, 'Bob' is printed. If the difference between any two consecutive elements of lis is greater than 1, then if the index of the larger element is odd, 'Bob' is printed. Otherwise, 'Alice' is printed.
+
+#Overall this is what the function does:This function determines the winner of a game based on a sequence of integers. It reads a number of test cases, and for each test case, it reads a sequence of unique integers. If the sequence starts with 1 and all consecutive integers are adjacent (i.e., their difference is 1), the winner is determined by the length of the sequence: if it's odd, Alice wins; if it's even, Bob wins. If the sequence does not start with 1 or has non-adjacent integers, the winner is determined by the index of the first non-adjacent integer: if it's odd, Bob wins; if it's even, Alice wins. The function prints the winner for each test case.
+

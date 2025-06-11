@@ -1,0 +1,1 @@
+This function checks if a given password string meets certain conditions. It accepts a password string of length n consisting of lowercase Latin letters and digits. The function returns 'YES' if the password string does not contain a lowercase Latin letter followed by a digit, and the letters and digits in the password are sorted in ascending order. Otherwise, it returns 'NO'.

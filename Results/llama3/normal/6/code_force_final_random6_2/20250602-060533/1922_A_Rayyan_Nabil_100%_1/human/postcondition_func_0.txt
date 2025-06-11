@@ -1,0 +1,1 @@
+This function compares three strings of equal length, 'a', 'b', and 'c', and returns 'YES' if there exists at least one position where both 'a' and 'b' differ from 'c', otherwise it returns 'NO'.

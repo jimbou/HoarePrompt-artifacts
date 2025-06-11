@@ -1,0 +1,1 @@
+Removes common trailing elements from two lists and returns the last element of the longer list.

@@ -1,0 +1,1 @@
+This function calculates and returns the minimum value between the number of integers that appear exactly twice in a given list and half of a given positive integer.

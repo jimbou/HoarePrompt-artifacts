@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of two integers, and prints 'YES' or 'NO' to the console based on the values of the integers and the parity of the test case number. The function does not modify the input values or return any value, but instead prints the results directly to the console.

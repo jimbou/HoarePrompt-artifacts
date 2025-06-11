@@ -1,0 +1,1 @@
+This function identifies the subarray within a given list of non-negative integers that, when removed, results in the maximum sum of the remaining subarray. It returns the start and end indices of this subarray.

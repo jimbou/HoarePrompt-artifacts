@@ -1,0 +1,1 @@
+Reads a line of input from the standard input and returns it as a bytes object with trailing newline character or other trailing bytes removed.

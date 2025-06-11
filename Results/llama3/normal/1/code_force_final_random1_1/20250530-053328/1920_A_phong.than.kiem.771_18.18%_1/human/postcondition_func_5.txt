@@ -1,0 +1,1 @@
+Searches a 2D list for a sub-array where the value at a specified index matches a given value, returning the first matching sub-array or None if no match is found.

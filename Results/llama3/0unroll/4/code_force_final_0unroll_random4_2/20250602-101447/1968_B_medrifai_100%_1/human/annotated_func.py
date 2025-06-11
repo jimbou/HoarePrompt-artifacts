@@ -1,0 +1,11 @@
+#State of the program right berfore the function call: a and b are binary strings, i and j are non-negative integers such that 0 <= i < len(a) and 0 <= j < len(b).
+    index = b[j:].find(a[i])
+    if (index != -1) :
+        return j + index
+        #The program returns the sum of `j` and `index`, where `j` is a non-negative integer less than the length of binary string `b`, and `index` is the previously stored index where `a[i:]` is found in `b[j:]`.
+    else :
+        return -1
+        #The program returns -1, indicating that `a[i:]` is not found in `b[j:]`
+
+#Overall this is what the function does:This function searches for the substring `a[i:]` within the substring `b[j:]` and returns the starting index of the match if found, or -1 if not found. It takes binary strings `a` and `b`, and non-negative integers `i` and `j` as input, where `i` and `j` are indices within `a` and `b` respectively. The function returns an integer value indicating the result of the search.
+

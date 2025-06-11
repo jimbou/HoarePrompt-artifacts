@@ -1,0 +1,1 @@
+Reads a space-separated list of integers from standard input and returns a list of integers, where each integer is a value from the input list.

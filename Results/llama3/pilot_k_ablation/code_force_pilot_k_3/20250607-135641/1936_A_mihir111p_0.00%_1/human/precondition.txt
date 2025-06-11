@@ -1,0 +1,1 @@
+a, b, c, d are non-negative integers such that 0 <= a, b, c, d < n, where n is a positive integer.

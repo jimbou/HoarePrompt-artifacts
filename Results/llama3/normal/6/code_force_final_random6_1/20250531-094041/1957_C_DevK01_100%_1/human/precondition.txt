@@ -1,0 +1,1 @@
+n is a list of integers where the first integer is the number of test cases (t), and each of the following t pairs of integers represent the size of the chessboard (n) and the number of moves already played (k), followed by k pairs of integers representing the moves made.

@@ -1,0 +1,1 @@
+Determines the winner of a game based on the parity of moves in a tree traversal, printing 'Ron' if any move is odd and 'Hermione' if all moves are even.

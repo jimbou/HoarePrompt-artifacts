@@ -1,0 +1,1 @@
+The function generates a 2D list of size (n+1) x (n+1) where n is a positive integer, and sets some elements to 1 based on the output of the function func_1(), which is called m times. The function returns this 2D list.

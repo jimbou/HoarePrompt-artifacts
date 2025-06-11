@@ -1,0 +1,1 @@
+This function determines the minimum number of consecutive equal elements in an array. It reads an integer n and an array of n integers from standard input, checks if all elements in the array are equal, and prints -1 if they are. Otherwise, it finds the minimum number of consecutive equal elements and prints this value. The function does not modify the input array.

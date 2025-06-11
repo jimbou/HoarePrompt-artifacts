@@ -1,0 +1,20 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains two inputs: first an integer and then a list of integers. The integer is a positive integer. The list of integers contains positive integers.
+    t = int(input())
+    for i in range(t):
+        n = int(input())
+        
+        l = list(map(int, input().split()))
+        
+        e = set(l)
+        
+        m = len(l)
+        
+        if 1 in l:
+            print('Bob')
+        else:
+            print('Alice')
+        
+    #State: The output state after the loop executes all the iterations is a series of 'Alice' or 'Bob' printed to the console, depending on whether 1 is present in each list of integers. The number of outputs is equal to the initial value of `t`. The value of `t` is decremented by 1 after each iteration, and the input buffer is empty after all iterations. The values of `n`, `l`, `e`, and `m` are updated in each iteration but do not persist after the loop finishes.
+
+#Overall this is what the function does:This function reads multiple test cases from standard input, where each test case consists of a positive integer and a list of positive integers. It then checks if the number 1 is present in each list and prints 'Bob' if it is, or 'Alice' if it's not. The function repeats this process for the number of test cases specified by the initial input, resulting in a series of 'Alice' or 'Bob' outputs printed to the console.
+

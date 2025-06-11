@@ -1,0 +1,1 @@
+Reads and returns a string from the standard input (stdin), effectively capturing and passing on the user's input without any modifications or transformations.

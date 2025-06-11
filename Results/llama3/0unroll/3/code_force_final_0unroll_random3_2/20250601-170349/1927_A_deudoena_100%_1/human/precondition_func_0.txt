@@ -1,0 +1,1 @@
+stdin contains multiple inputs: first an integer (the number of test cases), then for each test case, first an integer (the length of the strip) and then a string consisting of 'W' and 'B' characters.

@@ -1,0 +1,1 @@
+stdin contains n+1 inputs: first an integer n (2 <= n <= 24), then n strings of length n, each string consisting of characters '.', 'F', 'S', and '?'.

@@ -1,0 +1,1 @@
+Converts and prints a series of 24-hour time inputs to 12-hour format, handling cases where the hour is '00', less than or equal to 12, or greater than 12, and appends 'AM' or 'PM' accordingly, ultimately emptying the standard input.

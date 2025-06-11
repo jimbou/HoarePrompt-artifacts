@@ -1,0 +1,1 @@
+The function accepts no parameters and returns a map object containing a sequence of integers. It takes a string of space-separated integers as input, splits it into individual strings, converts each string into an integer, and returns the resulting sequence of integers.

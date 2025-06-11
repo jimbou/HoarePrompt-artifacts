@@ -1,0 +1,1 @@
+This function caches the results of calling function `func` with varying arguments `args`. It checks if `args` is a key in dictionary `d`. If not, it calls `func` with `args` and stores the result in `d` with `args` as the key. If `args` is already a key in `d`, it does not call `func` again. In both cases, it returns the value associated with `args` in `d`.

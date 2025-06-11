@@ -1,0 +1,1 @@
+Generates a list of 'rows_number' elements, each being the result of a separate call to 'func_3()'.

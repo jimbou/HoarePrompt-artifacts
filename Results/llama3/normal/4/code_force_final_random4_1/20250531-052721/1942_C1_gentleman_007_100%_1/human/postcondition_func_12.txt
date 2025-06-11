@@ -1,0 +1,1 @@
+This function takes a positive integer n as input and returns a dictionary containing the prime factors of n and their respective counts. The function performs prime factorization of the input number, updating the dictionary with the prime factors and their counts. The final state of the program is a dictionary with prime factors as keys and their counts as values.

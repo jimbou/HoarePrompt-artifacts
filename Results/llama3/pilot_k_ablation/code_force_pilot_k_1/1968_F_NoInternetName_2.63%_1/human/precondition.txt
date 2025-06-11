@@ -1,0 +1,1 @@
+stdin contains one integer t, followed by t blocks of input. Each block contains two integers n and q, followed by n integers a_1, a_2, ..., a_n, followed by q pairs of integers l and r.

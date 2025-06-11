@@ -1,0 +1,1 @@
+The function prints a string in the format "? a b c d" where a, b, c, and d are non-negative integers less than the number of elements in the secret sequence p, waits for user input, and returns the user's input as a string.

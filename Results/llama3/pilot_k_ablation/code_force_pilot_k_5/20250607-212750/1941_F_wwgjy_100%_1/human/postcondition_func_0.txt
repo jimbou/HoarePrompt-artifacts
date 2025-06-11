@@ -1,0 +1,1 @@
+This function calculates and prints the minimum distance between the midpoint of the largest gap in a list of integers and the sum of an element from another list and an element from a third list, or the size of the largest gap if no such sum exists, for multiple test cases.

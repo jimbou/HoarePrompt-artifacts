@@ -1,0 +1,1 @@
+This function takes a sorted list of integers and a non-negative integer as input, and returns the index of the smallest element in the list that is greater than or equal to the input integer, or the length of the list if no such element exists. If the input integer is negative, the function returns -1.

@@ -1,0 +1,1 @@
+Prints the string representation of the output of `func_14()` to the console a number of times equal to the non-negative integer returned by `func_10()`, followed by a newline character each time, without buffering the output.

@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (n) and then a space-separated list of n integers. The integer (n) is a positive integer and less or equal than 2 * 10^5. The list of integers contains integers from 1 to n, and each integer from 1 through n appears in the sequence at most 2 times.

@@ -1,0 +1,1 @@
+This function reads a series of triple-digit numbers from standard input, determines the relationship between the digits, and prints a classification ('STAIRS', 'PEAK', or 'NONE') based on whether the digits form an increasing sequence, a peak, or neither.

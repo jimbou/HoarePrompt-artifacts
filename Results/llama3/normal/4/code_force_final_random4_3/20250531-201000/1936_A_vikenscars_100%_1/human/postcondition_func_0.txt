@@ -1,0 +1,1 @@
+The function takes four integers a, b, c, and d as input, prints a string in the format "? a b c d" to the console, and returns a string input from the user in response to the printed string.

@@ -1,0 +1,1 @@
+tree is a Tree object with a vertices attribute that is a list of Vertex objects, s is a non-negative integer such that 0 <= s < len(tree.vertices), and x is a positive integer.

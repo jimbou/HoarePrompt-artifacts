@@ -1,0 +1,1 @@
+This function checks if a given list of positive integers is already sorted by comparing it with its sorted version. It returns 'Yes' if the list is sorted, 'No' if it's not, and 'None' if the list is empty or contains only one element.

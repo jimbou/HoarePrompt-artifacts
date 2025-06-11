@@ -1,0 +1,1 @@
+data is a list of strings where each string represents an integer, idx is a non-negative integer such that idx < len(data), t is a positive integer, n is a positive integer such that n < len(data) - idx.

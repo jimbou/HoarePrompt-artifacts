@@ -1,0 +1,1 @@
+This function reads a positive integer from standard input, then for each number from 1 to the input integer, it prints a series of three lines: "1 1", "1 2", and "i i" where i ranges from 3 to the current number. The function does not return any value, and its output is solely through print statements.

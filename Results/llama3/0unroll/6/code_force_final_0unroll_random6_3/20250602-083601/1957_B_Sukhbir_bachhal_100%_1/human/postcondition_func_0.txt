@@ -1,0 +1,1 @@
+This function calculates the number of bits in the binary representation of the input list of two non-negative integers, minus 1, unless the input list is 0, in which case it returns -1.

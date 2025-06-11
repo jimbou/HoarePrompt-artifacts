@@ -1,0 +1,1 @@
+stdin is an open file object in binary read mode, and the next line in the file is a string that can be read without errors.

@@ -1,0 +1,1 @@
+This function takes a list of integers and its length as input, modifies the list by performing a series of operations on its elements, and then checks if the modified list satisfies a certain condition using the func_1 function. If the condition is met, it prints 'YES', otherwise it prints 'NO'. The function does not return any value.

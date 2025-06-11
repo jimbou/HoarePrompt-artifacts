@@ -1,0 +1,1 @@
+This function reads input from stdin, expecting an integer t (1 <= t <= 100) followed by t lines of two space-separated integers x and y (0 <= x, y <= 9). It then compares each pair of x and y values, printing the smaller value first, followed by the larger value. The function does not return any value but prints the results directly to the console.

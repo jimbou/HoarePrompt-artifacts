@@ -1,0 +1,1 @@
+Converts a string of space-separated integers into a sequence of integers and returns it as a map object.

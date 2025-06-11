@@ -1,0 +1,1 @@
+This function calculates the integer square root of a given non-negative integer x. If x is 0 or 1, it returns x. Otherwise, it performs a binary search to find the largest integer mid such that mid * mid is less than or equal to x, and returns mid. The function effectively computes the floor of the square root of x.

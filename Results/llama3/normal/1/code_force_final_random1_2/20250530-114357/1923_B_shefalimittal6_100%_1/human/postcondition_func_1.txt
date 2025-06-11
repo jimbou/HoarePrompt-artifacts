@@ -1,0 +1,1 @@
+Determines whether a given condition is met for a list of non-negative integers 'a' and a list of non-zero integers 'x' with a positive integer 'k' as a parameter, and returns a boolean value indicating whether the condition is satisfied or not.

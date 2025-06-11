@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two integers a and b (1 <= a, b <= 10^9). The number of test cases is given in the first line of the input.

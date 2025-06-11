@@ -1,0 +1,1 @@
+stdin contains one or more inputs: a single integer t, then for each test case, two integers n and q, then a list of n integers, then q pairs of integers l and r.

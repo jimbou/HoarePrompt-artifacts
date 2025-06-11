@@ -1,0 +1,1 @@
+The function creates and returns a list containing a specified number of elements, all of which are the same value. It accepts two parameters: a non-negative integer 'n' representing the number of elements, and a value 'v' of any type. The function's purpose is to generate a list with 'n' occurrences of 'v'.

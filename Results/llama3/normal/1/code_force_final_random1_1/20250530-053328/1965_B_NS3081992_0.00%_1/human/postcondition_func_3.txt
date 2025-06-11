@@ -1,0 +1,1 @@
+Generates a list of 'rows_number' elements, where each element is the result of calling 'func_3()', and returns this list. The length of the returned list is equal to the input 'rows_number', which is a positive integer.

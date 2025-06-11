@@ -1,0 +1,1 @@
+a is a vertex in the tree, p is the parent of vertex a, adj is an adjacency list representing the tree, x is a non-negative integer, and numCuts is a global variable to keep track of the number of cuts made in the tree.

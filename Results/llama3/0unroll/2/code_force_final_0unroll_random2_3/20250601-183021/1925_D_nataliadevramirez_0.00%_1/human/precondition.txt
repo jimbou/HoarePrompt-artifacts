@@ -1,0 +1,1 @@
+n is a positive integer, m is a non-negative integer such that m <= min(10^5, n*(n-1)/2), k is a positive integer, friendships is a list of 3-element lists where each element is a positive integer, and the length of friendships is m.

@@ -1,0 +1,26 @@
+#State of the program right berfore the function call: stdin contains one input: an integer (greater than 1).
+    for _ in range(int(input())):
+        n = int(input())
+        
+        k = 1
+        
+        for i in range(2, n):
+            print('?', 0, k, 0, i, flush=True)
+            res = input()
+            if res == '<':
+                k = i
+        
+        best = 0
+        
+        for i in range(1, n):
+            print('?', k, best, k, i, flush=True)
+            res = input()
+            if res == '<':
+                best = i
+        
+        print('!', k, best, flush=True)
+        
+    #State: `n` is an integer greater than or equal to 2, `i` is `n`, `k` is an integer in the range [1, n-1], `_` is equal to the value of `n` minus 1, `res` is either '<' or '>' or '=' or '?' or '!' or 'N', and `res` is assigned the value of the input, and the stdin now contains no input. If `res` is '<', then `best` is `n-1`. Otherwise, `best` is either 0 or 1 or 2 or ... or `n-2`, and this is printed: '!', k (where k is an integer in the range [1, n-1]), best (where best is either n-1 or either 0 or 1 or 2 or ... or n-2)
+
+#Overall this is what the function does:This function reads an integer input from stdin, performs a series of comparisons and queries, and then prints the result in a specific format. It appears to be implementing a strategy for finding the maximum value in a list of integers, where the list is not directly accessible but can be queried through a comparison function. The function takes no explicit parameters and returns no value, but instead prints the result to stdout.
+

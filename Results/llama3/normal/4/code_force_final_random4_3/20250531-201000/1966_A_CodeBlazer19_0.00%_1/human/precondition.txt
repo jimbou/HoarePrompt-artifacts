@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 500) followed by t test cases. Each test case contains two integers n and k (1 <= n <= 100, 2 <= k <= 100) followed by n integers c_1, c_2, ..., c_n (1 <= c_i <= 100).

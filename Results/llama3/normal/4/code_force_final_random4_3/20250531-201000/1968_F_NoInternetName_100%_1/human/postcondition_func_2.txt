@@ -1,0 +1,1 @@
+Filters a list of elements based on a predicate function and returns the filtered list. The function takes a list 'arr' and a predicate function as input, applies the predicate function to each element in the list, and returns a new list containing only the elements for which the predicate function returns True.

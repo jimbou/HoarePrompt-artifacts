@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of two integers (n and k) and a list of n integers. It then calculates the minimum number of elements that need to be removed from the list so that no element appears at least k times. The function prints the result for each test case.

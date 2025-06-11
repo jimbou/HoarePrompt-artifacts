@@ -1,0 +1,1 @@
+This function iterates over a specified number of test cases, where each test case involves processing a list of prices and bonuses. It calculates the maximum possible profit by selecting a subset of the prices and bonuses, subject to certain constraints. The function prints the maximum profit for each test case.

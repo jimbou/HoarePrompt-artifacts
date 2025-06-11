@@ -1,0 +1,1 @@
+n is a positive integer, m is a positive integer, k is a positive integer such that k <= min(n*m, 10^9), and prices is a list of n positive integers.

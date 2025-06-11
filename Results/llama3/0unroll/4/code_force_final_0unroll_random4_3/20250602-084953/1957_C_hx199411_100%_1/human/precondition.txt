@@ -1,0 +1,1 @@
+stdin contains an integer t, followed by t test cases. Each test case consists of two integers n and k, followed by k pairs of integers r_i and c_i. n is a positive integer, k is a non-negative integer and k <= n. r_i and c_i are positive integers and r_i <= n and c_i <= n.

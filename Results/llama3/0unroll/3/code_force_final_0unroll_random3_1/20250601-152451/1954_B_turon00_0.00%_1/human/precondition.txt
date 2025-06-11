@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer n (1 <= n <= 3 * 10^5) and then a list of n integers (1 <= a_i <= n). The list represents a beautiful array.

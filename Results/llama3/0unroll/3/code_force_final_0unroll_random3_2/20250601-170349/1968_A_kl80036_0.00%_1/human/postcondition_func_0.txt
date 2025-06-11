@@ -1,0 +1,1 @@
+Reads a series of integers from standard input, divides each integer by 2, and prints the result to the console. The function consumes all input from standard input and produces a corresponding number of lines of output, each containing a single integer.

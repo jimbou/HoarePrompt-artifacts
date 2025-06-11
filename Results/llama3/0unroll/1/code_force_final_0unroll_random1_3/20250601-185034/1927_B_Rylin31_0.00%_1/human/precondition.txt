@@ -1,0 +1,1 @@
+stdin contains multiple inputs: first an integer t, then t blocks of two lines, each block contains first an integer n, then a list of n non-negative integers a_1, a_2, \dots, a_n such that 0 <= a_i < n.

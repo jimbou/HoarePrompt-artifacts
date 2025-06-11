@@ -1,0 +1,1 @@
+Reads multiple sets of input data from stdin, where each set contains two integers n and k, followed by n-1 lines of two integers v and u, and processes each set by calling the solve function, ultimately emptying stdin.

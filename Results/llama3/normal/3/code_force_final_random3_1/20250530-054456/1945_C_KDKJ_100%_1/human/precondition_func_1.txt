@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer and then a string of 0 and 1. The integer is a positive integer greater than or equal to 3 and less than or equal to 3*10^5. The length of the string is equal to the integer.

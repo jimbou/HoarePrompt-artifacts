@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of four integers. For each test case, it calculates a count based on the parity of the integers and their integer divisions by 2. The count is then printed to the console. The function processes all test cases and does not return any value.

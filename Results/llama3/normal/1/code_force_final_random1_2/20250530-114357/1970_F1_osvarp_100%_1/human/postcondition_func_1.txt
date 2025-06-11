@@ -1,0 +1,1 @@
+Determines the team goal status of a given position on the field. It checks if the position is in the red team's goal, the blue team's goal, or neither, and returns a corresponding value (0 for red, 1 for blue, and -1 for neither).

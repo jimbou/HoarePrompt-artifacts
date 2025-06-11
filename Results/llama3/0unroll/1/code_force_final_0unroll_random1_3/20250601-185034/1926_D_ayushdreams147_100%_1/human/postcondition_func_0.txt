@@ -1,0 +1,1 @@
+Counts the number of unique integers in a given list of non-negative integers, ignoring duplicates and returning the total count of distinct integers.

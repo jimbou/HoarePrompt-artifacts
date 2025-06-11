@@ -1,0 +1,1 @@
+t is a positive integer and cases is a list of pairs of positive integers (n, k) where 2 <= n <= 10^6 and 1 <= k <= n.

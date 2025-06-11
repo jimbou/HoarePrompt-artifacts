@@ -1,0 +1,36 @@
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t test cases. Each test case consists of two lines. The first line contains two integers n and m (1 <= n <= 2 * 10^5, 0 <= m <= 2 * 10^6). The second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+    for y in range(int(input())):
+        rev_val = []
+        
+        rev_res = ''
+        
+        list_len, max_power = input().split()
+        
+        operational_list = input().split()
+        
+        for x in operational_list:
+            x_rev = int(x[::-1])
+            if len(str(x_rev)) == len(x):
+                rev_res = rev_res + x
+            else:
+                rev_val.append(x[::-1])
+        
+        rev_val.sort()
+        
+        for x in range(len(rev_val)):
+            if x % 2 == 0:
+                val_in = int(rev_val[x])
+                rev_res += str(val_in)
+            else:
+                val_in = rev_val[x]
+                rev_res += val_in[::-1]
+        
+        if 10 ** int(max_power) < int(rev_res):
+            print('Sasha')
+        else:
+            print('Anna')
+        
+    #State: stdin is empty, list_len is an integer, max_power is an integer, operational_list is an empty list, rev_val is an empty list, rev_res is a string that is the concatenation of all the strings in the original operational_list that have the same length when reversed plus the string representation of the integer value of the reverse of the strings at even indices in rev_val plus the reverse of the strings at odd indices in rev_val, y is the number of test cases, x is the last index of rev_val, x_rev is the integer value of the reverse of the last string in the original operational_list. If the current value of rev_res is greater than 10 raised to the power of max_power, 'Sasha' is printed. Otherwise, 10 raised to the power of max_power is larger than or equal to the integer value of rev_res and 'Anna' is printed.
+
+#Overall this is what the function does:This function reads input from stdin, processes multiple test cases, and determines the winner of a game based on the processed data. It accepts no parameters and returns no values. The function reads an integer t, representing the number of test cases, followed by t test cases. Each test case consists of two lines: the first line contains two integers n and m, and the second line contains n integers. The function processes these integers, reversing some of them, and concatenates them into a string. It then compares the value of this string to 10 raised to the power of m. If the string value is greater, it prints 'Sasha'; otherwise, it prints 'Anna'. After processing all test cases, the function leaves stdin empty and the input variables in a modified state.
+

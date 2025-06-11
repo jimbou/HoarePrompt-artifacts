@@ -1,0 +1,21 @@
+#State of the program right berfore the function call: stdin contains two inputs: first an integer (the number of test cases) and then for each test case, two integers (the number of applications with a 1 x 1 icon and the number of applications with a 2 x 2 icon, respectively).
+    ap = int(input())
+    for k in range(ap):
+        x, y = map(int, input().split())
+        
+        if x > 0 and y > 0:
+            bxsfory = math.ceil(y / 2)
+            x = x - bxsfory * 15 + y * 4
+            bxsfory1 = 0 if x <= 0 else math.ceil(x / 15)
+            print(bxsfory1 + bxsfory)
+        elif x == 0 and y > 0:
+            print(math.ceil(y / 2))
+        elif x > 0 and y == 0:
+            print(math.ceil(x / 15))
+        else:
+            print(0)
+        
+    #State: `ap` is an integer greater than or equal to 0, `k` is `ap`, `x` and `y` are integers representing the number of applications with 1 x 1 and 2 x 2 icons respectively. If `x` and `y` are both greater than 0, `x` is updated to its original value minus the ceiling of `y/2` times 15 plus `y` times 4, and the sum of the ceiling of `x/15` (if `x` is greater than 0) and the ceiling of `y/2` is printed. If `x` is 0 and `y` is greater than 0, the ceiling of `y` divided by 2 is printed. If `x` is greater than 0 and `y` is 0, the ceiling of the division of `x` by 15 is printed. Otherwise, 0 is printed, and `x` and `y` retain their original values. stdin remains empty.
+
+#Overall this is what the function does:This function processes a series of test cases from standard input, where each test case consists of two integers representing the number of applications with 1x1 and 2x2 icons. For each test case, it calculates and prints the total number of blocks required to accommodate the applications, considering the updated number of 1x1 icons after accounting for the 2x2 icons. If there are no 2x2 icons, it prints the number of blocks required for the 1x1 icons. If there are no 1x1 icons, it prints the number of blocks required for the 2x2 icons. If there are no icons of either type, it prints 0. The function processes all test cases and leaves the standard input empty.
+

@@ -1,0 +1,1 @@
+This function checks if there is a node in the tree that is not equal to the parent node and if the result of a recursive function call (func_1) is False for any of the child nodes. It returns True if such a node is found, otherwise it returns False. The function takes a tree represented as a list of lists of integers, a start node index, and a parent node index as input.

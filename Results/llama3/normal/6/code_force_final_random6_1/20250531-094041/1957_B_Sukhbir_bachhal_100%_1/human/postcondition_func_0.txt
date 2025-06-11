@@ -1,0 +1,1 @@
+This function calculates the number of times the first element of a list of two non-negative integers can be halved until it becomes 0, minus 1, or returns -1 if the input list is 0.

@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 10^3) representing the number of test cases. For each test case, stdin contains two positive integers n and k (1 <= k <= n <= 10^4) representing the length of the hidden array and the number of subarrays in the desired split.

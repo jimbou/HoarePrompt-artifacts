@@ -1,0 +1,1 @@
+This function takes a string of lowercase Latin letters as input and returns the total number of occurrences of the substrings 'map' and 'pie' in the input string. If the input string is exactly 'mapie', the function returns 1. Otherwise, it removes all occurrences of 'map' and 'pie' from the input string and returns the total count of these occurrences.

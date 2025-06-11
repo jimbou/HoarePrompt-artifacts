@@ -1,0 +1,1 @@
+stdin contains one integer t (1 <= t <= 100) followed by 4t lines, each containing two integers x and y (-1000 <= x, y <= 1000), such that the 4t lines describe the coordinates of the corners of a square with sides parallel to the coordinate axes and positive area.

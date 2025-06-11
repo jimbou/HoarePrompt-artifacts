@@ -1,0 +1,1 @@
+This function takes a list of test cases as input, where each test case contains a list of integers and an array of numbers. It processes each test case by counting the pairs of numbers in the array that satisfy the condition `a_i % x == a_j % x` and `a_i % y != a_j % y`, and returns a list of these counts. The input list of test cases remains unchanged.

@@ -1,0 +1,1 @@
+stdin contains t+2t lines, where t is a positive integer. The first line contains a positive integer t. The next 2t lines are organized in t groups of two lines. The first line of each group contains a positive integer n. The second line of each group contains a string of length n, consisting of 'W' and 'B' characters, with at least one 'B' character.

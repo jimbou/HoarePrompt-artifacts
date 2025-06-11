@@ -1,0 +1,1 @@
+Determines the winner of a game based on the total sum of the lengths of the string representations of a list of integers minus the sum of the counts of zeros in the string representations of the integers at even indices, and a given non-negative integer threshold. Returns 'Sasha' if the total sum is greater than or equal to the threshold plus one, otherwise returns 'Anna'.

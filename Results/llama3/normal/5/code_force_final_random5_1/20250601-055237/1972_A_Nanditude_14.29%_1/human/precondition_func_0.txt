@@ -1,0 +1,1 @@
+arr is a list of lists of integers, where the first element of the list is an integer t (1 ≤ t ≤ 100), and the rest of the list consists of pairs of lists of integers, where the first element of each pair is an integer n (1 ≤ n ≤ 100), and the second and third elements of each pair are lists of n integers, sorted in non-decreasing order.

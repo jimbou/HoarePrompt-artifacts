@@ -1,0 +1,1 @@
+This function processes multiple test cases from standard input, where each test case consists of an integer n followed by n integers. It then finds and prints the smallest index j such that the count of j in the array is less than 2, or 0 if no such index exists. The output is in the same order as the input test cases.

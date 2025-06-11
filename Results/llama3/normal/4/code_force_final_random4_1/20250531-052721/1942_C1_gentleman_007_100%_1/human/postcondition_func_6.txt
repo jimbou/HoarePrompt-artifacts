@@ -1,0 +1,1 @@
+This function takes a list of hashable elements as input and returns a dictionary where each key is an element from the list and its corresponding value is the frequency of that element in the list. The function counts the occurrences of each element in the list and stores the results in the dictionary, effectively creating a frequency map of the input list.

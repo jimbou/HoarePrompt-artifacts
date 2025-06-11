@@ -1,0 +1,1 @@
+This function generates a set of all possible values that a given positive integer x can take after a specified number of iterations m, where in each iteration, x is either incremented or decremented by a random value r modulo n. The function then prints the number of unique possible values and the sorted sequence of these values, excluding 0 and including n if 0 is present.

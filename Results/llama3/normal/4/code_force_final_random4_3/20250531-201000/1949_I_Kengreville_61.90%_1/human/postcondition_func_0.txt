@@ -1,0 +1,1 @@
+Determines whether a given set of nodes can be traversed in a way that satisfies certain conditions and prints 'YES' if possible, 'NO' otherwise.

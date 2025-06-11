@@ -1,0 +1,6 @@
+#State of the program right berfore the function call: stdin contains t test cases. Each test case contains two lines. The first line contains two integers n and m, where 1 <= n <= 50 and 1 <= m <= 5. The second line contains a string a of n characters from 'A' to 'G'.
+    return 0
+    #The program returns 0
+
+#Overall this is what the function does:The function does not perform any actions and immediately returns 0, effectively terminating the program without processing any input or producing any output.
+

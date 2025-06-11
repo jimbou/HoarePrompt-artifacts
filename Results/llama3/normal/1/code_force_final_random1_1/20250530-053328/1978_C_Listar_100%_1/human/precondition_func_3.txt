@@ -1,0 +1,1 @@
+n and k are integers such that 1 <= n <= 2 * 10^5 and 0 <= k <= 10^12, and n and k are the length of the permutation and the required Manhattan value, respectively.

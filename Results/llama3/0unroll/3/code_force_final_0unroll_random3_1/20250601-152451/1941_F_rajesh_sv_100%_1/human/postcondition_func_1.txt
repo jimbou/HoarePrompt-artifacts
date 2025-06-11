@@ -1,0 +1,1 @@
+The function takes a tuple of values and a dictionary as input, checks if the tuple is a key in the dictionary, and if not, computes the result of applying a given function to the tuple and stores it in the dictionary. The function then returns the result associated with the tuple in the dictionary, either newly computed or previously stored.

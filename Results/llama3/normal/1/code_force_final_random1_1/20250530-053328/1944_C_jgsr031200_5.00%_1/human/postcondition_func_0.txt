@@ -1,0 +1,1 @@
+This function takes a list of non-negative integers as input and returns the smallest number that is not present in the list. It does this by iterating through the list, decrementing the count of each number and its successor if present, until it finds a number that is not present in the list. The function prints this number as output.

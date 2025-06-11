@@ -1,0 +1,1 @@
+t is a positive integer, cas_de_test is a list of lists of three integers each, each integer is between 0 and 30 inclusive, and the three integers in each sublist are non-decreasing.

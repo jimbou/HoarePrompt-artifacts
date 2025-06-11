@@ -1,0 +1,1 @@
+Reads the next line of input from a file object connected to a valid input source, removes trailing newlines and carriage returns, and returns the resulting string.

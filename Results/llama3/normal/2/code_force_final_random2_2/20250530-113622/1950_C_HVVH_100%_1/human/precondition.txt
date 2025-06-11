@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (1 <= t <= 1440) and then t strings, each of length 5 with format hh:mm representing a valid time in the 24-hour format.

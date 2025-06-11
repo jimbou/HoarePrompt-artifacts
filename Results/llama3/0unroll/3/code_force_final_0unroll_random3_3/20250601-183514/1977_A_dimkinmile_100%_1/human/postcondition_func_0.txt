@@ -1,0 +1,1 @@
+This function determines whether the difference between two input integers, `n` and `m`, is even and non-negative. It reads `n` and `m` from standard input, checks the condition, and prints 'Yes' if the difference is even and non-negative, or 'No' otherwise. The function processes one pair of integers at a time, leaving the remaining input lines in the standard input buffer.

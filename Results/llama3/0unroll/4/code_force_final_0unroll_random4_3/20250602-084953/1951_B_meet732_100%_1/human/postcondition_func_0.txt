@@ -1,0 +1,9 @@
+This function takes a list `a` containing two integers `n` and `k`, followed by a list of `n` integers, and returns an integer value based on the indices of the first two elements in the list that are greater than the `kth` element `x`. The function performs the following actions:
+
+- If no elements are greater than `x`, it returns `n - 1`.
+- If only one element is greater than `x` and it is at index 0, it returns `k - 1`.
+- If the first element greater than `x` is at index 0 and there is a second element greater than `x`, it returns the minimum of the second index minus 1 and `k - 1`.
+- If `k` is greater than the second index of an element greater than `x`, it returns the maximum of the first index minus 1 and the difference between the second index and the first index.
+- Otherwise, it returns the maximum of the first index minus 1 and `k` minus the first index.
+
+The function does not modify the input list `a` and only returns an integer value based on the indices of elements greater than the `kth` element.

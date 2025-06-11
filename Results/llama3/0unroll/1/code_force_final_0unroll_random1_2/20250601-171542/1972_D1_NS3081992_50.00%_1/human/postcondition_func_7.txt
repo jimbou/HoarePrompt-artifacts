@@ -1,0 +1,1 @@
+Generates a list of 'rows' number of elements, where each element is the return value of the function 'func_7()'.

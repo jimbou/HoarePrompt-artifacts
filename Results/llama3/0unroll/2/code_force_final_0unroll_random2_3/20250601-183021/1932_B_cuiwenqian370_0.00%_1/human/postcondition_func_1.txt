@@ -1,0 +1,1 @@
+Reads input from standard input, processes it into a list of strings, extracts a positive integer t and pairs of positive integers or convertible strings and paths, applies func_1 to each path, stores the results in a list, and prints each result on a new line, leaving the standard input empty and the results list unchanged.

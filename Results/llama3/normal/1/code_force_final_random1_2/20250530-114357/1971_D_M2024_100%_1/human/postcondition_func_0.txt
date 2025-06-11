@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, counts the number of transitions between '0' and '1' in each string, and prints the total number of transitions plus one if the string starts with '0', or just the total number of transitions if the string starts with '1'.

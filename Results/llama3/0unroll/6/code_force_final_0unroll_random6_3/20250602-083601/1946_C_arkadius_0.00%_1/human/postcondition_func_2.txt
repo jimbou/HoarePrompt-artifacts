@@ -1,0 +1,1 @@
+Determines if a tree can be divided into connected components of a minimum size, with a specific number of components and remaining size.

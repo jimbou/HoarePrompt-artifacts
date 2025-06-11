@@ -1,0 +1,1 @@
+infoA and infoB are objects of a class with attributes 'balance' and 'position', where 'balance' is an integer and 'position' is a non-negative integer.

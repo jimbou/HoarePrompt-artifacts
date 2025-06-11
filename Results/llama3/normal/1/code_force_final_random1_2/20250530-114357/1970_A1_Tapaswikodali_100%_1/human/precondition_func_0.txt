@@ -1,0 +1,1 @@
+infoA and infoB are objects of a class with two attributes: balance and position, both of which are integers.

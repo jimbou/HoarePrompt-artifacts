@@ -1,0 +1,1 @@
+pergunta is an integer, a and b are lists of non-negative integers of length n, n and m are non-negative integers such that 1 <= m <= n <= 200000.

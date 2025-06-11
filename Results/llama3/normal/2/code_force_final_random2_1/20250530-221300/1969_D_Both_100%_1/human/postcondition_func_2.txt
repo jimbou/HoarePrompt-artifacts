@@ -1,0 +1,1 @@
+This function calculates and returns the total sum of the first elements of all pairs in the secondary_heap list, plus the sum of the elements of all pairs in the primary_items list that have a sum greater than or equal to 0. The function empties the primary_items list in the process.

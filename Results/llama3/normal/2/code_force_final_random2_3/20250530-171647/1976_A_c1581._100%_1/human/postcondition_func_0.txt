@@ -1,0 +1,1 @@
+This function checks if a given password string is sorted in ascending order, first by digits and then by letters. It returns True if the password is sorted, and False otherwise. The function does not modify the original password string. It only checks the sorted order of the digits and letters within the password.

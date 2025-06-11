@@ -1,0 +1,1 @@
+a is a list of integers and num2 is an integer such that 2 <= num2 <= 100 and len(a) == num2 and all(1 <= x <= 10^9 for x in a).

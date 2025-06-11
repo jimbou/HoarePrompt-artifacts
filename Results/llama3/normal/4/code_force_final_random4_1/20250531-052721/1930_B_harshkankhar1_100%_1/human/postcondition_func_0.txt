@@ -1,0 +1,1 @@
+This function reads the number of test cases from standard input, generates a list of integers from 1 to the number of test cases, reverses every other element in the list, and prints the modified list.

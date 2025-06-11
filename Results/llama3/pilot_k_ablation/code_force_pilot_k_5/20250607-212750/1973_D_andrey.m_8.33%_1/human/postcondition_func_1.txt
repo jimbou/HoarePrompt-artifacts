@@ -1,0 +1,1 @@
+Prints the largest value m such that there exists a sequence c_1, ..., c_{k-1} satisfying the given conditions, and then reads and returns an integer input from the user.

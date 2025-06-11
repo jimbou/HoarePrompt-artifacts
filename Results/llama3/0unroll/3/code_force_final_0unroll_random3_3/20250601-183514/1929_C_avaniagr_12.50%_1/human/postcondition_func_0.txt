@@ -1,0 +1,1 @@
+Determines whether a given number 'a' can be reached by a sequence of operations starting from 1, where each operation multiplies the current number by 'k' or adds 1, and prints 'YES' or 'NO' for each test case.

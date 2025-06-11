@@ -1,0 +1,1 @@
+No precondition can be determined for this function as it only reads and returns input from the user without any specific constraints or expectations on the input format or content.

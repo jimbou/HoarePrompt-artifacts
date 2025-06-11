@@ -1,0 +1,1 @@
+Executes a function (`func_6`) a specified number of times (`testcases`), where `testcases` is determined by another function (`func_3`).

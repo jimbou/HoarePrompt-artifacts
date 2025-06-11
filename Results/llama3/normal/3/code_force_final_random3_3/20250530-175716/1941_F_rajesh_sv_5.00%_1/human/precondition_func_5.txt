@@ -1,0 +1,1 @@
+No precondition can be determined from this function signature as it does not take any parameters.

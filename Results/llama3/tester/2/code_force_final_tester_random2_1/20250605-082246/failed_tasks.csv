@@ -1,0 +1,100 @@
+task_id,model_created,dataset,model_run,code,fail_reason,type_of_run
+1972_D2,human,codeforces2024,llama-v3p1-70b-instruct,"import math
+ 
+def fun():
+    x = 1
+    cnt = 0
+    n, m = map(int, input().split())
+    while x * x <= n:
+        y = 1
+        while (x + y) * x <= n and (x + y) * y <= m:
+            if math.gcd(x, y) == 1:
+                cnt += min(n // ((x + y) * x), m // ((x + y) * y))
+            y += 1
+        x += 1
+    print(cnt)
+ 
+def main():
+    t = int(input())
+    for _ in range(t):
+        fun()
+if __name__ == ""__main__"":
+    main()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1979_C,human,codeforces2024,llama-v3p1-70b-instruct,"t = int(input())
+for T in range(t):
+	#x, y, k = map(int, input().split())
+	
+	bets=int(input())
+	a = [int(x) for x in input().split()]
+	prod=1
+	for i in range(bets):
+	    prod*=a[i]
+	sumo=0
+	for i in range(bets):
+	    a[i]=(prod//a[i])
+	    sumo+=int(a[i])
+	
+	if sumo>=prod:
+	    print(-1)
+	else:
+	    ans=""""
+	    for i in range(bets):
+	        ans+=str(a[i])+"" ""
+	    print(ans)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1980_A,human,codeforces2024,llama-v3p1-70b-instruct,"from collections import Counter
+t=int(input())
+for _ in range(t):
+    n,m=map(int,input().split())
+    s=input()
+    ans=0
+    p=""ABCDEF""
+    hmp=Counter(s)
+    for i in p:
+        if i not in hmp:
+            ans+=m
+    for i in hmp:
+        if hmp[i]<m:
+            ans+= (m-hmp[i])
+    print(ans)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1931_D,human,codeforces2024,llama-v3p1-70b-instruct,"def count_beautiful_pairs(t, test_cases):
+    results = []
+    
+    # Process each test case
+    for case in test_cases:
+        n, x, y = case[""params""]
+        a = case[""array""]
+        
+        freq = {}
+        beautiful_count = 0
+        
+        # Debug: Printing the input for the test case
+        print(f""Processing Test Case: n = {n}, x = {x}, y = {y}, array = {a}"")
+        
+        for num in a:
+            # Calculate modular values
+            mod_x = num % x
+            mod_y = num % y
+ 
+            # Calculate the required modular values for valid pairs
+            required_mod_x = (x - mod_x) % x
+            required_mod_y = mod_y
+ 
+            # Debug: Check the current mod values
+            print(f""Number: {num}, mod_x: {mod_x}, mod_y: {mod_y}, required_mod_x: {required_mod_x}, required_mod_y: {required_mod_y}"")
+            
+            # Count pairs that satisfy the conditions
+            if (required_mod_x, required_mod_y) in freq:
+                beautiful_count += freq[(required_mod_x, required_mod_y)]
+            
+            # Update the frequency dictionary
+            if (mod_x, mod_y) not in freq:
+                freq[(mod_x, mod_y)] = 0
+            freq[(mod_x, mod_y)] += 1
+        
+        # Debug: Output the final beautiful count for this test case
+        print(f""Beautiful pairs count: {beautiful_count}"")
+        
+        # Store the result for the current test case
+        results.append(beautiful_count)
+    
+    return results",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt

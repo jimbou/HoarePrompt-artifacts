@@ -1,0 +1,1 @@
+primary_items is a list of pairs of integers and secondary_heap is a list of pairs of integers, where each pair contains two integers representing the price for Alice and the price for Bob respectively.

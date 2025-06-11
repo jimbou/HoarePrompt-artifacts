@@ -1,0 +1,1 @@
+Determines whether the difference between two input integers is even and non-negative, and prints 'Yes' if true, otherwise prints 'No'.

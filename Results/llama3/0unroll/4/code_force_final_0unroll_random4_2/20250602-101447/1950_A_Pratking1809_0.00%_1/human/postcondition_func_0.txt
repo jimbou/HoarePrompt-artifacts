@@ -1,0 +1,1 @@
+The function reads an integer q from standard input, followed by q lines of input, each containing three digits a, b, and c. It then prints one of the strings 'STAIR', 'PEAK', or 'NONE' to the console for each line of input, based on the values of a, b, and c. The function does not return any value or modify any external state, only producing output to the console.

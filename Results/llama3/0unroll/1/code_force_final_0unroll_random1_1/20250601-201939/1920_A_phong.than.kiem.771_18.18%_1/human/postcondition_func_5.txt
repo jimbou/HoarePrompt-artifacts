@@ -1,0 +1,1 @@
+Searches a list of lists for the first sublist where the element at a specified index matches a given value, returning the matching sublist if found, otherwise returning None, without modifying the original list or its elements.

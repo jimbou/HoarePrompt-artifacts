@@ -1,0 +1,1 @@
+s is a non-negative integer less than n, n is a positive integer, and u2vs is a list of lists where u2vs[i] is a list of non-negative integers less than n, representing the vertices connected to vertex i in the tree.

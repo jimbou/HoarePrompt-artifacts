@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (the number of test cases) and then a list of integers (the number of special characters for each test case). Each integer is greater than or equal to 1 and less than or equal to 50.

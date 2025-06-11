@@ -1,0 +1,1 @@
+This function calculates the sum of all non-negative integers in a given list 'a' and returns the sum along with an empty list 'ops' and its length, which is 0. The function does not modify the input list 'a' or perform any operations that affect external state. It solely computes and returns the sum of non-negative integers in 'a' and an empty list 'ops' with its length.

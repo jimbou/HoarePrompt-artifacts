@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case contains two positive integers n and m. For each test case, it calculates the sum of the number of positive integers less than or equal to m, minus 2, and prints the result. The function processes all test cases and outputs the calculated sums.

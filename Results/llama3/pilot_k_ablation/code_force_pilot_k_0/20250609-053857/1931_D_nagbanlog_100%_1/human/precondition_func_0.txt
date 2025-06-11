@@ -1,0 +1,1 @@
+t is a positive integer, test_cases is a list of test cases, each test case is a list of three elements: the first element is a positive integer n, the second and third elements are positive integers x and y, and a list of n positive integers.

@@ -1,0 +1,1 @@
+This function calculates the product of all elements in a given list of non-negative integers and returns the result as a list. The input list must contain at least one element. The function does not modify the original list.

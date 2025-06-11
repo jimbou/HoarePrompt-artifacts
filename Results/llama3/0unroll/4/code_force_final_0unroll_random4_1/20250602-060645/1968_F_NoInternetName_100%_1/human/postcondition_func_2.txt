@@ -1,0 +1,1 @@
+Applies a given predicate function to each value in a list and returns the result of a secondary function (`func_2`) based on the list values and the boolean results of the predicate function.

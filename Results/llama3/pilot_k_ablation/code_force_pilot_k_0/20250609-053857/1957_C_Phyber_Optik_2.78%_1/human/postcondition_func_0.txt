@@ -1,0 +1,1 @@
+Calculates the nth number in a sequence where each number is the sum of the previous number and twice the product of the current index and the number two positions before, all modulo 1000000007, and stores the result in the dp array. The function takes no arguments and returns nothing, modifying the dp array in place.

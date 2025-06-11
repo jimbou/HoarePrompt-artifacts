@@ -1,0 +1,1 @@
+Calculates and returns a value based on the input parameters k, n, a, and b, where k is a non-negative integer, n is a positive integer, and a and b are positive integers such that k is less than or equal to the minimum of n and b. The calculation involves a combination of multiplication, subtraction, and addition operations using these input parameters.

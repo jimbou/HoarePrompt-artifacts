@@ -1,0 +1,1 @@
+x is a list of integers, where the first two integers are n and q, followed by n pairs of integers (b, x), and finally q integers k_1, k_2, ..., k_q.

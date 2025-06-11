@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (n) and then a list of n integers. n is an integer such that 2 <= n <= 50. The integers in the list are between 1 and 10^6.

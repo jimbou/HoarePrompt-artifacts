@@ -1,0 +1,1 @@
+a and b are binary strings, n and m are non-negative integers such that n = len(a) and m = len(b).

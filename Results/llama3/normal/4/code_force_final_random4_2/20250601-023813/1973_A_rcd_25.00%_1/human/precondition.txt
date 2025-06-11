@@ -1,0 +1,1 @@
+stdin contains multiple lines of input. The first line contains a positive integer t. Each of the following t lines contains three non-negative integers p_1, p_2, p_3, where p_1 <= p_2 <= p_3 <= 30.

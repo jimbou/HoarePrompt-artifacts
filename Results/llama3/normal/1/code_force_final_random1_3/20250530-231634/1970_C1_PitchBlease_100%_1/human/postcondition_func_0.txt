@@ -1,0 +1,1 @@
+Determines the winner of a game based on the parity of the shortest distances from a starting node to the two leaves in a tree. The function takes an integer n, a list of edges, and a starting node as input, and returns either 'Ron' or 'Hermione' depending on whether the distances are odd or even.

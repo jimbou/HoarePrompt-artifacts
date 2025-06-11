@@ -1,0 +1,1 @@
+Determines the team affiliation of a given position on the field, returning 0 if the position is a goal of the red team, 1 if it's a goal of the blue team, and -1 if it's neither.

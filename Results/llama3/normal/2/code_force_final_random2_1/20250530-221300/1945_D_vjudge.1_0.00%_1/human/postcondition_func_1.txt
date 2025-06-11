@@ -1,0 +1,1 @@
+Reads a specified number of test cases from standard input, where each test case consists of two lines of integers, and executes a function (`func_1`) for each test case, without returning any value or modifying the input data.

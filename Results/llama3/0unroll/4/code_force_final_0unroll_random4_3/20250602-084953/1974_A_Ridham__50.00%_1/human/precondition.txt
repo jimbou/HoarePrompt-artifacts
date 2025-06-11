@@ -1,0 +1,1 @@
+stdin contains t+1 lines, where t is a positive integer. The first line contains t. Each of the remaining t lines contains two non-negative integers x and y such that 0 <= x, y <= 99.

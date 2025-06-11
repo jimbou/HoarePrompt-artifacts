@@ -1,0 +1,1 @@
+stdin contains a sequence of bytes that can be decoded into a string and stripped of trailing whitespace, representing a line of input from the standard input.

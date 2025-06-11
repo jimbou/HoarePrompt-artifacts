@@ -1,0 +1,1 @@
+The function reads an integer and a string from standard input, generates a random permutation of the string, and prints 'Yes' followed by the permutation if it is different from the original string, or 'No' if it is the same. The function repeats this process for the number of times specified by the input integer.

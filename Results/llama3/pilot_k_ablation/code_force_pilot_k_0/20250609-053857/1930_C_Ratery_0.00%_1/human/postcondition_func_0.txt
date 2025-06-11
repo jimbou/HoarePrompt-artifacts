@@ -1,0 +1,1 @@
+Reads a test case from standard input, where the test case consists of an integer n followed by n space-separated integers. It then transforms the input integers by adding their 1-based index to each integer, stores the results in a set to ensure uniqueness, and finally prints the transformed integers in descending order, separated by spaces.

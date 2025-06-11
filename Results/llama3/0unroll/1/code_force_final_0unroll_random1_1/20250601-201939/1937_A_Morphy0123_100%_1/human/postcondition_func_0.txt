@@ -1,0 +1,1 @@
+The function reads a series of positive integers from standard input, where the first integer represents the number of cases (t) and each subsequent integer represents a value (n). For each value n, the function prints the largest power of 2 that is less than or equal to n. The function processes all input cases and leaves the standard input empty after execution.

@@ -1,0 +1,1 @@
+stdin contains one input: an integer (greater than or equal to 1 and less than or equal to 10^3), followed by a series of test cases. Each test case contains one integer (greater than or equal to 2 and less than or equal to 10^4).

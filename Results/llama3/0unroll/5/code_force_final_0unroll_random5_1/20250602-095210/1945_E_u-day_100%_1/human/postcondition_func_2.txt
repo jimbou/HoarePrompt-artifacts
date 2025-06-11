@@ -1,0 +1,1 @@
+Searches for the index of a given element `k` in a sorted list `arr` of distinct integers from 1 to `n`, and prints the result. If `k` is found, prints 0. If `k` is not found, prints 1 followed by the index of the next element in `arr` that is greater than `k`, and the index of `k` in `arr` plus one. The function does not modify the input variables `n`, `arr`, and `k`.

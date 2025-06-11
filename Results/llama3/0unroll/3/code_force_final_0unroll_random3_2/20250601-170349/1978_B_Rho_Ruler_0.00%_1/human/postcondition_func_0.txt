@@ -1,0 +1,1 @@
+This function calculates a weighted sum of two values, 'a' and 'b', based on the proportion 'k' out of 'n', and returns whether this sum is less than or equal to the product of 'n' and the maximum of 'a' and 'b'.

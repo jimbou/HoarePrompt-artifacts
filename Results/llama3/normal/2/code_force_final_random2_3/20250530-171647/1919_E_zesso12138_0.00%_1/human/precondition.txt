@@ -1,0 +1,1 @@
+n is a positive integer, p is a list of integers such that len(p) == n, -n <= p[i] <= n for all i, and p is sorted in non-decreasing order.

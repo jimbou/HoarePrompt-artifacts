@@ -1,0 +1,1 @@
+n and m are positive integers, graph is a dictionary where keys are integers and values are lists of integers, edges is a list of tuples where each tuple contains three integers, dsu is an instance of the DSU class, _min_edge is a positive integer, node_u and node_v are integers, colors is a list of integers, and res is a list of integers.

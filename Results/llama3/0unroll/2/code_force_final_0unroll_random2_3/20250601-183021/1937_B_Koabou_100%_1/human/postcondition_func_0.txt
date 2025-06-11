@@ -1,0 +1,1 @@
+This function reads two binary strings of the same length from standard input, modifies the first string by replacing a suffix with a corresponding suffix from the second string if a mismatch is found, and prints the modified string along with the length of the longest suffix of the modified string that matches a prefix of the second string.

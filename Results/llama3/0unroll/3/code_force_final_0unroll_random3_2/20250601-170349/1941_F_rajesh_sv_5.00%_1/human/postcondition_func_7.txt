@@ -1,0 +1,1 @@
+Executes a loop a certain number of times, where the number of iterations is determined by the return value of `func_3()`, and calls `func_6()` in each iteration. The final state of the program is that `func_6()` has been called an unknown number of times, as the return value of `func_3()` is unknown.

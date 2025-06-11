@@ -1,0 +1,1 @@
+arr is a list of lists of integers, where each inner list contains three elements: an integer n, and two lists a and b of length n, such that 1 <= n <= 100, 1 <= a_i <= a_(i+1) <= 10^9, and 1 <= b_i <= b_(i+1) <= 10^9 for all i.

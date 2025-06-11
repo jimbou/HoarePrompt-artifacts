@@ -1,0 +1,1 @@
+The function takes no parameters and returns a list containing all values produced by the iterator returned by the function func_1.

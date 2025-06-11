@@ -1,0 +1,1 @@
+This function calculates and returns the minimum sum of an element from the first k elements of list 'a' and the sum of the minimum elements from the corresponding and following elements in lists 'a' and 'b'. If no such sum exists (i.e., k is 0 or all elements in 'a' are infinity), it returns positive infinity.

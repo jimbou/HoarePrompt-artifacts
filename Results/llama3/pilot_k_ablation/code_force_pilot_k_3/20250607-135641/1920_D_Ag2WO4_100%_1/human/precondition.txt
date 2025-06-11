@@ -1,0 +1,1 @@
+x is a list of integers, where each integer is either 1 or 2, and the length of x is n, and there is a list of q integers (k_1, k_2, ..., k_q) such that 1 <= k_i <= 10^18 for all i.

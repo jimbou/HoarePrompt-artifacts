@@ -1,0 +1,1 @@
+The function constructs a list of n+1 lists, where each list contains itself, its index, and the index of another list that contains it. The function pairs up indices x and y, and adds x to the list at index y and y to the list at index x, for m iterations. The function returns this constructed list.

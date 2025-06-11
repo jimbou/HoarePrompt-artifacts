@@ -1,0 +1,1 @@
+This function takes two lists, 'a' and 'b', as input. It then returns a tuple containing the sum of the first integer in 'a' and the first string in 'b', and the sum of the second integer in 'a' and the second string in 'b'. The function does not modify the input lists.

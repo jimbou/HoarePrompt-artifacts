@@ -1,0 +1,1 @@
+n is a positive even integer, row1 and row2 are strings of length n, consisting only of '<' and '>' characters.

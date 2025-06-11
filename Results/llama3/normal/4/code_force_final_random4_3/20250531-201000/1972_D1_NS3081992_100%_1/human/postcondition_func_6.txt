@@ -1,0 +1,1 @@
+The function takes a string of two space-separated integers as input, parses it, and returns a list containing the two integers.

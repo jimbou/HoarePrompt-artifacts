@@ -1,0 +1,1 @@
+This function calculates and returns the absolute value of the product of two non-zero integers, divided by their greatest common divisor (gcd).

@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (the number of test cases) and then a series of pairs of integers (n and k) where 2 <= n <= 10^6 and 1 <= k <= n.

@@ -1,0 +1,1 @@
+a is a list of two integers, where the first integer is the number of cows and the second integer is the index of the cow owned by the player, and the list of integers representing the Cowdeforces ratings of the cows.

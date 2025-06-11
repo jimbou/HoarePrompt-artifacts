@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of two binary strings. It calculates the minimum number of operations required to make the two strings identical and prints this value for each test case. The function accepts no parameters and returns no value, instead printing the results directly to the console.

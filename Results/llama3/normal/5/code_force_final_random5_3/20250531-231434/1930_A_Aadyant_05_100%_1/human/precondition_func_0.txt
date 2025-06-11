@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer n (1 <= n <= 50) and then 2n integers a_1,a_2,\ldots,a_{2n} (1 <= a_i <= 10^7).

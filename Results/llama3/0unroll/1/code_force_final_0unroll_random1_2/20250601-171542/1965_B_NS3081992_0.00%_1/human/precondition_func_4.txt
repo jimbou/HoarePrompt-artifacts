@@ -1,0 +1,1 @@
+stdin contains a sequence of bytes representing a string that is terminated by a newline character or the end of the file.

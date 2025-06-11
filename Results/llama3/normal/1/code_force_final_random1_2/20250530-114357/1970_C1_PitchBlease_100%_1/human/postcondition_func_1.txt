@@ -1,0 +1,1 @@
+This function calculates the shortest distance between a start node and a target node in a tree. It takes as input the start node, the target node, and the tree structure, and returns the distance between the start and target nodes if the target node is reachable, otherwise it returns -1.

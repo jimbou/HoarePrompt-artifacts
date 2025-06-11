@@ -1,0 +1,1 @@
+Functionality: This function performs the extended Euclidean algorithm, taking two integers a and b as input, where b is non-zero. It returns a tuple containing the greatest common divisor (gcd) of a and b, and the coefficients x and y such that ax + by = gcd(a, b). If b is zero, it returns (1, 0, a).

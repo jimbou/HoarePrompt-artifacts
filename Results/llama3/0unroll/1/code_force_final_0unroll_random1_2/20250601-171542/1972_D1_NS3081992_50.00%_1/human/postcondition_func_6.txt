@@ -1,0 +1,1 @@
+The function takes no parameters and returns a list of two integers that were input by the user, separated by a space.

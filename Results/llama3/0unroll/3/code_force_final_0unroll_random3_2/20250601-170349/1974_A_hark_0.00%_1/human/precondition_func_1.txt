@@ -1,0 +1,1 @@
+stdin contains one input: two space-separated integers x and y such that 0 <= x <= 99 and 0 <= y <= 99.

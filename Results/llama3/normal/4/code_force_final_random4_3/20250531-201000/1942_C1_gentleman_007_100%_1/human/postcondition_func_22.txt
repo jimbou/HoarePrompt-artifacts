@@ -1,0 +1,1 @@
+This function takes a list of integers as input, removes duplicates while maintaining sorted order, and returns the count of unique integers. It does not modify the original input list. The function's output represents the number of unique integers present in the input list.

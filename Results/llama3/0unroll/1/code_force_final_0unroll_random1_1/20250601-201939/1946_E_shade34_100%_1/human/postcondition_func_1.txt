@@ -1,0 +1,1 @@
+This function takes two parameters, a non-negative integer 'a' and a prime number 'b', and returns the product of 'a' and a value 'c' (obtained by calling func_1(b, 1000000007)) modulo 1000000007.

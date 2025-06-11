@@ -1,0 +1,1 @@
+The function reads an integer from standard input representing the number of test cases, then calls another function (`func_1`) for each test case. After all test cases have been processed, the function leaves the standard input empty and the number of test cases is set to 0.

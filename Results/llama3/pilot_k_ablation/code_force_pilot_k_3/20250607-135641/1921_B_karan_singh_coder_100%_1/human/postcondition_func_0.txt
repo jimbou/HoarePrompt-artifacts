@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of three lines: an integer n, a string s, and a string t. It then compares the characters in s and t, counting the number of times a character in s is greater than or less than the corresponding character in t. Finally, it prints the maximum of these two counts for each test case.

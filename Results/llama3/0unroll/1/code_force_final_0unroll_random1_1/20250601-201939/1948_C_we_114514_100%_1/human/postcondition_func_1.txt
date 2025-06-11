@@ -1,0 +1,1 @@
+Reads input for a specified number of test cases, processes each case by calling func_1 with the provided input values, and stores the results in a list. The function then prints the results of func_1 for each test case, one per line.

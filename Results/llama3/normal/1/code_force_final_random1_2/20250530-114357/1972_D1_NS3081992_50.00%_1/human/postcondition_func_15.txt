@@ -1,0 +1,1 @@
+The function writes a specified number of strings to the standard output, each followed by a newline character. The number of strings written is determined by the return value of `func_10()`, and the content of each string is determined by the return value of `func_15()`. The function does not return any value, but modifies the standard output.

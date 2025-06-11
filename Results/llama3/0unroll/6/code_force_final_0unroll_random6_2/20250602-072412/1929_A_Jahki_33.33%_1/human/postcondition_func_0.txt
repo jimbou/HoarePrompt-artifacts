@@ -1,0 +1,1 @@
+This function determines whether a given list of integers is sorted in non-decreasing order. It takes a list of integers and its length as input, and returns a boolean value indicating whether the list is sorted (True) or not (False). The function does not modify the input list.

@@ -1,0 +1,1 @@
+Reads an integer t from standard input, executes func_1() t times, and leaves standard input empty.

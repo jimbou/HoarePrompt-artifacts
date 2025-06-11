@@ -1,0 +1,1 @@
+This function searches for the index at which a given value `x` should be inserted in a sorted list `p` to maintain sorted order. If `x` is found in `p`, the function returns the index of `x`. If `x` is not found in `p`, the function returns -1.

@@ -1,0 +1,1 @@
+This function prints a query to the user in the format "? a b c d" where a, b, c, and d are non-negative integers less than a positive integer n, and then returns the user's input as a string, which is expected to be in the same format.

@@ -1,0 +1,1 @@
+Computes and returns a list of factorials modulo a given positive integer, where each factorial is calculated up to a specified non-negative integer index. The returned list contains the integer 1 followed by the factorials of each index from 1 to the specified index, all taken modulo the given positive integer.

@@ -1,0 +1,1 @@
+This function compares two binary strings of equal length and returns the number of positions where the strings differ, considering adjacent differing positions as a single difference.

@@ -1,0 +1,1 @@
+Determines the winner ('Alice' or 'Bob') for each of T pairs of integers (a, b) provided as input, based on specific rules, and prints the results as a list of T strings.

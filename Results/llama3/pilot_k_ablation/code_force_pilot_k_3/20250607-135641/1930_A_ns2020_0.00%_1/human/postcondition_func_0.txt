@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case contains an integer n followed by 2n integers. It then calculates and prints the sum of the integers at even indices (0-based indexing) for each test case. The function continues this process until all test cases have been processed, at which point it terminates.

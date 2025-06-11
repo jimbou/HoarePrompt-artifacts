@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (1 <= integer <= 10^3) and then a list of integers (length of list <= 10^5, 3 <= integer in list <= 10^5).

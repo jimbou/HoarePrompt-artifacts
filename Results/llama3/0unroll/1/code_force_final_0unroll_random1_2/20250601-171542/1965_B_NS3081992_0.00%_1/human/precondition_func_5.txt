@@ -1,0 +1,1 @@
+stdin is a file object opened in binary mode, and the next line of input is a string that can be decoded using the default encoding.

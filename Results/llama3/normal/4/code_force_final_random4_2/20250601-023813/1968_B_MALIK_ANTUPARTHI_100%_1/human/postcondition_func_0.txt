@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of two integers and two binary strings. It then finds the longest prefix of the first binary string that is a subsequence of the second binary string and prints the length of this prefix. The function repeats this process for each test case.

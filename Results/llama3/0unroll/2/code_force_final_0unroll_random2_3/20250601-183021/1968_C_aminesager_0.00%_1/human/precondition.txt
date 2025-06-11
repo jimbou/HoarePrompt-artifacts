@@ -1,0 +1,1 @@
+stdin contains a number of test cases, each test case contains a number of elements in a and a list of integers x_2,...,x_n, where 2 <= number of elements <= 500 and 1 <= x_i <= 500.

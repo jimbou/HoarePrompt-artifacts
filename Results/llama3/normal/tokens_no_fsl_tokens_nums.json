@@ -1,0 +1,22 @@
+{
+    "extract-precondition_total": 1471867,
+    "compute-postcondition_total": 129510112,
+    "entailment_vanilla_no_cot_total": 1699471,
+    "entailment_vanilla_total": 2489838,
+    "entailment_complex_total": 3116660,
+    "extract-precondition_Prompt_max": 105567394,
+    "extract-precondition_response_max": 26886452,
+    "extract-precondition_total_max": 132453846,
+    "compute-postcondition_Prompt_max": 207047939,
+    "compute-postcondition_response_max": 53444152,
+    "compute-postcondition_total_max": 260492091,
+    "entailment_vanilla_no_cot_Prompt_max": 105891363,
+    "entailment_vanilla_no_cot_response_max": 26790087,
+    "entailment_vanilla_no_cot_total_max": 132681450,
+    "entailment_vanilla_Prompt_max": 105964210,
+    "entailment_vanilla_response_max": 27507607,
+    "entailment_vanilla_total_max": 133471817,
+    "entailment_complex_Prompt_max": 106800508,
+    "entailment_complex_response_max": 27298131,
+    "entailment_complex_total_max": 134098639
+}

@@ -1,0 +1,1 @@
+This function reads two binary strings from standard input and prints the maximum number of matching characters that can be found in the second string when iterating through the first string from left to right, without reusing any characters in the second string. It repeats this process for a specified number of test cases, also read from standard input.

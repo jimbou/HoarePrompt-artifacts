@@ -1,0 +1,1 @@
+Counts and returns the number of trailing zeros in a given non-negative integer.

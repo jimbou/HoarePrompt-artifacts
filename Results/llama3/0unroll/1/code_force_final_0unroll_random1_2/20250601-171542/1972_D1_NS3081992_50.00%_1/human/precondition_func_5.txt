@@ -1,0 +1,1 @@
+No precondition can be extracted from the function signature as it does not contain any variables. However, based on the problem description, it can be inferred that the function is expected to read a line from the standard input, which is likely to contain two integers n and m separated by a space.

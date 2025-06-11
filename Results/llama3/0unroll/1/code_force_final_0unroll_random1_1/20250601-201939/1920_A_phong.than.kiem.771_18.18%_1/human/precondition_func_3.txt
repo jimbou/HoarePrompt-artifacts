@@ -1,0 +1,1 @@
+string and substring are strings, substring is not empty and is a substring of string.

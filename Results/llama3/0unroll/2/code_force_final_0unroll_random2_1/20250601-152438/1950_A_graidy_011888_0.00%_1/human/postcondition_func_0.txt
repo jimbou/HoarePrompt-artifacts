@@ -1,0 +1,1 @@
+Generates and prints 1000 sets of three random digits (x, y, z) between 1 and 9, and for each set, prints a string indicating whether the sequence forms a 'peak' (y > x and y > z), a 'stair' (y > x and y < z), or 'none' (otherwise).

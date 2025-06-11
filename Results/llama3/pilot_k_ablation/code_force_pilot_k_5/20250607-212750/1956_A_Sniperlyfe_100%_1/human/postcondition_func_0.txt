@@ -1,0 +1,1 @@
+This function takes a list of distinct integers p as input, where each integer is between 1 and 100, and returns a list of 101 integers representing the count of integers in the range [1, n] that are not in p for each n from 1 to 100. The function effectively computes the complement of the input list p with respect to the range [1, 100].

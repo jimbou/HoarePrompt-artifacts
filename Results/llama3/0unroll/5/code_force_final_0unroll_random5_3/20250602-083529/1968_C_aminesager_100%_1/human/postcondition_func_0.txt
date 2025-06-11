@@ -1,0 +1,1 @@
+The function reads a number of test cases from standard input, processes each test case by reading an integer n and n-1 space-separated integers, calculates a list of cumulative sums, and prints the resulting list for each test case. The function does not return any value and only produces output through printing.

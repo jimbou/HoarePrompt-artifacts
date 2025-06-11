@@ -1,0 +1,1 @@
+nodes is a list of lists of integers, start is an integer, and parent is either None or an integer. The list nodes represents an adjacency list of a tree with n nodes, where n is a positive integer. The integer start is a node in the tree, and the integer parent is the parent node of start in the tree, or None if start is the root node.

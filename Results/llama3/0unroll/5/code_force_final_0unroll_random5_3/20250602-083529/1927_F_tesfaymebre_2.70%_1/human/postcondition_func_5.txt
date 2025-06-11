@@ -1,0 +1,1 @@
+This function constructs a graph from a set of edges, finds the minimum edge in the graph using a disjoint set union (DSU) data structure, and then performs a depth-first search (DFS) starting from one of the nodes that form the minimum edge. The function returns the minimum edge value and the number of nodes in the cycle found by the DFS, and prints the nodes in the cycle.

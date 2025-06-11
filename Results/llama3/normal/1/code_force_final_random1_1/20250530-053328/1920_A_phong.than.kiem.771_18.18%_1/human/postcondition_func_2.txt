@@ -1,0 +1,1 @@
+This function takes a list of integers and a string as input, and returns a new string that is the concatenation of the string representation of each integer in the list followed by the input string, repeated for each integer in the list. The original list and string inputs remain unchanged.

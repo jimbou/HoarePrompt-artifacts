@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (the number of coins) and then a string of "U"s and "D"s (representing the orientation of the coins). The number of coins is a positive integer between 1 and 100. The string of "U"s and "D"s has the same length as the number of coins.

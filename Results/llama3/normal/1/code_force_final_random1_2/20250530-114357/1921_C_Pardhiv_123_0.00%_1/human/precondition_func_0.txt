@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case consists of two lines. The first line contains four space-separated integers: n, f, a, and b. The second line contains n space-separated integers. n is a positive integer, f, a, and b are positive integers, and the integers in the second line are positive integers in ascending order.

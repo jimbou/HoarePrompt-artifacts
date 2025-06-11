@@ -1,0 +1,1 @@
+Repeats a function call (func_1) a specified number of times based on user input, consuming all input from stdin and leaving no input remaining.

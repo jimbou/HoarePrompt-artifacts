@@ -1,0 +1,1 @@
+Reverses all odd-indexed elements in a list of integers from 1 to a given input integer (greater than 0) and prints the resulting list.

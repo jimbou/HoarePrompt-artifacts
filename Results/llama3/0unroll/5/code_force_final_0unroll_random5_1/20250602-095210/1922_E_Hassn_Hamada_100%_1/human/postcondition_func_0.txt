@@ -1,0 +1,1 @@
+Generates a sequence of numbers based on the input number, modifying the input sequence by appending additional elements, and recursively calls itself until the input number becomes 0, at which point it returns two values: 0 and 0.

@@ -1,0 +1,1 @@
+No precondition can be extracted from the function signature as it does not contain any parameters. The function only reads a line from the standard input and returns it as a string.

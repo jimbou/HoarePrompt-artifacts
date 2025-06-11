@@ -1,0 +1,1 @@
+obj is a string representing an entity on the field (a player or a ball) and d is a string representing the direction of movement (U, D, L, or R).

@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three inputs: first an integer, then a list of integers, and then a permutation of integers from 1 to the first integer.

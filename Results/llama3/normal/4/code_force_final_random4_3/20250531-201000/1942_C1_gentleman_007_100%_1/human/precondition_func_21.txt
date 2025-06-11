@@ -1,0 +1,1 @@
+a and b are lists of elements of any type and value, and they are not empty.

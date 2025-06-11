@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case is a string of lowercase English letters. For each test case, it checks if all characters in the string are the same. If they are, it prints 'No'. If not, it prints 'Yes' followed by the sorted string. The function processes all test cases and then terminates, leaving the input stream empty.

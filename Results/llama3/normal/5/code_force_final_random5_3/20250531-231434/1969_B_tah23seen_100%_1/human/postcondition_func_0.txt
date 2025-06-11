@@ -1,0 +1,1 @@
+The function calculates and returns the total number of '1's in the input string `s` plus the number of '0's that immediately follow a '1' in the string. It accepts a string `s` consisting of only 0-s and/or 1-s, with a length between 2 and 2 * 10^5, and returns an integer representing the calculated cost.

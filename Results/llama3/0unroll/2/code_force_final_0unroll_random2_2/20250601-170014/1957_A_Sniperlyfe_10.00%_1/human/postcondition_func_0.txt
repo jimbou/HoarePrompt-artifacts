@@ -1,0 +1,1 @@
+This function takes a list of integers representing stick lengths as input, counts the frequency of each length, and returns the total number of times the sticks can be divided into groups of 4 based on their lengths.

@@ -1,0 +1,1 @@
+stdin contains multiple sets of input data. Each set of input data contains two integers n and k (1 <= k < n <= 10^5) followed by n-1 lines of two integers v and u (1 <= v, u <= n) representing the edges of a tree.

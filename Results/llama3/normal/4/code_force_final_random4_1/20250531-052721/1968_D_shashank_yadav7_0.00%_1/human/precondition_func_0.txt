@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains four integers (n, k, P_B, P_S) followed by two lists of n integers (p_1, ..., p_n) and (a_1, ..., a_n). n is a positive integer, k is a non-negative integer, 1 <= P_B, P_S <= n, and p_i and a_i are positive integers for all i.

@@ -1,0 +1,1 @@
+Calculates and returns a count based on the input positive integers n and m, where the count is determined by iterating through a range from 1 to m, performing calculations involving n and the current iteration number, and accumulating the results. The final count is returned, taking into account the ceiling of a division and an additional value if a certain condition is met.

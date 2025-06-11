@@ -1,0 +1,1 @@
+Determines the goal position of a given position on a field, returning 0 if the position is in the red goals, 1 if it's in the blue goals, and -1 if it's not in any goal.

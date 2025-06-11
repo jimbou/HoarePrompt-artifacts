@@ -1,0 +1,70 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains two lines. The first line contains two integers n and k (2 <= n <= 5 * 10^4, 1 <= k <= floor(n/2)). The second line contains 2n integers a_1, a_2, ..., a_2n (1 <= a_i <= n). Every integer from 1 to n occurs exactly twice in a. The sum of n over all test cases does not exceed 5 * 10^4.
+    t = int(input())
+    for q in range(t):
+        n, k = list(map(int, input().split(' ')))
+        
+        a = list(map(int, input().split(' ')))
+        
+        b = a[:n]
+        
+        c = a[n:]
+        
+        b.sort()
+        
+        c.sort()
+        
+        ans1 = []
+        
+        ans2 = []
+        
+        k = 2 * k
+        
+        req = k
+        
+        l = []
+        
+        if b[0] != b[1]:
+            l.append(b[0])
+        
+        if b[n - 2] != b[n - 1]:
+            l.append(b[n - 1])
+        else:
+            ans1.append(b[n - 1])
+            ans1.append(b[n - 1])
+            k -= 2
+        
+        for i in range(1, n - 1):
+            if k == 0:
+                break
+            if b[i] == b[i - 1]:
+                ans1.append(b[i])
+                ans1.append(b[i])
+                k -= 2
+            elif b[i] != b[i + 1]:
+                l.append(b[i])
+        
+        k = req
+        
+        for i in range(1, n):
+            if k == 0:
+                break
+            if c[i] == c[i - 1]:
+                ans2.append(c[i])
+                ans2.append(c[i])
+                k -= 2
+        
+        for i in range(len(l)):
+            if k == 0:
+                break
+            ans1.append(l[i])
+            ans2.append(l[i])
+            k -= 1
+        
+        print(*ans1)
+        
+        print(*ans2)
+        
+    #State: t is 0, q is t, stdin contains no test cases, n is an integer between 2 and 5 * 10^4 inclusive, a is a list of 2n integers between 1 and n inclusive, b is a sorted list of n integers between 1 and n inclusive, c is a sorted list of n integers between 1 and n inclusive, ans1 is a list containing either 2n or 2n - 2 instances of the largest integer in b and k instances of l[i], ans2 is a list containing 2 * floor(n / 2) instances of the integer at index n - 1 in c and k instances of l[i], req is an even integer between 2 and n inclusive, i is k, l is a list that must have at least k elements, and k is 0.
+
+#Overall this is what the function does:This function reads multiple test cases from standard input, where each test case consists of two lines. The first line contains two integers n and k, and the second line contains 2n integers. The function then processes these integers to form two lists, ans1 and ans2, based on certain conditions. It prints these two lists for each test case. The function appears to be solving a specific problem, possibly related to arranging numbers in a particular order, but the exact purpose is not immediately clear from the code alone.
+

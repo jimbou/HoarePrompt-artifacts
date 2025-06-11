@@ -1,0 +1,1 @@
+This function reads a specified number of test cases from standard input, where each test case consists of an integer and a string. It then counts the occurrences of the substrings 'map' and 'pie' in each string, and prints the sum of these counts for each test case. The function processes all test cases and does not return any value.

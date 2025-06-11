@@ -1,0 +1,1 @@
+This function reads an integer n and a list of n integers from standard input, checks if all elements in the list are equal, and prints -1 if they are equal or the minimum count of consecutive equal elements if they are not equal.

@@ -1,0 +1,1 @@
+The function takes a non-empty string of balanced parentheses as input and returns a rearranged string consisting of the same characters, where the order is determined by the depth of the parentheses in the original string. The function effectively sorts the parentheses by their nesting level and returns the resulting string.

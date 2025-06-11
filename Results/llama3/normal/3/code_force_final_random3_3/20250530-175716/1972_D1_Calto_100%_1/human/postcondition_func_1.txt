@@ -1,0 +1,1 @@
+This function calculates a value based on the input positive integers n and m. It iterates from 1 to m, and for each iteration i, it calculates the ceiling of (n - (i * i - i)) divided by (i * i) and adds 1 if (n - (i * i - i)) is divisible by (i * i). The function returns the sum of these calculations minus 1.

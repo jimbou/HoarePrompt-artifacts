@@ -1,0 +1,1 @@
+This function reads input from stdin, constructs an undirected graph from the input, and then performs a traversal of the graph. The function prints 'Hermione' if the graph has an even number of nodes with odd degrees, and 'Ron' otherwise.

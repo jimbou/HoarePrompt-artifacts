@@ -1,0 +1,1 @@
+This function reads an integer n from standard input and prints 'NO' if n is less than or equal to 1. Otherwise, it prints 'YES' followed by a string consisting of two repetitions of each letter of the alphabet from 'A' to a certain letter determined by the value of n. The function then terminates, leaving the standard input empty.

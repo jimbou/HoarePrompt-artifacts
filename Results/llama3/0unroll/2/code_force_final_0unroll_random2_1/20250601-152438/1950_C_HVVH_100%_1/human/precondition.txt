@@ -1,0 +1,1 @@
+stdin contains a valid 24-hour time in the format "hh:mm" where hh is an integer from 00 to 23 and mm is an integer from 00 to 59.

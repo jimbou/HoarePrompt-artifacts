@@ -1,0 +1,1 @@
+The function performs a breadth-first traversal of a graph, starting from a given node, and prints the nodes in the order they are visited. It also marks all visited nodes in a separate data structure. The function does not return any value, but it modifies the visited nodes data structure and prints the traversal order to the console.

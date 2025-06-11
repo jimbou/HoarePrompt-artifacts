@@ -1,0 +1,1 @@
+a is a list of integers, num2 is an integer such that 2 <= num2 <= 100 and num2 is the length of the list a.

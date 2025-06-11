@@ -1,0 +1,1 @@
+The function takes a positive integer n greater than or equal to 2 as input and performs the following actions:

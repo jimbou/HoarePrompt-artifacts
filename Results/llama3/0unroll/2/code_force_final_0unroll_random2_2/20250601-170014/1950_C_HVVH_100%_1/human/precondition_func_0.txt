@@ -1,0 +1,1 @@
+stdin contains a valid input: first an integer (1 <= t <= 1440) and then t strings of length 5 in the format hh:mm, where hh is an integer from 00 to 23 and mm is an integer from 00 to 59.

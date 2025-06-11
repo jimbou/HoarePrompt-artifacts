@@ -1,0 +1,1 @@
+The function takes a delimiter string as input and returns a list of integers. It achieves this by splitting a string obtained from another function (`func_2`) using the provided delimiter, and then converting each resulting part into an integer. The function effectively transforms a string into a list of integers based on a specified delimiter.

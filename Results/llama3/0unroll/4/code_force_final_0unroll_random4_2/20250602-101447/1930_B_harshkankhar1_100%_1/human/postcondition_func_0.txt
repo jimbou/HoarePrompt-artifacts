@@ -1,0 +1,1 @@
+The function reads an integer from standard input, representing the number of test cases, and then reads a list of integers representing the length of permutations for each test case. It generates a list of integers from 1 to the number of test cases, reverses every other element in the list, and prints the modified list.

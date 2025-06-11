@@ -1,0 +1,1 @@
+This function compares the scores of two players, 'Bodya' and 'Sasha', based on their respective scores calculated by the function calculate_score. It returns the name of the player with the higher score, or 'Draw' if the scores are equal. The function takes no explicit parameters but uses the global variables PB, PS, p, and a to calculate the scores.

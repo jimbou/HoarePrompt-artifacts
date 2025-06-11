@@ -1,0 +1,1 @@
+This function checks if any sub-list of a concatenated version of the input list 'a' (duplicated once) is equal to the sorted version of 'a'. If such a sub-list is found, it returns 'Yes'. If no such sub-list is found after checking all possible sub-lists, it returns 'No'. The input list 'a' remains unchanged throughout the function's execution.

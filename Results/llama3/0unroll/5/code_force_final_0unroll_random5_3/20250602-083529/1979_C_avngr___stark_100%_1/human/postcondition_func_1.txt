@@ -1,0 +1,1 @@
+This function takes a list of two or more non-negative integers as input and returns the result of applying a binary function `func_1` to the first element and each subsequent element in sequence. The input list remains unchanged. The function effectively reduces the list to a single value by iteratively applying `func_1` to the accumulator and the next element in the list.

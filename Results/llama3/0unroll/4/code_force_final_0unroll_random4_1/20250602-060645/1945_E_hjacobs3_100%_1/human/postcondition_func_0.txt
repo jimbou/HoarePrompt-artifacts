@@ -1,0 +1,1 @@
+This function searches for a target value 'find' in a list of distinct integers 'array' and returns a list containing the index of the largest element less than or equal to 'find' plus one, and the index of 'find' plus one, as strings. If 'find' is not present in the array, it prints 1 and returns the indices as described. If 'find' is present, it prints 0.

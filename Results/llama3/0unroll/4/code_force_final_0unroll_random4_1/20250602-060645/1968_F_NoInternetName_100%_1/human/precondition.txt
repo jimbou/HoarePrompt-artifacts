@@ -1,0 +1,1 @@
+stdin contains a sequence of lines where the first line contains an integer, and each subsequent line contains either two integers or a sequence of integers.

@@ -1,0 +1,1 @@
+start_pos is a positive integer, k is a positive integer, p is a list of positive integers, a is a list of non-negative integers, and len(p) = len(a) = n, where n is a positive integer.

@@ -1,0 +1,1 @@
+tree is a Tree object, v is a non-negative integer such that 0 <= v < len(tree.vertices), and x is a non-negative integer.

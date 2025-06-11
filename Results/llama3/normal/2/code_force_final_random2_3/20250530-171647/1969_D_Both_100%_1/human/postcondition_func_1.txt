@@ -1,0 +1,1 @@
+Converts a space-separated list of integers from user input into a sequence of integers.

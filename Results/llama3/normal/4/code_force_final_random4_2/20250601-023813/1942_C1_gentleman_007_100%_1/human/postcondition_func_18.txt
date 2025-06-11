@@ -1,0 +1,1 @@
+This function searches for the index of the first element in a sorted list of integers that is greater than or equal to a given integer. If the given integer is greater than all elements in the list, the function returns the length of the list.

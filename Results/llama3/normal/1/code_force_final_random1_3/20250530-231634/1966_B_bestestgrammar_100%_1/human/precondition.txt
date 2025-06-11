@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two integers n and m, followed by n lines, each containing m characters 'W' and 'B'.

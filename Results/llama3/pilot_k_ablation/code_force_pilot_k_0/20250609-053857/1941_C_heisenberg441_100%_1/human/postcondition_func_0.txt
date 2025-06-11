@@ -1,0 +1,1 @@
+Counts the number of non-overlapping occurrences of 'mapie', 'map', or 'pie' in a given string s, returning the total count.

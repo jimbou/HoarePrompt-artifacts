@@ -1,0 +1,1 @@
+stdin contains a single input: a space-separated pair of positive integers n and m, where 1 <= n, m <= 2 * 10^6.

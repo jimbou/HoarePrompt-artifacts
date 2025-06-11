@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, calculates the minimum number of operations required to transform each pair into a new pair where the first integer is between 4 and 15 times the second integer, and prints the result for each pair. The function does not modify the input values.

@@ -1,0 +1,1 @@
+x is a list of integers, where the first integer is the number of test cases, and each test case is described by two integers n and k, followed by k pairs of integers r_i and c_i, such that 1 <= n <= 3*10^5, 0 <= k <= n, and 1 <= r_i, c_i <= n.

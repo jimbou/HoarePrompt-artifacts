@@ -1,0 +1,1 @@
+This function reads input from stdin, processes t test cases where each test case consists of four points representing the corners of a square, and prints the square of the distance between two opposite corners of the square. The function determines the square of the distance between the two pairs of opposite corners and prints the smaller of the two values.

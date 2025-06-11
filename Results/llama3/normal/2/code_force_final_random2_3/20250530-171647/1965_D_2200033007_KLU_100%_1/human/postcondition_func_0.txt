@@ -1,0 +1,1 @@
+This function calculates the cumulative sums of a list of non-negative integers, including the sum of all elements, and returns a sorted list of these cumulative sums.

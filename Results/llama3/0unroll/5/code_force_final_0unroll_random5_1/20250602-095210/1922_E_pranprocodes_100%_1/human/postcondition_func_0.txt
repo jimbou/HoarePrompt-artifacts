@@ -1,0 +1,1 @@
+This function reads a sequence of positive integers from standard input, applies a series of operations to each integer (alternating between dividing by 2 and subtracting 1), and prints the number of operations performed and the resulting sequence of numbers in reverse order. The function processes multiple test cases, with the number of test cases specified in the first input.

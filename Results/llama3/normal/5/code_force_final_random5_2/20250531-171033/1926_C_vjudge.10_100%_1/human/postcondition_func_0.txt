@@ -1,0 +1,1 @@
+This function reads an integer t from standard input, followed by t integers. It calculates the cumulative sum of digits for all integers from 1 to 2 * 10^5, and then prints the cumulative sum of digits for each of the t input integers. The function does not return any value, but instead prints the results directly to the console.

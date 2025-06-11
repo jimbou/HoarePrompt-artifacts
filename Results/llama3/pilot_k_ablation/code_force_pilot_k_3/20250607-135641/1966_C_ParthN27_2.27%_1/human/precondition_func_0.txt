@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case consists of two lines. The first line contains a single integer n (1 <= n <= 2*10^5). The second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9), where a_i is the initial number of stones in the i-th pile. The number of test cases is given in the first line of the input (1 <= t <= 10^4).

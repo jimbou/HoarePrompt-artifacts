@@ -1,0 +1,1 @@
+No precondition can be determined from this function alone as it only reads a line from standard input and does not use any variables from the problem description.

@@ -1,0 +1,1 @@
+The input contains multiple test cases. The first line contains the number of test cases t (1 <= t <= 100). Each test case contains two lines. The first line contains two integers n and k (1 <= n <= 2 * 10^5, 0 <= k <= 10^12). The second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^12).

@@ -1,0 +1,1 @@
+data is a list of strings where the first element is a positive integer t, and the rest of the elements are alternating positive integers n and strings of space-separated positive integers, where n is the number of integers in the following string.

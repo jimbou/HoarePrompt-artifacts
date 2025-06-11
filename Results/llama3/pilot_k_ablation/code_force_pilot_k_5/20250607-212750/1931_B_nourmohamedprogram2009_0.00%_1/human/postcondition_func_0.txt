@@ -1,0 +1,1 @@
+This function reads input from stdin, processes multiple test cases, and determines whether the input integers in each test case are in non-decreasing order. It prints 'YES' if the integers are in non-decreasing order and 'NO' otherwise. The function consumes all input from stdin and does not return any value.

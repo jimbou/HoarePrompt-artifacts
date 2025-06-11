@@ -1,0 +1,1 @@
+Calculates the total number of problems needed to be added to a string `a` to make the frequency of each character from 'A' to 'G' at least `m`.

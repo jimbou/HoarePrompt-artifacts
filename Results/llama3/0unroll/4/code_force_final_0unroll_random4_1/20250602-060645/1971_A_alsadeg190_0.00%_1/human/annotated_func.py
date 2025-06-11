@@ -1,0 +1,14 @@
+#State of the program right berfore the function call: stdin contains two inputs: first an integer t (1 <= t <= 100) and then t lines each containing two space-separated integers x and y (0 <= x, y <= 9).
+    x = int(input())
+    for i in range(x):
+        x, y = list(map(int, input().split()))
+        
+        if x > y:
+            print(x, y)
+        else:
+            print(y, x)
+        
+    #State: The output will contain x lines, each containing two space-separated integers. In each line, the first integer will be greater than or equal to the second integer. The value of x will be the number of lines in the input, but its value will not be used in the loop. The loop will iterate x times, but the value of x will not be changed. The loop will only print the input values in a specific order, without modifying the value of x.
+
+#Overall this is what the function does:The function reads a series of input lines from stdin, where the first line contains an integer t, and the subsequent t lines each contain two space-separated integers x and y. It then prints the input pairs in a specific order, ensuring that the first integer in each pair is greater than or equal to the second integer. The function does not modify the input values or the value of t, and it only performs printing actions without returning any values.
+

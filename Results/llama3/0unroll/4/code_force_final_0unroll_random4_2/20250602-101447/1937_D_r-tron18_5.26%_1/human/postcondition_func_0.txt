@@ -1,0 +1,1 @@
+This function calculates and returns the difference between the last element of a given list of integers and the element at a specific index, which is determined by the maximum of two values: the negative length of the list and the negative of 1 minus a given non-negative integer.

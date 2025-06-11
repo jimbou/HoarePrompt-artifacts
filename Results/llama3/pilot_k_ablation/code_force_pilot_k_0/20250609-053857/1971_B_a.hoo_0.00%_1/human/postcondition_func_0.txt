@@ -1,0 +1,1 @@
+This function reads a specified number of strings from standard input, checks each string for uniqueness of characters, and prints 'No' if the string has only one character or all characters are the same, otherwise prints 'Yes' followed by the sorted string. The function does not modify the input count of test cases.

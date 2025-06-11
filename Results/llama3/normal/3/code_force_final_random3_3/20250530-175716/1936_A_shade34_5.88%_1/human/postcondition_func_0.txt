@@ -1,0 +1,1 @@
+The function reads a number of test cases from standard input, then for each test case, it reads the size of a permutation and finds the maximum value in the permutation along with its index by querying the input in a specific manner. It prints the maximum value and its index for each test case, flushing the output buffer after each print statement.

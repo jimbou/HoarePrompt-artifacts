@@ -1,0 +1,1 @@
+The function reads a series of pairs of integers from standard input, determines the maximum and minimum values in each pair, and prints the maximum value followed by the minimum value for each pair, resulting in a sorted output of the input pairs.

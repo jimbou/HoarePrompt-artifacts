@@ -1,0 +1,1 @@
+The function takes a list of integers and a string of 'L' and 'R' characters as input, rearranges the integers based on the string, calculates the cumulative product of the rearranged integers in reverse order, and returns the reversed list of cumulative products.

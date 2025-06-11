@@ -1,0 +1,1 @@
+Reads a line of input from standard input (stdin) and returns it as a bytes object, excluding the trailing newline character or the end of the file.

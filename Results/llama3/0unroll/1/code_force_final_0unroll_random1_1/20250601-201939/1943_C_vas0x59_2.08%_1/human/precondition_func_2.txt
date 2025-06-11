@@ -1,0 +1,1 @@
+s is a non-negative integer such that 0 <= s < n, n is a positive integer, and u2vs is a list of lists where u2vs[i] contains non-negative integers such that 0 <= u2vs[i][j] < n for all i and j.

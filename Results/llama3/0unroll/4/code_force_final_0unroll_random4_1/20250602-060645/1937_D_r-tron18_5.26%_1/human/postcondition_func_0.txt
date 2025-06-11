@@ -1,0 +1,1 @@
+Calculates the difference between the last element of a list and the element at a specific index from the end, determined by the maximum of the negative list length and -1 minus a given non-negative integer, and returns this difference.

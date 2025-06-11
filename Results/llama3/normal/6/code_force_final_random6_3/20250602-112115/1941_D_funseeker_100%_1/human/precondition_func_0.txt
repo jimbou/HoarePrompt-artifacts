@@ -1,0 +1,1 @@
+stdin contains a string that is expected to be read and stripped of leading/trailing whitespaces.

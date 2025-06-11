@@ -1,0 +1,1 @@
+This function reads a series of strings from standard input, shuffles each string randomly, and prints the shuffled string along with 'Yes' if it is different from the original string, or 'No' if it is the same. The function processes multiple strings, with the number of strings specified by an initial integer input.

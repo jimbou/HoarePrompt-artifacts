@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of four integers. For each test case, it calculates a count by adding 1 if the first three numbers are equal and odd, then adding the integer division of each number by 2. The function prints the calculated count for each test case.

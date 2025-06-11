@@ -1,0 +1,1 @@
+No precondition can be determined from the function signature as it only contains the function name and no parameters. However, based on the problem description, it can be inferred that the function is expected to read input from the standard input, likely a string or a number, as it is used to read the number of test cases and the input for each test case.

@@ -1,0 +1,1 @@
+Executes `func_6()` a specified number of times, equal to the return value of `func_1()`, and returns the repeated output of `func_6()`.

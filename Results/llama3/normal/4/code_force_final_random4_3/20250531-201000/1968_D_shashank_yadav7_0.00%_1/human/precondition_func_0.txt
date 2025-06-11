@@ -1,0 +1,1 @@
+stdin contains a number of test cases t, followed by t test cases. Each test case contains four integers n, k, P_B, P_S, followed by two lists of n integers p and a. n, k, P_B, P_S are positive integers, 1 <= n <= 2*10^5, 1 <= k <= 10^9, 1 <= P_B, P_S <= n. p is a permutation of integers from 1 to n. a is a list of positive integers.

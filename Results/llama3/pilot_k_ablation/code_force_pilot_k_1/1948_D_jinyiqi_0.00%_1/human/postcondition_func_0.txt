@@ -1,0 +1,1 @@
+This function reads an integer t from stdin, followed by t strings, and then for each string, it searches for the longest substring with the same characters or question marks. If such a substring is found, the function prints its length multiplied by 2 and returns. If no such substring is found, the function returns 0.

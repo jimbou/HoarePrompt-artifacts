@@ -1,0 +1,1 @@
+The function reads a space-separated list of 0s and 1s from standard input, calculates the sum of the lengths of all sublists of consecutive 1s plus the total number of 1s, and prints the result. The function does not modify the input list or any external state, and it consumes the entire input from standard input.

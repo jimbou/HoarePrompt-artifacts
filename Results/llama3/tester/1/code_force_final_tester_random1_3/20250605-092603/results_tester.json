@@ -1,0 +1,10 @@
+{
+    "tester": {
+        "Agreement Count": 48,
+        "Balanced Accuracy": 0.5303030303030303,
+        "True Positive Rate (TPR)": 0.08333333333333333,
+        "False Negative Rate (FNR) / Miss Rate": 0.9166666666666666,
+        "False Positive Rate (FPR)": 0.022727272727272728,
+        "MCC": 0.1284190214215699
+    }
+}

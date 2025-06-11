@@ -1,0 +1,1 @@
+stdin contains one input: an integer (t) (1 <= t <= 10^3), then t times an integer (n) (2 <= n <= 10^4).

@@ -1,0 +1,1 @@
+Handles input and output for multiple test cases by reading the number of test cases, processing each case by reading input parameters (n, m, k, and prices), calling a function (func_1) with these parameters, and printing the result for each case, until all test cases have been processed and no input is left in stdin.

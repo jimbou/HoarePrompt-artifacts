@@ -1,0 +1,1 @@
+Reads an integer greater than 0 from standard input and returns it.

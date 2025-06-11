@@ -1,0 +1,1 @@
+Calculates the factorial of each integer from 0 to n (inclusive) modulo mod, and returns a list of these values. The function takes two parameters: a non-negative integer n and a positive integer mod. It returns a list of n+1 elements, where the i-th element is the factorial of i modulo mod.

@@ -1,0 +1,1 @@
+Reads input from standard input, expecting a specific format: a positive integer t, followed by t test cases, each consisting of a positive integer n and a string s of length n containing only "U" and "D" characters. The function processes this input and returns a list of t tuples, where each tuple contains the integer n and the string s from each test case.

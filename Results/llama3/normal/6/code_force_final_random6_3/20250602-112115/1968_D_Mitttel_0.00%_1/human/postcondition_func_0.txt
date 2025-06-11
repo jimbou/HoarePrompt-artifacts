@@ -1,0 +1,1 @@
+This function determines the winner of a game between 'Bodya' and 'Sasha' based on their scores calculated by the function calculate_score. It accepts parameters n, k, PB, PS, p, and a, and returns a string indicating the winner, either 'Bodya', 'Sasha', or 'Draw' if their scores are equal. The function does not modify the input variables.

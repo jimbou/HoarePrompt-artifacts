@@ -1,0 +1,1 @@
+Calculates and returns the least common multiple (LCM) of two positive integers a and b, which is the absolute value of their product divided by their greatest common divisor (gcd).

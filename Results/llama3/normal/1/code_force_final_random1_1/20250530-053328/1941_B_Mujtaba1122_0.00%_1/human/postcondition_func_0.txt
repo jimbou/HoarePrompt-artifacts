@@ -1,0 +1,1 @@
+This function checks if the first n elements of a given list are all zeros. It accepts a list of integers and a non-negative integer n as parameters, where n is less than or equal to the length of the list. The function returns True if all elements up to the nth element are 0, and False otherwise.

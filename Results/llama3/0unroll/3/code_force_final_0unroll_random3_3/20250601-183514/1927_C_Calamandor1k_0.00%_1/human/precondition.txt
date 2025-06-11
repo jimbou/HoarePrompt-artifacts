@@ -1,0 +1,1 @@
+a is a list of integers, b is a list of integers, k is an even integer, 1 <= k <= 2 * min(len(a), len(b)), 1 <= a_i <= 10^6 for all a_i in a, 1 <= b_j <= 10^6 for all b_j in b.

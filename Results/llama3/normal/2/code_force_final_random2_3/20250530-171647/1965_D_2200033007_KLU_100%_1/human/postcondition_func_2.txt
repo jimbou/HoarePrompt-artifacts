@@ -1,0 +1,1 @@
+The function takes a list of integers and an odd positive integer as input, and returns a new list of integers of the same length as the input integer. The returned list is constructed by processing the input list of integers in a specific way, resulting in a list of integers that meets certain conditions.

@@ -1,0 +1,1 @@
+Determines whether a given list of integers is sorted in ascending order, returning True if the list is already sorted and False otherwise.

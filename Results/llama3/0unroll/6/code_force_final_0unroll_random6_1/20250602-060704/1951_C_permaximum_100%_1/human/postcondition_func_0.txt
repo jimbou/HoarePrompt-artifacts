@@ -1,0 +1,1 @@
+Calculates the total cost of buying k tickets with increasing prices, where the price increase is determined by the number of tickets bought at each price, and returns the total cost as the sum of the k smallest prices in the input list multiplied by the number of tickets bought at each price.

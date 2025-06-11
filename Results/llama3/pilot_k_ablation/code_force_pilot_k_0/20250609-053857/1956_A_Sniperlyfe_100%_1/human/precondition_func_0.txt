@@ -1,0 +1,1 @@
+p is a list of unique integers such that 1 <= p[i] <= 100 and p[i] < p[i+1] for all i in range(len(p)-1).

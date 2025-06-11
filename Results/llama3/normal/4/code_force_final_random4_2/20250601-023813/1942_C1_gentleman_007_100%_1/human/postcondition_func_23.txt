@@ -1,0 +1,1 @@
+Traverses a graph using depth-first search (DFS) starting from a given node, marking all visited nodes and printing their values, without modifying the graph structure.

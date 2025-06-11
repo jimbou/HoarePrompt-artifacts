@@ -1,0 +1,1 @@
+stdin contains a positive integer t (1 <= t <= 1000) followed by t strings of lowercase English letters of length at most 10.

@@ -1,0 +1,1 @@
+a and b are non-negative integers, and a and b are used as arguments to the function func_1 which returns a tuple (c, d) where c is used to calculate the return value of func_2.

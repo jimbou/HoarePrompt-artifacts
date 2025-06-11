@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (the number of test cases) and then for each test case two space-separated integers (the number of applications with a 1x1 icon and the number of applications with a 2x2 icon, respectively). Both integers are non-negative and less than or equal to 99.

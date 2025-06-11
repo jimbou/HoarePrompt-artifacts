@@ -1,0 +1,1 @@
+This function calculates the cumulative product of a list of non-negative integers from last to first and returns the result as a list, without modifying the original list.

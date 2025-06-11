@@ -1,0 +1,1 @@
+Reads a line from standard input, splits it into two space-separated integers, and returns them as a map object, ensuring the first integer is greater than or equal to the second integer.

@@ -1,0 +1,1 @@
+x is a node in the tree, y is a non-negative integer, g is a dictionary representing the adjacency list of the tree, and visited is a set of visited nodes.

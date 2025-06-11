@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of three integers a, b, and m. It then calculates and prints the sum of the integer divisions of m by a and m by b, plus 2, for each test case. The function consumes all input from standard input and leaves no values defined after execution.

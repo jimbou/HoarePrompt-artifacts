@@ -1,0 +1,1 @@
+This function checks if the first n elements of a given list are all zero. It returns True if all elements are zero, False if any of the first n elements are non-zero, and does not modify the original list or the value of n.

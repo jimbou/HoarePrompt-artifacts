@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each case consists of two integers, n and k. It then prints the result of each test case, which is either 1 or n-1, depending on whether k is greater than or equal to n-1. The function processes multiple test cases, with the number of cases specified by the first integer read from standard input.

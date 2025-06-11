@@ -1,0 +1,1 @@
+stdin contains one or more inputs: a list of integers, each integer representing the number of test cases, the number of elements in the array, the number of queries, the elements of the array, and the queries (each query being a pair of integers).

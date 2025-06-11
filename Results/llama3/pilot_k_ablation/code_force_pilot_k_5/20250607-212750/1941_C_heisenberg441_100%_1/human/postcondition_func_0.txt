@@ -1,0 +1,1 @@
+Counts the total number of non-overlapping occurrences of 'mapie', 'map', and 'pie' in a given string of lowercase Latin letters.

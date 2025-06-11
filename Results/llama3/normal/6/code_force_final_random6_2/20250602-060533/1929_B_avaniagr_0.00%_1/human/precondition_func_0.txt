@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two integers n and k (2 <= n <= 10^8, 1 <= k <= 4n - 2).

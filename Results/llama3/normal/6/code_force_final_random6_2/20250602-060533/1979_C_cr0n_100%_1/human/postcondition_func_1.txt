@@ -1,0 +1,1 @@
+This function calculates the least common multiple (LCM) of a list of integers, then subtracts the sum of the quotients of the LCM divided by each integer, and prints the quotients if the result is positive; otherwise, it prints -1 and returns None.

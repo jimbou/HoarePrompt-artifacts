@@ -1,0 +1,1 @@
+Prints an exclamation mark followed by a positive integer `m` to the console, waits for user input, and returns the input as an integer.

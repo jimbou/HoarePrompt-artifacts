@@ -1,0 +1,1 @@
+stdin contains a number of test cases t, followed by t test cases. Each test case contains two integers n and q, followed by a list of n integers, followed by q pairs of integers l and r. n is a positive integer, q is a positive integer, the list of n integers contains non-negative integers less than 2^30, and l and r are positive integers such that 1 <= l < r <= n.

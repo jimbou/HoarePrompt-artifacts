@@ -1,0 +1,41 @@
+#State of the program right berfore the function call: stdin contains two inputs: first an integer (greater than 0 and less than or equal to 10^4) and then a sequence of integers (each greater than 0 and less than or equal to 2*10^5).
+    t = int(input())
+    numbers = []
+    for _ in range(t):
+        n = int(input())
+        
+        numbers.append(n)
+        
+    #State: Output State: t is an integer greater than or equal to 0 and less than or equal to 10^4, numbers is a list of integers (each greater than 0 and less than or equal to 2*10^5) of length t, stdin contains no input.
+    values = [(0) for _ in range(max(numbers) + 1)]
+    sum_values = [(0) for _ in range(max(numbers) + 1)]
+    total = 0
+    for i in range(10):
+        values[i] = i
+        
+        total += i
+        
+        sum_values[i] = total
+        
+    #State: Output State: t is an integer greater than or equal to 0 and less than or equal to 10^4, numbers is a list of integers (each greater than 0 and less than or equal to 2*10^5) of length t, values is a list of integers of length max(numbers) + 1 with the first 10 elements equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 and the rest equal to 0, sum_values is a list of integers of length max(numbers) + 1 with the first 10 elements equal to 0, 1, 3, 6, 10, 15, 21, 28, 36, 45 and the rest equal to 0, total is an integer equal to 45, stdin contains no input.
+    for i in range(10, n + 1):
+        word = str(i)
+        
+        last = int(word[len(word) - 1])
+        
+        remainder = int(word[:-1])
+        
+        values[i] = values[last] + values[remainder]
+        
+        sum_total = values[i] + sum_values[i - 1]
+        
+        sum_values[i] = sum_total
+        
+    #State: Output State: t is an integer greater than or equal to 0 and less than or equal to 10^4, numbers is a list of integers (each greater than 0 and less than or equal to 2*10^5) of length t, values is a list of integers of length max(numbers) + 1 with the first 10 elements equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 and the rest equal to the sum of the values of the last digit and the remaining digits of the number, sum_values is a list of integers of length max(numbers) + 1 with the first 10 elements equal to 0, 1, 3, 6, 10, 15, 21, 28, 36, 45 and the rest equal to the sum of the values of the number and the sum of the values of the previous numbers, total is an integer equal to the last element of sum_values.
+    for n in numbers:
+        print(sum_values[n])
+        
+    #State: Output State: t is an integer greater than or equal to 0 and less than or equal to 10^4, numbers is a list of integers (each greater than 0 and less than or equal to 2*10^5) of length t, values is a list of integers of length max(numbers) + 1 with the first 10 elements equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 and the rest equal to the sum of the values of the last digit and the remaining digits of the number, sum_values is a list of integers of length max(numbers) + 1 with the first 10 elements equal to 0, 1, 3, 6, 10, 15, 21, 28, 36, 45 and the rest equal to the sum of the values of the number and the sum of the values of the previous numbers, total is an integer equal to the last element of sum_values, and the console output is a list of integers where each integer is the sum of the values of the number and the sum of the values of the previous numbers for each number in the list numbers.
+
+#Overall this is what the function does:This function reads a sequence of integers from standard input, calculates the sum of the values of each number and the sum of the values of the previous numbers, and prints the results to the console. The values of the numbers are calculated based on the sum of the values of the last digit and the remaining digits of the number. The function handles a list of integers of length up to 10^4, where each integer is greater than 0 and less than or equal to 2*10^5.
+

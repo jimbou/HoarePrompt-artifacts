@@ -1,0 +1,24 @@
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t test cases. Each test case consists of two integers n and m (1 <= n, m <= 2 * 10^5) followed by two binary strings a and b of lengths n and m respectively.
+    n, m = map(int, input().split())
+    a = input()
+    b = input()
+    k = 0
+    j = 0
+    for i in range(n):
+        while j < m and b[j] != a[i]:
+            j += 1
+        
+        if j < m:
+            k += 1
+            j += 1
+        else:
+            break
+        
+    #State: n is an integer between 1 and 2 * 10^5, m is an integer between 1 and 2 * 10^5, a is a binary string of length n, b is a binary string of length m, i is equal to n, j is equal to m, k is equal to the number of matches between a and b, stdin contains t-1 test cases.
+    print(k)
+    #This is printed: k (where k is the number of matches between the binary strings a and b)
+    return
+    #The program returns nothing because there is no return statement with a value or variable. The program ends without any output.
+
+#Overall this is what the function does:This function reads two binary strings from standard input and counts the number of matches between them. It then prints the count of matches to standard output. The function does not return any value.
+

@@ -1,0 +1,1 @@
+This function takes a list of hashable elements as input and returns a dictionary where each key is an element from the input list and its corresponding value is the frequency of that element in the list. The input list remains unchanged.

@@ -1,0 +1,1 @@
+a is a list of 2n integers, each integer from 1 to n exactly twice, and k is an integer such that 1 <= k <= floor(n/2).

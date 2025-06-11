@@ -1,0 +1,1 @@
+This function compares two lists of integers, 'a' and 'b', and returns either a list one less than 'a' if 'a' is less than or equal to 'b', or list 'b' if 'a' is greater than 'b'.

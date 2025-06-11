@@ -1,0 +1,1 @@
+curr is a node in the graph, parent is the parent node of curr in the current DFS path, path is the current DFS path, colors is a list of colors (0, 1, or 2) for each node in the graph, graph is an adjacency list representation of the graph, and node_v is a node in the graph.

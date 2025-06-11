@@ -1,0 +1,1 @@
+Calculates the difference between the last element of a list and an element a specified number of positions from the end, wrapping around to the start of the list if necessary.

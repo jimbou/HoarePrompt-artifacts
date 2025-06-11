@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, calculates the sum of the counts of ones and the count of zeroes minus the count of zeroes for each string, and prints the result for each string. The function accepts no parameters and returns no value, instead printing the calculated sums to standard output.

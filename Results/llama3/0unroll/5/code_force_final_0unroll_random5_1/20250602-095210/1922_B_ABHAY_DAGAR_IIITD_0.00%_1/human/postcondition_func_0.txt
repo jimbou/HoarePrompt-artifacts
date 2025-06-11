@@ -1,0 +1,1 @@
+This function calculates the number of triplets that can be formed from a given list of integers for each test case. It accepts a list of test cases, where each test case consists of a list of integers, and returns a list of results, where each result is the number of triplets that can be formed from the corresponding test case. The function does not modify the input test cases.

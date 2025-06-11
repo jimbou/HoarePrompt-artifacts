@@ -1,0 +1,1 @@
+This function calculates and returns the absolute difference between the number of '+' and '-' characters in a given string 'expression'. It accepts a string 'expression' and its length as input, and returns a non-negative integer representing the absolute difference between the counts of '+' and '-' characters.

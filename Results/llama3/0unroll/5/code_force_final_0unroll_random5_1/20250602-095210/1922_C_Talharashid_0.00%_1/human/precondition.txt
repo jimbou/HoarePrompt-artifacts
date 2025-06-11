@@ -1,0 +1,1 @@
+t is a positive integer, n is an integer such that 2 <= n <= 10^5, a is a list of n unique integers in ascending order, m is an integer such that 1 <= m <= 10^5, and x_i and y_i are integers such that 1 <= x_i, y_i <= n and x_i != y_i for all i from 1 to m.

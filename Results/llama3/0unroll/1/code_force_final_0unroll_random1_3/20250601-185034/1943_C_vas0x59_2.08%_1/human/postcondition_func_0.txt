@@ -1,0 +1,1 @@
+The function accepts a list of non-negative integers and returns the index of the maximum value in the list. It does not modify the input list. The function assumes that the input list is not empty and contains at least one element.

@@ -1,0 +1,1 @@
+Calculates and returns the nth Fibonacci number modulo 10^9 + 7, where n is a positive integer. The function takes no explicit parameters but uses the variable 'n' from the surrounding context. It maintains a list 'dp' of the last two Fibonacci numbers and iteratively updates this list until it reaches the nth number, at which point it returns the last element of the list.

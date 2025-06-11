@@ -1,0 +1,149 @@
+task_id,model_created,dataset,model_run,code,fail_reason,type_of_run
+1948_A,human,codeforces2024,llama-v3p1-70b-instruct,"t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    if n % 2:
+        print(""NO"")
+    else:
+        s = ""110""*(n//2)
+        if len(s) < 200:
+            print(""YES"")
+            print(s)
+        else:
+            print(""NO"")",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1925_B,human,codeforces2024,llama-v3p1-70b-instruct,"from math import * 
+def main(): 
+    x,n = list(map(int, input().split())) 
+    ans = 0 
+    for i in range(1, isqrt(x) + 1): 
+        if x % i == 0: 
+            if n <= (x//i):
+                ans = max(ans , i) 
+            if (n <= i): ans = max(ans , x//i) 
+    print(ans) 
+ 
+tc = int(input()) 
+for _ in range(tc): 
+    main()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1927_D,human,codeforces2024,llama-v3p1-70b-instruct,"from collections import *
+from math import log,log2,pow,gcd,ceil,floor
+from heapq import *
+import sys
+from bisect import *
+ 
+def sol():
+    input = sys.stdin.readline
+    N = int(input())
+    nums = list(map(int,input().split()))
+    s = 0
+    e = 0
+    num = nums[0]
+    arr = []
+    nums.append(-1)
+    for i in range(N+1):
+        if nums[i] != num:
+            arr.append((1+s,i,num))
+            s = i
+        
+        num = nums[i]
+    # print(nums)
+    # print(arr)
+    LA = len(arr)-1
+    if ppp == 23:print(nums)
+    for _ in range(int(input())):
+        l,r = tuple(map(int,input().split()))
+        if tc > 5:
+            if ppp == 23:
+                print(l,r)
+            continue
+        eli = bisect_left(arr,(l,0,0))
+        # if eli >= LA:s,e,_ = arr[-1]
+        s,e,_ = arr[min(eli,LA)]
+        # print(arr[bisect(arr,(l,0,0))])
+        # print(l,r ,end = ""   = "")
+        if s > l:
+            if s == 1:print(-1,-1)
+            else:print(s-1,s)
+        elif e >= r:print(-1,-1)
+        else:
+            if e < N:print(s,e+1)
+            else:print(-1,-1)
+        
+    # print()    
+ 
+tc= int(input())
+ 
+ 
+for ppp in range(tc):
+    sol()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1968_D,human,codeforces2024,llama-v3p1-70b-instruct,"t=int(input())
+for i in range(t):
+    n,k,b,s=list(map(int,input().split()))
+    p=list(map(int,input().split()))
+    a=list(map(int,input().split()))
+    b-=1
+    s-=1
+    sp=a[s]
+    bp=a[b]
+    bm=a[b]*k
+    sm=a[s]*k
+    for i in range(n):
+        k-=1
+        if k==0:
+            break
+        b=p[b]-1
+        s=p[s]-1
+        bm=max(bm,a[b]*k+bp)
+        sm=max(sm,a[s]*k+sp)
+        sp+=a[s]
+        bp+=a[b]
+    if bm>sm:
+        print('Bodya')
+    elif bm<sm:
+        print('Sasha')
+    else:
+        print('Draw')",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1970_C2,human,codeforces2024,llama-v3p1-70b-instruct,"from functools import reduce
+import math
+from collections import deque, defaultdict
+ 
+ 
+def dfs(nodes, start, parent=None):
+	if len(nodes[start]) == 1 and nodes[start][0] == parent:
+		return [0]
+	distances = []
+	for node in nodes[start]:
+		if node != parent:
+			distances.extend([1 + dist for dist in dfs(nodes, node, start)])
+	return distances
+ 
+ 
+def testcase():
+	n, t = map(int, input().split())
+	edges = []
+	empty = True
+	nodes = defaultdict(list)
+	for i in range(n - 1):
+		u, v = map(int, input().split())
+		nodes[u].append(v)
+		nodes[v].append(u)
+	
+	leaves = deque()
+	for key in nodes:
+		if len(nodes[key]) == 1:
+			leaves.append(key)
+	
+	start = int(input())
+	moves = dfs(nodes, start)
+	
+	if any([move % 2 == 1 for move in moves]):
+		print(""Ron"")
+	else:
+		print(""Hermione"")
+ 
+ 
+t = 1 # int(input())
+ 
+for i in range(t):
+	testcase()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt

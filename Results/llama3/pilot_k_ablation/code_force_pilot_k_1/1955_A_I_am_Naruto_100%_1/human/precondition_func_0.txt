@@ -1,0 +1,1 @@
+stdin contains t+1 lines of input, where t is an integer (1 <= t <= 10^4). The first line contains t. Each of the remaining t lines contains three integers n, a, and b (1 <= n <= 100, 1 <= a, b <= 30).

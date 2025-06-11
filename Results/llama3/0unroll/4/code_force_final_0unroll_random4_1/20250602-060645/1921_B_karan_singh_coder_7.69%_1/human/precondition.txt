@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 10^4), followed by t test cases. Each test case consists of three lines: an integer n (1 <= n <= 10^5), a string s of n characters ('0' or '1'), and a string f of n characters ('0' or '1').

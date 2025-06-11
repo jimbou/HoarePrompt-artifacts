@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three inputs: first an integer, then two lists of integers of the same length as the first integer. The lists are sorted in non-decreasing order.

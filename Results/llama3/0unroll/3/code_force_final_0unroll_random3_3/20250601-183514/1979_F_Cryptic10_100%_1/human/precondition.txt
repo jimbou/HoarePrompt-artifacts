@@ -1,0 +1,1 @@
+stdin contains one integer: a positive integer (t) (1 <= t <= 1000). Each test case contains one integer: a positive integer (n) (2 <= n <= 10^5). The sum of n over all test cases does not exceed 10^5.

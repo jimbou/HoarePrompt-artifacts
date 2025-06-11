@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains four inputs: first an integer n, then a list of n integers, then an integer q, and then q pairs of integers. The integer n is greater or equal to 2. The list of n integers contains integers between 1 and 10^6. The integer q is greater or equal to 1. The q pairs of integers are such that 1 <= l < r <= n.

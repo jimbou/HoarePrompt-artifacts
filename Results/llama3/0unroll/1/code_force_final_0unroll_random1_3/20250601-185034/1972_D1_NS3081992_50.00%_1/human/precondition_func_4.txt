@@ -1,0 +1,1 @@
+The input is a byte string read from standard input, and it represents a line of text that has been stripped of its trailing newline character.

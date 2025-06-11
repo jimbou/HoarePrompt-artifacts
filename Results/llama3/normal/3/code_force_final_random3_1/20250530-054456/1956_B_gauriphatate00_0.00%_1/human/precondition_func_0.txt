@@ -1,0 +1,1 @@
+n is a positive integer, a is a list of integers such that 1 <= a_i <= n for all i, and each integer from 1 through n appears in the sequence a at most 2 times.

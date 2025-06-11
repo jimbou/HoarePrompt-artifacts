@@ -1,0 +1,1 @@
+n is a positive integer and m is a non-negative integer such that m <= n. The function func_1() returns a tuple of two integers.

@@ -1,0 +1,1 @@
+stdin is a file object that contains a sequence of bytes, and readline() is a method that reads a line from the file and returns it as a bytes object, and rstrip() is a method that removes trailing bytes from the bytes object.

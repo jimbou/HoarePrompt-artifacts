@@ -1,0 +1,1 @@
+Creates a 2D list (or matrix) with a specified number of rows and columns, where every element is initialized with a given value. The function takes three parameters: the number of rows (n), the number of columns (m), and the value to fill the matrix (v), and returns the constructed matrix.

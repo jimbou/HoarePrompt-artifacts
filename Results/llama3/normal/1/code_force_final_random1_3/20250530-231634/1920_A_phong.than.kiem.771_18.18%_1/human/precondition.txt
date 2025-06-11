@@ -1,0 +1,1 @@
+stdin contains one input: a non-negative integer. If isOne is True, then the integer is 1.

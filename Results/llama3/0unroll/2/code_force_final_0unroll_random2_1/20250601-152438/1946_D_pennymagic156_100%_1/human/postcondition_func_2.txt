@@ -1,0 +1,1 @@
+Reads a space-separated list of integers from standard input, converts each string into an integer, and returns a map object containing the sequence of integers.

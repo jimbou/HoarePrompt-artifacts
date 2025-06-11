@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three non-negative integers a, b, and c, where a is the number of introverts, b is the number of extroverts, and c is the number of universals.

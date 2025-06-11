@@ -1,0 +1,1 @@
+This function reads a series of time inputs in 24-hour format from standard input, converts each time to 12-hour format, and prints the converted time along with the day period ('AM' or 'PM'). It continues this process until all input times have been processed, ultimately emptying the standard input.

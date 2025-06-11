@@ -1,0 +1,1 @@
+This function accepts a string of lowercase Latin letters and returns a new string where each character is replaced by its corresponding character at the mirrored index in the sorted list of unique characters from the input string. The function effectively reverses the order of unique characters in the input string, while preserving the original order of repeated characters.

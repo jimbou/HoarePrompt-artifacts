@@ -1,0 +1,1 @@
+The input contains multiple test cases. Each test case consists of three lines. The first line contains a positive integer n (1 ≤ n ≤ 100). The second line contains an array a of length n (1 ≤ a1 ≤ a2 ≤ ⋯ ≤ an ≤ 10^9). The third line contains an array b of length n (1 ≤ b1 ≤ b2 ≤ ⋯ ≤ bn ≤ 10^9).

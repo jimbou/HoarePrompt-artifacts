@@ -1,0 +1,1 @@
+This function searches for the first sub-list in a given list of lists (`arr`) where the element at a specified index (`index`) matches a given value (`value`). It returns the entire sub-list if a match is found, otherwise it returns `None`.

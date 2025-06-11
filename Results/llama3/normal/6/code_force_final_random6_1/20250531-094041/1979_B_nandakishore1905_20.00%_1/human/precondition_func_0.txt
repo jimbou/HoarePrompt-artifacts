@@ -1,0 +1,1 @@
+stdin contains multiple lines of input. The first line contains a single integer t (1 <= t <= 10^4) — the number of test cases. Each of the following t lines contains two integers x and y (0 <= x, y <= 10^9, x != y) — the parameters of the sequences.

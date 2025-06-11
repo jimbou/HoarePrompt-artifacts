@@ -1,0 +1,57 @@
+#State of the program right berfore the function call: n is a positive integer, x, y, and r are lists of integers of length n, visited, coef0, and coef1 are lists of boolean and integer values respectively of length n, nodes is a list of integers.
+    n = int(input())
+    x = [None] * n
+    y = [None] * n
+    r = [None] * n
+    visited = [False] * n
+    coef0 = [None] * n
+    coef1 = [None] * n
+    nodes = []
+    for i in range(n):
+        x[i], y[i], r[i] = map(int, input().split())
+        
+    #State: Output State: n is a positive integer equal to its input value, x is a list of n integers, y is a list of n integers, r is a list of n integers, visited is a list of n False values, coef0 is a list of n None values, coef1 is a list of n None values, nodes is an empty list
+    ok = False
+    for i in range(n):
+        if not visited[i]:
+            coef0[i] = 0
+            coef1[i] = 1
+            nodes = []
+            dfs(i)
+            c0 = 0
+            c1 = 0
+            for j in nodes:
+                c0 += coef0[j]
+                c1 += coef1[j]
+            ok = ok or c1 != 0
+        
+    #State: Output State: `n` is a positive integer equal to its input value, `x` is a list of `n` integers, `y` is a list of `n` integers, `r` is a list of `n` integers, `visited` is a list of `n` True values, `coef0` is a list of `n` integers, `coef1` is a list of `n` integers, `nodes` is an empty list, `ok` is True if at least one `coef1` value is not zero, False otherwise.
+    if ok :
+        print('YES')
+        #This is printed: YES
+    else :
+        print('NO')
+        #This is printed: NO
+    #State: *`n` is a positive integer equal to its input value, `x` is a list of `n` integers, `y` is a list of `n` integers, `r` is a list of `n` integers, `visited` is a list of `n` True values, `coef0` is a list of `n` integers, `coef1` is a list of `n` integers, `nodes` is an empty list. If at least one `coef1` value is not zero, `ok` is True and 'YES' is printed. Otherwise, `ok` is False and 'NO' is printed.
+
+#Overall this is what the function does:Determines whether a graph represented by a list of nodes with their x, y coordinates and radius contains at least one node with a non-zero coefficient. The function takes no input parameters and returns no values, but instead prints 'YES' if such a node exists and 'NO' otherwise. It modifies the input lists by setting all visited nodes to True and calculates the coefficients for each node.
+
+#State of the program right berfore the function call: i is an integer such that 0 <= i < n, n is a non-negative integer, visited is a list of boolean values of length n, nodes is a list of integers, x, y, and r are lists of integers of length n, and coef0 and coef1 are lists of integers of length n.
+    if (not visited[i]) :
+        visited[i] = True
+        nodes.append(i)
+        for j in range(n):
+            dx = x[i] - x[j]
+            
+            dy = y[i] - y[j]
+            
+            if not visited[j] and (r[i] + r[j]) ** 2 == dx ** 2 + dy ** 2:
+                coef0[j] = r[i] + r[j] - coef0[i]
+                coef1[j] = -coef1[i]
+                dfs(j)
+            
+        #State: The loop iterates n times, and in each iteration, it checks if the current node j is not visited and if the distance between nodes i and j is equal to the sum of their radii. If both conditions are true, it updates the coefficients coef0 and coef1 for node j and calls the dfs function recursively. After the loop finishes, the visited list remains unchanged, the nodes list remains unchanged, the x, y, and r lists remain unchanged, and the coef0 and coef1 lists are updated for the nodes that were visited during the loop. The output state is the same as the initial state, with the only changes being the updated coef0 and coef1 lists.
+    #State: *i is an integer such that 0 <= i < n, n is a non-negative integer, visited is a list of boolean values of length n, nodes is a list of integers, x, y, and r are lists of integers of length n, and coef0 and coef1 are lists of integers of length n. If the current node i is not visited, the function updates the coefficients coef0 and coef1 for the nodes that were visited during the loop and calls the dfs function recursively. If the current node i is visited, the state remains unchanged. The output state is the same as the initial state, with the only changes being the updated coef0 and coef1 lists for the nodes that were visited during the loop.
+
+#Overall this is what the function does:The function performs a depth-first search (DFS) on a graph, updating coefficients for unvisited nodes based on their distances and radii, and recursively calls itself for adjacent unvisited nodes, ultimately returning the updated coefficients for all visited nodes.
+

@@ -1,0 +1,1 @@
+n is an integer greater than or equal to 2, t is 1, edges is a list of pairs of integers (u, v) such that 1 <= u, v <= n, and start is a list of one integer u such that 1 <= u <= n.

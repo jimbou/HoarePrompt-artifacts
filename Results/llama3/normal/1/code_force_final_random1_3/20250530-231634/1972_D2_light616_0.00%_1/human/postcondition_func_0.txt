@@ -1,0 +1,1 @@
+Calculates and prints the count of pairs of coprime numbers (x, y) such that (x + y) * x <= n and (x + y) * y <= m, where n and m are positive integers. The function takes no parameters and returns the count of such pairs.

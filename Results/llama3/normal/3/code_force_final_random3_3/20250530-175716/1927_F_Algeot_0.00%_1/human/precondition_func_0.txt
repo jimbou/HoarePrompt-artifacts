@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains an integer n and m, followed by m lines of three integers u, v, and w. n is the number of vertices and m is the number of edges in the graph. u and v are vertices connected by an edge of weight w. 1 <= t <= 10^4, 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), 1 <= u, v <= n, u != v, 1 <= w <= 10^6.

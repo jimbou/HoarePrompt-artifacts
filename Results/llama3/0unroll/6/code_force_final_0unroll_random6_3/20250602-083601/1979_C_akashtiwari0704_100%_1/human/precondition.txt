@@ -1,0 +1,1 @@
+l is a list of integers, all integers in the list are greater than or equal to 2.

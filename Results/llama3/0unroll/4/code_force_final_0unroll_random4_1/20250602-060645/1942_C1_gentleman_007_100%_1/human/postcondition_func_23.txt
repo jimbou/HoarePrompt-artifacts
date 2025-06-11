@@ -1,0 +1,1 @@
+The function performs a depth-first traversal of a graph starting from a given vertex, marking all visited vertices and printing them in the order they are visited. It leaves the graph unchanged and only modifies the visit status of vertices connected to the initial vertex.

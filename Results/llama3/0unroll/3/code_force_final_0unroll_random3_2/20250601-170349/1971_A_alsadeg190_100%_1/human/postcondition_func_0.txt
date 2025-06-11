@@ -1,0 +1,1 @@
+The function reads a series of pairs of integers from standard input, sorts each pair in ascending order, and prints the sorted pairs. It takes no arguments and returns no value, only producing output to the console. The input pairs are processed independently, and the function does not modify the original input values.

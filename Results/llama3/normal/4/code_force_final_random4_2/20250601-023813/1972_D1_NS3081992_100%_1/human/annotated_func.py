@@ -1,0 +1,136 @@
+#State of the program right berfore the function call: stdin contains one input: a positive integer.
+    return int(sys.stdin.buffer.readline())
+    #The program returns a positive integer that was provided as input from stdin.
+
+#Overall this is what the function does:Reads a positive integer from standard input and returns it as an integer.
+
+#State of the program right berfore the function call: stdin contains a line with two space-separated positive integers.
+    return map(int, sys.stdin.buffer.readline().split())
+    #The program returns a map object containing two positive integers that were read from the standard input, which are the result of splitting a line of input into two space-separated integers and converting them to integers.
+
+#Overall this is what the function does:Reads a line of input from the standard input, splits it into two space-separated integers, converts them to integers, and returns a map object containing these two positive integers.
+
+#State of the program right berfore the function call: stdin contains a line of input with two space-separated integers. Both integers are positive and less than or equal to 2 * 10^6.
+    return list(map(int, sys.stdin.buffer.readline().split()))
+    #The program returns a list of two integers, both of which are positive and less than or equal to 2 * 10^6.
+
+#Overall this is what the function does:Reads a line of input from standard input, splits it into two space-separated integers, converts them to integers, and returns them as a list. The returned integers are guaranteed to be positive and less than or equal to 2 * 10^6.
+
+#State of the program right berfore the function call: rows_number is a positive integer.
+    return [func_3() for _ in range(rows_number)]
+    #The program returns a list containing the results of calling the function `func_3()` a number of times equal to the value of `rows_number`, which is a positive integer.
+
+#Overall this is what the function does:The function generates a list by repeatedly calling the function `func_3()` a specified number of times, equal to the value of `rows_number`, and returns this list. The function does not modify the input variable `rows_number`.
+
+#State of the program right berfore the function call: stdin contains a sequence of bytes that can be decoded into a string, which represents a line of input that has been stripped of its trailing newline byte.
+    return sys.stdin.buffer.readline().rstrip()
+    #The program returns a bytes object that represents a line of input from stdin, stripped of its trailing newline byte.
+
+#Overall this is what the function does:Reads a line of input from standard input (stdin), removes the trailing newline byte, and returns the resulting bytes object.
+
+#State of the program right berfore the function call: The input is a string representing a line from standard input, and it is expected to be read and decoded.
+    return sys.stdin.buffer.readline().rstrip().decode()
+    #The program returns a string representing a line from standard input, which has been read, decoded, and stripped of any trailing characters.
+
+#Overall this is what the function does:Reads a line from standard input, decodes it, removes trailing characters, and returns the resulting string.
+
+#State of the program right berfore the function call: The input is a string of two space-separated positive integers.
+    return [int(i) for i in input().split()]
+    #The program returns a list of two integers that are positive and were input by the user as a string of two space-separated numbers.
+
+#Overall this is what the function does:The function takes a string of two space-separated positive integers as input, parses it, and returns a list of two positive integers.
+
+#State of the program right berfore the function call: rows is a positive integer
+    return [func_7() for _ in range(rows)]
+    #The program returns a list of 'rows' number of elements, where each element is the result of calling the function func_7(). The value of func_7() is not specified in the initial state, so the exact values in the list are unknown. However, it is known that the list will have 'rows' number of elements, where 'rows' is a positive integer.
+
+#Overall this is what the function does:This function generates a list of a specified length, where each element is the result of calling the function func_7(). The length of the list is determined by the input parameter 'rows', which is a positive integer. The function returns this list, with the exact values of its elements depending on the outcome of calling func_7() repeatedly.
+
+#State of the program right berfore the function call: stdin contains a string
+    return input()
+    #The program returns the string that is currently in the standard input (stdin).
+
+#Overall this is what the function does:Reads a string from the standard input (stdin) and returns it as is, without any modifications or processing.
+
+#State of the program right berfore the function call: stdin contains one input: a positive integer.
+    return int(input())
+    #The program returns a positive integer that was provided as input.
+
+#Overall this is what the function does:Reads a positive integer from standard input and returns it as is, without any modifications or transformations.
+
+#State of the program right berfore the function call: The input is a string of two space-separated positive integers.
+    return input().split()
+    #The program returns a list of two strings, each representing a positive integer, separated by a space.
+
+#Overall this is what the function does:The function takes a string of two space-separated positive integers as input, splits it into two separate strings, and returns them as a list of two strings, each representing a positive integer.
+
+#State of the program right berfore the function call: d is a dictionary where each key is an integer and each value is a list of integers, processing is a list of integers of the same length as the number of keys in d, da is an integer key in d, and rank is a list of integers of the same length as the number of keys in d.
+    tmp = 10 ** 9
+    if (len(d[da]) == 1) :
+        return 1
+        #The program returns integer 1
+    #State: *`d` is a dictionary where each key is an integer and each value is a list of integers, `processing` is a list of integers of the same length as the number of keys in `d`, `da` is an integer key in `d`, `rank` is a list of integers of the same length as the number of keys in `d`, and `tmp` is 1000000000. The length of the list associated with key `da` in `d` is more than 1.
+    for di in d[da]:
+        if processing[di - 1] == 0:
+            processing[di - 1] = 1
+            tmp = min(tmp, func_12(d, processing, di, rank))
+            processing[di - 1] = 0
+        
+    #State: `d` is a dictionary where each key is an integer and each value is a list of integers, `processing` is a list of integers of the same length as the number of keys in `d`, `da` is an integer key in `d`, `rank` is a list of integers of the same length as the number of keys in `d`, `tmp` is an integer less than or equal to 1000000000, and `d[da]` is a list of integers with at least as many elements as the number of iterations of the loop, `di` is the last element in the list `d[da]`. If `processing[di - 1]` is 0, `tmp` is the minimum of its original value and the return value of `func_12(d, processing, di, rank)`.
+    rank[da - 1] = tmp + 1
+    return tmp + 1
+    #The program returns an integer value that is 1 more than the minimum of the original value of `tmp` (which is less than or equal to 1000000000) and the return value of `func_12(d, processing, di, rank)`, where `d` is a dictionary with integer keys and list of integer values, `processing` is a list of integers, `di` is the last element in the list `d[da]`, and `rank` is a list of integers.
+
+#Overall this is what the function does:This function calculates and returns a rank value based on the input dictionary `d`, list `processing`, key `da`, and list `rank`. If the list associated with key `da` in `d` has only one element, the function returns 1. Otherwise, it iterates through the list, updating the `processing` list and calculating a temporary minimum value `tmp` by recursively calling `func_12` for each element. The function then updates the `rank` list with the calculated `tmp` value plus 1 and returns this value.
+
+#State of the program right berfore the function call: a and b are positive integers.
+    if (b == 0) :
+        x = 1
+        y = 0
+        return x, y, a
+        #The program returns a tuple containing three values: x which is 1, y which is 0, and a which is a positive integer.
+    #State: a and b are positive integers, and b is not equal to 0
+    x, y, g = func_13(b, a % b)
+    return y, x - a // b * y, g
+    #The program returns a tuple containing three values: y, x - a // b * y, and g. Here, y, x, and g are the values returned by the function func_13(b, a % b), where a and b are positive integers and b is not equal to 0. The value of x - a // b * y is calculated using the values of x and y returned by func_13(b, a % b) and the integer division of a by b.
+
+#Overall this is what the function does:This function calculates and returns the greatest common divisor (GCD) of two positive integers a and b, along with the coefficients x and y such that ax + by = gcd(a, b). If b is 0, it returns (1, 0, a). Otherwise, it recursively calls another function func_13 with swapped and reduced arguments (b, a % b) and returns the calculated coefficients and GCD.
+
+#State of the program right berfore the function call: a is a list of non-negative integers, n is a non-negative integer such that 0 <= n <= len(a), m is a non-negative integer, and k is a non-negative integer.
+    for i in range(n):
+        if a[i] < m:
+            k -= m - a[i]
+        
+    #State: `a` is a list of non-negative integers, `n` is a non-negative integer such that 0 <= n <= len(a), `m` is a non-negative integer, and `k` is a non-negative integer such that `k` is decreased by `m - a[i]` for each `i` in range `n` where `a[i]` is less than `m`.
+    if (k >= 0) :
+        return 1
+        #The program returns the integer 1.
+    #State: *`a` is a list of non-negative integers, `n` is a non-negative integer such that 0 <= n <= len(a), `m` is a non-negative integer, and `k` is a non-negative integer such that `k` is decreased by `m - a[i]` for each `i` in range `n` where `a[i]` is less than `m`. `k` is less than 0
+    return -1
+    #The program returns -1, which is a negative integer.
+
+#Overall this is what the function does:This function takes a list of non-negative integers `a`, and non-negative integers `n`, `m`, and `k` as input. It iterates over the first `n` elements of `a` and decreases `k` by the difference between `m` and each element that is less than `m`. If `k` remains non-negative after this process, the function returns 1; otherwise, it returns -1. The function does not modify the input list `a`.
+
+#State of the program right berfore the function call: n and m are positive integers such that 1 <= n, m <= 2 * 10^6
+    n, m = func_7()
+    i = 1
+    ans = 0
+    while i <= m and i * i <= n + i:
+        ans += (n + i) // (i * i)
+        
+        i += 1
+        
+    #State: n is a positive integer, m is a positive integer, i is the smallest integer greater than or equal to 2 such that i * i > n + i or i > m, ans is the original value of ans plus the sum of (n + j) // (j * j) for all j from 1 to i - 1
+    return ans - 1
+    #The program returns the original value of ans plus the sum of (n + j) // (j * j) for all j from 1 to i - 1, minus 1, where n is a positive integer, m is a positive integer, and i is the smallest integer greater than or equal to 2 such that i * i > n + i or i > m.
+
+#Overall this is what the function does:Functionality: This function calculates the sum of the integer divisions of (n + j) by (j * j) for all j from 1 to a certain limit, subtracts 1 from the result, and returns the value. The limit is the smallest integer greater than or equal to 2 such that i * i > n + i or i > m, where n and m are positive integers. The function takes no parameters and returns an integer value.
+
+#State of the program right berfore the function call: The function func_10() returns a positive integer, and the function func_15() returns a value that can be converted to a string.
+    for _ in range(func_10()):
+        sys.stdout.write(str(func_15()) + '\n')
+        
+    #State: The standard output contains a string representation of the return value of `func_15()` followed by a newline character, repeated `func_10()` times, and `func_10()` still returns a positive integer.
+
+#Overall this is what the function does:The function repeatedly writes the string representation of the return value of `func_15()` followed by a newline character to the standard output, with the number of repetitions determined by the return value of `func_10()`, which is a positive integer.
+

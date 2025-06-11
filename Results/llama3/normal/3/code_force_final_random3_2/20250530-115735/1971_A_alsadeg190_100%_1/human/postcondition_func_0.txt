@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, where the first integer specifies the number of pairs to read. It then prints each pair in sorted order, with the smaller integer first. The function does not return any value, and its purpose is to output the sorted pairs to the console.

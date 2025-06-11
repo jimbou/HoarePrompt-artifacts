@@ -1,0 +1,1 @@
+The function constructs a tree from the given input, roots it at node 0, and then applies the func_4 function to the rooted tree, the number of nodes (n), and the value of k, printing the result.

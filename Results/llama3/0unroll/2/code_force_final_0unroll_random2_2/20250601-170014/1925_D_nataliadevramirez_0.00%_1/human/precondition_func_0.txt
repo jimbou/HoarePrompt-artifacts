@@ -1,0 +1,1 @@
+n and m are non-negative integers, k is a positive integer, friendships is a list of 3-element tuples, where each tuple contains three integers a, b, and f, such that 1 <= a, b <= n, a != b, and 1 <= f <= 10^9.

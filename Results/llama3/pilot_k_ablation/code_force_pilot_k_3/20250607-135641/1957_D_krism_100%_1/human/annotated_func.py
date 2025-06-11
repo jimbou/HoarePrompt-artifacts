@@ -1,0 +1,50 @@
+#State of the program right berfore the function call: stdin contains multiple lines of input. The first line contains an integer t (1 <= t <= 10^4). Each of the following t lines contains an integer n (1 <= n <= 10^5). Each of the following t lines contains n space-separated integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+    n = int(input())
+    arr = list(map(int, input().split()))
+    prefix = [0]
+    for v in arr:
+        prefix.append(v ^ prefix[-1])
+        
+    #State: `n` is an integer between 1 and 10^4 (inclusive), `arr` is an empty list, `prefix` is a list containing n+1 elements, where the first element is 0 and the remaining elements are the result of the XOR operation between each element in the original `arr` list and the previous element in the `prefix` list, `stdin` contains t-1 lines of input, each containing an integer n (1 <= n <= 10^5), followed by n space-separated integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+    pre = [[0, 0] for _ in range(32)]
+    suf = [[0, 0] for _ in range(32)]
+    for i in range(32):
+        pre[i][0] += 1
+        
+    #State: `n` is an integer between 1 and 10^4 (inclusive), `arr` is an empty list, `prefix` is a list containing `n+1` elements, where the first element is 0 and the remaining elements are the result of the XOR operation between each element in the original `arr` list and the previous element in the `prefix` list, `stdin` contains `t-1` lines of input, each containing an integer `n` (1 <= `n` <= 10^5), followed by `n` space-separated integers `a_1, a_2, ..., a_n` (1 <= `a_i` <= 10^9), `pre` is a list of 32 lists, each containing two elements, where the first element of the `i-th` list is 32 and the second element is 0 for `i` at least 31 and less than 32, and the first element of the `i-th` list is 31 and the second element is 0 for other values of `i`, `suf` is a list of 32 lists, each containing two elements initialized to 0, `i` is at least 31 and less than 32.
+    for i in range(n, 0, -1):
+        cur = prefix[i]
+        
+        for j in range(32):
+            if cur >> j & 1:
+                suf[j][1] += 1
+            else:
+                suf[j][0] += 1
+        
+    #State: Output State: `n` is at least 1, `i` is 0, `arr` is an empty list, `prefix` is a list containing `n+1` elements, where the first element is 0 and the remaining elements are the result of the XOR operation between each element in the original `arr` list and the previous element in the `prefix` list, `stdin` contains `t-1` lines of input, each containing an integer `n` (1 <= `n` <= 10^5), followed by `n` space-separated integers `a_1, a_2, ..., a_n` (1 <= `a_i` <= 10^9), `pre` is a list of 32 lists, each containing two elements, where the first element of the `i-th` list is 32 and the second element is 0 for `i` at least 31 and less than 32, and the first element of the `i-th` list is 31 and the second element is 0 for other values of `i`, `suf` is a list of 32 lists, each containing two elements, where `suf[j][1]` is `n` and other elements are 0 if `cur` has a 1 at the `j-th` bit position (i.e., `cur` is odd), otherwise the first element of the `j-th` list is `n` and the second element is 0, `cur` is equal to `prefix[0]`, and `j` is 32.
+    #
+    #In natural language, the output state after the loop executes all the iterations is that the `suf` list has been updated according to the bits of the `cur` value. If `cur` has a 1 at the `j-th` bit position, then `suf[j][1]` is `n` and other elements are 0. Otherwise, `suf[j][0]` is `n`. The other variables remain unchanged.
+    ans = 0
+    for i in range(1, n + 1):
+        y = arr[i - 1]
+        
+        k = y.bit_length() - 1
+        
+        ans += pre[k][0] * suf[k][0] + pre[k][1] * suf[k][1]
+        
+        c = prefix[i]
+        
+        for j in range(32):
+            if c >> j & 1:
+                pre[j][1] += 1
+                suf[j][1] -= 1
+            else:
+                pre[j][0] += 1
+                suf[j][0] -= 1
+        
+    #State: n is at least n, i is n, arr is a list containing n elements, prefix is a list containing n+1 elements, where the first element is 0 and the remaining elements are the result of the XOR operation between each element in the original arr list and the previous element in the prefix list, stdin contains t-1 lines of input, each containing an integer n (1 <= n <= 10^5), followed by n space-separated integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9), pre is a list of 32 lists, each containing two elements, where the first element of the i-th list is 32 and the second element is n for i at least 31 and less than 32, and the first element of the i-th list is 31 and the second element is n for other values of i if the j-th bit of c is 1, otherwise the first element of the i-th list is 31 and the second element is 0 for i at least 31 and less than 32, and the first element of the i-th list is 30 and the second element is 0 for other values of i, suf is a list of 32 lists, each containing two elements, where suf[j][1] is 0 if cur has a 1 at the j-th bit position (i.e., cur is odd), otherwise the first element of the j-th list is 0 and the second element is 0, cur is equal to prefix[0], j is 32, ans is equal to the sum of pre[k][0] * suf[k][0] + pre[k][1] * suf[k][1] for all k, y is equal to arr[i - 1], k is equal to y.bit_length() - 1, and c is equal to prefix[i].
+    print(ans)
+    #This is printed: ans (where ans is the sum of products of corresponding elements from the pre and suf lists)
+
+#Overall this is what the function does:This function reads input from stdin, where the first line contains an integer t (1 <= t <= 10^4), followed by t lines, each containing an integer n (1 <= n <= 10^5) and n space-separated integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9). It calculates the sum of products of corresponding elements from two lists, pre and suf, which are updated based on the bits of the prefix and suffix values of the input integers. The function prints the calculated sum.
+

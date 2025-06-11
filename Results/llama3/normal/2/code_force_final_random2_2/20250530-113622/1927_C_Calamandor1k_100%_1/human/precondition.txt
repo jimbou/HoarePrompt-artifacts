@@ -1,0 +1,1 @@
+t is a positive integer, cases is a list of test cases, each test case is a tuple of three elements: two lists of positive integers a and b, and a positive even integer k, such that 2 <= k <= 2 * min(len(a), len(b)).

@@ -1,0 +1,1 @@
+This function takes a list of integers as input and prints a specific message based on the length of the list. If the list has exactly 2 integers, it prints "4 1" followed by "1 2". Otherwise, it prints "13 0". The function does not modify the input list or return any value. It only prints a message to the console and maintains the original state of the input list and variables.

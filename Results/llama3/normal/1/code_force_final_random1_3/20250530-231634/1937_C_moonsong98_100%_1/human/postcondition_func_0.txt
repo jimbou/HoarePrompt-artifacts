@@ -1,0 +1,1 @@
+The function prompts the user to guess a secret sequence by printing a query with four indices (a, b, c, and d) and returns the user's input as a stripped string, which is expected to be a guess of the secret sequence.

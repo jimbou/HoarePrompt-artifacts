@@ -1,0 +1,1 @@
+a is a list of integers, n is a non-negative integer such that n = len(a) and 1 <= a_i <= 10^9 for all i.

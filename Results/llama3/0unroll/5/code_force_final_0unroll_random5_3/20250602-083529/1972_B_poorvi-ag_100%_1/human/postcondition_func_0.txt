@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of an integer n followed by a string s of length n containing only "U" and "D". It then determines whether the number of "U"s in each string is odd or even and outputs "yes" if it's odd and "no" if it's even, one output per test case.

@@ -1,0 +1,1 @@
+The function takes no parameters and returns a list containing all the values yielded by the iterator returned by func_1. It effectively converts the iterator into a list, providing a collection of all values produced by func_1.

@@ -1,0 +1,1 @@
+Rotates the input list to the right by half of the input integer k places, moving the last element to the front, and returns the modified list, while keeping the input integer n unchanged.

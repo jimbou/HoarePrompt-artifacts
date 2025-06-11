@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer and then a list of integers. The first integer is a positive integer (>= 1) and represents the length of the list. The list contains integers (>= 1) and its length is equal to the first integer. The sum of the lengths of all lists does not exceed 3 * 10^5.

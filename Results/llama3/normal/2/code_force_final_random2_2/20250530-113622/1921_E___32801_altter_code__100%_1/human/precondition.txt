@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains six integers h, w, x_a, y_a, x_b, y_b. 1 <= x_a, x_b <= h <= 10^6, 1 <= y_a, y_b <= w <= 10^9. Either x_a != x_b or y_a != y_b.

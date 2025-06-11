@@ -1,0 +1,1 @@
+Reads an integer from standard input representing the number of test cases, then calls another function (`func_1`) that number of times. If the input is not a valid integer, it prints an error message and does not perform any further actions.

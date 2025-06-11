@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of two positive integers and two binary strings. It then finds the maximum number of characters that can be matched between the two binary strings in each test case and prints this value for each test case. The function consumes all test cases from standard input and leaves it empty.

@@ -1,0 +1,1 @@
+stdin is a file-like object containing a sequence of bytes that can be read and decoded into a string. The string represents a line of input from the standard input, terminated by a newline character or the end of the file.

@@ -1,0 +1,1 @@
+This function reads two lines of digits from standard input, sorts the first line in ascending order and the second line in descending order, and then prints the sorted lines. The function repeats this process for a specified number of test cases, where the number of test cases is also read from standard input.

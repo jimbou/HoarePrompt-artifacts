@@ -1,0 +1,1 @@
+This function takes a list of integers 'a', positive integers 'n' and 'm', and an integer 'k' as input. It calculates the sum of differences between 'm' and each element in 'a' that is less than 'm', and subtracts this sum from 'k'. If the resulting value of 'k' is non-negative, the function returns 1; otherwise, it returns -1. The function does not modify the input list 'a'.

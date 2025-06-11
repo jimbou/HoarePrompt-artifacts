@@ -1,0 +1,1 @@
+The function compares two non-negative integers, a and b, and returns the smaller of the two.

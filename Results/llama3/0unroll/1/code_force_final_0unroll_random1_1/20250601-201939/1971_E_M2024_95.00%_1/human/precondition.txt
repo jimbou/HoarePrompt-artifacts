@@ -1,0 +1,1 @@
+t is a positive integer, n and k are positive integers such that k <= n, q is a positive integer, a is a list of k positive integers such that 1 <= a_i <= n for all i and a_i < a_{i+1} for all i, b is a list of k positive integers such that 1 <= b_i <= 10^9 for all i and b_i < b_{i+1} for all i, d is a list of q non-negative integers such that 0 <= d_i <= n for all i.

@@ -1,0 +1,1 @@
+Reads a positive integer from standard input and executes a loop that calls another function (func_3) a number of times equal to the input integer, until the input is exhausted.

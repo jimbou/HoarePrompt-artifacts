@@ -1,0 +1,1 @@
+This function reads a string from standard input and checks for repeated patterns within the string. It prints the length of the longest repeated pattern found, or 0 if no pattern is found. The function processes one string at a time, and after processing, the standard input is left with the remaining strings.

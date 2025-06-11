@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, checks if either integer is even, and if so, checks if the other integer is equal to half of the even integer. If this condition is met, it prints 'Yes', otherwise it prints 'No'. The function continues this process until all input pairs have been processed, at which point the standard input is empty.

@@ -1,0 +1,1 @@
+n, m, and k are positive integers, prices is a list of n positive integers, 1 <= n <= 3*10^5, 1 <= m <= 10^9, 1 <= k <= min(n*m, 10^9).

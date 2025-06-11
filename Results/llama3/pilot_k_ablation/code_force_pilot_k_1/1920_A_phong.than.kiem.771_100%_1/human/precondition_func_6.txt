@@ -1,0 +1,1 @@
+stdin contains n+1 inputs: first an integer n, and then n lines each containing two integers t and v, where t is an integer in {1,2,3} and v is a non-negative integer less than or equal to 1000000000.

@@ -1,0 +1,1 @@
+Determines the winner ('Bob' or 'Alice') based on whether the sum of two non-negative integers (a and b) is even or odd.

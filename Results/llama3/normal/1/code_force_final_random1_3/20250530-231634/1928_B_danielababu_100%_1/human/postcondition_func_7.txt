@@ -1,0 +1,1 @@
+This function takes a list of positive integers as input and returns a new list where each element at index i is the product of all elements in the input list up to index i. The input list remains unchanged.

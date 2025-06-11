@@ -1,0 +1,1 @@
+The function takes four non-negative integers a, b, c, and d as input, prints a string in the format '? a b c d', and returns a string that starts with '?' and is followed by the values of a, b, c, and d. The function does not modify the input variables.

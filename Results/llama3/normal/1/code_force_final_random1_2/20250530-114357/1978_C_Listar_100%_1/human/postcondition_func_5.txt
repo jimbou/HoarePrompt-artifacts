@@ -1,0 +1,1 @@
+This function determines whether to print 'NO' or return a value based on the input values 'n' and 'k'. If 'n' is 0, it prints 'NO' and returns nothing. Otherwise, it calls another function 'func_1' with 'n' and 'k' as arguments, passes the result to 'func_5', and returns the result of 'func_1'.

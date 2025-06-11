@@ -1,0 +1,1 @@
+a is a list of integers of length n, b is a list of integers of length m, k is an integer, n and m are non-negative integers such that m <= n, 1 <= k <= m, and 1 <= a_i, b_j <= 10^6 for all i and j.

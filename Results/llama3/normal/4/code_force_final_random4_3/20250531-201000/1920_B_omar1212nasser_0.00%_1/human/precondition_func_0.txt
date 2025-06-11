@@ -1,0 +1,1 @@
+k and x are non-negative integers such that 0 <= k <= n and 0 <= x <= n, a is a list of n non-negative integers, n is a positive integer.

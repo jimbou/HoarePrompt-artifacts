@@ -1,0 +1,1 @@
+This function calculates the sum of the integer division of the frequency of each unique element in the input list by 3. It takes a list of non-negative integers as input and returns a single integer value representing this sum. The function does not modify the input list.

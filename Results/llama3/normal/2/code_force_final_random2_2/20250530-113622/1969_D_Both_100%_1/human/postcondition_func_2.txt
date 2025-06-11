@@ -1,0 +1,1 @@
+Calculates the total price for Alice by summing the prices from the secondary heap and adding the combined prices of items from the primary list that have a non-negative total price, then returns this total price.

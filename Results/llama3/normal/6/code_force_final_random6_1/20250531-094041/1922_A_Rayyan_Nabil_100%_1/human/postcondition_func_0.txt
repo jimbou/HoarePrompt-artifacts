@@ -1,0 +1,1 @@
+This function compares three strings of equal length and returns 'YES' if it finds a position where both strings a and b differ from string c, otherwise it returns 'NO'.

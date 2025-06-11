@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of a string of '+' and '-' characters. It calculates and prints the difference between the number of '+' and '-' characters in each string, one output per test case.

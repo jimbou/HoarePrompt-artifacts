@@ -1,0 +1,1 @@
+a is a list of two integers and a list of integers, where the first integer is the number of cows, the second integer is the index of the cow of interest, and the list of integers are the Cowdeforces ratings of the cows.

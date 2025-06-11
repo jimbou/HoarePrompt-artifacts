@@ -1,0 +1,48 @@
+#State of the program right berfore the function call: stdin contains multiple lines of input. The first line contains a single integer t (1 <= t <= 10^4). Each of the following t lines contains a single integer n (1 <= n <= 10^5). Each of the following t lines contains n space-separated integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+    n = int(input())
+    arr = list(map(int, input().split()))
+    prefix = [0]
+    for v in arr:
+        prefix.append(v ^ prefix[-1])
+        
+    #State: `n` is an integer equal to the first input, `arr` is a list of n space-separated integers from the second input, `prefix` is a list containing n+1 elements where each element at index i is the XOR of all elements in `arr` up to index i, `stdin` contains t-1 lines of input: a single integer and n space-separated integers.
+    pre = [[0, 0] for _ in range(32)]
+    suf = [[0, 0] for _ in range(32)]
+    for i in range(32):
+        pre[i][0] += 1
+        
+    #State: `n` is an integer equal to the first input, `arr` is a list of `n` space-separated integers from the second input, `prefix` is a list containing `n+1` elements where each element at index `i` is the XOR of all elements in `arr` up to index `i`, `pre` is a list of 32 lists each containing two elements where the first element of each list is 1 and the rest are zeros, `suf` is a list of 32 lists each containing two zeros, `stdin` contains `t-2` lines of input: a single integer and `n` space-separated integers.
+    for i in range(n, 0, -1):
+        cur = prefix[i]
+        
+        for j in range(32):
+            if cur >> j & 1:
+                suf[j][1] += 1
+            else:
+                suf[j][0] += 1
+        
+    #State: `n` is an integer, `arr` is a list of `n` space-separated integers from the second input, `prefix` is a list containing `n+1` elements where each element at index `i` is the XOR of all elements in `arr` up to index `i`, `pre` is a list of 32 lists each containing two elements where the first element of each list is 1 and the rest are zeros, `suf` is a list of 32 lists where each list contains two elements: the first element is the number of times the jth bit of all elements in `prefix` (excluding the first element) is 0 and the second element is the number of times the jth bit of all elements in `prefix` (excluding the first element) is 1, `stdin` contains `t-2` lines of input: a single integer and `n` space-separated integers, `i` is 0, `cur` is the XOR of all elements in `arr` up to index `n-1`, and `j` is 32. If `n` is 0, `suf` is a list of 32 lists each containing two zeros.
+    ans = 0
+    for i in range(1, n + 1):
+        y = arr[i - 1]
+        
+        k = y.bit_length() - 1
+        
+        ans += pre[k][0] * suf[k][0] + pre[k][1] * suf[k][1]
+        
+        c = prefix[i]
+        
+        for j in range(32):
+            if c >> j & 1:
+                pre[j][1] += 1
+                suf[j][1] -= 1
+            else:
+                pre[j][0] += 1
+                suf[j][0] -= 1
+        
+    #State: `n` is an integer, `arr` is a list of `n` space-separated integers from the second input, `prefix` is a list containing `n+1` elements where each element at index `i` is the XOR of all elements in `arr` up to index `i`, `pre` is a list of 32 lists each containing two elements where the first element of each list is the number of times the jth bit of all elements in `prefix` (excluding the first element) is 0 and the second element is the number of times the jth bit of all elements in `prefix` (excluding the first element) is 1, `suf` is a list of 32 lists where each list contains two elements: the first element is the number of times the jth bit of all elements in `prefix` (excluding the first element) is 0 and the second element is the number of times the jth bit of all elements in `prefix` (excluding the first element) is 1, `stdin` contains `t-2` lines of input: a single integer and `n` space-separated integers, `i` is `n`, `cur` is the XOR of all elements in `arr` up to index `n-1`, `j` is 0, `ans` is the sum of the products of the number of times each bit is 0 and 1 in `prefix` (excluding the first element) and the corresponding counts in `pre` and `suf`, `y` is the last element of `arr`, `k` is the bit length of `y` minus 1, `c` is the last element of `prefix`.
+    print(ans)
+    #This is printed: sum of products of bit counts (where bit counts are the number of times each bit is 0 and 1 in prefix excluding the first element, and the corresponding counts in pre and suf)
+
+#Overall this is what the function does:This function reads input from stdin, processes it, and prints the sum of products of bit counts. It takes no parameters and returns no value. The input is expected to be in a specific format, with the first line containing an integer t, followed by t lines containing a single integer n, and then n lines containing n space-separated integers. The function calculates the XOR of all elements in each line, and then calculates the sum of products of bit counts for each bit position. The bit counts are calculated based on the number of times each bit is 0 or 1 in the XOR values. The function prints the final sum of products of bit counts.
+

@@ -1,0 +1,1 @@
+Reads a positive integer t from standard input and calls the function func_3() t times.

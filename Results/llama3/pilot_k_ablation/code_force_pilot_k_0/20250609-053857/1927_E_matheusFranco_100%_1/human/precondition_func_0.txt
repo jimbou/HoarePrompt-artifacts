@@ -1,0 +1,1 @@
+stdin contains one input: two space-separated integers n and k such that 2 <= k <= n <= 2*10^5 and k is even.

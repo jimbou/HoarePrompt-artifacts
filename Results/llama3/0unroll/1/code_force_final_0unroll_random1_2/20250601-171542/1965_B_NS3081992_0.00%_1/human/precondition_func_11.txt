@@ -1,0 +1,1 @@
+d is a dictionary where each key maps to a list of integers, processing is a list of integers, da is an integer that is a key in d, and rank is a list of integers. The length of processing is equal to the maximum value in the lists of d minus one, and the length of rank is equal to the maximum key in d minus one.

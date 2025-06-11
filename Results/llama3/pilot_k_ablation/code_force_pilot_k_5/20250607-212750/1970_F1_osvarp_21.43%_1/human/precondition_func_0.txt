@@ -1,0 +1,1 @@
+stdin contains the following inputs: first a line with two space-separated integers n and m, then n lines with m space-separated pairs of characters each, then a line with an integer t, and finally t lines with a pair of characters and a command (U, D, L, R, C, or T) separated by spaces.

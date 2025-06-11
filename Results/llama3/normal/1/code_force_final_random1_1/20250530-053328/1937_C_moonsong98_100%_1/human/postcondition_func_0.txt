@@ -1,0 +1,1 @@
+The function prints a message to the user in the format "? a b c d" where a, b, c, and d are integers, and then returns the user's response as a string.

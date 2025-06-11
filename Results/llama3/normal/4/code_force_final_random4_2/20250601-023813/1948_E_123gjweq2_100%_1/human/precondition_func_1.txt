@@ -1,0 +1,1 @@
+left and right are non-negative integers such that left < right, arr is a list of non-negative integers of length at least right + 1, cliquess is a list of non-negative integers of length at least right + 1, and clique is a non-negative integer.

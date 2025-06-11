@@ -1,0 +1,1 @@
+arr is a list of positive integers, representing the lengths of the sticks, and the length of the list is between 1 and 100 (inclusive).

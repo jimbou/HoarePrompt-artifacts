@@ -1,0 +1,1 @@
+Determines the winner of a game based on a list of positive integers. The function takes a list of positive integers as input, removes duplicates, sorts the list, and checks if the list represents a contiguous sequence of integers starting from 1. If the sequence is contiguous, the function returns 'Bob', otherwise it returns 'Alice'.

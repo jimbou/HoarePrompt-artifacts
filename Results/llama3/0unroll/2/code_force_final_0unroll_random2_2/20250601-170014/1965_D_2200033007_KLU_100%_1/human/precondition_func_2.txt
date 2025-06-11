@@ -1,0 +1,1 @@
+odds is a list of positive integers representing the sums of odd-length subarrays of a palindrome array a, and n is a positive integer representing the length of a. The list odds contains the sums of all odd-length subarrays of a, in non-increasing order, and n is odd.

@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 10^3) representing the number of test cases, followed by t lines each containing two integers n and k (1 <= k <= n <= 10^3) representing the length of the array and the number of sorted cyclic shifts the array must have.

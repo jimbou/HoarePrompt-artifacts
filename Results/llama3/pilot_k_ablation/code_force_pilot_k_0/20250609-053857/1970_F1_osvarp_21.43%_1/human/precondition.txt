@@ -1,0 +1,1 @@
+stdin contains multiple inputs: first two integers N and M, then N lines of M pairs of characters separated by spaces, then an integer T, and finally T lines each containing a pair of characters and an action. N and M are odd integers such that 3 <= N, M <= 99. T is an integer such that 0 <= T <= 10000.

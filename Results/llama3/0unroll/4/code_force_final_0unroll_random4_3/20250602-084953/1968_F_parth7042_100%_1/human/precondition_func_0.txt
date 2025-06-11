@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three inputs: first an integer t, then two integers n and q, and finally n integers a_1, ..., a_n. For each test case, there are q queries, each consisting of two integers l and r.

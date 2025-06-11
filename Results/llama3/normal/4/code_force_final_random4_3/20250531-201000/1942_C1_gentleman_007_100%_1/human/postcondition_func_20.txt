@@ -1,0 +1,1 @@
+Computes the remainder of a raised to the power of b, modulo mod, where a and b are non-negative integers and mod is a positive integer. The function takes three parameters: a, b, and mod, and returns the result of the modular exponentiation.

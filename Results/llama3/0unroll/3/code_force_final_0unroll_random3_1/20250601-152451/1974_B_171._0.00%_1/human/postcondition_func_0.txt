@@ -1,0 +1,1 @@
+Decodes a given string of lowercase Latin letters by creating a mapping of unique characters and returns the decoded string, where each character is replaced by its corresponding decoded version.

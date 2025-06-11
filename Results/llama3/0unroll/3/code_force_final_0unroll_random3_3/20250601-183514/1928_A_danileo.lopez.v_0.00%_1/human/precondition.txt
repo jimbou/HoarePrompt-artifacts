@@ -1,0 +1,1 @@
+stdin contains multiple lines of input. The first line contains a single integer t (1 <= t <= 10^4), representing the number of test cases. Each of the following lines contains two integers a and b (1 <= a, b <= 10^9), representing the size of Bob's rectangle.

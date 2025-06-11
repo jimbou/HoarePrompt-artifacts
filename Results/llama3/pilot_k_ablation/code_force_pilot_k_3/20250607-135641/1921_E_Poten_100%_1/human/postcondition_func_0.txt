@@ -1,0 +1,1 @@
+Determines the winner of a game between Alice and Bob based on their initial positions on a board, and prints the result for multiple test cases.

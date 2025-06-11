@@ -1,0 +1,1 @@
+Executes the function `func_6()` a specified number of times, where the number of executions is determined by the return value of `func_1()`, which is expected to be a non-negative integer.

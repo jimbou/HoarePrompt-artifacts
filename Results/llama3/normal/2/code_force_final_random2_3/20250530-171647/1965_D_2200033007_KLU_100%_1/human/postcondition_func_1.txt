@@ -1,0 +1,1 @@
+This function filters a list of integers (`cts`) and returns a new list (`odds`) containing only the integers that appear an odd number of times in the original list. It effectively removes any integers that appear an even number of times.

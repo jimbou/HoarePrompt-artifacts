@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 1000) followed by t lines, each containing two integers n and k (1 <= n <= 100, 0 <= k <= n * (n - 1) / 2).

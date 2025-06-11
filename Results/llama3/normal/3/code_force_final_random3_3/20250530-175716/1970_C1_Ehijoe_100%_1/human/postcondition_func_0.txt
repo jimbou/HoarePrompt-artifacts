@@ -1,0 +1,1 @@
+This function determines the winner of a game based on the number of moves required to reach a target node in a tree-like graph. The function reads input from stdin, constructs the graph, identifies the start node, calculates the number of moves to the target node, and prints the winner's name ('Ron' if at least one move is odd, 'Hermione' if all moves are even).

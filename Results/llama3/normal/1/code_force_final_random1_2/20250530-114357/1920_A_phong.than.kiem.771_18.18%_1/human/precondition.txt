@@ -1,0 +1,1 @@
+stdin contains one or more inputs: a single integer (the number of test cases), followed by a single integer (the number of constraints) and then a sequence of pairs of integers (constraint type and constraint value) for each test case.

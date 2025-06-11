@@ -1,0 +1,1 @@
+This function performs a binary search on a list of elements to find the index of an element for which a given predicate function returns True. It takes a list `arr` and a predicate function as input. If such an element is found, the function returns its index. If no such element is found, the function returns None.

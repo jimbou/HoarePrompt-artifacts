@@ -1,0 +1,1 @@
+stdin contains a line with two space-separated integers, both are positive integers.

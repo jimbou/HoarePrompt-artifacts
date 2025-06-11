@@ -1,0 +1,1 @@
+numbers is a list of integers, where the first element is the number of test cases, and each test case consists of a list of integers, where the first integer is the number of outcomes, and the remaining integers are the multipliers for each outcome.

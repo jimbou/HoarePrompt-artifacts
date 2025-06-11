@@ -1,0 +1,1 @@
+This function takes a list of non-negative integers and an integer n as input, calculates the frequency of each integer in the list, and prints the smallest number in the range [0, n] that appears at most once in the list. If no such number exists, it prints the smallest number in the range [0, n] that does not appear in the list. The function does not return any value.

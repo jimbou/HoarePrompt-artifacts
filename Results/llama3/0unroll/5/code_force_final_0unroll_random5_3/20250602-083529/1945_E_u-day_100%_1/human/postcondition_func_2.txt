@@ -1,0 +1,1 @@
+This function searches for a target integer k in a list of distinct integers arr and prints the result. If k is found at the expected position, it prints 0. If k is not found at the expected position, it prints 1 and the expected position of k. The function does not modify the input list or variables.

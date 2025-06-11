@@ -1,0 +1,1 @@
+The function reads a positive integer `t` from standard input, then reads `t` pairs of positive integers `n` and `k` (each between 1 and 26 inclusive) from standard input, and for each pair, it prints the first `k` characters of the alphabet repeated `n` times. After processing all pairs, the function leaves the standard input empty.

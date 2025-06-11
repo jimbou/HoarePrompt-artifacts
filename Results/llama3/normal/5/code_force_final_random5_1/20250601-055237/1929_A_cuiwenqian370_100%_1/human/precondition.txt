@@ -1,0 +1,1 @@
+array is a list of at least two integers.

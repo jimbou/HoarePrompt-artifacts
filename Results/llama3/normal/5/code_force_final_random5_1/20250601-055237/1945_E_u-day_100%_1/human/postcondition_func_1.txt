@@ -1,0 +1,1 @@
+This function takes an iterator function `func_1` as input, iterates over its values, and returns them as a list. The returned list contains values of any type yielded by the iterator `func_1`.

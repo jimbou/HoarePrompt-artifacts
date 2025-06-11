@@ -1,0 +1,1 @@
+stdin contains one integer t (1 ≤ t ≤ 676) denoting the number of test cases. For each test case, stdin contains two integers n (1 ≤ n ≤ 26) and k (1 ≤ k ≤ 26).

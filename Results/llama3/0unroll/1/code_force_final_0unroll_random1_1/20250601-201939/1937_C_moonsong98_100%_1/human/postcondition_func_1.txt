@@ -1,0 +1,1 @@
+Prints the values of two non-negative integers, a and b, to the console, separated by a space, and flushes the output buffer to ensure the output is displayed immediately.

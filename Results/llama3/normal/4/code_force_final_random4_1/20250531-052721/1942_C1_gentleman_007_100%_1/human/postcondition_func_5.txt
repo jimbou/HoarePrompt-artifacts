@@ -1,0 +1,1 @@
+This function generates a 2D list 'l' of size (n+1) x (n+1) where 'n' is a positive integer, and sets 'l[x][y]' and 'l[y][x]' to 1 for 'm' number of pairs (x, y) obtained from another function 'func_1()', while keeping all other elements as 0. The function returns this 2D list.

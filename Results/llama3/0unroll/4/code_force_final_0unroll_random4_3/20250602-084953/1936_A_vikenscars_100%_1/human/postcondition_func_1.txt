@@ -1,0 +1,1 @@
+This function finds the index of the maximum item in the range [0, n) using a comparison function func_1, and then finds another index of the maximum item in the same range. It prints the indices of these two maximum items.

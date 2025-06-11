@@ -1,0 +1,1 @@
+n is a positive integer and a is a list of n integers from 1 to n, where each integer appears at most twice.

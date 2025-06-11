@@ -1,0 +1,1 @@
+stdin contains t test cases. Each test case contains three lines. The first line contains two space-separated integers n and m. The second and third lines contain two binary strings a and b of lengths n and m, respectively.

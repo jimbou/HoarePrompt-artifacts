@@ -1,0 +1,1 @@
+This function finds the largest factor of a given integer x that is less than x/2, or returns x/2 if it is a factor of x, otherwise returns the largest factor of x less than x/2.

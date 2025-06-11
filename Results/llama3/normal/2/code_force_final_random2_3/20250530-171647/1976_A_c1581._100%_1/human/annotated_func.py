@@ -1,0 +1,30 @@
+#State of the program right berfore the function call: password is a string consisting of lowercase Latin letters and digits.
+    digits = []
+    letters = []
+    for char in password:
+        if char.isdigit():
+            digits.append(char)
+        else:
+            letters.append(char)
+        
+    #State: `password` is a string consisting of lowercase Latin letters and digits, `digits` is a list containing all the digits in the `password` string, `letters` is a list containing all the letters in the `password` string.
+    digits.sort()
+    letters.sort()
+    for i in range(len(digits)):
+        if i < len(digits) - 1 and digits[i] > digits[i + 1]:
+            return False
+        
+        if i < len(letters) and digits[-1] > letters[i]:
+            return False
+        
+    #State: password is a string consisting of lowercase Latin letters and digits, digits is a sorted list containing all the digits in the password string, letters is a sorted list containing all the letters in the password string, i is equal to the length of digits, and either i is equal to or greater than the second last index of digits or digits[i] is less than or equal to digits[i + 1]. If i is less than the second last index of digits and digits[i] is greater than digits[i + 1], the function returns False. Otherwise, no changes are made.
+    sortedPassword = ''.join(digits + letters)
+    if (sortedPassword == password) :
+        return True
+        #The program returns True
+    else :
+        return False
+        #The program returns False
+
+#Overall this is what the function does:This function checks if a given password string is sorted in ascending order, first by digits and then by letters. It returns True if the password is sorted, and False otherwise. The function does not modify the original password string. It only checks the sorted order of the digits and letters within the password.
+

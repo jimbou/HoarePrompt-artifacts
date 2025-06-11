@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of three integers: n, a, and b. For each test case, it calculates and prints the minimum cost by either using the minimum of n and b-a consecutive numbers starting from b, or using a for the remaining numbers. The function processes all test cases and outputs the minimum cost for each case.

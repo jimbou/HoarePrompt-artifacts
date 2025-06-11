@@ -1,0 +1,1 @@
+Executes a specified number of iterations of a function, func_1, based on input from stdin, without modifying the input or producing any output.

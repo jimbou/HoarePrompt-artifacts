@@ -1,0 +1,1 @@
+This function takes a string of lowercase Latin letters as input, creates a mapping of each unique character to a corresponding lowercase Latin letter, and returns a decoded string where each character is replaced by its mapped counterpart. The function effectively performs a character substitution, resulting in a new string where each character is a lowercase Latin letter.

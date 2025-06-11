@@ -1,0 +1,1 @@
+c and k are non-negative integers, l is a list of integers, c and c+k are valid indices of the list l.

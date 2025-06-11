@@ -1,0 +1,230 @@
+task_id,model_created,dataset,model_run,code,fail_reason,type_of_run
+1946_E,human,codeforces2024,llama-v3p1-70b-instruct,"import sys
+import math
+input = sys.stdin.readline
+MOD = int(1e9+7)
+ 
+def solve():
+    N, M1, M2 = map(int, input().split())
+    L = list(map(int, input().split()))
+    R = list(map(int, input().split()))
+    # if N == 1:
+    #     return 1
+    if L[-1] != R[0]:
+        return 0
+    if L[0] != 1 or R[0] != N:
+        return 0
+    if M1 > 1 and M2 > 1 and L[-2] == R[1]:
+        return 0
+    ans = math.comb(N-1, L[-1]-1)
+    # left
+    cur = M1 - 2
+    if M1 > 1:
+        nums_left = L[-1] - 2
+        i = L[-1] - 1
+        while i > 1:
+            if i == L[cur]:
+                cur -= 1
+            else:
+                ans = (ans*nums_left)%MOD
+            nums_left -= 1
+            i -= 1
+    # right
+    nums_left = N - R[0] - 1
+    if M2 > 1:
+        cur = 1
+        i = R[0] + 1
+        while i < N:
+            if i == R[cur]:
+                cur += 1
+            else:
+                ans = (ans*nums_left)%MOD
+            nums_left -= 1
+            i += 1
+    return ans
+ 
+for _ in range(int(input())):
+    print(solve())",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1966_B,human,codeforces2024,llama-v3p1-70b-instruct,"for _ in range(int(input())):
+    n, m = map(int, input().split())
+    a = []
+ 
+    first_row = ''
+    last_row = ''
+ 
+    for i in range(n):
+        a.append(input())
+        first_row += a[-1][0]
+        last_row += a[-1][-1]
+ 
+    if len(set(a[0])) == 1 and a[0] != a[-1]:
+        print('NO')
+    elif len(set(first_row)) == 1 and first_row != last_row:
+        print('NO')
+    else:
+        print('YES')",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1937_D,human,codeforces2024,llama-v3p1-70b-instruct,"from itertools import accumulate
+ 
+def last(arr, times):
+    l = len(arr)
+    return arr[-1] - arr[max(-n, -1-times)]
+ 
+def solve(s1, n):
+    pre = [i+1 for i,el in enumerate(s1) if el=="">""]
+    totalOne = len(pre)
+    preOne = list(accumulate(pre, initial=0))
+    suffZero = [0]
+ 
+    ans = [0]*n
+    for i in range(n-1, -1, -1):
+        el = s1[i]
+        if el == "">"":
+            ## this is a one
+            ol, zr = totalOne, len(suffZero) - 1
+            if ol <= zr:
+                ## exit on the left
+                zeroInd = 2*last(suffZero, ol)
+                oneInd = 2*preOne[-1] - last(preOne, 1)
+                ans[i] = zeroInd - oneInd
+            else:
+                ## exit on the right
+                zeroInd = 2*suffZero[-1]
+                oneInd = last(preOne, zr) + last(preOne, zr+1)
+                oneInd -= last(preOne, 1)
+                fi = last(preOne, zr+1) - last(preOne, zr)
+                ans[i] = zeroInd - oneInd + n+1 - fi
+            preOne.pop()
+            totalOne -= 1
+        else:
+            ## this is a zero
+            suffZero.append(suffZero[-1] + i+1)
+            ol, zr = totalOne, len(suffZero) - 1
+            if zr <= ol:
+                ## zr is atleast 1
+                ## exit on the right
+                zeroInd = suffZero[-1] + suffZero[-2]
+                oneInd = 2*last(preOne, zr)
+                ans[i] = zeroInd - oneInd + n+1
+            else:
+                ## exit on the left
+                ## ol can be zero
+                zeroInd = 2*last(suffZero, ol+1) - last(suffZero, 1)
+                oneInd = 2*preOne[-1]
+                ans[i] = zeroInd - oneInd
+                
+    print(*ans)
+for case in range(int(input())):
+    n = int(input())
+    s1 = input()
+    solve(s1, n)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1921_B,human,codeforces2024,llama-v3p1-70b-instruct,"def solution(n: int, s1: str, s2: str) -> int:
+    counter = 0
+    i = 0
+    while i < n:
+        if s1[i] != s2[i]:
+            if i < n - 1 and s1[i + 1] != s2[i + 1] and s1[i] != s1[i + 1]:
+                counter += 1
+                i += 2
+            else:
+                counter += 1
+                i += 1
+        else:
+            i += 1
+    return counter
+ 
+# Input and output handling
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    s1 = input()
+    s2 = input()
+    print(solution(n, s1, s2))",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1968_B,human,codeforces2024,llama-v3p1-70b-instruct,"a=int(input())
+for i in range(a):
+    b,c=map(int,input().split())
+    d=input()
+    e=input()
+    k=0
+    for j in range(b):
+        if d[j] in e[k:]:
+            k=e.index(d[j])+1
+            if k==c or j==b-1:
+                k=j+1
+                break
+        else:
+            k=j
+            break
+    print(k)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1921_D,human,codeforces2024,llama-v3p1-70b-instruct,"import math
+import heapq
+ 
+if __name__ == ""__main__"":
+    t  = int(input())
+    while t > 0:
+        t -= 1
+        
+        n, m = map(int, input().split())
+        a = list(map(int, input().split()))
+        b = list(map(int, input().split()))
+        
+        b.sort()
+        
+        max_heap = []
+        
+        tp1 = 0
+        tp2 = m-1
+        
+        ans = 0
+        
+        for i in a : 
+            diff1 = abs(i - b[0])
+            diff2 = abs(i - b[m-1])
+            if diff1 > diff2:
+                heapq.heappush(max_heap, (-diff1, i, 0))
+            else:
+                heapq.heappush(max_heap, (-diff2, i , m-1))
+        
+        while max_heap:
+            item = heapq.heappop(max_heap)
+            if item[2] < tp1 or item[2] > tp2:
+                diff1 = abs(item[1] - b[tp1])
+                diff2 = abs(item[1] - b[tp2])
+                if diff1 > diff2:
+                    tp1 += 1
+                    ans += diff1
+                    #heapq.heappush(max_heap, (-diff1, item[1], tp1))
+                else:
+                    tp2 -= 1
+                    ans += diff2
+                    #heapq.heappush(max_heap, (-diff2, item[1] , tp2))
+            
+            else:
+                ans += (-item[0])
+                if item[2] == tp1:
+                    tp1 += 1
+                else:
+                    tp2 -= 1
+                    
+        print(ans)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1977_A,human,codeforces2024,llama-v3p1-70b-instruct,"a=int(input())
+for i in range(a):
+    b,c=map(int,input().split())
+    q=(b,c)
+    if b==c:
+        print('YES')
+    elif b<c:
+        print('NO')
+    else:
+        if b%2==c%2:
+            print('Yes')
+        else:
+            print('No')",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1928_A,human,codeforces2024,llama-v3p1-70b-instruct,"n = int(input())
+for i in range(n):
+    a, b = [int(i) for i in input().split()]
+    if(a%2!=0 and b%2!=0):
+      print(""NO"")
+    elif(a/2==b or b/2==a):
+      print(""NO"")
+    else:
+      print(""YES"")",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt

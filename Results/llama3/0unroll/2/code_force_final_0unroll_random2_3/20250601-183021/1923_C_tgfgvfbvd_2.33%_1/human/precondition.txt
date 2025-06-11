@@ -1,0 +1,1 @@
+t is a positive integer, n and q are positive integers, c is a list of positive integers of length n, and each query is a pair of integers l and r such that 1 <= l <= r <= n.

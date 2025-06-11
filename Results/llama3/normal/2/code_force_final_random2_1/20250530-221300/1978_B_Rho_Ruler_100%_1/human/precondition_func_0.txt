@@ -1,0 +1,1 @@
+k, n, a, and b are integers such that 0 <= k <= min(n, b), n >= 0, a > 0, and b > 0.

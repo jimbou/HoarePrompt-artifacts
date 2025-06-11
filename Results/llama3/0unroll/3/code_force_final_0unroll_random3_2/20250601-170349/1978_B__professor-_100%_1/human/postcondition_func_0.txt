@@ -1,0 +1,1 @@
+This function reads input from stdin, processes it, and prints the maximum sum of n numbers in an arithmetic sequence with the first term a and the common difference b for each test case. It takes no arguments and returns no value, instead printing the results directly to stdout. The function handles multiple test cases, each with its own set of input values for n, a, and b.

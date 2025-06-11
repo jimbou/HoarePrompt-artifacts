@@ -1,0 +1,27 @@
+{
+    "token_counts": {
+        "extract-precondition_prompt": 1362283,
+        "compute-postcondition_prompt": 102842828,
+        "entailment_vanilla_no_cot_prompt": 1686252,
+        "entailment_vanilla_prompt": 1759099,
+        "entailment_complex_prompt": 2595397,
+        "extract-precondition_response": 109584,
+        "compute-postcondition_response": 26667284,
+        "entailment_vanilla_no_cot_response": 13219,
+        "entailment_vanilla_response": 730739,
+        "entailment_complex_response": 521263
+    },
+    "file_counts": {
+        "extract-precondition_prompt": 1922,
+        "compute-postcondition_prompt": 123658,
+        "entailment_vanilla_no_cot_prompt": 1846,
+        "entailment_vanilla_prompt": 1854,
+        "entailment_complex_prompt": 1853,
+        "extract-precondition_response": 1922,
+        "compute-postcondition_response": 123658,
+        "entailment_vanilla_no_cot_response": 1846,
+        "entailment_vanilla_response": 1854,
+        "entailment_complex_response": 1853
+    },
+    "total_files": 273364
+}

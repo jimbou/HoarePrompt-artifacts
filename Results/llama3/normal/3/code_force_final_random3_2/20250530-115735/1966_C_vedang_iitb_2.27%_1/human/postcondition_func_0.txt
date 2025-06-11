@@ -1,0 +1,1 @@
+This function takes a list of non-negative integers as input, removes duplicates, sorts the list in ascending order, and then modifies each element by subtracting the previous element in the sorted list. The function returns the modified sorted list of unique non-negative integers.

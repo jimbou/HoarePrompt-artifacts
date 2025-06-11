@@ -1,0 +1,1 @@
+odds is a list of integers and n is a positive integer such that n is odd and the length of odds is (n+1)/2.

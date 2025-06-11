@@ -1,0 +1,1 @@
+n is a positive integer, m is a positive integer, and n and m are the output of function func_7().

@@ -1,0 +1,1 @@
+Calculates and prints the minimum cost for each test case, where the cost is determined by the sum of the products of the number of items and their respective costs, considering the constraints of the number of items, the maximum cost, and the number of test cases.

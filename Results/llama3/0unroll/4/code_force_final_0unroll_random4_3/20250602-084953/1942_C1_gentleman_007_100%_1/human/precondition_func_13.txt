@@ -1,0 +1,1 @@
+d is a dictionary where the keys are integers and the values are integers greater than or equal to 1.

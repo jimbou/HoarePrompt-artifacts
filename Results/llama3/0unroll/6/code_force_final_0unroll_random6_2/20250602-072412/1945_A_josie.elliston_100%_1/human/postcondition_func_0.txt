@@ -1,0 +1,1 @@
+This function calculates the ceiling of the sum of two non-negative integers, extroverts and universals, divided by 3, but only if the sum of the remainder of extroverts divided by 3 and universals is larger than or equal to 3 when extroverts is not divisible by 3. Otherwise, it returns None.

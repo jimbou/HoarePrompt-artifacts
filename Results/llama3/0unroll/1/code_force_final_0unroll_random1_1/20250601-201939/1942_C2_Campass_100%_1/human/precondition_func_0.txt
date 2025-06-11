@@ -1,0 +1,1 @@
+stdin contains an integer t, followed by t test cases. Each test case consists of two lines. The first line contains three integers n, x, and y. The second line contains x distinct integers from 1 to n. The input satisfies the following constraints: 1 <= t <= 10^4, 4 <= n <= 10^9, 2 <= x <= min(n, 2 * 10^5), 0 <= y <= n - x.

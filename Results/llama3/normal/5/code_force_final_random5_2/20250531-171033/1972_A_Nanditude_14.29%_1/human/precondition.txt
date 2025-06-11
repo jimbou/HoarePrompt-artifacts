@@ -1,0 +1,1 @@
+arr is a list of three lists: the first list contains one positive integer, the second list contains a list of non-decreasing positive integers, and the third list contains a list of non-decreasing positive integers.

@@ -1,0 +1,1 @@
+a is a list of two integers N and M, where 3 <= N, M <= 99 and N and M are odd. b is a list of N lists of M pairs of characters separated by spaces, where each pair of characters represents a position on the field.

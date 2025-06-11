@@ -1,0 +1,1 @@
+The function determines the maximum value that can be obtained by performing bitwise OR operations on a subset of non-negative integers from the input list, with a constraint of at most 31 bits set in the result.

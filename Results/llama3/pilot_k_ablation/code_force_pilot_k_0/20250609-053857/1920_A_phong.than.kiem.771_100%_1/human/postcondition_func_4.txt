@@ -1,0 +1,1 @@
+The function finds and returns the indices of all occurrences of a specified element within a given list, regardless of the element's type. It leaves the original list unchanged and returns an empty list if the element is not found.

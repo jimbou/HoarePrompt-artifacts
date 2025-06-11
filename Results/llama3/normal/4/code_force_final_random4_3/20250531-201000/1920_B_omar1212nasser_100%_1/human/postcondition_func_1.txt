@@ -1,0 +1,1 @@
+Calculates the maximum value that can be obtained by removing a specified number of elements from a sorted list and subtracting twice the sum of the last 'negatives' elements, considering all possible removals from 0 to the specified number.

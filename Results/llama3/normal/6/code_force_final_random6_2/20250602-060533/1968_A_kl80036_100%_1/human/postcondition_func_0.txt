@@ -1,0 +1,1 @@
+Reads a series of integers from standard input, where the first integer t represents the number of subsequent integers, and for each integer x, prints the value of x - 1.

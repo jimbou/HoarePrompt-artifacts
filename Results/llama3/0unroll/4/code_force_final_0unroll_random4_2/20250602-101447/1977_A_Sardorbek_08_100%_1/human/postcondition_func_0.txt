@@ -1,0 +1,1 @@
+This function reads a series of integer pairs from standard input, compares each pair, and prints a corresponding result based on their values and parity. It iterates this process a number of times specified by the first input integer, producing a series of 'YES', 'NO', 'Yes', or 'No' outputs.

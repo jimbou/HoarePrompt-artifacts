@@ -1,0 +1,1 @@
+No precondition can be extracted from this function as it does not take any arguments.

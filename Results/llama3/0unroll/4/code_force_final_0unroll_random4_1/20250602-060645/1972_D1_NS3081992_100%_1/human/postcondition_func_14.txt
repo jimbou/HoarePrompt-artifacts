@@ -1,0 +1,1 @@
+Calculates the sum of the floor division of (n + i) by (i * i) for all i from 1 to m, minus 1, where n and m are unchanged.

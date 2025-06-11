@@ -1,0 +1,1 @@
+Swaps the elements at the specified indices in the input list and returns the modified list. The function takes a list of distinct integers and two non-negative integers c and k as input, where c + k is less than the length of the list. It swaps the elements at indices -c and -c - k in the list and returns the resulting list, preserving the original order of the other elements.

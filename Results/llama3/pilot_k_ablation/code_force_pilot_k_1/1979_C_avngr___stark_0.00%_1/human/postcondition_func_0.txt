@@ -1,0 +1,1 @@
+This function calculates and returns the greatest common divisor (GCD) of all integers in a given list, leaving the original list unchanged.

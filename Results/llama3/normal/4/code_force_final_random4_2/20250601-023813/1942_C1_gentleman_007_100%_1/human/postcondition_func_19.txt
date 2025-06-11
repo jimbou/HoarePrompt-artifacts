@@ -1,0 +1,1 @@
+The function takes a non-negative integer x as input and returns the largest integer whose square is less than or equal to x. If x is 0 or 1, the function returns x. Otherwise, it performs a binary search to find the largest integer whose square does not exceed x, and returns this integer.

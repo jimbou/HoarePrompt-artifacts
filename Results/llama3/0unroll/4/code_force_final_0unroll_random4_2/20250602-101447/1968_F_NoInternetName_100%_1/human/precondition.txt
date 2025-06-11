@@ -1,0 +1,1 @@
+stdin contains multiple lines of input. The first line contains an integer. Each subsequent line contains either two integers or a list of integers, or two integers.

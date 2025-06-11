@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer and then a list of integers. The first integer is a non-negative integer and represents the number of piles in the game. The list of integers represents the initial number of stones in each pile and contains at least one integer.

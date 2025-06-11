@@ -1,0 +1,56 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case consists of two lines. The first line contains a single integer n (1 ≤ n ≤ 10^5). The second line contains n integers a_1, a_2, …, a_n (1 ≤ a_i ≤ 10^9). The number of test cases is specified by a single integer t (1 ≤ t ≤ 10^4) on the first line of the input.
+    print('-----------------')
+    #This is printed: -----------------
+    n = int(input())
+    arr = list(map(int, input().split()))
+    prefix = [0]
+    for v in arr:
+        prefix.append(v ^ prefix[-1])
+        
+    #State: prefix is a list containing n+1 elements: 0, v1, v1 ^ v2, ..., v1 ^ v2 ^ ... ^ vn, stdin contains multiple test cases minus one, n is an integer between 1 and 10^5 inclusive, arr is an empty list.
+    print(arr, prefix)
+    #This is printed: [], [0, v1, v1 ^ v2, ..., v1 ^ v2 ^ ... ^ vn]
+    pre = [[0, 0] for _ in range(32)]
+    suf = [[0, 0] for _ in range(32)]
+    for i in range(32):
+        pre[i][0] += 1
+        
+    #State: prefix is a list containing n+1 elements: 0, v1, v1 ^ v2, ..., v1 ^ v2 ^ ... ^ vn, stdin contains multiple test cases minus one, n is an integer between 1 and 10^5 inclusive, arr is an empty list, pre is a list of 32 lists where the first list contains 32 and the rest contain one 1 and one zero, suf is a list of 32 lists each containing two zeros, an empty list and a list containing n+1 elements: 0, v1, v1 ^ v2, ..., v1 ^ v2 ^ ... ^ vn are printed, i is 31, range is 32
+    for i in range(n, 0, -1):
+        cur = prefix[i]
+        
+        for j in range(32):
+            if cur >> j & 1:
+                suf[j][1] += 1
+            else:
+                suf[j][0] += 1
+        
+    #State: prefix is a list containing n+1 elements: 0, v1, v1 ^ v2, ..., v1 ^ v2 ^ ... ^ vn, n is an integer between 1 and 10^5 inclusive, arr is an empty list, pre is a list of 32 lists where the first list contains 32 and the rest contain one 1 and one zero, suf is a list of 32 lists where the first list contains one 1 and the rest contain one zero and one one except the second list which contains one zero and two ones if cur has a 1 at the jth bit position, otherwise the first list contains two zeros and the rest contain one zero and one one except the third list which now contains one 1 and two zeros, an empty list and a list containing n+1 elements: 0, v1, v1 ^ v2, ..., v1 ^ v2 ^ ... ^ vn are printed, i is 0, range is 0, cur is prefix[0] which is 0, j is 32.
+    print(pre)
+    #This is printed: [[32], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0], [1, 0]]
+    print(suf)
+    #This is printed: a list of 32 lists where the first list contains two zeros and the rest contain one zero and one one except the third list which now contains one 1 and two zeros
+    ans = 0
+    for i in range(1, n + 1):
+        y = arr[i - 1]
+        
+        k = y.bit_length() - 1
+        
+        ans += pre[k][0] * suf[k][0] + pre[k][1] * suf[k][1]
+        
+        c = prefix[i]
+        
+        for j in range(32):
+            if c >> j & 1:
+                pre[j][1] += 1
+                suf[j][1] -= 1
+            else:
+                pre[j][0] += 1
+                suf[j][0] -= 1
+        
+    #State: ans is the sum of the products of the corresponding elements in the pre and suf lists, i is n, range is n, cur is prefix[n], j is 32, and the pre and suf lists have been updated accordingly.
+    print(ans)
+    #This is printed: the sum of the products of the corresponding elements in the pre and suf lists
+
+#Overall this is what the function does:Functionality: This function reads multiple test cases from standard input, where each test case consists of an integer n followed by n integers. It calculates the sum of products of corresponding elements in two lists, pre and suf, which are derived from the input integers. The function prints the calculated sum for each test case.
+

@@ -1,0 +1,1 @@
+Determines whether a given condition is met for the input lists 'a' and 'x' and integer 'k', and prints 'YES' if the condition is met, otherwise prints 'NO'. The function does not modify the input lists 'a' and 'x' or the integer 'k'.

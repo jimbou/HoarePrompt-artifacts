@@ -1,0 +1,1 @@
+arr is a list of integers, all integers in the list are distinct and represent the vertices of a polygon that Bessie has chosen.

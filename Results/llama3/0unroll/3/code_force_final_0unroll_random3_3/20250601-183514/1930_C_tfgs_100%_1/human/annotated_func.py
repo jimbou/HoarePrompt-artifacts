@@ -1,0 +1,37 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains two lines. The first line contains an integer n (1 <= n <= 3 * 10^5). The second line contains n integers a_1,a_2,\ldots,a_{n} (1 <= a_i <= 10^9). The sum of n over all test cases does not exceed 3 * 10^5.
+    n = int(input())
+    a = list(map(int, input().split()))
+    for i in range(n):
+        a[i] += i + 1
+        
+    #State: Output State: n is an integer, a is a list of n integers where each element at index i is incremented by i + 1, stdin contains multiple test cases minus one.
+    counter = Counter(a)
+    cur = 0
+    a = list(set(a))
+    a.sort(reverse=True)
+    cnt = n - len(a)
+    ans = []
+    for i in range(len(a)):
+        if i > 0:
+            adv = min(a[i - 1] - a[i] - 1, cnt, cur)
+            for j in range(adv):
+                ans.append(a[i - 1] - j - 1)
+            cnt -= adv
+            cur -= adv
+        
+        ans.append(a[i])
+        
+        counter[a[i]] -= 1
+        
+        cur += counter[a[i]]
+        
+    #State: Output State: The loop iterates over the list 'a' and for each element, it calculates the difference between the current element and the previous one, and appends the missing numbers in the range to the 'ans' list. It also updates the 'cnt' and 'cur' variables based on the frequency of the current element in the 'counter' dictionary. After the loop finishes, the 'ans' list contains all the unique integers from the original list in descending order, along with the missing numbers in the ranges between consecutive elements. The 'cnt' variable is updated to reflect the number of duplicate integers in the original list that were not included in the 'ans' list. The 'cur' variable is updated to reflect the total count of integers in the 'ans' list.
+    for _ in range(cnt):
+        ans.append(ans[-1] - 1)
+        
+    #State: Output State: The 'ans' list now contains 'cnt' additional unique integers that are one less than the last integer in the list, in descending order. The 'cnt' variable remains unchanged, as it is not updated within the loop. The 'cur' variable also remains unchanged, as it is not updated within the loop.
+    print(*ans)
+    #This is printed: The list of unique integers in descending order, where the last integer in the list is one less than the last integer in the list, repeated 'cnt' times
+
+#Overall this is what the function does:Reads multiple test cases from standard input, where each test case consists of an integer n and a list of n integers. For each test case, it increments each integer by its 1-based index, removes duplicates, and sorts the list in descending order. Then, it fills in the gaps between consecutive integers with missing numbers, and finally appends additional unique integers to the end of the list, which are one less than the last integer in the list. The resulting list of unique integers is printed in descending order.
+

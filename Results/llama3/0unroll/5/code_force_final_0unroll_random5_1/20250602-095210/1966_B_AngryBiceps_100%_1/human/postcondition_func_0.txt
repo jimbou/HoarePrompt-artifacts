@@ -1,0 +1,1 @@
+Determines whether a given grid of 'W' and 'B' characters satisfies specific conditions for each test case and outputs 'YES' or 'NO' accordingly.

@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (the number of test cases) and then a series of integers (the encoded words). Each integer is between 3 and 78 inclusive.

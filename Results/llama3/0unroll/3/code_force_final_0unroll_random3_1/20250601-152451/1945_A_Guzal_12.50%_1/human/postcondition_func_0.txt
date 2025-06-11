@@ -1,0 +1,1 @@
+Calculates and prints the value of k for each set of input integers a, b, and c, based on specific conditions, or outputs -1 if the conditions are not met.

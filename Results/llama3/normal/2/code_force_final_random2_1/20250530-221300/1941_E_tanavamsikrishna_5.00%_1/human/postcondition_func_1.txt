@@ -1,0 +1,1 @@
+Calculates and prints the minimum sum of k consecutive elements in the costs list, which represents the total cost of installing supports for k consecutive rows in a river grid, given the number of rows, columns, bridges, maximum distance between supports, and the depth of each cell in the grid.

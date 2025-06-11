@@ -1,0 +1,1 @@
+Executes the function `func_6()` a number of times equal to the value returned by `func_3()`, without taking any input parameters or returning any output.

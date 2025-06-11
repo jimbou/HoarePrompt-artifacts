@@ -1,0 +1,1 @@
+This function takes a string of lowercase Latin letters as input and returns the number of non-overlapping occurrences of 'pie' in the string, unless the input string is exactly 'mapie', in which case it returns 1. The function modifies the input string by removing all occurrences of 'map' and 'pie' from it.

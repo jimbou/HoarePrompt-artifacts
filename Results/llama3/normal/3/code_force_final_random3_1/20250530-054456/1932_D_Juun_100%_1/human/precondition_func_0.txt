@@ -1,0 +1,1 @@
+stdin contains one or more test cases. Each test case contains three inputs: first an integer n (1 <= n <= 16), then a character (one of "CDHS"), and then a space-separated list of 2n two-character strings, each string consisting of a character (one of "23456789") and a character (one of "CDHS"). All 2n strings are different.

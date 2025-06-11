@@ -1,0 +1,1 @@
+Calculates the sum of floor divisions of (n + i) by (i * i) for all i from 1 to the minimum of m and the square root of (n + i), then subtracts 1 from the result.

@@ -1,0 +1,1 @@
+The function reads a non-negative integer from standard input and returns it as is, without any modifications or transformations, effectively acting as a pass-through function for the input integer.

@@ -1,0 +1,1 @@
+The function takes two inputs from stdin: an integer and a string, and returns the length of the longest substring that is a palindrome or 0 if no such palindrome exists. The function does not modify the input string.

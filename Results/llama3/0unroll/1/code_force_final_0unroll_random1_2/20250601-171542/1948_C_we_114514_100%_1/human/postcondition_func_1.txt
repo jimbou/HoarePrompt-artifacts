@@ -1,0 +1,1 @@
+Reads input for a specified number of test cases, processes each case by calling a function with the input values, and prints the results.

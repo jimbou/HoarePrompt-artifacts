@@ -1,0 +1,1 @@
+Counts the number of trailing zeros in the string representation of an integer input, leaving the input integer unchanged, and returns the count.

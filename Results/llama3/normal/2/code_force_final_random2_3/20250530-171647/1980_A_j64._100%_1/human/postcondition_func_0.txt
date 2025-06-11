@@ -1,0 +1,1 @@
+Calculates the total number of additional problems needed to ensure that each character in a given string appears at least a specified number of times.

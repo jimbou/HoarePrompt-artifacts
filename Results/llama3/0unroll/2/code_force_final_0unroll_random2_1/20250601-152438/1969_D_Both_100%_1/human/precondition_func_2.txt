@@ -1,0 +1,1 @@
+primary_items and secondary_heap are lists of pairs of integers, where each pair represents an item's price for Alice (first element) and Bob (second element).

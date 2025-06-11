@@ -1,0 +1,1 @@
+k is an integer such that 0 <= k <= min(n, b), a is a non-negative integer, b is a non-negative integer, and n is a non-negative integer.

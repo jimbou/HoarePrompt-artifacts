@@ -1,0 +1,1 @@
+stdin contains t+2t lines. The first line contains one integer t (1 <= t <= 10^4). Each of the following t blocks of two lines contains one integer n (1 <= n <= 3 * 10^5) and n integers a_1, a_2, ..., a_n (0 <= a_i <= n). The sum of n over all t blocks does not exceed 3 * 10^5.

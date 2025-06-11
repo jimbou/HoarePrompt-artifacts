@@ -1,0 +1,1 @@
+func_1 is a generator that yields values of any type and value

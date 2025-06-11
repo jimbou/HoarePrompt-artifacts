@@ -1,0 +1,1 @@
+This function takes a string of length 5 consisting of letters A and B as input, counts the occurrences of 'A' and 'B', and prints 'A' if the count of 'A' is higher, prints 'B' if the count of 'B' is higher, and takes no action if the counts are equal.

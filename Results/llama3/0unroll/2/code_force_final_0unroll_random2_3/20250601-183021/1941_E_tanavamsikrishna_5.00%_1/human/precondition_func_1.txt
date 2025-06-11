@@ -1,0 +1,1 @@
+n, m, k, and d are positive integers, rows is a list of lists of non-negative integers where each inner list has length m, and the first and last elements of each inner list are 0.

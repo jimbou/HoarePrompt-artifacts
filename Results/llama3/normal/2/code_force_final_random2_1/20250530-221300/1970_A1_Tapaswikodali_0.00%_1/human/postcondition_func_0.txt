@@ -1,0 +1,1 @@
+This function reads a balanced parentheses sequence from standard input, sorts the characters based on their original order (from last to first), and prints the sorted string. The function does not return any value, but instead, prints the result directly. The input string is assumed to be non-empty and consists only of "(" and ")" characters, with a length not exceeding 500,000.

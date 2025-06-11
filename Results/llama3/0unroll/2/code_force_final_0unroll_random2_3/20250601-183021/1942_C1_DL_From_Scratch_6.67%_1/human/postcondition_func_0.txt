@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of a list of distinct integers. It sorts the list in ascending order, then counts the number of pairs of consecutive integers and the number of integers that are one less than the next integer in the list. Finally, it prints the total count minus 2 to the console for each test case.

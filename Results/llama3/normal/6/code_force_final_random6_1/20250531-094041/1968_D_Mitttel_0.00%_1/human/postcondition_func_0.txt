@@ -1,0 +1,1 @@
+This function compares the scores of two players, 'Bodya' and 'Sasha', calculated by the function calculate_score for the given inputs PB and PS, and returns the winner as a string. If Bodya's score is higher, it returns 'Bodya'. If Sasha's score is higher, it returns 'Sasha'. If the scores are equal, it returns 'Draw'.

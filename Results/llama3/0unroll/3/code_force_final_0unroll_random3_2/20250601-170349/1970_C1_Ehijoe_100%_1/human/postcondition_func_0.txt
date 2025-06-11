@@ -1,0 +1,1 @@
+Functionality: This function reads input from stdin, constructs a graph from the input, finds a path between two nodes with only one adjacent node, and determines whether a given start node is closer to the beginning or end of the path. It then prints 'Ron' if the number of moves to reach the end of the path from the start node is odd, and 'Hermione' otherwise.

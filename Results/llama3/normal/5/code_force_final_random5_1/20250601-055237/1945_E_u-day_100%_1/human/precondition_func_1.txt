@@ -1,0 +1,1 @@
+func_1 is a function that returns an iterator of values of any type and value

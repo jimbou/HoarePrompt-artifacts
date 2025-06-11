@@ -1,0 +1,1 @@
+This function generates a symmetric 2D list of size (n+1) x (n+1) with all elements initialized to 0, except for 'm' pairs of symmetric elements which are set to 1. The function accepts two parameters: a positive integer 'n' and a non-negative integer 'm' such that 'm' <= 'n'. It returns the generated 2D list.

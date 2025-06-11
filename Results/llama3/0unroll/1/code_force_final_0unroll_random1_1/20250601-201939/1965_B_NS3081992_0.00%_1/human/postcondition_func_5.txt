@@ -1,0 +1,1 @@
+Reads the next line from the standard input file, removes any trailing newline characters, decodes the line using the default encoding, and returns the resulting string.

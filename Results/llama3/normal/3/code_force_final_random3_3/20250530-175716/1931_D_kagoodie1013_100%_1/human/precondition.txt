@@ -1,0 +1,1 @@
+test_cases is a list of test cases where each test case is a list containing three elements: n, x, and y, followed by a list of n integers. n is an integer such that 2 <= n <= 2 * 10^5, and x and y are integers such that 1 <= x, y <= 10^9. The list of n integers contains elements a_i such that 1 <= a_i <= 10^9.

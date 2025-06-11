@@ -1,0 +1,1 @@
+This function calculates the shortest distance between two nodes in a tree. It takes three parameters: the start node, the target node, and a dictionary representing the tree structure. The function returns the distance from the start node to the target node if it exists in the tree; otherwise, it returns -1, indicating that the target node was not found.

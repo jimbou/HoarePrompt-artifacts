@@ -1,0 +1,1 @@
+a and b are integers, b is a prime number and a and b are relatively prime.

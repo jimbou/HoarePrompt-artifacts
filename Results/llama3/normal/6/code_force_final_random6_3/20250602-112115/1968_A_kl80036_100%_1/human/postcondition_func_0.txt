@@ -1,0 +1,1 @@
+The function reads a series of integers from standard input, subtracts 1 from each integer, and prints the resulting values. It processes a specified number of integers (t) provided at the beginning of the input, and after processing all integers, the standard input is exhausted. The function does not return any value but prints the decremented integers.

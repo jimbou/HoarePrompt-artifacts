@@ -1,0 +1,1 @@
+The first line of stdin contains two space-separated integers n and t, where n is an integer such that 2 <= n <= 2*10^5 and t is 1. The next n-1 lines of stdin contain two space-separated integers u and v, where u and v are integers such that 1 <= u, v <= n. The next line of stdin contains one integer u, where u is an integer such that 1 <= u <= n.

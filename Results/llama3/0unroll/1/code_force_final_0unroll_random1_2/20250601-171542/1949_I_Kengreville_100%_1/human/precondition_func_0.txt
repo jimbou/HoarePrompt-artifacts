@@ -1,0 +1,1 @@
+n is a positive integer, x, y, and r are lists of integers of length n, visited is a list of boolean values of length n, and coef is a list of integers of length n.

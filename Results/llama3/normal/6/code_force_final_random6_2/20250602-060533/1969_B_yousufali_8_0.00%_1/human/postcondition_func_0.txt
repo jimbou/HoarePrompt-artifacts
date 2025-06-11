@@ -1,0 +1,1 @@
+This function calculates and prints the sum of the lengths of all sequences of 1s in a given list of binary integers plus the number of 0s that immediately follow a sequence of 1s. It takes a list of binary integers as input, counts the total number of 1s and the number of 0s that follow a sequence of 1s, and returns the total sum of these counts.

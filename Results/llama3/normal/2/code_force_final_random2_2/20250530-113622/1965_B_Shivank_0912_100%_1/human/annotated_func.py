@@ -1,0 +1,24 @@
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 1000) followed by t lines, each containing two integers n and k (2 <= n <= 10^6, 1 <= k <= n).
+    t = int(input())
+    for tc in range(t):
+        n, k = map(int, input().split())
+        
+        i = 0
+        
+        while 1 << i + 1 <= k:
+            i = i + 1
+        
+        ans = [k - (1 << i), k + 1, k + 1 + (1 << i)]
+        
+        for j in range(20):
+            if j != i:
+                ans.append(1 << j)
+        
+        print(len(ans))
+        
+        print(*ans)
+        
+    #State: `t` is an integer between 1 and 1000 (inclusive), `tc` is `t-1`, `n` is an integer, `k` is greater than or equal to 2^i, `i` is the largest integer such that 2^i is less than or equal to `k`, `ans` is a list containing 21 integers: `k - (1 << i)`, `k + 1`, `k + 1 + (1 << i)`, and `1 << j` for all `j` in range(20) where `j` is not equal to `i`, `j` is 19, the length of the list `ans` which is 21 has been printed, and all the elements of the list `ans` have been printed, stdin contains 0 lines, and the length of the list `ans` which is 21 is printed, and all the elements of the list `ans` are printed: `k - (1 << i)`, `k + 1`, `k + 1 + (1 << i)`, and `1 << j` for all `j` in range(20) where `j` is not equal to `i`.
+
+#Overall this is what the function does:This function reads input from stdin, processes it, and prints output. It accepts an integer t (1 <= t <= 1000) followed by t lines, each containing two integers n and k (2 <= n <= 10^6, 1 <= k <= n). The function then generates a list of 21 integers based on the values of n and k, and prints the length of the list and its elements. The list contains the values k - (1 << i), k + 1, k + 1 + (1 << i), and 1 << j for all j in range(20) where j is not equal to i. The function repeats this process t times, and finally, it prints the length of the list and its elements for each test case.
+

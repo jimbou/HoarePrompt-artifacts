@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case contains two integers n and k. It then calculates and prints the result for each test case based on the values of n and k, following specific conditions. The function outputs a list of integers, where each integer corresponds to the result of the calculation for each test case.

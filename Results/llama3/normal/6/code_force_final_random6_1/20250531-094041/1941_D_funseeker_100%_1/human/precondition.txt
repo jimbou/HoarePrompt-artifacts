@@ -1,0 +1,1 @@
+stdin contains an integer t, followed by t sets of inputs. Each set of inputs contains an integer n, an integer m, an integer x, followed by m lines. Each line contains an integer r and a character c.

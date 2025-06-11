@@ -1,0 +1,1 @@
+The function reads an integer q from standard input, followed by q sequences of three digits each. It then classifies each sequence as 'STAIR', 'PEAK', or 'NONE' based on the relative values of the digits and prints the classification for each sequence. The function does not modify the input values and produces q lines of output.

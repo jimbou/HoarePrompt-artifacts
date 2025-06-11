@@ -1,0 +1,1 @@
+The function reads an integer n from standard input, calculates and prints the sum of squares of the first n natural numbers and twice the value of n, then generates and prints 2n lines of output, each containing the numbers 1 or 2, the current value of i, and the numbers from n down to 1, for i ranging from 1 to n.

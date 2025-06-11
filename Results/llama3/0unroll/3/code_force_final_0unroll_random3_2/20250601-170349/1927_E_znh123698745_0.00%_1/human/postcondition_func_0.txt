@@ -1,0 +1,1 @@
+Generates a sequence of numbers where each number is either 1 more or 1 less than the previous number, starting from 1 and ending at n, alternating between incrementing and decrementing by 1, and prints the sequence for multiple test cases.

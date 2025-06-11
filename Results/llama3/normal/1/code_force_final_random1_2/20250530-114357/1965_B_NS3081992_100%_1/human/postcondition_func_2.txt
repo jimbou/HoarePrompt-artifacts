@@ -1,0 +1,1 @@
+Reads a line from standard input, splits it into two space-separated integers, and returns them as a list of two positive integers, where the first integer is n and the second integer is k, and 1 <= k <= n <= 10^6.

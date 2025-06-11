@@ -1,0 +1,1 @@
+stdin contains multiple test cases. The first line contains an integer t (1 ≤ t ≤ 10^4) — the number of test cases. Each test case contains a string s consisting of lowercase Latin characters (1 ≤ |s| ≤ 10^6).

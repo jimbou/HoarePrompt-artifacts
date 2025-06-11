@@ -1,0 +1,1 @@
+Determines the winning move for a game based on a list of positive integers and its length. Returns 1 if the current player can win, and 2 otherwise.

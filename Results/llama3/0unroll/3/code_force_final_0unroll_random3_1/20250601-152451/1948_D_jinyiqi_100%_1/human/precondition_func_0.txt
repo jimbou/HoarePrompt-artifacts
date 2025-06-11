@@ -1,0 +1,1 @@
+stdin contains t+1 inputs: first an integer t and then t strings s. t is a positive integer and each s consists only of lowercase Latin letters and/or question marks.

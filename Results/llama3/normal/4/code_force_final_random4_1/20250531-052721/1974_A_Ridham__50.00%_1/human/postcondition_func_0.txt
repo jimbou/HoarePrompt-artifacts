@@ -1,0 +1,1 @@
+Calculates the minimum number of screens required to display a given number of cells, considering the available space on each screen, and prints the results for multiple input pairs.

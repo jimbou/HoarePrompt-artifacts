@@ -1,0 +1,10 @@
+{
+    "hoareprompt": {
+        "Agreement Count": 81,
+        "Balanced Accuracy": 0.5848861283643892,
+        "True Positive Rate (TPR)": 0.8840579710144928,
+        "False Negative Rate (FNR)": 0.11594202898550725,
+        "False Positive Rate (FPR)": 0.7142857142857143,
+        "MCC": 0.2116409888134749
+    }
+}

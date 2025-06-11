@@ -1,0 +1,1 @@
+This function takes a list of non-negative integers as input, calculates the sum of all integers in the list, and returns the sum along with an empty list and its length (which is 0). The function does not modify the input list.

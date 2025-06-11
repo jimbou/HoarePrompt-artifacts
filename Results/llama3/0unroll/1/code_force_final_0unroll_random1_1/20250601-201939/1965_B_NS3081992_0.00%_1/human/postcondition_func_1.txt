@@ -1,0 +1,1 @@
+Reads a line from standard input, splits it into two space-separated integers, and returns a map object containing these integers, where the first integer represents the number of test cases and the second integer represents the value of k.

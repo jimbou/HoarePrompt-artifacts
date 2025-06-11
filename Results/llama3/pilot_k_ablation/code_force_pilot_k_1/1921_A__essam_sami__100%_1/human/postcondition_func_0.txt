@@ -1,0 +1,1 @@
+This function reads input from stdin, processes t test cases, and prints the minimum square distance between two points in each testcase. It accepts no parameters and returns no value, but it modifies the state of stdin by consuming all input. The function's purpose is to calculate and print the minimum square distance between two points in each testcase.

@@ -1,0 +1,1 @@
+stdin contains one or more inputs: a positive integer t followed by t positive integers n.

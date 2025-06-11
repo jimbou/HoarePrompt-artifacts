@@ -1,0 +1,1 @@
+This function swaps the values at the last 'c' and 'c+k' indices of a given list 'l' and returns the modified list, where 'c' and 'k' are non-negative integers and 'c+k' is less than the length of the list.

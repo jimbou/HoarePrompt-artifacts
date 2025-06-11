@@ -1,0 +1,1 @@
+This function reads an integer t from standard input, followed by t binary strings. For each binary string, it calculates the sum of the counts of zeroes minus the count of zeroes plus the count of ones if the count of ones is greater than 0, otherwise it calculates the count of zeroes. The function then prints the calculated sum for each binary string.

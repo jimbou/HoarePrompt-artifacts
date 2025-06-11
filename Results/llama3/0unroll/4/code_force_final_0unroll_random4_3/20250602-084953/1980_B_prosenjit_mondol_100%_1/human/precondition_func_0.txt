@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two lines. The first line contains three integers: the number of cubes (n), the index of Dmitry's favorite cube (f), and the number of removed cubes (k). The second line contains n integers representing the values shown on the cubes.

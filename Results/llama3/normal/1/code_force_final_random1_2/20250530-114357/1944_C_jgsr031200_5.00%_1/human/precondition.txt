@@ -1,0 +1,1 @@
+n is a positive integer, arr is a list of non-negative integers, and the length of arr is equal to n.

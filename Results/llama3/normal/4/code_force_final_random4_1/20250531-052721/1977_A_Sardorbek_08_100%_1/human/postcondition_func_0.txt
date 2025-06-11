@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of two integers. It then checks the parity of the two integers and prints 'YES' if they are equal, 'NO' if the first integer is less than the second, 'Yes' if they have the same parity, and 'No' otherwise. The function processes all test cases and prints the corresponding results.

@@ -1,0 +1,1 @@
+This function takes a string of lowercase Latin letters as input, decodes it by replacing each character with a corresponding character in the alphabet in reverse order of their frequency in the input string, and returns the decoded string. The function does not modify the input string.

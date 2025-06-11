@@ -1,0 +1,1 @@
+Determines the winner of a game or competition between two players, given their respective scores or values, and returns the winner.

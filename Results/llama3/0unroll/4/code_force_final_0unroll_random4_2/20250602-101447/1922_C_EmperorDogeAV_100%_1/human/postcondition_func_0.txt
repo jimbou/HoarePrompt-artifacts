@@ -1,0 +1,1 @@
+This function takes a list of n non-negative integers in ascending order and returns a list of (n-1) integers. Each element in the returned list is either 1 or the difference between the next city and the current city, depending on which is smaller. The function effectively calculates the minimum distance or difference between consecutive cities in the input list.

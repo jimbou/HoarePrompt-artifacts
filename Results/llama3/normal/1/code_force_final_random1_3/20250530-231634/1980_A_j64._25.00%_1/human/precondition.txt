@@ -1,0 +1,1 @@
+t is a positive integer, test_cases is a list of tuples, where each tuple contains two positive integers n and m, and a string a of n characters from 'A' to 'G', such that 1 <= n <= 50 and 1 <= m <= 5.

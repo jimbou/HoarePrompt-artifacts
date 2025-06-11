@@ -1,0 +1,1 @@
+The input contains multiple test cases. Each test case contains three integers n, a, and b, where n is the number of buns, a is the usual price of a bun, and b is the price of the first bun to be sold at a modified price. All integers are between 1 and 10^9 (inclusive).

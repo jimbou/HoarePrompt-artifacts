@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two lines. The first line contains a positive integer n. The second line contains a space-separated list of n integers. Each integer is between 1 and n (inclusive) and appears at most twice in the list.

@@ -1,0 +1,1 @@
+stdin contains multiple lines of input. The first line contains an integer t (1 <= t <= 10^4), representing the number of test cases. Each of the following t lines contains three non-negative integers a, b, and c (0 <= a, b, c <= 10^9), representing the number of introverts, extroverts, and universals, respectively.

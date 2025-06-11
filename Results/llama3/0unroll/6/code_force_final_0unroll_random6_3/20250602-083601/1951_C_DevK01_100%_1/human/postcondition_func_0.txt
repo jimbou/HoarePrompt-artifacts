@@ -1,0 +1,1 @@
+Calculates the total cost of buying k tickets over n days, considering the maximum purchase limit m and the prices per ticket for each day, and prints the total cost for each test case.

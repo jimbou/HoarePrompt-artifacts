@@ -1,0 +1,1 @@
+x is a list of integers where the first element is the number of test cases, and each test case is described by a list of integers where the first two integers are the size of the chessboard and the number of moves already played, and the remaining integers are the moves made, with each move described by two integers.

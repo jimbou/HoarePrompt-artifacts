@@ -1,0 +1,1 @@
+Executes the function `func_1()` a specified number of times, equal to the input integer provided, and does not modify the input integer in stdin.

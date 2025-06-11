@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (the length of the array) and then a space-separated list of integers (the elements of array a). The length of the array is a positive integer and the elements of array a are integers such that -n <= a_i <= n.

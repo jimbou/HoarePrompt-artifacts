@@ -1,0 +1,1 @@
+Calculates and returns a value based on the input integers k, n, a, and b, representing a weighted sum of k and n-k, where k is bounded by the minimum of n and b, and n, a, and b are positive integers up to 10^9.

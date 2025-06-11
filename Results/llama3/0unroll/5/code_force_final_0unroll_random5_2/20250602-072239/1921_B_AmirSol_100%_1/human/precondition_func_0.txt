@@ -1,0 +1,1 @@
+n is a positive integer, s1 and s2 are strings of n characters, each character is either '0' or '1'.

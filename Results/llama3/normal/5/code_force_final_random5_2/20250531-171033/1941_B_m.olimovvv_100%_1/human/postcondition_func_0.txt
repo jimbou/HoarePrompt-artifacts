@@ -1,0 +1,1 @@
+Determines whether a given list of integers can be reduced to zero by iteratively subtracting twice the current element from the next element and the current element from the element after next, starting from the first element, and prints 'YES' if possible, 'NO' otherwise.

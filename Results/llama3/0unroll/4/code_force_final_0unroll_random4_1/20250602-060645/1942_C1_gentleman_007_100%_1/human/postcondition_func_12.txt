@@ -1,0 +1,1 @@
+This function takes a positive integer `n` as input and returns a dictionary containing the prime factors of `n` as keys and their respective counts as values. If `n` is a prime number greater than 1, it is included in the dictionary with a count of 1. The function reduces the input `n` to 1 and returns the dictionary of prime factors.

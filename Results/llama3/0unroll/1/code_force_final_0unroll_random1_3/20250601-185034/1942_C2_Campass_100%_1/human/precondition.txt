@@ -1,0 +1,1 @@
+t is a positive integer, for each test case, n is an integer greater than or equal to 4, x is an integer greater than or equal to 2 and less than or equal to min(n, 2 * 10^5), y is an integer greater than or equal to 0 and less than or equal to n - x, and the x integers on the second line are distinct integers from 1 to n.

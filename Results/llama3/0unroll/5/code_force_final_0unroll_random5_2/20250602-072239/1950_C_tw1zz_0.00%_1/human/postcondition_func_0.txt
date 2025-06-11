@@ -1,0 +1,1 @@
+Converts a list of times from 24-hour format to 12-hour format and prints the converted times. The function reads a number of test cases from standard input, followed by that many times in 24-hour format (hh:mm). It then converts each time to 12-hour format (hh:mm AM/PM) and prints the converted time.

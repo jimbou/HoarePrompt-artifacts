@@ -1,0 +1,1 @@
+Identifies and eliminates players whose positions match the Bludger's position, printing the eliminated players in sorted order along with the current time, and updates the player positions to [-1, -1].

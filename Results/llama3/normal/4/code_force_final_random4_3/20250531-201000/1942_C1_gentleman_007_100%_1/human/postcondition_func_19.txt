@@ -1,0 +1,1 @@
+This function calculates the integer square root of a non-negative integer x. If x is 0 or 1, it returns x. Otherwise, it returns the largest integer less than or equal to the square root of x.

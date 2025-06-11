@@ -1,0 +1,1 @@
+stdin contains one integer: the number of test cases (t). For each test case, stdin contains one integer: the number of vertices in the graph (n).

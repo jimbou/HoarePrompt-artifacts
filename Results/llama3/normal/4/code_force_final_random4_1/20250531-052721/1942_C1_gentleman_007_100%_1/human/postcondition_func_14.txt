@@ -1,0 +1,1 @@
+Calculates the cumulative product of the range from 1 to a given non-negative integer `n`, taken modulo a positive integer `mod`, and returns the result as a list of `n + 1` elements, where the first element is 1.

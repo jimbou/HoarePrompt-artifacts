@@ -1,0 +1,1 @@
+This function writes a string returned by func_14() to the standard output a number of times equal to the non-negative integer returned by func_10(), with each string followed by a newline character.

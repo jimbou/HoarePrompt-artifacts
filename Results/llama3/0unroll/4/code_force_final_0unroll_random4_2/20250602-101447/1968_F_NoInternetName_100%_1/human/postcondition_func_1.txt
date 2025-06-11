@@ -1,0 +1,1 @@
+Searches for the first element in a list that satisfies a given predicate function and returns its index if found, otherwise returns None.

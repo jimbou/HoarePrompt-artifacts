@@ -1,0 +1,1 @@
+This function processes multiple test cases from standard input, where each test case consists of an integer and two binary strings of the same length. It calculates the minimum number of operations required to make the two strings identical, considering the difference in the count of '1's between the strings, and prints the result for each test case.

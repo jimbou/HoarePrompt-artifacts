@@ -1,0 +1,1 @@
+n and q are positive integers, a is a list of non-negative integers less than 2^30, and func_1 and func_4 are functions that return a list of integers and an index respectively, and func_3 is a function that returns an index.

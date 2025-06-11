@@ -1,0 +1,1 @@
+stdin contains t test cases. Each test case contains two inputs: first an integer n and then n space-separated integers. t is a positive integer, n is a positive integer, and the integers are positive and do not exceed 10^9.

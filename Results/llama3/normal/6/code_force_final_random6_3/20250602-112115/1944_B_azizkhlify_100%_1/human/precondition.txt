@@ -1,0 +1,1 @@
+a is a list of 2n integers, each integer from 1 to n occurs exactly twice in a, n is a positive integer, k is a positive integer such that 1 <= k <= floor(n/2).

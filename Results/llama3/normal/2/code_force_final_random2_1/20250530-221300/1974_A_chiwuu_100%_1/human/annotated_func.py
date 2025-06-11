@@ -1,0 +1,35 @@
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t lines, each containing two integers x and y (0 <= x, y <= 99).
+    n = int(input())
+    for i in range(n):
+        a, b = input().split()
+        
+        a = int(a)
+        
+        b = int(b)
+        
+        t = b
+        
+        if t % 2 == 0:
+            t = t // 2
+        else:
+            t = t // 2 + 1
+        
+        t1 = t * 15 - b * 4
+        
+        if t1 >= a:
+            t = t
+        else:
+            t2 = a - t1
+            if t2 % 15 == 0:
+                t = t + t2 // 15
+            else:
+                t = t + t2 // 15 + 1
+        
+        print(t)
+        
+    #State: Output State: `n` is an integer between 1 and 10^4 (inclusive), `i` is `n-1`, `a` is an integer, `b` is an integer. If `t1` is greater than or equal to `a`, then `t` is either `b // 2` if `b` is even or `(b // 2) + 1` if `b` is odd, and `t1` is either `15 * (b // 2) - 4 * b` if `b` is even or `15 * ((b // 2) + 1) - 4 * b` if `b` is odd. Otherwise, `t2` is `a - t1`. If `t2` is a multiple of 15, `t` is either `b // 2 + (a - (15 * (b // 2) - 4 * b)) // 15` if `b` is even or `(b // 2) + 1 + (a - (15 * ((b // 2) + 1) - 4 * b)) // 15` if `b` is odd. Otherwise, `t` is either `b // 2 + t2 // 15 + 1` if `b` is even or `(b // 2) + 1 + t2 // 15 + 1` if `b` is odd, and the value of `t` is being printed.
+    #
+    #In natural language, the output state after the loop executes all the iterations is that the loop has processed all the input lines, and the variables `a`, `b`, `t`, and `t1` have been updated according to the loop's logic. The value of `t` is being printed, which represents the result of the calculation performed by the loop for the last input line. The loop has iterated `n-1` times, where `n` is the number of input lines.
+
+#Overall this is what the function does:This function reads a series of input lines, where each line contains two integers, and calculates a result based on these integers. The calculation involves checking if a derived value is greater than or equal to the first integer, and if so, the result is either half of the second integer (rounded up if necessary) or half of the second integer plus one. If the derived value is less than the first integer, the function calculates a difference and adds a multiple of 15 (plus one if necessary) to the result. The function prints the calculated result for each input line.
+

@@ -1,0 +1,1 @@
+stdin contains one input: a space-separated list of integers. The list contains only 0s and 1s.

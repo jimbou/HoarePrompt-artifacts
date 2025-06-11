@@ -1,0 +1,1 @@
+This function calculates and returns the count of a specific mathematical operation involving two positive integers, n and m. It iterates from 1 to m-1, performing integer division and addition operations, and returns either 1 if the count is 0 or the calculated count value. The function takes two positive integers n and m as input and returns an integer value.

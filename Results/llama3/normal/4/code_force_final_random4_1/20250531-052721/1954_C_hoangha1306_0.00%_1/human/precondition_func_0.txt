@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 1000) followed by 2t strings, each representing an integer consisting only of digits from 1 to 9, with the first t strings having the same length as the next t strings.

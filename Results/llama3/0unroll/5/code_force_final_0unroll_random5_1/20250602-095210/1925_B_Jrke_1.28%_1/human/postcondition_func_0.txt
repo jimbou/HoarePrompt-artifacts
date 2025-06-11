@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each case consists of two integers x and n. For each case, it calculates the maximum divisor of x that is less than or equal to the integer division of x by n, considering only odd divisors if the integer division is greater than 1. The function then prints the result for each test case.

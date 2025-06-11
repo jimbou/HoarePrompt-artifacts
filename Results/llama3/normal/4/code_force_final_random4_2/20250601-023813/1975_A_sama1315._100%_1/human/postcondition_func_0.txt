@@ -1,0 +1,1 @@
+This function checks if a sorted version of a given list of positive integers can be found as a contiguous sublist within a concatenated version of the original list. It returns 'Yes' if such a sublist is found, and 'No' otherwise.

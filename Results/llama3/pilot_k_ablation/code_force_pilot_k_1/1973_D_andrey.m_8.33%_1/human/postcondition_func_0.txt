@@ -1,0 +1,1 @@
+The function takes two positive integers, l and x, as input, prints a query in the format '? l x', waits for user input, and returns the user's response as an integer.

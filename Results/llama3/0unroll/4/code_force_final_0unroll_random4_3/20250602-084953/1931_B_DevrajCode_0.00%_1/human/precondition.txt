@@ -1,0 +1,1 @@
+n is a positive integer, a is a list of non-negative integers, the sum of a is divisible by n, and the length of a is equal to n.

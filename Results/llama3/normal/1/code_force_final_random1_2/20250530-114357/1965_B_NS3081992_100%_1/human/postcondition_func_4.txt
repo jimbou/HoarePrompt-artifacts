@@ -1,0 +1,1 @@
+Reads the next line from the standard input file and returns it as a bytes object with trailing newlines and carriage returns removed.

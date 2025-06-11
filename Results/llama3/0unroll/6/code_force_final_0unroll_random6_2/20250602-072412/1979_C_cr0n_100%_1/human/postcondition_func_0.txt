@@ -1,0 +1,1 @@
+This function calculates and returns the least common multiple (LCM) of two positive integers, a and b, by dividing their product by their greatest common divisor (gcd).

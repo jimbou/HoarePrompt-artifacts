@@ -1,0 +1,1 @@
+Reorders a balanced string of parentheses by sorting them based on the balance of open and close parentheses and their original index, returning the reordered string.

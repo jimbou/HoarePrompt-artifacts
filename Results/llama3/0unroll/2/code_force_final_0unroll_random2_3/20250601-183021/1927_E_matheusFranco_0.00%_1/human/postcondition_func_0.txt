@@ -1,0 +1,1 @@
+Generates a permutation of numbers from 1 to n, where the first k numbers are arranged in a cyclic manner, and prints the resulting permutation as a space-separated string. The function takes two space-separated integers n and k as input from stdin, where k is even and 2 <= k <= n <= 2 * 10^5, and does not return any value.

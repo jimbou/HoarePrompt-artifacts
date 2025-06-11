@@ -1,0 +1,1 @@
+n is a non-negative integer, operations is a list of tuples where each tuple contains two integers, the first integer is either 1 or 2, and the second integer is a non-negative integer, queries is a list of non-negative integers.

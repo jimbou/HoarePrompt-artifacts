@@ -1,0 +1,1 @@
+This function calculates the total number of times a balance becomes negative while iterating through a string of '+' and '-' characters, and returns this count plus 1 if the final balance is positive, otherwise returns the count.

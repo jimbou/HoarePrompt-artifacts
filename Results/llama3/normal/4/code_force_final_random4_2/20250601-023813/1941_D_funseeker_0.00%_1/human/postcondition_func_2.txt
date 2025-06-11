@@ -1,0 +1,1 @@
+The function takes no parameters and returns a list of integers. It converts a string of space-separated integers returned by func_1() into a list of integers, where each integer is a result of this conversion.

@@ -1,0 +1,1 @@
+t is a positive integer, each test case consists of two lines, the first line contains two positive integers n and k such that 2 <= n <= 10^5 and 1 <= k <= n, the second line contains n distinct positive integers a_1, a_2, ..., a_n such that 1 <= a_i <= 10^9.

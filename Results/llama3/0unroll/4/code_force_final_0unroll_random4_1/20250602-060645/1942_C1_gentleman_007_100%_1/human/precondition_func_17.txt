@@ -1,0 +1,1 @@
+p is a list of integers sorted in ascending order, and x is an integer such that p[0] <= x <= p[len(p)-1].

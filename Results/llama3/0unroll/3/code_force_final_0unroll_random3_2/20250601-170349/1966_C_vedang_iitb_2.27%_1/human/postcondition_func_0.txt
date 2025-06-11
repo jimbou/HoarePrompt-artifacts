@@ -1,0 +1,1 @@
+This function takes a list of positive integers as input, removes duplicates, sorts the list, and then calculates the differences between consecutive elements. The function returns a new list containing these differences, which are non-negative integers. The original input list remains unchanged.

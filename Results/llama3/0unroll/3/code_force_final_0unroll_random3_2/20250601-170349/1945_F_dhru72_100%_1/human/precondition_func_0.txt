@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case consists of three lines. The first line contains an integer (n) (1 <= n <= 200000). The second line contains a list of n integers (1 <= v_i <= 10^9). The third line contains a permutation of numbers from 1 to n.

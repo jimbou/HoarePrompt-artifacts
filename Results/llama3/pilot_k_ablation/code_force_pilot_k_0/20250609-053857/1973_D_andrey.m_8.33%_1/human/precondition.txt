@@ -1,0 +1,1 @@
+l is a positive integer, x is a positive integer, 1 <= l <= n, 1 <= x <= 10^9, n is a positive integer.

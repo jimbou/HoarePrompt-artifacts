@@ -1,0 +1,1 @@
+Reads input from stdin, expecting a positive integer t (1 <= t <= 100) followed by t test cases, where each test case consists of a positive integer n (1 <= n <= 100) and a string s of length n containing only "U" and "D". Returns a list of t test cases, where each test case is a tuple containing the integer n and the string s.

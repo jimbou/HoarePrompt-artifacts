@@ -1,0 +1,1 @@
+This function takes an integer 'number' as input and returns the remainder of 'number' divided by 1000000007. The function does not modify the input variable 'number'. The function's purpose is to perform a modulo operation on the input integer and return the result.

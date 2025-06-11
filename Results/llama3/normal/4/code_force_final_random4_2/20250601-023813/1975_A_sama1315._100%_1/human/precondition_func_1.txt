@@ -1,0 +1,1 @@
+data is a list of strings where the first element is a positive integer t, followed by t blocks of input data. Each block consists of a positive integer n followed by n positive integers. The input is read from stdin.

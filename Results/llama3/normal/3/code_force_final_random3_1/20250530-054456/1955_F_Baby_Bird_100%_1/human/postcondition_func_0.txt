@@ -1,0 +1,1 @@
+Reads a series of input lines from standard input, where the first line contains an integer t, and each of the following t lines contains four integers. For each line of four integers, calculates a value by summing the result of a formula applied to each integer, and prints the result of this calculation, divided by 3, one result per line.

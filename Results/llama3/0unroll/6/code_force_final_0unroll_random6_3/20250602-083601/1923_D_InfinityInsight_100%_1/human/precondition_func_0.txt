@@ -1,0 +1,1 @@
+a is a list of integers, x is an integer. The list a is sorted in ascending order and x is a value that may or may not be present in the list a. The function bl(a, x) is assumed to be a binary search function that returns the index of the smallest element in a that is greater than or equal to x.

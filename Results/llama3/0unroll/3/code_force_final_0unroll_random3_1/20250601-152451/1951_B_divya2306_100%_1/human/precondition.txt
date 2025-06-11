@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two lines. The first line contains two integers: the number of cows and the index of the cow of interest. The second line contains a list of integers representing the Cowdeforces ratings of the cows.

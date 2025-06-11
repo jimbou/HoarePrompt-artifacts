@@ -1,0 +1,1 @@
+This function calculates and returns the total count of '1's in a given binary string 's' plus the count of '0's that are immediately preceded by at least one '1', without modifying the input string.

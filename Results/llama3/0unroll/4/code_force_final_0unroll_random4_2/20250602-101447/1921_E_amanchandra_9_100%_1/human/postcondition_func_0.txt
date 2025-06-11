@@ -1,0 +1,1 @@
+Determines the winner of a game between Alice and Bob based on their initial positions on a board and prints the result for each test case. The function takes no parameters and returns a list of strings indicating the winner ('Alice', 'Bob', or 'Draw') for each test case. The number of test cases is determined by the input value 't'.

@@ -1,0 +1,1 @@
+This function generates a list of a specified length, where each element is the result of calling the function 'func_3()'. The length of the list is determined by the input 'rows_number', which must be a positive integer. The function returns this list, with its contents dependent on the output of 'func_3()'.

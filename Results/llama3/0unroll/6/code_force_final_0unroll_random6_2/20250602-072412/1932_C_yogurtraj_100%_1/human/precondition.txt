@@ -1,0 +1,1 @@
+t is a positive integer, for each test case, n and m are positive integers, a is a list of n integers, and s is a string of n characters, each of which is either 'L' or 'R'.

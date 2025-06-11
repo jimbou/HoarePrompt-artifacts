@@ -1,0 +1,1 @@
+Calculates and prints the absolute value of the product of the square roots of the squared distances between the coordinates of two pairs of points for a given number of test cases.

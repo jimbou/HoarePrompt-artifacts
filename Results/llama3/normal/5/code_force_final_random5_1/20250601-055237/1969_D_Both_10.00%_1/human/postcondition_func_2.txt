@@ -1,0 +1,1 @@
+This function calculates and returns the sum of the first elements of all pairs in the input list `sec_arr` and the sum of the elements of all pairs in the input list `main_ar` where the sum of the elements of each pair is greater than or equal to 0. The function consumes both input lists, leaving them empty.

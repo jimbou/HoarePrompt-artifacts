@@ -1,0 +1,1 @@
+Reads a line of input from stdin, expecting a space-separated list of two integers, and returns them as a list of two integers.

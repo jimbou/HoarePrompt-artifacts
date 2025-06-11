@@ -1,0 +1,12 @@
+This function takes no arguments and returns no values. It performs the following actions: 
+
+1. It generates a positive integer `n` and a positive integer `q` by calling the function `func_1` with an integer argument. 
+2. It generates a list `a` of non-negative integers less than 2^30 by calling the function `func_1` with an integer argument. 
+3. It creates a list `x` containing `len(a) + 1` elements, where the first element is 0 and the remaining elements are the result of the bitwise XOR operation between the last element of `x` and each element of `a`. 
+4. It creates a dictionary `inds` where the keys are the result of the bitwise XOR operation between 0 and each element of `a`, and the values are lists containing the indices of the corresponding elements in `x`. 
+5. It iterates `q` times, and in each iteration, it generates two integers `l` and `r` by calling the function `func_1` with an integer argument. 
+6. If `x[l - 1]` is equal to `x[r]`, it prints 'Yes' and continues to the next iteration. 
+7. Otherwise, it finds the lower and upper bounds of the range `[l, r]` in the list `inds[x[r]]` and `inds[x[l - 1]]` respectively, using the functions `func_4` and `func_3`. 
+8. If the upper bound is greater than the lower bound, it prints 'Yes', otherwise it prints 'No'. 
+
+The function does not modify any input variables and does not return any values. Its purpose is to perform a series of bitwise XOR operations and range queries, and print the results.

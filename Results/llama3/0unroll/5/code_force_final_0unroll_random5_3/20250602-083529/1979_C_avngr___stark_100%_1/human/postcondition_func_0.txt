@@ -1,0 +1,1 @@
+Calculates and returns the absolute value of the least common multiple (LCM) of two non-zero integers a and b.

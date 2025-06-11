@@ -1,0 +1,1 @@
+Reads a series of test cases from standard input, where each test case is an integer between 2 and 1000, and prints the result of subtracting 1 from each test case. The function processes between 1 and 1000 test cases, and after execution, the standard input is empty, and the results are printed to the console.

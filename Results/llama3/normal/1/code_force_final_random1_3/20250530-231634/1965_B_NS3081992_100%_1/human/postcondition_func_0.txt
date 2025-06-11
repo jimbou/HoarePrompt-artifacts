@@ -1,0 +1,1 @@
+The function reads an integer from standard input and returns it, ensuring the returned value is greater than 0.

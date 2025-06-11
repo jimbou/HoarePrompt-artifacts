@@ -1,0 +1,1 @@
+a is a list of non-negative integers, l and r are integers such that 0 <= l <= r < len(a), ops is a list of tuples of two integers.

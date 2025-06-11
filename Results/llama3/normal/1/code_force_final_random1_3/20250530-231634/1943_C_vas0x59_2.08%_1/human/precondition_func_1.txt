@@ -1,0 +1,1 @@
+u2vs is a list of lists of integers such that for each index i, u2vs[i] is a list of indices j such that there is an edge between vertices i and j in the tree, and n is a positive integer equal to the number of vertices in the tree.

@@ -1,0 +1,1 @@
+The function takes in a positive integer n, a positive integer m, a list of n positive integers a, and a string s of n characters where each character is either 'L' or 'R'. It rearranges the elements of list a based on the characters in string s, then calculates the cumulative product of the rearranged list in reverse order, and returns the result as a list of n integers.

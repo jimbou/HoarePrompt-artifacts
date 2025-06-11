@@ -1,0 +1,1 @@
+Calculates and returns the sum of a specific expression for all integer keys in a given dictionary, where the expression is `pow(i, d[i] - 1) * (i - 1)` and `d` is the input dictionary with integer keys and non-negative integer values. The function does not modify the input dictionary.

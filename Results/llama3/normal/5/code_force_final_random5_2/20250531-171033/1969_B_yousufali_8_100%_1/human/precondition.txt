@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer and then a binary string. The integer is a positive integer. The binary string consists of only 0-s and/or 1-s and its length is at least 2 and at most 2 * 10^5. The sum of lengths of strings over all test cases doesn't exceed 2 * 10^5.

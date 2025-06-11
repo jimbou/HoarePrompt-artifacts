@@ -1,0 +1,1 @@
+This function checks if a given list of integers is sorted in ascending order and returns 'Yes' if it is, or 'No' if it's not. The function does not modify the original list.

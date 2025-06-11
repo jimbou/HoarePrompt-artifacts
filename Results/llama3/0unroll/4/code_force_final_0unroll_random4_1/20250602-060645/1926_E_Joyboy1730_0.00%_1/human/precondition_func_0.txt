@@ -1,0 +1,1 @@
+stdin contains t+1 inputs: first an integer t, then t pairs of integers (n, k) such that 1 <= t <= 5 * 10^4, 1 <= k <= n <= 10^9.

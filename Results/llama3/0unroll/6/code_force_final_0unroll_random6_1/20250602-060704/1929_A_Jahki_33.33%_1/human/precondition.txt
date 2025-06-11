@@ -1,0 +1,1 @@
+a is a list of integers and num2 is an integer.

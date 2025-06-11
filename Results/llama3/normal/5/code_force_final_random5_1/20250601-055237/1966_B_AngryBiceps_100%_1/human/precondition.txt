@@ -1,0 +1,1 @@
+stdin contains a sequence of inputs: the first line contains a single integer t (1 ≤ t ≤ 10^4), then for each test case, the first line contains two integers n and m (1 ≤ n, m ≤ 500), and the next n lines contain m characters 'W' and 'B'.

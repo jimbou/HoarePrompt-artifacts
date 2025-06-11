@@ -1,0 +1,1 @@
+d is a list of lists of integers, processing is a list of integers, da is a positive integer such that 1 <= da <= len(d), and rank is a list of integers.

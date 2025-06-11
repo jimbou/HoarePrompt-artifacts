@@ -1,0 +1,1 @@
+This function takes a tree data structure with a specified root vertex and a minimum component size as input, and returns the number of connected components with at least the minimum size rooted at the specified vertex, along with the total size of components smaller than the minimum size.

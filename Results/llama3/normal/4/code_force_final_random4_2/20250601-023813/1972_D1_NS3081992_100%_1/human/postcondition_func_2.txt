@@ -1,0 +1,1 @@
+Reads a line of input from standard input, splits it into two space-separated integers, converts them to integers, and returns them as a list. The returned integers are guaranteed to be positive and less than or equal to 2 * 10^6.

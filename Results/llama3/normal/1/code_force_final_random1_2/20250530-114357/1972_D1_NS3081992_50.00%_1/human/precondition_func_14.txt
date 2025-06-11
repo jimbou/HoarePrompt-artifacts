@@ -1,0 +1,1 @@
+n is a positive integer, m is a positive integer, and the values of n and m are previously calculated by function func_7().

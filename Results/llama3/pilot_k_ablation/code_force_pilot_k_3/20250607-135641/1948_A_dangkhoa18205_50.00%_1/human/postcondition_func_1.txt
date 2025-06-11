@@ -1,0 +1,1 @@
+Reads a positive integer from standard input, then calls another function (`func_1`) that number of times, passing no arguments and ignoring its return value, which is expected to be `None`.

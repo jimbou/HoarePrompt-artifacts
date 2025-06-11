@@ -1,0 +1,1 @@
+Reads the next line of input from the standard input (stdin) as a binary file, decodes it using the default encoding, removes any trailing newlines, and returns the resulting string.

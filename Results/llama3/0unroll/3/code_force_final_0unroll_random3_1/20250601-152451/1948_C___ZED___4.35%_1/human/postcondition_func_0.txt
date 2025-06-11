@@ -1,0 +1,1 @@
+Determines the existence of a path between two strings of '<' and '>' characters by moving two characters at a time, and outputs 'YES' or 'NO' for each test case based on the presence or absence of such a path, considering the constraints of the input strings' length and the last but one character of the second string.

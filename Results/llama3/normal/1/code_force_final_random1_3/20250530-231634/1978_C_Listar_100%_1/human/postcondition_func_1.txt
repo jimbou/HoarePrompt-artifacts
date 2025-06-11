@@ -1,0 +1,1 @@
+This function swaps the values at two specific positions in a given list of integers. It takes a list and two non-negative integers as input, where the sum of the integers is less than the length of the list. The function then exchanges the values at the positions specified by the input integers, counting from the end of the list. The modified list is returned as output.

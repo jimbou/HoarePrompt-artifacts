@@ -1,0 +1,1 @@
+l is a list of distinct integers from 1 to n in arbitrary order, where n is the length of the list.

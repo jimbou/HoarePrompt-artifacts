@@ -1,0 +1,1 @@
+cast is a function that takes a string and returns a value of a specific type, and input() returns a string of space-separated values of the same type that cast can handle.

@@ -1,0 +1,1 @@
+n is a positive integer, x, y, and r are lists of integers of length n, visited, coef0, and coef1 are lists of boolean and integer values respectively of length n, nodes is a list of integers.

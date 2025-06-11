@@ -1,0 +1,1 @@
+Executes a specified number of test cases by calling another function (`func_6`) for each test case, where the number of test cases is determined by the return value of `func_1`.

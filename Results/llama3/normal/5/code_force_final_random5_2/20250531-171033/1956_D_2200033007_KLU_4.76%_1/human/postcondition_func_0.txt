@@ -1,0 +1,1 @@
+This function takes a list of integers `c` as input and prints specific values based on the value of `c`. If `c` is equal to 2, it prints '4 1' and '1 2'. If `c` is not equal to 2, it prints '13 0'. The function does not modify the input list `c` and does not return any value.

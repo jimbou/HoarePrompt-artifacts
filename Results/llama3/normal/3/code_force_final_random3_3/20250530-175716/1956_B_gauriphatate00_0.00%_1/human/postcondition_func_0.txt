@@ -1,0 +1,1 @@
+This function calculates and returns the minimum value between the number of pairs of identical elements in a given list and half of a given positive integer. It takes a list of integers and a positive integer as input, where each integer in the list appears at most twice, and returns an integer representing the minimum value between these two quantities.

@@ -1,0 +1,1 @@
+Determines if a tree with n vertices has at least k connected components with a minimum size of x, or if the total size of components with size less than x is at least x when the number of such components is equal to k.

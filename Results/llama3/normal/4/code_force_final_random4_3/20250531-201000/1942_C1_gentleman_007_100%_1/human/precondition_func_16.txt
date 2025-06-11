@@ -1,0 +1,1 @@
+p is a sorted list and x is a value that can be compared with elements of p.

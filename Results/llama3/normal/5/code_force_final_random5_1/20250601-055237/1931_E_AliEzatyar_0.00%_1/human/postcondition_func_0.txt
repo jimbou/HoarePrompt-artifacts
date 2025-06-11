@@ -1,0 +1,1 @@
+This function takes an integer 'num' as input and returns the number of trailing zeros in its decimal representation. The function accepts integers between 1 and 10^4 and returns a value that is either 0 or equal to the number of trailing zeros in the input integer.

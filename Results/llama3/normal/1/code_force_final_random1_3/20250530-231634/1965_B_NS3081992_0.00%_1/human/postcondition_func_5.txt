@@ -1,0 +1,1 @@
+Reads the first line of input from the standard input (stdin) in binary mode, decodes it into a string using UTF-8 encoding, removes trailing bytes, and returns the resulting string.

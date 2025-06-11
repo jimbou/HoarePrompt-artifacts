@@ -1,0 +1,1 @@
+t is a positive integer, test_cases is a list of lists, where each sublist contains an even positive integer n and two strings of length n consisting of '<' and '>' characters.

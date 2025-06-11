@@ -1,0 +1,1 @@
+Reads a line of text from standard input, splits it into a list of values, removes leading and trailing whitespace from each value, and returns the resulting list.

@@ -1,0 +1,1 @@
+The function constructs a tree with n nodes and n-1 edges, then applies a root tree non-recursive operation to the tree starting from node 0, and finally applies the func_4 function to the resulting tree, n, and k, printing the result.

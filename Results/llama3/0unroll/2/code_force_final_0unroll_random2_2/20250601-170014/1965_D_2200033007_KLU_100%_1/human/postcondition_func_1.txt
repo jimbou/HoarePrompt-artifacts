@@ -1,0 +1,1 @@
+This function takes a list of integers as input and returns a new list containing only the integers that appear an odd number of times in the original list. The function effectively filters out integers that appear an even number of times, preserving the order of appearance for the remaining integers.

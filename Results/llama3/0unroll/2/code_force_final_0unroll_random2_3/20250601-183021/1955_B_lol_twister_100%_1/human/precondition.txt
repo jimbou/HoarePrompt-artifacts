@@ -1,0 +1,1 @@
+n is an integer greater than 1, c and d are integers greater than 0, l is a list of n^2 integers.

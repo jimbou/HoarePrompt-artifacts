@@ -1,0 +1,1 @@
+Prints the value of `n` if the difference between `n` and `k` is less than or equal to 1, otherwise prints 1, for each of `t` test cases.

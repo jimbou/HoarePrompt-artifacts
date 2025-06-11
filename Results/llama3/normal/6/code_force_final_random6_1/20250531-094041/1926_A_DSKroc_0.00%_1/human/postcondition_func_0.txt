@@ -1,0 +1,1 @@
+This function reads a series of strings from standard input, each consisting of 5 characters 'A' or 'B', and prints 'A' if the number of 'A's in the string is greater than the number of 'B's, otherwise it prints 'B'. The function processes multiple strings as specified by an initial integer input, which ranges from 1 to 32.

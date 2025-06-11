@@ -1,0 +1,1 @@
+This function takes a list of positive integers and two positive integers as input, and returns the number of integers that can be completely removed from the list by repeatedly subtracting the minimum of the first and last elements from both ends, until a stopping condition is met. The function modifies the input list in place and returns the count of removed integers.

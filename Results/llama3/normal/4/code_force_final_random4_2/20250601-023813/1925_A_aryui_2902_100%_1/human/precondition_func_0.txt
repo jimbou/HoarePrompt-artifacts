@@ -1,0 +1,1 @@
+stdin contains two inputs: two positive integers n and k, where 1 <= n <= 26 and 1 <= k <= 26.

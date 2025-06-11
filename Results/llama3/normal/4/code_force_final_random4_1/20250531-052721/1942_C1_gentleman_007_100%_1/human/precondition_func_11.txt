@@ -1,0 +1,1 @@
+num is a positive integer and Prime_array is a list of integers such that for every index i, Prime_array[i] is a prime number and i is a multiple of Prime_array[i].

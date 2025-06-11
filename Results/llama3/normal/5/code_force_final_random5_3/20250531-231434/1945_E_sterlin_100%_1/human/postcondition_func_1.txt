@@ -1,0 +1,1 @@
+The function reads a space-separated list of integers from standard input, converts each string to an integer, and returns a map object containing the list of integers.

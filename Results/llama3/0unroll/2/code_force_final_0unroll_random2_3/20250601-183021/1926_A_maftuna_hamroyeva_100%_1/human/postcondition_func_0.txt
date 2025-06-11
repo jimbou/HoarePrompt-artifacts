@@ -1,0 +1,1 @@
+This function reads an integer t from standard input, followed by t strings of length 5 consisting of letters A and B. It then determines the dominant character in each string (either A or B) and prints the dominant character for each string, resulting in a series of 'A's and 'B's as output, with the number of lines equal to the value of t.

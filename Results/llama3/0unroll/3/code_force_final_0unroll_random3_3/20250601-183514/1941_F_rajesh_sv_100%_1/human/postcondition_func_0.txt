@@ -1,0 +1,1 @@
+The function returns another function `wrapper` that takes any number of arguments and returns a value, while leaving an empty dictionary `d` unchanged.

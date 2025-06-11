@@ -1,0 +1,1 @@
+The function accepts a list of non-zero integers as input and returns a new list where each element is the product of all the elements in the input list to its right. The input list remains unchanged.

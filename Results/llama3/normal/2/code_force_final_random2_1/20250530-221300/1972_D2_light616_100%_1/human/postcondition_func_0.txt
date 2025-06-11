@@ -1,0 +1,1 @@
+Calculates and prints the sum of minimum values obtained by dividing two input numbers (n and m) by the product of two coprime numbers (x and y), where x ranges from 1 to the square root of n and y ranges from 2 to the square root of m.

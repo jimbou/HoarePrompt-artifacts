@@ -1,0 +1,1 @@
+Executes `func_6()` a number of times equal to the return value of `func_3()`, which must be a non-negative integer.

@@ -1,0 +1,1 @@
+stdin contains several test cases. Each test case contains three integers n, m1, and m2 (1 <= m1, m2 <= n <= 2 * 10^5), followed by m1 integers p1 < p2 < ... < pm1 (1 <= pi <= n), and m2 integers s1 < s2 < ... < sm2 (1 <= si <= n).

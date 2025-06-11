@@ -1,0 +1,1 @@
+This function reads multiple blocks of input from stdin, where each block contains an integer n followed by a list of n integers. It checks if the list is sorted in ascending order and prints 'YES' if it is, and 'NO' otherwise. The function repeats this process for a number of blocks specified by the first integer input, t.

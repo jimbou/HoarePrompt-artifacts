@@ -1,0 +1,1 @@
+n, m, and k are integers, friendships is a list of tuples of three integers, 2 <= n <= 10^5, 0 <= m <= min(10^5, n*(n-1)/2), 1 <= k <= 2*10^5, 1 <= a_i, b_i <= n, 1 <= f_i <= 10^9 for all (a_i, b_i, f_i) in friendships.

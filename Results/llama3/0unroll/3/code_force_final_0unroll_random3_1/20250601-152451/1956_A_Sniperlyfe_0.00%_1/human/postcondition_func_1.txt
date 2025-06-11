@@ -1,0 +1,1 @@
+The function takes a positive integer `n` and a sorted list of positive integers `p` as input, and returns a list of results by applying the function `func_1` to each element in the list `qs` with the updated list `p`. The function updates the list `p` with new values from the input and prints the results after each iteration. The values of `n` and `t` remain unchanged.

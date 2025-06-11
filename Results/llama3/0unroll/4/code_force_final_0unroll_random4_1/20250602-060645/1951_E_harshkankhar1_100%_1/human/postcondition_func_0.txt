@@ -1,0 +1,1 @@
+Determines whether a given string of lowercase Latin characters is a palindrome, returning a boolean value indicating whether the string reads the same backward as forward.

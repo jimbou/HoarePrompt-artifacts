@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, performs a calculation on each pair, and prints the result. The calculation involves a series of arithmetic operations and conditional adjustments. The function processes all input pairs and produces a corresponding output for each pair, leaving the input stream empty upon completion.

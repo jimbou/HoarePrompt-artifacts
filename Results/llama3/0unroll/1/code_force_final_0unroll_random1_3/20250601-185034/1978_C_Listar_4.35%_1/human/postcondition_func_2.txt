@@ -1,0 +1,1 @@
+Prints a list of integers to the console, separated by spaces, preceded by 'YES', and followed by a newline, and returns None.

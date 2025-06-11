@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of four integers. It calculates the sum of the integer parts of these integers divided by 2, with an additional increment if the first three integers are equal and odd. The function then prints this sum for each test case.

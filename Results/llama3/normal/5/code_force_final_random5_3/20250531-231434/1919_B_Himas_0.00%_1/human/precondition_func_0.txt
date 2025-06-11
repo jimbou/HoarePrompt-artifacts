@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (the length of the string) and then a string consisting of "+" and "-" characters.

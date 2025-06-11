@@ -1,0 +1,1 @@
+This function calculates the modular exponentiation of a number 'a' raised to the power 'b' under modulo 'mod'. It takes three integers as input: 'a', 'b', and 'mod', where 'mod' is non-zero and 'a' and 'b' are non-negative. The function returns the result of a^(b) % mod, leaving the input variables unchanged.

@@ -1,0 +1,1 @@
+l is a list of integers, and it represents a permutation of length n such that its Manhattan value is equal to k.

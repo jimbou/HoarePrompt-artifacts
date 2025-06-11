@@ -1,0 +1,1 @@
+n is a list of integers where the first integer is the number of test cases (t), and the rest of the integers are grouped into test cases. Each test case starts with two integers n and k, followed by k pairs of integers r_i and c_i.

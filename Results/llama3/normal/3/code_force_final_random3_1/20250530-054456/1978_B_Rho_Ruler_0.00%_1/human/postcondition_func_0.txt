@@ -1,0 +1,1 @@
+Calculates and compares the total cost of two different scenarios, returning True if the total cost is less than or equal to the maximum possible cost, and False otherwise.

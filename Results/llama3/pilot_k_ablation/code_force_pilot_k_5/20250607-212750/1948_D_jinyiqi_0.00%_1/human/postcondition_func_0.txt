@@ -1,0 +1,1 @@
+This function reads strings from standard input, determines the maximum possible value of consecutive matching characters (ignoring question marks) in each string, and prints this value multiplied by 2. If no such value is found, it prints nothing. The function returns 0 in all cases.

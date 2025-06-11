@@ -1,0 +1,1 @@
+stdin contains a sequence of lines. The first line contains a positive integer t. Each of the next t lines contains a positive integer n. Each of the next t lines contains n positive integers.

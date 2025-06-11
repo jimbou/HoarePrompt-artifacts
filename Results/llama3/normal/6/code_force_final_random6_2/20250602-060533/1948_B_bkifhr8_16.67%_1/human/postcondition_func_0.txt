@@ -1,0 +1,1 @@
+This function checks if a given list of non-negative integers (each less than or equal to 99) is sorted in ascending order and returns a boolean value indicating the result. The function does not modify the original list.

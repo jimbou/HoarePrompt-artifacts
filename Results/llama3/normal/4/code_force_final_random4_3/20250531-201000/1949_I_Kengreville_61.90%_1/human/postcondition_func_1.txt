@@ -1,0 +1,1 @@
+This function performs a depth-first search (DFS) on a graph defined by the input parameters. It takes an integer `i` as input and marks it as visited. If `i` is not visited, it appends `i` to the `nodes` list and recursively calls the DFS function on all unvisited nodes `j` that are connected to `i` based on the condition `(r[i] + r[j])

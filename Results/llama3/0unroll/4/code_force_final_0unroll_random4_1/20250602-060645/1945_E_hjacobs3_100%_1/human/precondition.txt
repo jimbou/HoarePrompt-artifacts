@@ -1,0 +1,1 @@
+array is a list of distinct integers from 1 to n in arbitrary order, find is an integer such that 1 <= find <= n.

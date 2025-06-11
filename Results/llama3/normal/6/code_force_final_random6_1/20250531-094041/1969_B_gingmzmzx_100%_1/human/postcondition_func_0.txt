@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, where the first line contains the number of strings to follow, and each subsequent line contains a binary string. It then calculates and prints the total number of 1s in each string that are not immediately preceded by a 0. The function processes all input strings and prints the calculated values for each string.

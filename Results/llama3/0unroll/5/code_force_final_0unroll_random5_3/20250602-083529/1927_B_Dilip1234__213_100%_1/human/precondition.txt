@@ -1,0 +1,1 @@
+n is a positive integer, a is a list of n non-negative integers, for each integer i in a, 0 <= i < n.

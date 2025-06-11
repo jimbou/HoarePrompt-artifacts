@@ -1,0 +1,1 @@
+Concatenates integers from a list into a string, separating each integer with a specified symbol.

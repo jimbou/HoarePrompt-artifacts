@@ -1,0 +1,1 @@
+The function writes the output of `func_15()` to the console, followed by a newline character, a number of times equal to the positive integer returned by `func_10()`.

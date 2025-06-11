@@ -1,0 +1,1 @@
+stdin contains a line with two space-separated integers, both positive and less than or equal to 2 * 10^6.

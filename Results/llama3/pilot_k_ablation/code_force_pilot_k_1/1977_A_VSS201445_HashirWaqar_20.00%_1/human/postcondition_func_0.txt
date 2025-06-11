@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each case consists of two integers n and m. It then checks each case and prints 'YES' if n and m are both odd or both even, and 'NO' if n is less than m. The function processes all test cases and empties the standard input.

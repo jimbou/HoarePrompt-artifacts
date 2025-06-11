@@ -1,0 +1,1 @@
+This function calculates the sum of the absolute differences between consecutive elements in a sorted list of integers. It takes a list of integers as input, sorts the list in ascending order, and then computes the sum of the absolute differences between each pair of adjacent elements. The function returns this sum, which represents a measure of the "beauty" of the sorted list.

@@ -1,0 +1,1 @@
+Handles input and output for multiple test cases, reading the number of test cases, then for each test case, reads three positive integers (n, m, k) and a list of n positive integers (prices), calls func_1 with these inputs, and prints the result.

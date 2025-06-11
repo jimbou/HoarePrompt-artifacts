@@ -1,0 +1,1 @@
+p is a list of integers sorted in ascending order, x is an integer

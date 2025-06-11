@@ -1,0 +1,1 @@
+Counts the number of occurrences of 'mapie', 'map', or 'pie' in a given non-empty string consisting of lowercase Latin letters and returns the count.

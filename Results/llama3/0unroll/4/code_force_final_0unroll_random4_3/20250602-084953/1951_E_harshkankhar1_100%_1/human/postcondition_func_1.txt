@@ -1,0 +1,1 @@
+This function takes a string of lowercase Latin characters as input and performs the following actions:

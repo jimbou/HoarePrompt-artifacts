@@ -1,0 +1,1 @@
+Determines the winner of a game based on the number of piles and stones in each pile, printing 'Alice' or 'Bob' depending on the game's state and returning None.

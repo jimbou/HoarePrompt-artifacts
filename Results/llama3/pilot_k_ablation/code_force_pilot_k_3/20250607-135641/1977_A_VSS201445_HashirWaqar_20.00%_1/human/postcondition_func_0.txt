@@ -1,0 +1,1 @@
+Determines whether two integers are both odd or both even, and prints 'YES' if they are, 'NO' if the first integer is less than the second, and handles multiple test cases from standard input.

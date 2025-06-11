@@ -1,0 +1,1 @@
+a is a list of two integers, b is a list of strings, where the first element of a represents the number of lines (N) and the second element represents the number of columns (M) in the field, and the elements of b represent the field and the actions, with the first N elements of b describing the field and the remaining elements describing the actions.

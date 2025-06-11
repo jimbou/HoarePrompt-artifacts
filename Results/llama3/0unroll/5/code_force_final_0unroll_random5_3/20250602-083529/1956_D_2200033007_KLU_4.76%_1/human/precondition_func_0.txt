@@ -1,0 +1,1 @@
+c is a list of n integers, where n is an integer between 1 and 18 (inclusive), and each integer in the list is between 0 and 10^7 (inclusive).

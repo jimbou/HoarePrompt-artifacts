@@ -1,0 +1,1 @@
+This function calculates and returns the sum of the integer divisions of (n + i) by (i * i) for all i from 1 to the square root of n + i, minus 1, where n is a positive integer.

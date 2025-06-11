@@ -1,0 +1,1 @@
+This function reads a series of strings from standard input, checks each string to see if it can be rearranged into a different string, and prints 'Yes' followed by the rearranged string if possible, or 'No' if not. The function processes multiple strings, as specified by an initial integer input, and prints the results for each string.

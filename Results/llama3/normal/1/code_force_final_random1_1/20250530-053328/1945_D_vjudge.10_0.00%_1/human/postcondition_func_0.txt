@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of three lines. It calculates the minimum cost for each test case by comparing corresponding elements in two lists of integers and summing the minimum values, then prints the calculated costs. The function iterates over all test cases, printing the minimum cost for each one.

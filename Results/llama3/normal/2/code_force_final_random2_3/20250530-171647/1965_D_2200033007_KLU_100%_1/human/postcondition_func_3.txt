@@ -1,0 +1,1 @@
+This function compares two lists of integers, bigList and smallList, and returns the last element of bigList that is not equal to the last element of smallList. If the last elements of both lists are equal, it removes them until it finds a pair of last elements that are not equal, and then returns the last element of bigList.

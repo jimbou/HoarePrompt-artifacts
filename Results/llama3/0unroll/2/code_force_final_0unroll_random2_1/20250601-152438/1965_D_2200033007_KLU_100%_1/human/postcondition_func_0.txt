@@ -1,0 +1,1 @@
+This function calculates the cumulative sums of all suffixes of a given list of non-negative integers, sorts these sums in ascending order, and returns the sorted list without modifying the original input list.

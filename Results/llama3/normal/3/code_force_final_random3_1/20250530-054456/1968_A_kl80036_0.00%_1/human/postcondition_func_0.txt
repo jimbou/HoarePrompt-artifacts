@@ -1,0 +1,1 @@
+The function reads a series of integers from standard input, where the first integer t represents the number of subsequent integers to read. It then calculates and prints the integer division of each subsequent integer by 2. After processing all inputs, the function concludes, leaving the input stream empty.

@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, determines whether the sum of each pair is even or odd, and prints 'Bob' for even sums and 'Alice' for odd sums. The function processes a specified number of pairs, as indicated by an initial integer input, and then terminates, leaving the standard input empty.

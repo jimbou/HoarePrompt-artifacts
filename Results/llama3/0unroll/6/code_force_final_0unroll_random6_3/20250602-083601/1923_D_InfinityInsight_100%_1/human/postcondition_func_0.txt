@@ -1,0 +1,1 @@
+This function searches for a non-negative integer `x` in a sorted list of integers `a`. If `x` is negative, it returns -1. If `x` is found in the list, it returns the index of the next element. If `x` is not found, it returns the index of the smallest element greater than or equal to `x`.

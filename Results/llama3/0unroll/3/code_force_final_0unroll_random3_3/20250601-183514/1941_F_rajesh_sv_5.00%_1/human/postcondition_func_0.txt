@@ -1,0 +1,1 @@
+The function returns a variable named 'wrapper' without modifying the input dictionary 'd'. The value and type of 'wrapper' are undefined.

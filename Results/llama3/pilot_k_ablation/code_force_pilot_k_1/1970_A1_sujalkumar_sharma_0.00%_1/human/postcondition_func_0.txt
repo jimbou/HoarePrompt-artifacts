@@ -1,0 +1,1 @@
+Reorders a balanced parentheses sequence based on the balance and position of each character, returning a new string with the characters rearranged accordingly.

@@ -1,0 +1,1 @@
+The function sends a query to the user with four non-negative integers (a, b, c, d) less than the number of elements in a secret sequence p, and returns the user's input as a string.

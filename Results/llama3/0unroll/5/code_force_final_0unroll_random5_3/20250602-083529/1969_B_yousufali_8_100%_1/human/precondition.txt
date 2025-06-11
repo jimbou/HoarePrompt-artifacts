@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (t) and then t binary strings (s).

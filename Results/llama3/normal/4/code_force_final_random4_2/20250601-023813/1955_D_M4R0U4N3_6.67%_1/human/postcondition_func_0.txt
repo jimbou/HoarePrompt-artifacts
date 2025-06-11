@@ -1,0 +1,1 @@
+This function reads a number of test cases from standard input, where each test case consists of three integers (n, m, k) and two lists of integers (a and b). It then processes the test cases, maintaining sets of "done" and "extra" elements, and counts the number of times the number of "done" elements is greater than or equal to k. Finally, it prints the count for each test case.

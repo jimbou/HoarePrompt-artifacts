@@ -1,0 +1,1 @@
+Reads a specified number of test cases from standard input, where each test case consists of two integers and two binary strings, and for each test case, it finds the maximum number of characters in the first binary string that can be matched with a substring of the second binary string, printing this value for each test case.

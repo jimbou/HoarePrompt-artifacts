@@ -1,0 +1,1 @@
+This function reads an integer `t` and a list of integers from standard input, calculates the cumulative sum of the integer values of all characters in the string representation of each integer from 1 to 200000, and then prints the cumulative sum for each of the `t` input integers.

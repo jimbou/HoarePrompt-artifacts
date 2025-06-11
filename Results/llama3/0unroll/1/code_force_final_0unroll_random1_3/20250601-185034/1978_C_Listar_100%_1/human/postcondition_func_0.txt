@@ -1,0 +1,1 @@
+This function takes a positive integer `n` and a non-negative integer `k` as input, modifies a list of integers `l` from 1 to `n` based on the value of `k`, and returns either the modified list `l` or the result of another function `func_2` with parameters `c`, `k`, and `l`. The function also updates the value of `k` and a counter `c` during its execution.

@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, counts the number of changes between consecutive characters in each string, and prints these counts. It processes all input strings and leaves the input stream empty.

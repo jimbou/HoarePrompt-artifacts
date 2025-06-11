@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case consists of two lines. The first line contains two integers n and x (1 <= x <= n <= 2*10^5). The second line contains a permutation p of size n separated by spaces (1 <= p_i <= n).

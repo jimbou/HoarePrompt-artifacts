@@ -1,0 +1,1 @@
+This function takes a list of integers as input, sorts them in ascending order, and returns the number of unique integers in the sorted list. The function does not modify the original input list.

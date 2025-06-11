@@ -1,0 +1,1 @@
+Reads a line from the standard input file object, removes trailing bytes, and returns the resulting bytes object.

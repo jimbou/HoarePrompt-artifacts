@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case contains two integers n and k. It then prints the value 1 if k is greater than or equal to n-1, and n-1 otherwise, for each test case. The function does not return any value but instead prints the results directly to the console, leaving the standard input empty after processing all test cases.

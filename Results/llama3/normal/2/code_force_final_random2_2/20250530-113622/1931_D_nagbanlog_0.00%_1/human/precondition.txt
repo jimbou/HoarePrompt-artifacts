@@ -1,0 +1,1 @@
+t is a positive integer, test_cases is a list of test cases where each test case is a list of two lists. The first list contains three positive integers n, x, and y, where n is the size of the array and x and y are Polycarp's favorite integers. The second list contains n positive integers a_1, a_2, ..., a_n, which are the elements of the array.

@@ -1,0 +1,1 @@
+This function compares two binary strings of equal length and returns the maximum number of positions where one string has '0' and the other has '1'. It takes two strings and their length as input, and returns an integer value representing the maximum difference in '0' and '1' positions between the two strings.

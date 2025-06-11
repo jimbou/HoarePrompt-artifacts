@@ -1,0 +1,1 @@
+The function takes a list of distinct integers from 1 to n as input, prints 'YES', and then prints the numbers from 1 to n in the order they appear in the list, separated by spaces. The function does not modify the input list and does not return any value.

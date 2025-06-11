@@ -1,0 +1,1 @@
+n is a positive integer, p is a list of integers of length n, and MOD is a constant integer.

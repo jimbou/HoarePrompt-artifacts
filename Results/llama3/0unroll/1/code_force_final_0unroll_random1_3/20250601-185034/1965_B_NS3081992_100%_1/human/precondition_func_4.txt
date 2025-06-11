@@ -1,0 +1,1 @@
+stdin is an open file object in binary mode, and the next line in the file is a string that can be stripped of trailing characters with rstrip().

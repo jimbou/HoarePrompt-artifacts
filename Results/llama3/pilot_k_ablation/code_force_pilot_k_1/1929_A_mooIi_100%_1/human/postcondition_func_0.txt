@@ -1,0 +1,1 @@
+The function reads multiple test cases from standard input, where each test case consists of a single integer n followed by n integers. It then calculates and prints the sum of the differences between consecutive integers in each test case, sorted in ascending order. After processing all test cases, the function leaves the standard input empty.

@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three space-separated integers a, b, and c, where a, b, and c are non-negative integers.

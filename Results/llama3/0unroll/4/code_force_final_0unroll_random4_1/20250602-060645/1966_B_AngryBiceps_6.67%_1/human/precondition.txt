@@ -1,0 +1,1 @@
+stdin contains a sequence of lines. The first line contains an integer t. Each of the next t blocks of lines contains an integer n and an integer m, followed by n lines, each containing m characters that are either 'W' or 'B'.

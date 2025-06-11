@@ -1,0 +1,1 @@
+Applies an unknown function `func_2` to a list `arr` and a predicate function, returning the result. The predicate function is expected to take one argument and return a boolean value. The function's behavior is determined by the unknown function `func_2`, which is applied to the list `arr` and the predicate function as arguments.

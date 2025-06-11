@@ -1,0 +1,1 @@
+This function reads a positive integer (the number of test cases) and a list of integers (the encoded words) from standard input, decodes each integer into a three-letter string using a specific mapping, and prints the decoded strings. The function processes all test cases and leaves the standard input empty.

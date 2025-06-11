@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, where each pair consists of a number n and a number k. If n is equal to k, it prints a string of '1 ' repeated n times. If n is not equal to k, it prints -1. The function continues this process until all pairs of integers have been read from standard input, at which point the input is empty.

@@ -1,0 +1,1 @@
+This function modifies a list of non-negative integers by iteratively updating elements within a specified range to match the length of that range. It also keeps track of the operations performed by appending tuples representing the modified ranges to a separate list. The function takes no return value, instead modifying the input list and operations list in-place.

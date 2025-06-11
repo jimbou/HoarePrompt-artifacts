@@ -1,0 +1,1 @@
+This function reads input from stdin, sorts a list of integers, and calculates a product using the function func_2. It iterates this process a specified number of times, printing the result each time, and then terminates.

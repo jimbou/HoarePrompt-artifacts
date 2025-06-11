@@ -1,0 +1,1 @@
+This function calculates and returns the total number of '1's that were immediately followed by a '0' in the input string. It takes a string consisting of only 0-s and/or 1-s as input and returns an integer representing the count of such occurrences. The input string is not modified by the function.

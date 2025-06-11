@@ -1,0 +1,1 @@
+Executes a specified number of test cases by calling `func_6()` a number of times equal to the value returned by `func_1()`, without modifying the input variables.

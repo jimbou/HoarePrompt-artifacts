@@ -1,0 +1,1 @@
+This function takes a string and a substring as input and returns a list of all the starting positions of the substring within the string. If the substring is not found, an empty list is returned. The function does not modify the input string or substring.

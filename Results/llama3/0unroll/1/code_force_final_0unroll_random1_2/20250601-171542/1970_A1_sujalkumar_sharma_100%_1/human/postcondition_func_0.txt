@@ -1,0 +1,1 @@
+This function takes a non-empty string of balanced parentheses as input, sorts the characters based on the balance of open and close parentheses and their original index, and returns the sorted string. The function preserves the balance of the parentheses sequence and maintains the original characters, but rearranges them according to the specified sorting criteria.

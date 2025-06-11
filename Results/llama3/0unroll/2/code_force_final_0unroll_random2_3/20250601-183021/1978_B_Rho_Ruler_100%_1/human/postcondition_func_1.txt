@@ -1,0 +1,1 @@
+This function calculates and returns the maximum value of `func_1(mid, n, a, b)` for all `mid` values ranging from 0 to the minimum of `n` and `b`. It iteratively adjusts the search range (`low` and `high`) to find the maximum value, utilizing a binary search approach. The function takes four parameters: `n`, `a`, `b`, and returns the maximum profit value.

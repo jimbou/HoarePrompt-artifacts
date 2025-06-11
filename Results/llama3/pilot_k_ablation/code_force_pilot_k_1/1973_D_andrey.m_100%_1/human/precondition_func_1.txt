@@ -1,0 +1,1 @@
+m is a positive integer representing the largest value that can be obtained by splitting the array into exactly k subarrays such that all subarrays have the product of their length and their maximum equal to m.

@@ -1,0 +1,1 @@
+stdin contains an integer t (1 <= t <= 1000) followed by t strings, each consisting of 1 to 5000 lowercase Latin letters and/or question marks.

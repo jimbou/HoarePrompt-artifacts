@@ -1,0 +1,1 @@
+t is a positive integer, for each test case, n and k are positive integers such that 1 <= k <= n <= 2 * 10^5 and n * k <= 2 * 10^5. For each test case, there are k lists of n distinct integers from 1 to n, where the first integer in each list is the author of the screenshot.

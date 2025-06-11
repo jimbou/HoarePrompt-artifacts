@@ -1,0 +1,1 @@
+This function reads a string of 'W' and 'B' characters from standard input, finds the indices of the first and last occurrences of 'B', and prints the length of the substring between these two indices (inclusive).

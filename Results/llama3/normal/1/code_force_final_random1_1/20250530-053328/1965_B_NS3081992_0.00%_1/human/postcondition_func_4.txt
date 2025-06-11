@@ -1,0 +1,1 @@
+Reads the next line of input from a valid input source connected to stdin, removes trailing newlines, and returns the resulting string.

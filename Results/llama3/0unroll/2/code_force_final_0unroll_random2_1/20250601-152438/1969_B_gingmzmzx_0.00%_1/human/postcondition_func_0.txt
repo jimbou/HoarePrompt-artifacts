@@ -1,0 +1,1 @@
+This function reads an integer n from standard input, followed by n binary strings. It then calculates and prints the minimum number of operations required to make each binary string alternating between 0s and 1s. The function processes all input strings and prints the result for each string, leaving the standard input empty after reading all input strings.

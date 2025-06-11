@@ -1,0 +1,1 @@
+number is an integer greater than or equal to 2, sequence is a list of integers.

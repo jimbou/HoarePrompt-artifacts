@@ -1,0 +1,1 @@
+Reads input from stdin, processes it according to the solve() function, and returns None, leaving stdin in a state where the first line contains a single integer 0.

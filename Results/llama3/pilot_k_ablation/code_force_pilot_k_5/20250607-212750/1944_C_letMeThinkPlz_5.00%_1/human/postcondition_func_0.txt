@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of a list of integers. It then finds and prints the smallest number that is either not present in the list or appears only once in the list and is greater than the last element in the list. The function processes all test cases and prints the corresponding results.

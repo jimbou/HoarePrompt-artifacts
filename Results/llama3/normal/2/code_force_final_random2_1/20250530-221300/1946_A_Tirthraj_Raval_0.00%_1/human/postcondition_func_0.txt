@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of an integer (array length) and a space-separated list of integers (the array). It sorts each array, finds the middle element, counts its occurrences, and prints the count. The function processes all test cases and prints the count of the middle element for each array.

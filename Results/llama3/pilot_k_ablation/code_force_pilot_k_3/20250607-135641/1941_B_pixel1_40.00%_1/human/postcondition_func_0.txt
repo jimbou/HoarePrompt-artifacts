@@ -1,0 +1,1 @@
+Decreases the values of three consecutive elements in a list by specific amounts and returns the modified list. The function takes a list of integers and an index as input, and decreases the element at the index-1 by 1, the element at the index by 2, and the element at index+1 by 1. The function returns the modified list with the updated values.

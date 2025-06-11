@@ -1,0 +1,1 @@
+cities is a list of non-negative integers, n is a non-negative integer such that 0 < n <= len(cities) and the list is sorted in ascending order.

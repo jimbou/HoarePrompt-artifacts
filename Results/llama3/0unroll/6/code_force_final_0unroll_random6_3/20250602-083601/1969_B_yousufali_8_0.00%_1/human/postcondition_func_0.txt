@@ -1,0 +1,1 @@
+This function calculates the sum of the number of 1's in each sequence of 1's in a given list of binary integers, plus the number of 0's that immediately follow each sequence of 1's. It takes no input parameters and returns the calculated sum, leaving the original list unchanged.

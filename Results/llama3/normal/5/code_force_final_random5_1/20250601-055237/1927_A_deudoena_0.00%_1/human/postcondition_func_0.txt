@@ -1,0 +1,1 @@
+This function reads a string from standard input, finds the first and last occurrences of the character 'B' in the string, and prints the number of characters between these two occurrences. The function assumes that the input string contains at least one 'B' and does not modify the input string.

@@ -1,0 +1,1 @@
+Prints 'YES' followed by the numbers from 1 to n, each separated by a space, without modifying the input list l, which remains unchanged containing n distinct integers from 1 to n.

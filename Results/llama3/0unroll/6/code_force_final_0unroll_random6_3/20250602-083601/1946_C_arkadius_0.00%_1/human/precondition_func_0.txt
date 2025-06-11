@@ -1,0 +1,1 @@
+tree is a tree data structure with n vertices, s is a non-negative integer representing the starting vertex, and x is a non-negative integer representing the minimum size of each connected component.

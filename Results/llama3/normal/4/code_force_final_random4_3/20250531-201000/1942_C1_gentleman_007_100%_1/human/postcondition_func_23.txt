@@ -1,0 +1,1 @@
+Traverses a graph using Depth-First Search (DFS) starting from a given node, marks all visited nodes, and prints the visited nodes in the order they were visited, without modifying the graph structure.

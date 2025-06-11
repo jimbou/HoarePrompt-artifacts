@@ -1,0 +1,1 @@
+This function reads two positive integers n and m from the standard input, calculates the sum of the minimum of n // ((i + j) * i) and m // ((i + j) * j) for all i from 1 to the square root of n rounded up inclusive and all j from 1 to n inclusive where the greatest common divisor of i and j is 1, and prints the result.

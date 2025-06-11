@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case contains a list of integers. It then finds the smallest integer that appears only once in the list or is not present in the list, and prints this integer. The function processes all test cases and does not return any value.

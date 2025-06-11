@@ -1,0 +1,1 @@
+a is a list of non-negative integers, p is a list of non-negative integers such that 0 <= p[i] < len(p) for all i, s is a list of two non-negative integers such that 0 <= s[0] < len(p) and 0 <= s[1] < len(p), and k is a non-negative integer.

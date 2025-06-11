@@ -1,0 +1,1 @@
+t is a positive integer, cases is a list of test cases where each test case is a list of three lists: the first list contains three positive integers n, m, and k where k is even, the second list contains n positive integers, and the third list contains m positive integers.

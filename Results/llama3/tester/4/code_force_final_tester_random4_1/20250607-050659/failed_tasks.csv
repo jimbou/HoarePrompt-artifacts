@@ -1,0 +1,211 @@
+task_id,model_created,dataset,model_run,code,fail_reason,type_of_run
+1951_B,human,codeforces2024,llama-v3p1-70b-instruct,"def mwins(a):
+    x=a[k]
+ 
+    ind=[]
+    c=0
+    for i in range(n):
+        if a[i]>x:
+            ind.append(i)
+            c+=1
+        if c==2:break
+    if ind==[]:return n-1
+    if len(ind)==1:
+        if ind[0]==0:
+            return k-1
+        if ind[0]>k:return ind[0]-1
+        return max(k-ind[0],ind[0]-1)
+    if ind[0]==0: return min(ind[1]-1,k-1)
+    if k>ind[1]: return max(ind[0]-1,ind[1]-ind[0])
+    return max(ind[0]-1,k-ind[0])
+    
+ 
+ 
+ 
+for _ in range(int(input())):
+    n,k=list(map(int,input().split()))
+    l=list(map(int,input().split()))
+    k-=1
+    print(mwins(l))",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1977_A,human,codeforces2024,llama-v3p1-70b-instruct,"a=int(input())
+for i in range(a):
+    b,c=map(int,input().split())
+    q=(b,c)
+    if b==c:
+        print('YES')
+    elif b<c:
+        print('NO')
+    else:
+        if a%2==b%2:
+            print('Yes')
+        else:
+            print('No')",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1920_B,human,codeforces2024,llama-v3p1-70b-instruct,"def main():
+    t = int(input())
+    for i in range(t):
+        n,k,x = map(int, input().split())
+        a = list(map(int, input().split()))
+        a.sort()
+        product = alice(k, x, a)
+        print(product)
+        
+def alice(removals, negatives, elements):
+    if removals == 6 and negatives == 3:
+        return 0
+    pos = []
+    s = sum(elements)
+    n = sum(elements[-negatives:])
+    pos.append(s - 2 * n)
+    for i in range(1, removals+1):
+        s -= elements[-i]
+        try:
+            n += elements[-(negatives+i)] - elements[-i]
+        except IndexError:
+            n = 0
+        pos.append(s - 2 * n)
+    return max(pos)
+ 
+main()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1977_A,human,codeforces2024,llama-v3p1-70b-instruct,"a=int(input())
+for i in range(a):
+    b,c=map(int,input().split())
+    q=(b,c)
+    if b==c:
+        print('YES')
+    elif b<c:
+        print('NO')
+    else:
+        if b%2==c%2:
+            print('Yes')
+        else:
+            print('No')",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1949_I,human,codeforces2024,llama-v3p1-70b-instruct,"def main():
+    n = int(input())
+    x = [None] * n
+    y = [None] * n
+    r = [None] * n
+    visited = [False] * n
+    coef0 = [None] * n
+    coef1 = [None] * n
+    nodes = []
+    for i in range(n):
+        x[i], y[i], r[i] = map(int, input().split())
+ 
+    def dfs(i):
+        if not visited[i]:
+            visited[i] = True
+            nodes.append(i)
+            for j in range(n):
+                dx = x[i] - x[j]
+                dy = y[i] - y[j]
+                if not visited[j] and (r[i] + r[j]) ** 2 == dx ** 2 + dy ** 2:
+                    coef0[j] = r[i] + r[j] - coef0[i]
+                    coef1[j] = -coef1[i]
+                    dfs(j)
+ 
+    ok = False
+    for i in range(n):
+        if not visited[i]:
+            coef0[i] = 0
+            coef1[i] = 1
+            nodes = []
+            dfs(i)
+            c0 = 0
+            c1 = 0
+            for j in nodes:
+                c0 += coef0[j]
+                c1 += coef1[j]
+            ok = ok or c1 != 0;
+    if ok:
+        print(""YES"")
+    else:
+        print(""NO"")
+ 
+main()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1943_A,human,codeforces2024,llama-v3p1-70b-instruct,"from collections import Counter
+for _ in range(int(input())):
+    n = int(input())
+    arr = list(map(int, input().split()))
+    mpp = Counter(arr)
+    first = False
+    for i in range(n+1):
+        if i not in mpp.keys():
+            print(i)
+            break
+        if mpp[i] == 1 and first:
+            print(i)
+            break
+        if mpp[i] == 1:
+            first = True",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1968_D,human,codeforces2024,llama-v3p1-70b-instruct,"t=int(input())
+for i in range(t):
+    n,k,b,s=list(map(int,input().split()))
+    p=list(map(int,input().split()))
+    a=list(map(int,input().split()))
+    b-=1
+    s-=1
+    sp=a[s]
+    bp=a[b]
+    bm=a[b]*k
+    sm=a[s]*k
+    for i in range(n):
+        k-=1
+        if k==0:
+            break
+        b=p[b]-1
+        s=p[s]-1
+        bm+=max(bm,a[b]*k+bp)
+        sm+=max(sm,a[s]*k+sp)
+        sp+=a[s]
+        bp+=a[b]
+    if bm>sm:
+        print('Bodya')
+    elif bm<sm:
+        print('Sasha')
+    else:
+        print('Draw')",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1975_A,human,codeforces2024,llama-v3p1-70b-instruct,"def can_sort_by_swapping(a):
+    n = len(a)
+    sorted_a = sorted(a)
+    concatenated_a = a + a
+    
+    # Check if sorted_a is a subarray of concatenated_a
+    for i in range(n):
+        if concatenated_a[i:i+len(sorted_a)] == sorted_a:
+            return ""Yes""
+    return ""No""
+ 
+def main():
+    import sys
+    input = sys.stdin.read
+    data = input().split()
+    idx = 0
+    t = int(data[idx])
+    idx += 1
+    results = []
+    for _ in range(t):
+        n = int(data[idx])
+        idx += 1
+        a = list(map(int, data[idx:idx+n]))
+        idx += n
+        result = can_sort_by_swapping(a)
+        results.append(result)
+    print(""\n"".join(results))
+ 
+if __name__ == ""__main__"":
+    main()",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1926_E,human,codeforces2024,llama-v3p1-70b-instruct,"t=int(input())
+for _ in range(t):
+    n,k=map(int,input().split())
+    L=[]
+    while n:
+        m=(n+1)//2
+        n-=m
+    tot=0;pow=1
+    for a in L:
+        if tot<k and k<=tot+a:
+            print(pow*(2*k-1))
+            break
+        tot+=a
+        k-=tot
+        pow*=2",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt

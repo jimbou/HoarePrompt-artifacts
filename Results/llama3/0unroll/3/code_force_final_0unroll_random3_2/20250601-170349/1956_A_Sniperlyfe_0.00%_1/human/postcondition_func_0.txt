@@ -1,0 +1,1 @@
+The function reduces a non-negative integer `n` to 0 by repeatedly subtracting the count of elements in list `p` that are less than or equal to `n`, until `n` is less than the minimum value in `p`, and returns the final value of `n`, which is always 0. The list `p` remains unchanged throughout the process.

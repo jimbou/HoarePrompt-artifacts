@@ -1,0 +1,1 @@
+Functionality: This function calculates and returns the sum of prices of items for Alice, considering only items where the total price for both Alice and Bob is greater than or equal to 0. It takes two lists of pairs of integers as input, representing prices of items for Alice and Bob, and returns the calculated sum. The input lists remain unchanged.

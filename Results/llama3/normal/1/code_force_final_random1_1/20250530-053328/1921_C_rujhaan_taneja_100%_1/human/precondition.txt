@@ -1,0 +1,1 @@
+stdin contains an integer t, followed by t test cases. Each test case consists of two lines. The first line contains four integers n, f, a, and b. The second line contains n integers m_1, m_2, ..., m_n. n is a positive integer, f, a, and b are positive integers, and m_i are positive integers such that m_i < m_{i+1} for all i.

@@ -1,0 +1,1 @@
+This function takes a list of positive integers as input and returns a new list where each element at index i is the product of all elements in the input list from index i to the end. The function effectively calculates the cumulative product of the input list in reverse order.

@@ -1,0 +1,1 @@
+a is a sorted list of integers and x is an integer such that x is in a or x is less than the smallest element in a or x is greater than the largest element in a.

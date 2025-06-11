@@ -1,0 +1,1 @@
+Finds the index of the maximum value that a given function `func_1` returns '<' for, and prints the index of this maximum value along with the index of the maximum value that `func_1` returns '<' for, considering all possible pairs of indices.

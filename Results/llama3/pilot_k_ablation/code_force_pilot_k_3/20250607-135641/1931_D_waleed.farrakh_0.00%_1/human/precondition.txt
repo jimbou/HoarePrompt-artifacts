@@ -1,0 +1,1 @@
+test_cases is a list of test cases where each test case is a list of two elements. The first element is a list of three integers n, x, and y, where n is a positive integer, and x and y are positive integers. The second element is a list of n positive integers.

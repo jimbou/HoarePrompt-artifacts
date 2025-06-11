@@ -1,0 +1,1 @@
+This function generates a permutation of n integers, where each integer is 1 plus the smallest integer multiple of k that is greater than or equal to its index in the permutation list, and prints the permutation as a string of space-separated integers.

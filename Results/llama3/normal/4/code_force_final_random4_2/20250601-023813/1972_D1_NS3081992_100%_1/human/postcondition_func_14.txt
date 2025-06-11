@@ -1,0 +1,1 @@
+Functionality: This function calculates the sum of the integer divisions of (n + j) by (j * j) for all j from 1 to a certain limit, subtracts 1 from the result, and returns the value. The limit is the smallest integer greater than or equal to 2 such that i * i > n + i or i > m, where n and m are positive integers. The function takes no parameters and returns an integer value.

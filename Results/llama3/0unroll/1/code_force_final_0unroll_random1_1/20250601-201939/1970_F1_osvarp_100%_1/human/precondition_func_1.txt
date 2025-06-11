@@ -1,0 +1,1 @@
+pos is a pair of integers representing a position on the field, and goal is a list of two lists of pairs of integers, where each pair represents a goal position on the field, with the first list representing the goals of the red team and the second list representing the goals of the blue team.

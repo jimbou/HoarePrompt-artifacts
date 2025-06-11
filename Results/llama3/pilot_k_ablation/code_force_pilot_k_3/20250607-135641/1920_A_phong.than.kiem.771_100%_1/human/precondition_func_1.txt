@@ -1,0 +1,1 @@
+space is a boolean value, to_int is a boolean value, and stdin contains one input: a string. If space is True, the string is space-separated. If to_int is True, the string contains only space-separated integers.

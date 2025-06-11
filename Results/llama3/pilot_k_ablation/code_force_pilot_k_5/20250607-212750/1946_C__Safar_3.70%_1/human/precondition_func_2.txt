@@ -1,0 +1,1 @@
+x is a positive integer, visited is a set, k is a positive integer, and dfs is a function that takes two arguments and returns a tuple of two values.

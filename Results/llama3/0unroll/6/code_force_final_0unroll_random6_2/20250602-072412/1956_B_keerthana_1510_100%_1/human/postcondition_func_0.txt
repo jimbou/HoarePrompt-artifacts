@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of two lines. It then calculates and prints the number of duplicate integers in each test case.

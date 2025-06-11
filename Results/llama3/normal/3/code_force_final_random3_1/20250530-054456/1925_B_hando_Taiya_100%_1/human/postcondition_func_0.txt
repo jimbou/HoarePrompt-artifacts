@@ -1,0 +1,1 @@
+This function reads input from stdin, where the first input is an integer t, followed by t pairs of integers x and n. For each pair, it calculates the maximum divisor of x that is less than or equal to n, and prints this value. The function iterates through all pairs of integers, processing each pair independently, and outputs the maximum divisor for each pair.

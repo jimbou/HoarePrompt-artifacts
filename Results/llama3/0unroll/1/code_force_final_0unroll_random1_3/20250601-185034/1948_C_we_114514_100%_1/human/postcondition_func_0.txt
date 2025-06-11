@@ -1,0 +1,1 @@
+Determines whether a robot can move from position (1,1) to (2,n) given two rows of length n consisting of '<' and '>' characters, returning 'Yes' if the move is possible and 'No' otherwise.

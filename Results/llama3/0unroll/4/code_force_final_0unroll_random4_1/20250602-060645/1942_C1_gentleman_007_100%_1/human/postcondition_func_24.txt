@@ -1,0 +1,1 @@
+This function performs a breadth-first traversal of a graph, starting from a given node, and prints all nodes in the graph to the console. It also updates a visit status list to mark all nodes as visited. The function does not return any value, but modifies the visit status list and prints the nodes to the console.

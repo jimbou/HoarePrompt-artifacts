@@ -1,0 +1,1 @@
+Determines whether a tree data structure meets certain conditions based on the number of good components and the size of the remaining tree after applying a function (func_1), returning True if the conditions are met and False otherwise.

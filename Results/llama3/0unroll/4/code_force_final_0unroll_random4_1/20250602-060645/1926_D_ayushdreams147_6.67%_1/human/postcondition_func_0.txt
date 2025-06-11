@@ -1,0 +1,1 @@
+This function takes a list of non-negative integers and returns the number of distinct non-negative integers in the list, while also modifying the input list by creating a dictionary where keys are the distinct non-negative integers and values are all 0.

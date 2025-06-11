@@ -1,0 +1,1 @@
+The function converts a string representation of an integer returned by func_2() into an actual integer and returns it.

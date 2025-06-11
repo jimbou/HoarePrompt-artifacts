@@ -1,0 +1,1 @@
+This function calculates and returns either -1 or the sum of the input 'introverts' and the result of another function 'func_1' called with inputs 'extroverts' and 'universals'. If 'func_1' returns None, the function returns -1; otherwise, it returns the sum of 'introverts' and the return value of 'func_1'.

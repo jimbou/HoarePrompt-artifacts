@@ -1,0 +1,1 @@
+n and k are integers such that n is non-negative and k is non-negative, and they are the result of a function func_2() that presumably reads input from somewhere.

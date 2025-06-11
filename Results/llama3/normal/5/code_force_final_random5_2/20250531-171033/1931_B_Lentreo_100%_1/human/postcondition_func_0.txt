@@ -1,0 +1,1 @@
+Determines whether a list of non-negative integers can be rearranged to form a sequence where each element is equal to the mean of the list, and returns 'YES' if possible, 'NO' otherwise.

@@ -1,0 +1,60 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains two inputs: first an integer (n) and then a string (a) of length n, consisting only of 0 and 1.
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        
+        s = input()
+        
+        if n % 2 == 0:
+            pk = n / 2
+        else:
+            pk = n / 2
+        
+        sl = list(s)
+        
+        o = sl.count('1')
+        
+        z = sl.count('0')
+        
+        zero, one = 0, 0
+        
+        lst = []
+        
+        mini = pow(10, 8)
+        
+        for i in range(n - 1):
+            if s[i] == '0':
+                zero += 1
+            else:
+                one += 1
+            zero_perc = zero * 100 // (i + 1)
+            one_perc = (o - one) * 100 // (n - i - 1)
+            if zero_perc >= 50 and one_perc >= 50:
+                lst.append(i + 1)
+        
+        for ele in lst:
+            mini = min(mini, abs(pk - ele))
+        
+        final = []
+        
+        for elem in lst:
+            if abs(pk - elem) == mini:
+                final.append(elem)
+        
+        final.sort()
+        
+        if len(final) == 0:
+            c1 = o * 100 // n
+            if c1 >= 50:
+                final.append(0)
+            else:
+                final.append(n)
+        
+        print(final[0])
+        
+    #State: Output State: `_` is `t`, `t` is 0, `n` is an integer, `s` is a string, `sl` is a list of characters in `s`, `o` is the number of '1's in `s`, `z` is the number of '0's in `s`, `zero` is the number of '0's in `s`, `one` is the number of '1's in `s`, `i` is `n-2`, `zero_perc` is greater than or equal to 50, `one_perc` is greater than or equal to 50, `lst` is an empty list, `ele` is undefined, `mini` is the minimum of the previous minimum of 100000000 and the absolute difference between `pk` and the last element in `lst`, `final` contains all elements in `lst` that have an absolute difference with `pk` equal to `mini`, is sorted in ascending order. If the length of `final` is 0, then `final` contains 0 if the percentage of '1's in `s` is greater than or equal to 50, otherwise it contains `n`, and the first element of `final` is printed which is either the smallest element in `lst` with an absolute difference with `pk` equal to `mini` or 0 if the length of `final` is 0 and the percentage of '1's in `s` is greater than or equal to 50, or `n` if the length of `final` is 0 and the percentage of '1's in `s` is less than 50.
+    #
+    #The loop has finished executing all its iterations. The loop counter `_` has reached the value of `t`, which is the number of test cases. The variable `t` has been decremented to 0. The variables `n`, `s`, `sl`, `o`, `z`, `zero`, `one`, `i`, `zero_perc`, `one_perc`, `lst`, `ele`, `mini`, and `final` have the same values as in the previous iteration. The first element of the list `final` has been printed, which is either the smallest element in `lst` with an absolute difference with `pk` equal to `mini` or 0 if the length of `final` is 0 and the percentage of '1's in `s` is greater than or equal to 50, or `n` if the length of `final` is 0 and the percentage of '1's in `s` is less than 50.
+
+#Overall this is what the function does:This function reads multiple test cases from standard input, where each test case consists of an integer n and a string s of length n containing only 0s and 1s. For each test case, it calculates the percentage of 0s and 1s in the string and finds the position where the percentage of 0s and 1s is closest to 50%. If no such position exists, it returns 0 if the percentage of 1s is greater than or equal to 50%, or n if the percentage of 1s is less than 50%. The function then prints the smallest such position for each test case.
+

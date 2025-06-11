@@ -1,0 +1,1 @@
+Determines whether Alice can buy the desired number of jewels with her coins and prints the result along with the number of ways to do so if possible.

@@ -1,0 +1,1 @@
+This function calculates the result of a^b modulo mod, where a and b are integers and mod is a positive integer. It returns the result of this calculation, effectively performing modular exponentiation. The function modifies the input values of a and b during the calculation, but the returned result only depends on the original values of a, b, and mod.

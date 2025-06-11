@@ -1,0 +1,1 @@
+arr is a list of three lists. The first element of arr is an integer. The second and third elements of arr are lists of non-decreasing integers of the same length as the first element of arr.

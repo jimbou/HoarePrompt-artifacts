@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of a list of integers. It then finds the minimum and maximum values in the list and counts the number of times a value in the list is greater than both the minimum and maximum values. The function prints this count for each test case.

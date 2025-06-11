@@ -1,0 +1,1 @@
+start_index and end_index are non-negative integers such that start_index <= end_index.

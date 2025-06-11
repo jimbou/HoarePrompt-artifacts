@@ -1,0 +1,1 @@
+Calculates and returns a list of values based on the input string s1, where each value is determined by the relative positions of '<' and '>' characters in the string. The function takes a string s1 as input and returns a list of calculated values of the same length as the input string. The input string s1 remains unchanged throughout the function's execution.

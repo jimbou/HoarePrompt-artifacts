@@ -1,0 +1,1 @@
+Reads input from stdin, parses it into a list of tuples, and returns the list. Each tuple contains an integer n and a string s of length n consisting only of "U" and "D" characters. The function does not perform any validation or processing on the input data beyond parsing it into the desired format.

@@ -1,0 +1,1 @@
+el is a string of length 2, where the first character is either 'B', 'R', or '.' and the second character is either a digit from 0 to 9, 'G', or 'Q'.

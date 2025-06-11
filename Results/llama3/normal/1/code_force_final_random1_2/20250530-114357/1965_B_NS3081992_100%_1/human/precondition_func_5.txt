@@ -1,0 +1,1 @@
+stdin is a file-like object containing input data, and readline() is a method of this object that reads a line of input and returns it as a bytes object, and rstrip() is a method that removes trailing characters (such as newline characters) from the bytes object, and decode() is a method that converts the bytes object to a string using a specified encoding.

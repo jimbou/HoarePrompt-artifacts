@@ -1,0 +1,1 @@
+The input contains a series of test cases. Each test case contains four integers n, k, P_B, P_S, a permutation p of length n, and an array a of length n. n is a positive integer, k is a non-negative integer, P_B and P_S are positive integers less than or equal to n, p is a permutation of length n, and a is an array of positive integers of length n.

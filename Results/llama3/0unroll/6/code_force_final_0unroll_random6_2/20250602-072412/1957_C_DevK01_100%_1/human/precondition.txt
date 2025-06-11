@@ -1,0 +1,1 @@
+n is a list of integers where the first integer is the number of test cases, and each test case is a list of integers where the first two integers are the size of the chessboard and the number of moves already played, and the remaining integers are the moves made, with each move being a pair of integers representing the row and column of the move.

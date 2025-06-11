@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two lines. The first line contains two space-separated integers: n and k, where n is the number of cows and k is the index of the cow of interest. The second line contains n space-separated integers representing the Cowdeforces ratings of the cows.

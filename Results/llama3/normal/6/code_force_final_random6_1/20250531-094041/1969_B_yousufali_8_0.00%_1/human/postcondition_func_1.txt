@@ -1,0 +1,1 @@
+Reads an integer t from standard input, reads t lines of binary strings from standard input, and calls a function func_1() t times. After execution, the value of t is 0, and the standard input is empty.

@@ -1,0 +1,1 @@
+n is a positive integer, m is a non-negative integer such that m <= n*(n-1)/2, k is a positive integer, friendships is a list of m lists, each containing three positive integers a, b, and f such that a != b, 1 <= a, b <= n, and 1 <= f <= 10^9.

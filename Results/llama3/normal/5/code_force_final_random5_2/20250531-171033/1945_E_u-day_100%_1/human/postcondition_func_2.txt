@@ -1,0 +1,1 @@
+Searches for a target value `k` in a list of distinct integers `arr` and prints the result of the search. If `k` is found at the predicted position `pos`, prints 0. Otherwise, prints 1 followed by the actual position of `k` in the list and the predicted position `pos` incremented by 1.

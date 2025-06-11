@@ -1,0 +1,1 @@
+Prints a message to the console indicating that the factorial of a positive integer m is being calculated, waits for user input, and returns the user's input as an integer.

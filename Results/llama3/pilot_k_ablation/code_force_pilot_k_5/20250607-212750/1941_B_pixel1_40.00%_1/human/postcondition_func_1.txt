@@ -1,0 +1,1 @@
+Checks if all elements in the input list 'arrayForSuccess' are equal to 0 and returns True if so, otherwise returns False.

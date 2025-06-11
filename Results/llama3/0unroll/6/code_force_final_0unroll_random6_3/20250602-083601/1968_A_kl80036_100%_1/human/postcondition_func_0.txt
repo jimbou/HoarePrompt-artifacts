@@ -1,0 +1,1 @@
+Reads a series of integers from standard input, subtracts 1 from each integer, and prints the resulting values to the console.

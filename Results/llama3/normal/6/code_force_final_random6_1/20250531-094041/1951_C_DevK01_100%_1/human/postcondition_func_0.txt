@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, each containing two lines. The first line contains three integers n, m, and k, and the second line contains n integers. For each test case, it calculates the minimum cost based on the given integers and prints the result. The function processes all test cases and leaves the input stream empty.

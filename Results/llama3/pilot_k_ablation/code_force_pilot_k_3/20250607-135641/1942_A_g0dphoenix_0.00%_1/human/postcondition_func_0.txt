@@ -1,0 +1,1 @@
+The function reads a series of test cases from standard input, where each case consists of two integers n and k. For each case, if n equals k, it prints a string of '1 ' repeated n times (excluding the last space); otherwise, it prints -1. The function continues this process until all test cases have been read from standard input, leaving the input stream empty.

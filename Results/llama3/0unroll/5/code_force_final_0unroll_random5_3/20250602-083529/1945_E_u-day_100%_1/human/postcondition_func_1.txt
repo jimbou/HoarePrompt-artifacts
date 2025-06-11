@@ -1,0 +1,1 @@
+The function accepts a generator as input and returns a list of all values yielded by the generator. The function does not modify the input generator or any external state; it solely converts the generator's output into a list. Upon conclusion, the program's state is updated with the returned list, which contains all values produced by the generator.

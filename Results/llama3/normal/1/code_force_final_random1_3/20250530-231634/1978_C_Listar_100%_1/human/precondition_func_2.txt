@@ -1,0 +1,1 @@
+c is a positive integer and l is a list of length at least 2*c such that c <= len(l)/2.

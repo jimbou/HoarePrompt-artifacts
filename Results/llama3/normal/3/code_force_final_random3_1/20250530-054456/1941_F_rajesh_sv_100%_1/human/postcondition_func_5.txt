@@ -1,0 +1,1 @@
+This function calls and returns the result of another function named `func_2()`, without performing any additional actions or modifications to any input variables, as it does not accept any parameters. The final state of the program is determined solely by the outcome of `func_2()`.

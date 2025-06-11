@@ -1,0 +1,1 @@
+space is a boolean indicating whether the input should be split by spaces or not, to_int is a boolean indicating whether the input should be converted to integers or not.

@@ -1,0 +1,1 @@
+The function reads a string of two space-separated integers from standard input, splits the string into two substrings at the space separator, and returns the substrings as a list of two strings, each representing an integer.

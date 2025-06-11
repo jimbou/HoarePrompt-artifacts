@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains multiple lines. The first line contains three space-separated integers n, m, x (2 <= n <= 1000, 1 <= m <= 1000, 1 <= x <= n). The next m lines contain a space-separated integer r_i (1 <= r_i <= n - 1) and a symbol c_i ('0', '1', or '?').

@@ -1,0 +1,1 @@
+Generates a sequence of numbers based on the input number and modifies the input sequence list by appending new values and updating existing values. The function returns the total size of the generated sequence, which is the sum of the initial size and the result of a recursive function call. If the input number is 0, the function returns 0.

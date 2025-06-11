@@ -1,0 +1,1 @@
+Reads a line of input from the standard input (stdin), removes leading and trailing whitespace, and returns the resulting string.

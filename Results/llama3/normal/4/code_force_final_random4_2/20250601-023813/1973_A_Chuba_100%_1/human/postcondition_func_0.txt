@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of three integers representing the scores of three players. It then calculates and prints the average score of the three players, but only if the sum of their scores is even. If the sum is odd, it prints -1. The function processes all test cases and does not return any value.

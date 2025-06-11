@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of an integer (the number of elements in the array) followed by a list of integers. It then finds the maximum and minimum values in each list and prints their difference. The function processes all test cases and outputs the differences for each case.

@@ -1,0 +1,1 @@
+This function modifies the input list `ops` by appending a new element `[r + 1, l + 1]` when `r` equals `l`, and recursively calls itself with modified parameters `r` and `l - 1` when `r` is greater than `l`. The function does not return any value.

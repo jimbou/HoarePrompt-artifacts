@@ -1,0 +1,1 @@
+The function reads a series of lines from standard input, where each line contains four integers. It then processes each line by checking if the first three integers sum to an odd number and calculates half the sum of all four integers. The function outputs the sum of these two calculations for each line, repeating the process for the specified number of lines.

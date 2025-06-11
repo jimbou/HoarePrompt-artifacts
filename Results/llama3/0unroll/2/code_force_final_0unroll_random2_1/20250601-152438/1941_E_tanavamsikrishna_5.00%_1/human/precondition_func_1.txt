@@ -1,0 +1,1 @@
+n, m, k, and d are positive integers, n is the number of rows, m is the number of columns, k is the number of bridges, and d is the maximum distance between supports. rows is a list of lists of non-negative integers representing the depths of the river cells.

@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (the number of test cases) and then a list of integers (the test cases). Each integer in the list is greater than or equal to 2 and less than or equal to 10^18.

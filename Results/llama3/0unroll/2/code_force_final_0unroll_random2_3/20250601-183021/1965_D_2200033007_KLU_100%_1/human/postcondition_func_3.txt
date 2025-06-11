@@ -1,0 +1,1 @@
+Truncates two lists from the end until they are no longer equal or until the smaller list is empty, and returns the last element of the truncated longer list. If the smaller list is empty after truncation, the function returns the last element of the remaining longer list.

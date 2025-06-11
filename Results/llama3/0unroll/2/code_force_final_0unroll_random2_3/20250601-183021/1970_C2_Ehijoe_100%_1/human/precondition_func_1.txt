@@ -1,0 +1,1 @@
+nodes is a dictionary where each key is a node in the tree and its corresponding value is a list of neighboring nodes, start is an integer representing the starting node.

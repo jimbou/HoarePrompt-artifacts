@@ -1,0 +1,1 @@
+Memoizes the result of calling a function `func` with arguments `*args` and returns the result. If the arguments are already in the dictionary `d`, it returns the cached result; otherwise, it calls the function, stores the result in the dictionary, and returns it.

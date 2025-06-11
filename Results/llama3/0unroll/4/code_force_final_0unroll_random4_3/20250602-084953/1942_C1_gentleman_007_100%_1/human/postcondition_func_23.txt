@@ -1,0 +1,1 @@
+Performs a depth-first search (DFS) traversal of a graph starting from a given vertex, marking all reachable vertices as visited and printing them in the order they are visited. The function modifies the input list 'vis' to reflect the visited state of each vertex and leaves the graph and other variables unchanged.

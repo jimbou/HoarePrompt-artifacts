@@ -1,0 +1,1 @@
+Applies a predicate function to a list of elements and returns the result of the application, which depends on the implementation of the function `func_2`.

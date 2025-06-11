@@ -1,0 +1,1 @@
+Determines whether a given 2-character string meets specific conditions, returning True if the first character is 'B' or 'R' and the second character is not 'G', and False otherwise.

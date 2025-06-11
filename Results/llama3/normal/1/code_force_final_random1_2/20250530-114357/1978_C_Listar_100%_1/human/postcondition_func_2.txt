@@ -1,0 +1,1 @@
+Swaps the cth element from the start and the cth element from the end of a given list 'l', where 'c' is a positive integer less than or equal to the length of 'l', and returns the modified list.

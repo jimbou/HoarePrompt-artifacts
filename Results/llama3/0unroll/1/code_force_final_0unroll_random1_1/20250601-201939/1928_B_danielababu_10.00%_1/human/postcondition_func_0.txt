@@ -1,0 +1,1 @@
+Reads a non-negative integer from standard input and returns it as is, without any modifications or transformations.

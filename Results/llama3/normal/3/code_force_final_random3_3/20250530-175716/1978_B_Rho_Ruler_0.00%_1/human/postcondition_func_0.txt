@@ -1,0 +1,1 @@
+This function determines whether a weighted sum of two non-negative integers 'a' and 'b', based on the values of 'k' and 'n', is less than or equal to the product of 'n' and the maximum of 'a' and 'b'. It takes four parameters: 'k', 'a', 'b', and 'n', and returns a boolean value indicating whether the weighted sum is within the specified limit.

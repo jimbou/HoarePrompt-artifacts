@@ -1,0 +1,1 @@
+stdin contains a sequence of inputs: first an integer, then a sequence of test cases. Each test case consists of two integers, then a list of integers, then a sequence of pairs of integers. All integers are positive and the sum of the second integers in the test cases does not exceed 3 * 10^5.

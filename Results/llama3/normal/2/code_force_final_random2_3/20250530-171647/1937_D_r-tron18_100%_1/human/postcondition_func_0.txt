@@ -1,0 +1,1 @@
+Calculates and returns the difference between the last element of the input list `arr` and the element at a specific index, which is determined by the number of elements in `arr` and the input integer `times`. The specific index is calculated as `max(-n, -1 - times)`, where `n` is the number of elements in `arr`.

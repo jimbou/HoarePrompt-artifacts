@@ -1,0 +1,1 @@
+This function reads an integer t from standard input, followed by t strings consisting of '0's and '1's. It then calculates the number of alternating sequences of '0's and '1's in each string, subtracting 1 if the string starts with '0' and ends with '1'. The function prints the calculated values for each string, leaving the input variable t unchanged.

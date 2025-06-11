@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of two positive integers n and m. It then calculates and prints the sum of the integer divisions of n by all integers from 2 to m, inclusive, plus n. The function iterates over each test case, performing the calculation and printing the result for each case.

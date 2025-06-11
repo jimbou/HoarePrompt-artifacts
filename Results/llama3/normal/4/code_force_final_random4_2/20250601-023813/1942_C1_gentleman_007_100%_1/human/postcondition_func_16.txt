@@ -1,0 +1,1 @@
+Searches for an integer `x` in a sorted list `p` and returns the index where `x` is found if it exists, or -1 if `x` is not in the list.

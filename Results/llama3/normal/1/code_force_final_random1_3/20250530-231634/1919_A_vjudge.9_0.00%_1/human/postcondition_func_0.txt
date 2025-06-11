@@ -1,0 +1,1 @@
+Determines the winner of a game based on the sum of two non-negative integers, returning 'Bob' if the sum is even and 'Alice' if the sum is odd.

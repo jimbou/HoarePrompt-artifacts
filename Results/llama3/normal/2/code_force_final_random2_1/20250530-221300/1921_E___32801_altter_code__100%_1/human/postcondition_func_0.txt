@@ -1,0 +1,1 @@
+Determines the winner of a game based on the positions of two chips on a board, printing 'draw', 'Alice', or 'Bob' depending on the relative positions and parity of the chip coordinates, and returns nothing.

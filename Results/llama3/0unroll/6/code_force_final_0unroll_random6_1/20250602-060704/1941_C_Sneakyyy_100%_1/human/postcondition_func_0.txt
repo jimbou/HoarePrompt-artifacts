@@ -1,0 +1,1 @@
+Counts and prints the number of non-overlapping occurrences of the substrings 'map' and 'pie' in a given string for multiple test cases.

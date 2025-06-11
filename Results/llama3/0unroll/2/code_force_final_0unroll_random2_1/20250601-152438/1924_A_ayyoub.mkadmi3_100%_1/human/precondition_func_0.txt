@@ -1,0 +1,1 @@
+s is a string consisting of the first k lowercase English alphabets, k is an integer such that 1 <= k <= 26, and n is an integer such that 1 <= n <= 26.

@@ -1,0 +1,1 @@
+Prints 'YES' followed by all elements of the input list, separated by spaces, and returns None.

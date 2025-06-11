@@ -1,0 +1,1 @@
+This function takes two non-negative integers 'a' and 'b' as input and returns the product of 'a' and the result of another function 'func_1' called with 'b' and a large prime number (1000000007), modulo 1000000007.

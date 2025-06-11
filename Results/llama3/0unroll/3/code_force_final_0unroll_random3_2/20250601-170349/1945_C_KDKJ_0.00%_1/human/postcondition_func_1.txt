@@ -1,0 +1,1 @@
+Reads a series of test cases from standard input, where each test case consists of an integer representing the number of houses and a string of 0s and 1s, and processes each test case without producing any output or modifying the input, leaving the standard input empty after all test cases have been processed.

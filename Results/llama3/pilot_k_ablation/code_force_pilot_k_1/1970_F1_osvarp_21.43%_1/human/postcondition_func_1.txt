@@ -1,0 +1,1 @@
+Determines the status of a given position on a field relative to two goal positions, returning 0 if the position is in the first goal, 1 if it's in the second goal, or -1 if it's in neither.

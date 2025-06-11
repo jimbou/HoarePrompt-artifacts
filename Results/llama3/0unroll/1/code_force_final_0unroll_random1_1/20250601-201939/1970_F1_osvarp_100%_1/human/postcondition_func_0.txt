@@ -1,0 +1,1 @@
+Simulates a game of Quidditch, processing a series of commands to update the game state, including player positions, ball position, points scored, and player status (active or eliminated), and prints the final score.

@@ -1,0 +1,1 @@
+This function reads a list of integers from standard input, counts the occurrences of each integer, and calculates the total number of groups of 3 that can be formed from these integers. It then prints this total count. The function processes one test case at a time, with the number of test cases specified at the beginning of the input.

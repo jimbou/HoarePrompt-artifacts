@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of an integer followed by a string of 'W' and 'B' characters. It then calculates and prints the distance between the first and last occurrence of 'B' in each string, or 0 if no 'B' is found. The function processes multiple test cases and outputs the results for each case.

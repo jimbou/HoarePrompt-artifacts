@@ -1,0 +1,1 @@
+stdin contains n+1 inputs: the first input is an integer n (1 <= n <= 1000), and the next n inputs are lines each containing three integers x, y, and r, where -10^9 <= x, y <= 10^9 and 1 <= r <= 10^9.

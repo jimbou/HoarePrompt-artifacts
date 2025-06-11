@@ -1,0 +1,1 @@
+The function reads a positive integer and a list of non-negative integers from standard input, calculates the sum and maximum of the list, and prints these values along with pairs of integers. The function does not return any values, but rather prints the results directly.

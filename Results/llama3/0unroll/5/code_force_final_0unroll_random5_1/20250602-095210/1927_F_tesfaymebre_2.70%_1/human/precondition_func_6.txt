@@ -1,0 +1,1 @@
+curr is a non-negative integer, parent is a non-negative integer, path is a list of non-negative integers, colors is a list of integers with the same length as the number of vertices in the graph, graph is a list of lists of non-negative integers representing the adjacency list of the graph, and node_v is a non-negative integer representing a vertex in the graph.

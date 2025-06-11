@@ -1,0 +1,1 @@
+This function reads input from stdin, expecting an integer t followed by t pairs of integers n and k. It then generates and prints t lines of output. If k is 1, the function prints a sequence of integers from 1 to n. If k is greater than 1, it prints either a sequence of k repeated k times if n equals k, or -1 if n is greater than k.

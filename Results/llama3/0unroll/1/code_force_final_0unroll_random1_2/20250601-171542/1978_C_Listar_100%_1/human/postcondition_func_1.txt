@@ -1,0 +1,1 @@
+Swaps the values at the last c and last c+k indices of a list of distinct integers from 1 to n, returning the modified list.

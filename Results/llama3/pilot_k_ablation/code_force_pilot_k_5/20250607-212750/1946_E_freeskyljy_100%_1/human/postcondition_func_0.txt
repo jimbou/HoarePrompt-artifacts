@@ -1,0 +1,1 @@
+Calculates the modular multiplicative inverse of a product of factorials, returning 1 if n1 equals n2 or n2 equals 0, otherwise returning the result of the modular multiplicative inverse of `(n1!/(n2+1)! * n1!/(n1-n2)!) % MOD` modulo `MOD` multiplied by `n1!` and then taken modulo `MOD`.

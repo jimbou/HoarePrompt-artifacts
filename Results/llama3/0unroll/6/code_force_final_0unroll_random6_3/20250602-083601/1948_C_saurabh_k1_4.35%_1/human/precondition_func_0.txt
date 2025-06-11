@@ -1,0 +1,1 @@
+stdin contains multiple inputs: first an integer t (1 <= t <= 10^4), then for each test case, first an integer n (2 <= n <= 2 * 10^5) and then two strings of length n consisting of '<' and/or '>' characters.

@@ -1,0 +1,1 @@
+This function performs a binary search on a list of non-decreasing integers to find the index of the first element that is greater than or equal to a given integer. If the given integer is larger than the last element in the list, the function returns the length of the list. Otherwise, it returns the index of the first element that meets the condition.

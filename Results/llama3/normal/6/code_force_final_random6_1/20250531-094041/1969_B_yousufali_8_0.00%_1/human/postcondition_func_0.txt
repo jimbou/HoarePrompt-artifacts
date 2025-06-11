@@ -1,0 +1,1 @@
+This function reads a space-separated list of 0s and 1s from standard input, calculates the sum of all numbers from 2 to the total count of 1s plus one, and prints the result.

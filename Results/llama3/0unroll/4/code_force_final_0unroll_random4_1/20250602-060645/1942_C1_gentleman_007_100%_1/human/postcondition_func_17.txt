@@ -1,0 +1,1 @@
+This function performs a binary search on a sorted list of integers to find the index of the largest element that is less than or equal to a given target value. If the target value is less than the smallest element in the list, it returns -1. Otherwise, it returns the index of the largest element that meets the condition.

@@ -1,0 +1,1 @@
+t is a positive integer less than or equal to 1000, s is a string of lowercase English letters of length at most 10.

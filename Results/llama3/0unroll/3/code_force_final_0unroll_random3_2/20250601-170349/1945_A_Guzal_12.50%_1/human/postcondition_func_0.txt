@@ -1,0 +1,1 @@
+Calculates and prints the value of `k` for each set of input integers `a`, `b`, and `c`, where `k` is determined by the sum of `a` and the integer division of `b + c` by 3, with an additional 1 added if the remainder of `b + c` divided by 3 is not 0, unless the conditions `(b % 3 != 0 and c < 3) and (b + c) % 3 != 0` are met, in which case the output is -1.

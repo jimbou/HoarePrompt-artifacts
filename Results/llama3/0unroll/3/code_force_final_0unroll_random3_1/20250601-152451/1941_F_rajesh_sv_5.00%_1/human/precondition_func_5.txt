@@ -1,0 +1,1 @@
+No precondition can be determined from the given function as it only contains a return statement with a call to another function func_2() without any parameters or variables.

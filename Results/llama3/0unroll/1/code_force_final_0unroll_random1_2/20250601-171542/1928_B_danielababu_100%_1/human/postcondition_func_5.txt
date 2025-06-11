@@ -1,0 +1,1 @@
+Reads a string from standard input and returns it as a list of characters.

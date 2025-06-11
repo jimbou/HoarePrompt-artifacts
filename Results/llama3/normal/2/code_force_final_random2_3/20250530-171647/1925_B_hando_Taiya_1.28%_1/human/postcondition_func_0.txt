@@ -1,0 +1,1 @@
+The function reads an integer t from stdin, representing the number of test cases. For each test case, it reads two integers x and n, where x is a number and n is a threshold. It then finds the maximum divisor of x that is less than or equal to n and prints this value. The function repeats this process t times, consuming all input lines from stdin.

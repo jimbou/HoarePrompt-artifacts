@@ -1,0 +1,1 @@
+This function takes two non-negative integers 'a' and 'b' as input, uses 'b' to compute a value 'c' through a call to function func_1, and then returns the product of 'a' and 'c' modulo 1000000007.

@@ -1,0 +1,1 @@
+The input consists of t test cases. Each test case consists of two lines. The first line contains three integers n, x, and y, where n is a positive integer greater than or equal to 4, x is a positive integer greater than or equal to 2 and less than or equal to min(n, 2*10^5), and y is 0. The second line contains x distinct integers from 1 to n.

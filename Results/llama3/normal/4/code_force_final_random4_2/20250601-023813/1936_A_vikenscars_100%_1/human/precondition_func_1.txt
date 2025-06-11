@@ -1,0 +1,1 @@
+n is a positive integer, func_1 is a function that takes four non-negative integers less than n as arguments and returns a string that is either '<', '=', or '>'.

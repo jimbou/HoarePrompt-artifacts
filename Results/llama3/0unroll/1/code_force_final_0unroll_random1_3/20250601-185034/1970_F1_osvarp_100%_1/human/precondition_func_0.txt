@@ -1,0 +1,1 @@
+n and m are positive integers such that 3 <= n, m <= 99 and n and m are odd.

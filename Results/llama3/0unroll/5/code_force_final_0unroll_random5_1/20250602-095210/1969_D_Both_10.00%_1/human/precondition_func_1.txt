@@ -1,0 +1,1 @@
+putin() returns a string containing a space-separated list of integers.

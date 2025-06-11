@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of an integer and a binary string of the same length. It then determines whether the binary string can be rearranged into a palindrome and prints 'YES' or 'NO' for each test case accordingly. The function does not modify the input values and only prints the results for each test case.

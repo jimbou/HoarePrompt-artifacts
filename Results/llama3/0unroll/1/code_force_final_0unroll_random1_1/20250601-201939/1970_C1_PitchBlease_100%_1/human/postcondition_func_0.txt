@@ -1,0 +1,1 @@
+Determines the winner of a game based on the distance from a start node to the two leaves of a tree graph.

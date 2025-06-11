@@ -1,0 +1,1 @@
+Searches for the largest element in a sorted list of integers that is less than or equal to a target integer, returning its index if found, or -1 if the target is greater than the first element in the list.

@@ -1,0 +1,1 @@
+Calculates and returns the sum of integer divisions of `n - (i * i - i)` by `i * i` for all `i` from 1 to `m-1`, plus the number of iterations where `i` is greater than 1, or returns 1 if the sum is 0. The function takes two positive integers `n` and `m` as input, where 1 <= `n`, `m` <= 2 * 10^6, and modifies `m` to 1. The original value of `n` remains unchanged.

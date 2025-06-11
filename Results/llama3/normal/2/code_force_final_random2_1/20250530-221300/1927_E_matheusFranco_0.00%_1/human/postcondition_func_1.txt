@@ -1,0 +1,1 @@
+This function reads an integer from standard input and executes another function, func_1, a number of times equal to the input integer. After execution, the function leaves the standard input empty and the input integer is reduced to 0.

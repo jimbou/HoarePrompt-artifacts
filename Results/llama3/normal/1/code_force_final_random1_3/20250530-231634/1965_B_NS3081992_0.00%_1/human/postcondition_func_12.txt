@@ -1,0 +1,1 @@
+This function calculates the greatest common divisor (GCD) of two non-negative integers a and b, and returns the GCD along with the coefficients x and y such that ax + by = gcd(a, b). If b is zero, it returns x = 1, y = 0, and the original value of a. Otherwise, it recursively calls func_13 to compute the GCD and coefficients.

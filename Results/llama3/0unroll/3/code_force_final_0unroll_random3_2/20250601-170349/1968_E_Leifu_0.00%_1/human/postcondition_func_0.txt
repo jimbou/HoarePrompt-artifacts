@@ -1,0 +1,1 @@
+Prints a series of numbers to the console, with each set of numbers corresponding to a different input number `n`. For each `n`, it prints "1 1" and "1 2", followed by either "2 3" if `n` is 3, or "2 4" and additional lines with repeated numbers from 4 to `n` if `n` is greater than 3. The function consumes input numbers from stdin and does not return any value.

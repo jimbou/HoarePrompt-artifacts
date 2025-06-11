@@ -1,0 +1,1 @@
+This function takes two strings of digits as input, swaps the maximum and minimum digits in the first half of the strings and the minimum and maximum digits in the second half, and then prints the modified strings. The function does not return any value, but instead prints the modified strings to the console.

@@ -1,0 +1,1 @@
+Executes the function `func_6()` a specified number of times, as determined by the return value of `func_3()`, without modifying any variables or returning any values, effectively leaving the program state unchanged.

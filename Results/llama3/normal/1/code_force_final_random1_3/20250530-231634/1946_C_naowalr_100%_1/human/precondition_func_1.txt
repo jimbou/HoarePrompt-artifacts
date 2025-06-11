@@ -1,0 +1,1 @@
+n is a positive integer, k is a non-negative integer such that k < n, and the subsequent n-1 lines of input contain pairs of integers (a, b) representing edges in the tree, where 1 <= a, b <= n.

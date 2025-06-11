@@ -1,0 +1,1 @@
+No precondition can be determined as the function does not have any input parameters.

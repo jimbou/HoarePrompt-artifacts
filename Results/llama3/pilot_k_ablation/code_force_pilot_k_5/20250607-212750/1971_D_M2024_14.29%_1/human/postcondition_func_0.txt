@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, counts the number of occurrences of '1' followed by '0' in each string, and prints the count plus one for each string. The function processes a specified number of strings, which is provided as the first input.

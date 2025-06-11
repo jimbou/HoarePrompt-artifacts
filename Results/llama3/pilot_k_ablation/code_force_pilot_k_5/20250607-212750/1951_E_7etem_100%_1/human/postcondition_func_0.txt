@@ -1,0 +1,1 @@
+This function determines whether a given string of lowercase Latin characters is a modified palindrome. It checks if the first half of the string is equal to the reversed second half, starting from the middle index (rounded up if the length is odd). The function returns True if the string meets this condition and False otherwise.

@@ -1,0 +1,1 @@
+The function generates a list of n+1 lists, where each list at index x contains y and each list at index y contains x, based on the output of func_1() during m iterations, where n is a positive integer and m is a non-negative integer such that m <= n. The function returns this list, effectively creating a bidirectional mapping between indices x and y.

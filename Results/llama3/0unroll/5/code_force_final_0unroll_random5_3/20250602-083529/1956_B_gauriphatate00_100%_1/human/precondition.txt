@@ -1,0 +1,1 @@
+a is a list of integers, n is a positive integer, 1 <= n <= 2 * 10^5, and the length of a is n. Each integer from 1 through n appears in a at most 2 times.

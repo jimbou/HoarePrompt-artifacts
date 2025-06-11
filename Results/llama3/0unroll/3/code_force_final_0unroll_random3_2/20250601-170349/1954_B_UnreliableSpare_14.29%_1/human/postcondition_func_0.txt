@@ -1,0 +1,1 @@
+This function reads an integer n and a list of n integers from standard input, checks if all elements in the list are equal, and if not, finds the minimum number of consecutive occurrences of the first element in the list. If all elements are equal, it prints -1; otherwise, it prints the minimum number of consecutive occurrences.

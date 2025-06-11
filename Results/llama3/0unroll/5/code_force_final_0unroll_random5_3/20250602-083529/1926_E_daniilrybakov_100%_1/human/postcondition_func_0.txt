@@ -1,0 +1,1 @@
+This function reads a series of input pairs (n, k) from standard input, where n and k are integers, and for each pair, it calculates and prints a single integer result based on a specific formula involving n and k. The function processes multiple input pairs, as specified by an initial integer t, and outputs the corresponding results, one per line.

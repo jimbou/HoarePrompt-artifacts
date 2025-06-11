@@ -1,0 +1,1 @@
+curr and parent are integers representing vertices in a graph, path is a list of integers representing vertices in a graph, colors is a list of integers where colors[i] represents the color of vertex i, graph is a list of lists where graph[i] represents the neighbors of vertex i, and node_v is an integer representing a specific vertex in the graph.

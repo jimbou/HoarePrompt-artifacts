@@ -1,0 +1,1 @@
+stdin contains a sequence of inputs: first an integer t (1 <= t <= 100), then for each of the t test cases, first an integer n (1 <= n <= 100), then a string s of length n consisting of only "U" and "D" characters.

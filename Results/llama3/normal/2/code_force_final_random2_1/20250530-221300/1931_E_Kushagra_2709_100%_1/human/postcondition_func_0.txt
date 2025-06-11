@@ -1,0 +1,1 @@
+This function determines the winner of a game based on the sum of the lengths of the string representations of a list of positive integers, minus the sum of the counts of zeros in the string representations of the integers at even indices. It returns 'Sasha' if this total sum is greater than or equal to a given non-negative integer 'm' plus one, otherwise it returns 'Anna'.

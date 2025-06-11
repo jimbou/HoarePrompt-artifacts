@@ -1,0 +1,1 @@
+Determines the winner of a game played on a tree with exactly two leaves, given the tree's edges and a start node. The function returns 'Ron' if the distance from the start node to either leaf is even, and 'Hermione' otherwise.

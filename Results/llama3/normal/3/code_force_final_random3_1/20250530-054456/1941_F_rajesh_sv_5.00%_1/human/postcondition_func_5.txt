@@ -1,0 +1,1 @@
+This function calls another function named `func_2()` and returns its result, without modifying or using any external state or parameters. The specific outcome depends on the behavior of `func_2()`.

@@ -1,0 +1,1 @@
+Determines whether a given binary string can be rearranged into a sequence of '11's and '00's, and prints 'YES' or 'NO' accordingly for each test case.

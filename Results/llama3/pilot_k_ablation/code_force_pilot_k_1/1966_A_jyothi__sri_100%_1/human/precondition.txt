@@ -1,0 +1,1 @@
+stdin contains t+2t lines of input, where t is an integer (1 <= t <= 500). The first line contains t. Each of the following t blocks of two lines contains two integers n and k (1 <= n <= 100, 2 <= k <= 100) and n integers c_1, c_2, ..., c_n (1 <= c_i <= 100).

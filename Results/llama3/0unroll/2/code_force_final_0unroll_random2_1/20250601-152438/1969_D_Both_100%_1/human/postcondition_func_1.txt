@@ -1,0 +1,1 @@
+The function takes no parameters and returns a map object containing a sequence of integers. The integers are the result of converting a string of space-separated integers into individual integers. The function does not modify any input variables, as it does not accept any. The final state of the program is that it returns a map object with the converted integers.

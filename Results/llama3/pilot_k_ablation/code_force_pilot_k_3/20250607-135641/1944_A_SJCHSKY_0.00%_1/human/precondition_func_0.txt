@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: two integers n and k, where n is a positive integer less than or equal to 100 and k is a non-negative integer less than or equal to n*(n-1)/2.

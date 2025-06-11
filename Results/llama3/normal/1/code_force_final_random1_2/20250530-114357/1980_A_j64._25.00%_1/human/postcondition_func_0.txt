@@ -1,0 +1,1 @@
+Calculates the minimum number of problems Vlad needs to create for each test case, given the number of problems in the bank, the number of upcoming rounds, and the string of problem difficulties, and returns a list of results, one for each test case.

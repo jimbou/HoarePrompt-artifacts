@@ -1,0 +1,1 @@
+Calculates and prints the number of coprime pairs (a, b) where 1 <= a <= n and 1 <= b <= m, given two positive integers n and m as input, and returns no value.

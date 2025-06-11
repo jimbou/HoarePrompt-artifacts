@@ -1,0 +1,1 @@
+The function takes no input and returns 0, effectively doing nothing.

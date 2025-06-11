@@ -1,0 +1,1 @@
+t is a positive integer, n and q are positive integers, c is a list of positive integers of length n, l_i and r_i are positive integers such that 1 <= l_i <= r_i <= n for all i from 1 to q.

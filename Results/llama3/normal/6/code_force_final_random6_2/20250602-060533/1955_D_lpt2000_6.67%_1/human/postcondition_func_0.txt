@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of three integers (n, m, k) and two lists of integers (aa and bb). It then calculates the number of times a sliding window of size m in list aa contains at least k common elements with list bb. The function prints the count of such occurrences for each test case.

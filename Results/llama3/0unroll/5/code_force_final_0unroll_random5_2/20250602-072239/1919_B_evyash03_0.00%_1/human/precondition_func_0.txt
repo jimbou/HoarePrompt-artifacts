@@ -1,0 +1,1 @@
+expression is a string consisting of characters "+" and "-", length is a positive integer and equals the length of expression.

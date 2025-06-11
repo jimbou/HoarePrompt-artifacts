@@ -1,0 +1,1 @@
+Determines the winner for each pair of input integers and returns the result.

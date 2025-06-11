@@ -1,0 +1,1 @@
+This function reads a series of strings from standard input, counts the total occurrences of 'A' and 'B' in all strings, and prints 'A' if the total count of 'A's is higher than the total count of 'B's, otherwise it prints 'B'.

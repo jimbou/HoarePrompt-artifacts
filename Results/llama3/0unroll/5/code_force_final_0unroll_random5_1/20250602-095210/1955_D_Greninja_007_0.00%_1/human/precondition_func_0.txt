@@ -1,0 +1,1 @@
+a is a list of integers, b is a list of integers, k is an integer, n and m are integers such that 1 <= k <= m <= n <= 2 * 10^5, 1 <= a_i <= 10^6 for all i in range(n), and 1 <= b_i <= 10^6 for all i in range(m).

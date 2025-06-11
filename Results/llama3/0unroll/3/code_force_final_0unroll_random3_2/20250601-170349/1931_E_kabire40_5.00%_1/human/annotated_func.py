@@ -1,0 +1,42 @@
+#State of the program right berfore the function call: stdin contains a sequence of lines, where the first line contains an integer t (1 <= t <= 10^4), and each of the following t lines contains two integers n and m (1 <= n <= 2 * 10^5, 0 <= m <= 2 * 10^6), followed by a line containing n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+    for y in range(int(input())):
+        rev_val = []
+        
+        rev_res = ''
+        
+        list_len, max_power = input().split()
+        
+        operational_list = input().split()
+        
+        for x in operational_list:
+            x_rev = int(x[::-1])
+            if len(str(x_rev)) == len(x):
+                rev_res = rev_res + x
+            else:
+                rev_val.append(x[::-1])
+        
+        rev_val.sort()
+        
+        for x in range(len(rev_val)):
+            if x % 2 == 0:
+                val_in = int(rev_val[x])
+                rev_res += str(val_in)
+            else:
+                val_in = rev_val[x]
+                rev_res += val_in[::-1]
+        
+        if 10 ** int(max_power) < int(rev_res):
+            print('Sasha')
+        else:
+            print('Anna')
+        
+    #State: The output state after the loop executes all the iterations is a sequence of lines, where each line contains either 'Sasha' or 'Anna'. The number of lines is equal to the value of t in the initial state. Each line corresponds to the result of the loop's execution for the respective input values of n, m, and a_1, a_2, ..., a_n.
+
+#Overall this is what the function does:This function reads input from stdin, processes a sequence of lines, and outputs a sequence of lines. It takes no parameters and returns no value. The function iterates over the input lines, performing the following actions: 
+
+- It reads the first line, which contains an integer t, representing the number of test cases.
+- For each test case, it reads two lines: the first line contains two integers n and m, and the second line contains n integers a_1, a_2, ..., a_n.
+- It processes the integers a_1, a_2, ..., a_n by reversing them and checking if the reversed integer has the same number of digits as the original integer. If it does, the original integer is appended to the result string. Otherwise, the reversed integer is stored in a list.
+- The list of reversed integers is sorted, and then the function iterates over the sorted list, appending the integers to the result string in a specific order (every other integer is appended in reverse order).
+- Finally, the function compares the result string with 10 raised to the power of m and prints 'Sasha' if the result string is greater, and 'Anna' otherwise. The function repeats this process for each test case, printing the result for each case.
+

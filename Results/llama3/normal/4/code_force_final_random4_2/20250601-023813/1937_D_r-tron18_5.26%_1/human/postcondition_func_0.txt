@@ -1,0 +1,1 @@
+Calculates the difference between the last element of a list and an element at a dynamic index, determined by the maximum of two values: the negative of an undefined integer `n` and the negative of 1 minus a non-negative integer `times`, which is less than the list length.

@@ -1,0 +1,1 @@
+Checks if all elements in a list up to a specified index are zero, returning True if they are and False if any are non-zero.

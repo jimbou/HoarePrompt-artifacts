@@ -1,0 +1,1 @@
+This function takes a string of length 5 consisting of letters A and B as input, counts the occurrences of each letter, and prints the letter that appears more frequently. If both letters appear with the same frequency, it does not print anything. The function does not modify the input string.

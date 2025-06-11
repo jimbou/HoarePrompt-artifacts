@@ -1,0 +1,1 @@
+Calculates a score based on a sequence of positions and values, handling both linear and cyclic sequences.

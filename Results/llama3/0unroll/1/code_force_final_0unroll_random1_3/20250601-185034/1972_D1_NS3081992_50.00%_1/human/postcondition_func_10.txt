@@ -1,0 +1,1 @@
+Takes a string of two space-separated positive integers as input, splits it into two substrings at the space separator, and returns them as a list of two strings, each representing a positive integer.

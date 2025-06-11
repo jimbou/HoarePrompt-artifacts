@@ -1,0 +1,1 @@
+Reads input from standard input, extracts a list of integers, and then iterates over the list to extract slices of integers. For each slice, it calls a function `func_1` and appends the result to a list of results. Finally, it prints the results, separated by newline characters.

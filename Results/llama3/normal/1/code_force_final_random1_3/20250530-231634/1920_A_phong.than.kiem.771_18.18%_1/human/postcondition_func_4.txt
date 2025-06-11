@@ -1,0 +1,1 @@
+Returns a list of 0-based indices of the specified element in the input list, including all occurrences. If the element is not found, an empty list is returned.

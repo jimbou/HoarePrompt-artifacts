@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer t (1 <= t <= 10^3) representing the number of test cases, and then for each test case, two integers n and k (1 <= k <= n <= 10^3) — the length of a and the number of sorted cyclic shifts a must have.

@@ -1,0 +1,1 @@
+This function generates a repeated sequence of the first k lowercase English alphabets, and returns a tuple containing a boolean indicating whether the generated sequence is at least n times k characters long, the remaining characters of the sequence after removing the first n times k characters, and an empty string.

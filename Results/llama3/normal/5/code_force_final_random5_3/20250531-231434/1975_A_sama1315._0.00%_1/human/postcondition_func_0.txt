@@ -1,0 +1,1 @@
+This function checks if a given list of integers is sorted in ascending order. It returns 'Yes' if the list is sorted, meaning each element is less than or equal to the next element, and 'No' otherwise, indicating the presence of at least one pair of adjacent elements where the first is greater than the second. The function does not modify the input list.

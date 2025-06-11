@@ -1,0 +1,1 @@
+s is a list of integers containing only 0s and 1s.

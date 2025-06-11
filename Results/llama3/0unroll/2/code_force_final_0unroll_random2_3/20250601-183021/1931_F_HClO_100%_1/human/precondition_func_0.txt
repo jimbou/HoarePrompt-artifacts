@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two integers n and k, followed by k lines, each containing n integers. n and k are positive integers, and the sum of n * k for all test cases does not exceed 2 * 10^5.

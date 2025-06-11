@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, calculates the sum of the counts of 1s in all substrings that start with a 1 and end with a 0 for each string, and prints these sums. It processes multiple strings as specified by an initial integer input, and it exhausts the input stream in the process.

@@ -1,0 +1,1 @@
+Calculates and prints the result of a series of mathematical operations based on input values A, B, and C, repeating the process for a specified number of test cases (t). For each test case, it either prints A * B, int(A * C / 2), or two values: A // 2 and (A // 2) * C + B, depending on the conditions met.

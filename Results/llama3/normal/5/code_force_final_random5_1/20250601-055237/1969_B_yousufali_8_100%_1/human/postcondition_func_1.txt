@@ -1,0 +1,1 @@
+Reads an integer from standard input, executes the function `func_1()` that many times, and then concludes without returning any value.

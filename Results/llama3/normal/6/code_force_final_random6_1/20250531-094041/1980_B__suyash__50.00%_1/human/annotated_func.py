@@ -1,0 +1,50 @@
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 1000) followed by t test cases. Each test case consists of two lines. The first line contains three integers n, f, and k (1 <= f, k <= n <= 100). The second line contains n integers a_i (1 <= a_i <= 100).
+    t = int(input())
+    for i in range(t):
+        a = input()
+        
+        b = list(map(int, a.split()))
+        
+        o = input().split()
+        
+        n = b[0]
+        
+        f = b[1]
+        
+        k = b[2]
+        
+        if k == n:
+            print('YES')
+            continue
+        
+        fav = o[f - 1]
+        
+        dic = {i: o.count(i) for i in o}
+        
+        o.sort(reverse=True)
+        
+        if o.index(fav) > k - 1:
+            print('NO')
+            continue
+        
+        l = sorted(list(set(o)), reverse=True)
+        
+        for i in range(len(l)):
+            if fav != l[i]:
+                k -= dic[l[i]]
+                if k <= 0:
+                    print('NO')
+                    break
+            else:
+                k -= dic[l[i]]
+                if k < 0:
+                    print('MAYBE')
+                    break
+                else:
+                    print('YES')
+                    break
+        
+    #State: `t` is greater than or equal to the length of `l`, `i` is equal to `t`, `a` is a string of space-separated integers, `b` is a list of 3 integers, `o` is a sorted list of strings in descending order, `n` is an integer equal to the first integer in `b`, `f` is an integer equal to the second integer in `b`, `dic` is a dictionary where each key is a string from the original list `o` and each value is the count of that string in the original list `o`, `l` is a sorted list of unique strings from `o` in descending order, `k` is an integer equal to the third integer in `b` minus the sum of the counts of all strings in `l` in the original list `o`, `fav` is a string equal to the `f-1`th element of `o`. Either 'NO', 'MAYBE', or 'YES' is printed for each test case.
+
+#Overall this is what the function does:This function reads input from stdin, processes multiple test cases, and prints 'YES', 'NO', or 'MAYBE' for each case based on the given conditions. It takes no parameters and returns no value. The function's purpose is to determine whether a favorite element can be among the top k elements in a sorted list after removing duplicates, and it performs this action for each test case. The final state of the program is that it has printed a result for each test case, and the input variables have been processed accordingly.
+

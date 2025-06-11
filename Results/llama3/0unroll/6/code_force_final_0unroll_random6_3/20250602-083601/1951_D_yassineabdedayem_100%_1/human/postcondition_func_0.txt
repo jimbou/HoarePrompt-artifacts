@@ -1,0 +1,1 @@
+Determines whether it's possible for Alice to buy a certain number of jewels with her coins and prints the result along with the minimum number of coins needed to buy the jewels if possible, or 'NO' if not.

@@ -1,0 +1,1 @@
+cities is a list of integers, n is an integer such that 2 <= n <= len(cities) and cities is sorted in ascending order.

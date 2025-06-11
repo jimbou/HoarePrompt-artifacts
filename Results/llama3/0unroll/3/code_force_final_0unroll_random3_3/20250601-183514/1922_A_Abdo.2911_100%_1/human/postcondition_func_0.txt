@@ -1,0 +1,1 @@
+Determines the possibility of a combination of strings `a`, `b`, and `c` meeting certain conditions for each of `t` test cases, and outputs 'YES' if possible and 'NO' if not.

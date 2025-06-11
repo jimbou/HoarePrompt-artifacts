@@ -1,0 +1,1 @@
+Calculates and prints the result of a mathematical operation for each input pair (n, k), where the result is either 2 * k - 1 if k is less than or equal to (n + 1) // 2, or a more complex calculation involving powers of 2 and the difference between k and a cumulative sum of rounded halves of n, for a specified number of input pairs t.

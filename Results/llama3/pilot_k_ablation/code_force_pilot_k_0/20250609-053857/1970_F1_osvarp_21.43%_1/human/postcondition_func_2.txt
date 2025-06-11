@@ -1,0 +1,1 @@
+The function evaluates a given two-character string 'el' and returns True if the first character is either 'B' or 'R' and the second character is not 'G', otherwise it returns False.

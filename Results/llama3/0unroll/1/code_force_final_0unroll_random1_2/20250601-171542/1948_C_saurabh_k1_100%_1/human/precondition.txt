@@ -1,0 +1,1 @@
+stdin contains a sequence of inputs: first an integer t (1 <= t <= 10^4), then for each test case, first an integer n (2 <= n <= 2 * 10^5) such that n is even, then two strings consisting of exactly n characters < and/or >. The sum of n over all test cases doesn't exceed 2 * 10^5.

@@ -1,0 +1,1 @@
+The function generates a list of 'rows_number' elements, where each element is the result of calling the 'func_3()' function. The function does not modify the input variable 'rows_number' and returns the generated list. The exact values in the list are determined by the 'func_3()' function, which is not defined in the provided code.

@@ -1,0 +1,1 @@
+This function generates a list by repeating the result of function func_3() a specified number of times, as determined by the input parameter rows_number, and returns this list.

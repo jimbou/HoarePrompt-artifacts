@@ -1,0 +1,1 @@
+This function calls a helper function with a single argument x, where x can be of any type and value, and returns the result of that helper function call.

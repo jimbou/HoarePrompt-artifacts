@@ -1,0 +1,1 @@
+Calculates the maximum number of cats that need to be added or removed to make two binary strings of equal length identical, by comparing the strings character by character and counting the differences.

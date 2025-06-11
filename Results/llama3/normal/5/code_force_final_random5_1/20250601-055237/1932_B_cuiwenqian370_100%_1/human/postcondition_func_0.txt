@@ -1,0 +1,1 @@
+Reads input from standard input, processes multiple test cases, and outputs the results. For each test case, it calculates the final value of 'last_year' by iteratively updating it based on the given integers, and appends this value as a string to the 'results' list. Finally, it writes all the results to standard output, separated by newline characters.

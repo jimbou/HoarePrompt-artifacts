@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (1 <= t <= 100) and then t lines, each containing two space-separated integers (0 <= x, y <= 9).

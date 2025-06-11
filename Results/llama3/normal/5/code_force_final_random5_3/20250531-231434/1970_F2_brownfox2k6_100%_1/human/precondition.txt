@@ -1,0 +1,1 @@
+obj is a pair of characters representing an entity on the field, and d is a character representing a direction (U, D, L, or R).

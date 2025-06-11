@@ -1,0 +1,1 @@
+This function takes a binary string of length at least 2 and at most 2 * 10^5 as input, counts the number of '1's in the string, and calculates the sum of the lengths of all substrings that end with '0' and are preceded by one or more '1's. It then prints this sum, leaving the original string unchanged.

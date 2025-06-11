@@ -1,0 +1,1 @@
+stdin is a file-like object containing a sequence of bytes, and readline() is a method of this object that reads a line from the file and returns it as bytes.

@@ -1,0 +1,1 @@
+Rotates a list of integers from 1 to n to the right by k places, where k is the number of times the rotation operation is performed, and returns the rotated list. The function takes two parameters, n and k, and modifies the list in-place. The value of n remains unchanged, and k is reduced to 0 after the rotation operation is complete.

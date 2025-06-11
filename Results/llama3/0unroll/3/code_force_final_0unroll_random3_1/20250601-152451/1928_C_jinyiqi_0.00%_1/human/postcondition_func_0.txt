@@ -1,0 +1,1 @@
+This function takes a list of two integers as input, where the first integer is greater than the second integer and the second integer is greater than 1. It returns a list of all divisors of the first integer, with divisors less than or equal to the square root in reverse order and divisors greater than the square root in the original order. The input list remains unchanged.

@@ -1,0 +1,1 @@
+The input consists of multiple test cases. The first line of each test case contains a positive integer n. The second and third lines of each test case contain two strings of length n consisting of '0's and '1's.

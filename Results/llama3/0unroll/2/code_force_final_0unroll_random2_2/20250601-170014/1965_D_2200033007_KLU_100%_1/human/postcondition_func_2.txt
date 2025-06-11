@@ -1,0 +1,1 @@
+Constructs a palindrome array from a list of sums of odd-length subarrays.

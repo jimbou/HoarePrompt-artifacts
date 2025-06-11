@@ -1,0 +1,1 @@
+args is a tuple of values of any type and d is a dictionary where keys are tuples of values of any type and values are results of the function func for the corresponding keys.

@@ -1,0 +1,1 @@
+n is a positive integer and password is a string consisting of exactly n characters, each of which is either a lowercase Latin letter or a digit.

@@ -1,0 +1,1 @@
+array is a list of integers, all integers in the list are greater than or equal to 1 and less than or equal to 10^9.

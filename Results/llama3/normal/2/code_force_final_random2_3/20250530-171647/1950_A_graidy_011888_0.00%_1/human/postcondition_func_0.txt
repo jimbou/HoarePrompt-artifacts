@@ -1,0 +1,1 @@
+Generates and prints a sequence of random 3-space separated integers between 1 and 9, along with a corresponding classification ('peak', 'stair', or 'none') based on the relative values of the integers, repeating this process a number of times specified by the first input integer.

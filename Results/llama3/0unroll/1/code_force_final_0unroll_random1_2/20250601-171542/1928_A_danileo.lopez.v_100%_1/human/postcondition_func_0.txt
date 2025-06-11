@@ -1,0 +1,1 @@
+Determines whether two given integers can be transformed into each other by repeatedly dividing by 2, with the condition that at least one of the integers is even, and outputs 'Yes' or 'No' accordingly for each pair of input integers.

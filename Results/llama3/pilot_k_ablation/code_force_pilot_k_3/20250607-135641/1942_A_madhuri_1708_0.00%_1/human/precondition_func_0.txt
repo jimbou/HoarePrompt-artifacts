@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (the number of test cases) and then for each test case, two integers (n and k) separated by a space. 1 <= k <= n <= 10^3.

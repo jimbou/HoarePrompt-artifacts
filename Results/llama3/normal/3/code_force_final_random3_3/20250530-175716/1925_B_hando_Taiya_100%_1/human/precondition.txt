@@ -1,0 +1,1 @@
+stdin contains t+1 inputs: first an integer t (1 ≤ t ≤ 10^3) and then t pairs of integers x and n (1 ≤ x ≤ 10^8 and 1 ≤ n ≤ x).

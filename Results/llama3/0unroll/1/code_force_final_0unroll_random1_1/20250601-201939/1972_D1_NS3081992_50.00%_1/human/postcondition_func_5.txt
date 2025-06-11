@@ -1,0 +1,1 @@
+Reads a line of input from the standard input buffer, removes any trailing newlines or whitespace, and returns the resulting string.

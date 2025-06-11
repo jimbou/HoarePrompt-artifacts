@@ -1,0 +1,1 @@
+args is a variable number of arguments of any type and value, d is a dictionary that stores the results of previous function calls with the same arguments, and func is a function that takes a variable number of arguments and returns a value.

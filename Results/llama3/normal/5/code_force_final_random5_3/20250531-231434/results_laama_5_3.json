@@ -1,0 +1,26 @@
+{
+    "hoareprompt": {
+        "Agreement Count": 60,
+        "Balanced Accuracy": 0.5910946196660483,
+        "True Positive Rate (TPR)": 0.8367346938775511,
+        "False Negative Rate (FNR)": 0.16326530612244897,
+        "False Positive Rate (FPR)": 0.6545454545454545,
+        "MCC": 0.20743157394706915
+    },
+    "zero_shot_cot": {
+        "Agreement Count": 55,
+        "Balanced Accuracy": 0.535621521335807,
+        "True Positive Rate (TPR)": 0.6530612244897959,
+        "False Negative Rate (FNR)": 0.3469387755102041,
+        "False Positive Rate (FPR)": 0.5818181818181818,
+        "MCC": 0.07309738846478073
+    },
+    "vanilla_no_cot": {
+        "Agreement Count": 56,
+        "Balanced Accuracy": 0.5402597402597402,
+        "True Positive Rate (TPR)": 0.5714285714285714,
+        "False Negative Rate (FNR)": 0.42857142857142855,
+        "False Positive Rate (FPR)": 0.4909090909090909,
+        "MCC": 0.08051948051948052
+    }
+}

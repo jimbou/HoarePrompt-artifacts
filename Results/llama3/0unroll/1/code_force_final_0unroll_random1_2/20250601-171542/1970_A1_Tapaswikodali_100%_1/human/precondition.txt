@@ -1,0 +1,1 @@
+balance is an integer, position is a non-negative integer, and character is either "(" or ")".

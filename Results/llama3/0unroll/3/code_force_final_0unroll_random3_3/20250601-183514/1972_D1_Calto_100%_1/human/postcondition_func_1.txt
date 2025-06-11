@@ -1,0 +1,1 @@
+This function calculates the sum of the ceiling of `(n - i^2 + i) / i^2` and a boolean value indicating whether `(n - i^2 + i)` is divisible by `i^2`, for all `i` from 1 to `m`, where `n` and `m` are positive integers such that 1 <= n, m <= 2 * 10^6, and returns this sum.

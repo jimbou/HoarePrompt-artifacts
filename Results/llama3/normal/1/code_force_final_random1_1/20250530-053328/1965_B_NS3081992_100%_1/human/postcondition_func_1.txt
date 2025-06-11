@@ -1,0 +1,1 @@
+Reads two positive integers n and k from the standard input, where n is between 1 and 10^6 (inclusive) and k is between 1 and n (inclusive), and returns them as a map object.

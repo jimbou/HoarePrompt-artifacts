@@ -1,0 +1,1 @@
+stdin contains two inputs: first two space-separated integers n and k, then a space-separated list of n integers, and then a space-separated list of n integers. n is a positive integer, k is a non-negative integer, and the integers in the lists are non-negative integers.

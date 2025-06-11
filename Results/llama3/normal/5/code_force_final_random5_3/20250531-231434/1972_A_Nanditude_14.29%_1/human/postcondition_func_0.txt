@@ -1,0 +1,1 @@
+Sorts a list of lists in descending order, where each sublist contains a positive integer and two lists of non-decreasing positive integers, and returns the sorted list.

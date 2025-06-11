@@ -1,0 +1,1 @@
+This function calculates the frequency of each number in a given list of integers, capping the frequency at a specified maximum value k. It returns a dictionary where the keys are the unique numbers from the list and the values are their respective frequencies, limited to a maximum of k. The original list and the maximum frequency value k remain unchanged.

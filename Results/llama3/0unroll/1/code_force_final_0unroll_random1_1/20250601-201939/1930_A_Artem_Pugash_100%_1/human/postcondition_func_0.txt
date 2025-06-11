@@ -1,0 +1,1 @@
+This function reads input from stdin, processes multiple test cases, and prints the sum of the smallest n numbers in each test case, where n is the number of pairs of integers in the test case. It accepts no parameters and returns no value, instead printing the results directly to the console.

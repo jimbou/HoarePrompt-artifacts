@@ -1,0 +1,1 @@
+n, m, and k are positive integers, A is a list of n non-decreasing integers, D is a sorted list of m unique integers, F is a list of k integers, and inf is a negative infinity value.

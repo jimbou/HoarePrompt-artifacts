@@ -1,0 +1,1 @@
+Determines and prints the shape represented by a series of 0s and 1s input from stdin, where 'Triangle' is printed if any row contains exactly one '1', 'Square' is printed if any row contains more than one '1', and an empty string is printed otherwise, for each of t test cases.

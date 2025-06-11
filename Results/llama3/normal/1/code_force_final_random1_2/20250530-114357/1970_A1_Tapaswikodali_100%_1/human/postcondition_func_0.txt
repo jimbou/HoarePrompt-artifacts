@@ -1,0 +1,1 @@
+This function compares two objects, infoA and infoB, and returns the difference between either their balances if they are not equal, or their positions if their balances are equal.

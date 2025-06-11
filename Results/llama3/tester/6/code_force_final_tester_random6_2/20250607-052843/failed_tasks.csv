@@ -1,0 +1,98 @@
+task_id,model_created,dataset,model_run,code,fail_reason,type_of_run
+1941_C,human,codeforces2024,llama-v3p1-70b-instruct,"for _ in range(int(input())):
+    n = int(input())
+    a = input()
+    ans = 0
+    i = 0
+    while i<len(a)-2:
+        s = a[i:i+3]
+        
+        if s == ""map"" or s == ""pie"":
+            i+=3
+            ans+=1
+        else:
+            i+=1
+    print(ans)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1975_C,human,codeforces2024,llama-v3p1-70b-instruct,"t = int(input())
+for _ in range(t):
+    n=int(input())
+    a=list(map(int, input().split()))
+    if n==2:
+        print(min(a))
+        continue
+    max=0
+    for i in range(n-2):
+        temp=a[i:i+3]
+        temp.sort()
+        if temp[1]>max:
+            max=temp[1]
+    print(max)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1956_D,human,codeforces2024,llama-v3p1-70b-instruct,"def getMaxable(lst):
+    r = l = 0
+    over_sum = sum(lst)
+    for i in range(len(lst)):
+        for j in range(i + 1, len(lst)):
+            sm = sum(lst[:i]) + sum(lst[j+1:]) + (j - i + 1) ** 2
+            if sm > over_sum:
+                r, l = [i, j]
+                over_sum = sm
+    return r, l
+ 
+ 
+def addOps(r, l, ops: list):
+    if r == l:
+        ops.append([r + 1, l + 1])
+        return
+    addOps(r, l - 1, ops)
+    ops.append([r + 1, l + 1])
+    addOps(r, l - 1, ops)
+ 
+ 
+def doOps(r, l, lst: list, ops: list):
+    ops.append([r + 1, l + 1])
+    if min(lst[r:l + 1]) == 0:
+        ops.append([r + 1, l + 1])
+    ops.append([r + 1, r + 1])
+    addOps(r, l, ops)
+    ops.append([r + 1, l + 1])
+    n = l - r + 1
+    lst[r:l + 1] = [n for _ in range(n)]
+    return lst
+ 
+ 
+input()
+lst = list(map(int, input().split()))
+ 
+ops = []
+r, l = getMaxable(lst)
+while r != l:
+    lst = doOps(r, l, lst, ops)
+    r, l = getMaxable(lst)
+try:
+    while True:
+        i = lst.index(0) + 1
+        lst[i - 1] = 1
+        ops.append([i, i])
+except ValueError:
+    pass
+print(sum(lst), len(ops))
+for r in ops:
+    print(*r)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt
+1972_D1,human,codeforces2024,llama-v3p1-70b-instruct,"import  math
+T = int(input())
+ 
+for t in range(T):
+    info = input().split()
+ 
+    a, b = int(info[0]), int(info[1])
+ 
+    suma = 0
+    for i in range(1,b+1):
+        x = (a-(i*(i-1)))//(i**2) + 1
+        if (a-(i*(i-1)))//(i**2) + 1 > 0:
+            suma += x
+            if (a-(i*(i-1)))%(i**2) == 0 and (i*(i-1))%(i**2) == 0:
+                suma += 1
+ 
+ 
+    print(suma-2)",Error: [Errno 2] No such file or directory: 'temp_program.py',hoareprompt

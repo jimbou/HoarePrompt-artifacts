@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (the length of array a) and then a list of integers (the elements of array a). The length of array a is a non-negative integer and the elements of array a are non-negative integers.

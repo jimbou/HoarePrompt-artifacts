@@ -1,0 +1,1 @@
+Prints 'YES' followed by the elements of the input list, one integer per line, and returns no value.

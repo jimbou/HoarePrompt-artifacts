@@ -1,0 +1,1 @@
+This function determines the shape of a grid of '0's and '1's, either a triangle or a square, based on the count of '1's in the first two rows. It reads input from stdin, processes multiple test cases, and prints 'SQUARE' if the counts are equal, otherwise 'TRIANGLE'.

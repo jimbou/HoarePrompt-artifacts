@@ -1,0 +1,1 @@
+x is a list of integers where the first two elements are non-negative integers n and q, the next n elements are lists of two integers b and x (b in {1, 2} and x is a non-negative integer), and the last element is a list of q non-negative integers.

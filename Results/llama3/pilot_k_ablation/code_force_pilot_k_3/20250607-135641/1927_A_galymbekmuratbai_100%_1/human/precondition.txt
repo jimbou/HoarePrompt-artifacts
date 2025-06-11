@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case consists of two inputs: first an integer (n) and then a string (s) of length n. The string consists of characters 'W' and 'B'. There is at least one 'B' in the string.

@@ -1,0 +1,1 @@
+This function reads input from stdin, processes multiple test cases, and prints the total count of '@' characters in each test case before the first occurrence of '

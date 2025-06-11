@@ -1,0 +1,1 @@
+Prints the values of two non-negative integers a and b, which are less than the length of a secret sequence p, to the standard output in the format "! [a] [b]" and then flushes the output buffer to ensure the output is displayed immediately.

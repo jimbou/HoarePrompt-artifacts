@@ -1,0 +1,1 @@
+This function generates a list of 'n' identical elements, where 'n' is a positive integer, and each element is a specified value 'v' of any type, returning this list as output.

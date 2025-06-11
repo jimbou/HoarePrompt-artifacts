@@ -1,0 +1,1 @@
+This function performs a depth-first search (DFS) on a graph defined by the input parameters. It takes an integer `i` and updates the `visited` list to mark all nodes `j` as visited if they are not already visited and satisfy the condition `(r[i] + r[j])

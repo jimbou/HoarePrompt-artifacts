@@ -1,0 +1,1 @@
+Calculates the binomial coefficient (n1 choose n2) modulo MOD, where n1 and n2 are non-negative integers and n2 <= n1. If n1 equals n2 or n2 equals 0, the function returns 1. Otherwise, it computes the result using the formula n1! * (n2! * (n1-n2)!)^(-1) modulo MOD, where ! denotes the factorial operation and ^(-1) denotes the modular multiplicative inverse.

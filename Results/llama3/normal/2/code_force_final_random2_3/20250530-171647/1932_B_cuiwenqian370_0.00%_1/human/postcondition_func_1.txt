@@ -1,0 +1,1 @@
+Reads input from standard input, processes it, and prints the results.

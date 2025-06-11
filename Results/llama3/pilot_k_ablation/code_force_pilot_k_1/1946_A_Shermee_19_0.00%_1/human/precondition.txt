@@ -1,0 +1,1 @@
+a is a list of n integers, where n is a positive integer and 1 <= a_i <= 10^9 for all i.

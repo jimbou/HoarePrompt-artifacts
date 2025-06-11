@@ -1,0 +1,1 @@
+stdin contains multiple inputs: first a line with two space-separated integers n and m, then n lines each containing m space-separated pairs of characters, then a line with an integer t, and finally t lines each containing a command. The pairs of characters represent positions on the field, and the commands represent actions to be performed by entities on the field.

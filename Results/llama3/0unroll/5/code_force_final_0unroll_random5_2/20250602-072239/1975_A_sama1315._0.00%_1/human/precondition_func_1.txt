@@ -1,0 +1,1 @@
+data is a list of strings where each string represents an integer, index is a non-negative integer, t is a non-negative integer, n is a non-negative integer, and arr is a list of integers.

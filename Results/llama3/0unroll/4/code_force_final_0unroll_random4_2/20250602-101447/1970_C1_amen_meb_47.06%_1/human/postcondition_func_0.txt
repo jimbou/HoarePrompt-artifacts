@@ -1,0 +1,1 @@
+The function reads input from stdin, expecting a series of lines containing two integers each, until a line with a single integer is encountered. It then returns a list of lists, where each sublist contains two consecutive integers, starting from [1, 2] and ending at [341, 342].

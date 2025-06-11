@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains four inputs: first three space-separated integers n, k, and q, and then k space-separated integers a_i, and then k space-separated integers b_i, and finally q space-separated integers d. n and k are positive integers, q is a non-negative integer, a_i and b_i are positive integers, and d are non-negative integers.

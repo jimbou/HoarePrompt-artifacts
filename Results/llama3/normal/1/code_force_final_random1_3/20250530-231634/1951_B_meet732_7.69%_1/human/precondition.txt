@@ -1,0 +1,1 @@
+a is a list of two lists: the first list contains two integers n and k (2 <= n <= 10^5, 1 <= k <= n), the second list contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9) representing the Cowdeforces rating of the cows.

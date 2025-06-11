@@ -1,0 +1,1 @@
+Reads a string of two space-separated positive integers from standard input and returns them as a list of two strings.

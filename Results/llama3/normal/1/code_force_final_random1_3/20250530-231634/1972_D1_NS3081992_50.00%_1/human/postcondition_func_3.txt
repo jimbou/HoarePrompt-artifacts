@@ -1,0 +1,1 @@
+Generates a list of repeated results from func_3() based on the input rows_number, a positive integer, and returns this list.

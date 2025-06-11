@@ -1,0 +1,1 @@
+No precondition can be extracted from this function signature as it only contains a function name and no parameters.

@@ -1,0 +1,1 @@
+Replaces each character in the input string with its corresponding character in reverse order, as defined by a mapping dictionary created from the sorted unique characters in the input string, and returns the resulting string.

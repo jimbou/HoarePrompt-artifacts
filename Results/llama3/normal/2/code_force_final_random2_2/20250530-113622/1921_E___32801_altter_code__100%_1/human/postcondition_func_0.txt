@@ -1,0 +1,1 @@
+Determines the winner of a game based on the positions of two chips on a board, printing 'draw' if the chips are in the same position, 'Alice' if the difference between the x-coordinates is odd and the y-coordinates are different, or 'Bob' if the difference between the x-coordinates is even and the y-coordinates are the same.

@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of three integers (n, m, k) followed by two lists of integers (a and b). It then calculates the number of sublists of length m in list a that contain at least k elements from list b. The function prints the result for each test case and resets the input state to empty.

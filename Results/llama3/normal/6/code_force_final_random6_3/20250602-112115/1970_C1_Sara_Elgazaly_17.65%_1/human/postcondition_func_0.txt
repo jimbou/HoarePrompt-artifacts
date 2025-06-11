@@ -1,0 +1,1 @@
+Determines the winner of a game based on the structure of a graph and the order of node removals. The function reads input from stdin, constructs a graph, and then simulates a process of removing nodes from the graph. The function prints 'Hermione' if the graph is removed in an even number of steps and 'Ron' if it is removed in an odd number of steps.

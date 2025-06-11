@@ -1,0 +1,1 @@
+Reads input from standard input, where the first line contains a positive integer t, followed by t pairs of lines, and returns a list of t pairs, where each pair contains a positive integer n and a string s of length n consisting only of "U" and "D".

@@ -1,0 +1,1 @@
+This function checks if there exists at least one position where two input strings (a and b) are both different from a third input string (c). If such a position is found, it returns 'YES'. If no such position is found after checking all positions, it returns 'NO'. The function does not modify the input strings.

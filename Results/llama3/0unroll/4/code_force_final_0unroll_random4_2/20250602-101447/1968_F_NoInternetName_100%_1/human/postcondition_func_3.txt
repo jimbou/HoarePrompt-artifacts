@@ -1,0 +1,1 @@
+This function takes a list of elements and a predicate function as input, applies the predicate function to the list using the `func_2` function, and returns the result of `func_2` plus 1 if it is not None, otherwise returns None.

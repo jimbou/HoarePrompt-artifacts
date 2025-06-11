@@ -1,0 +1,1 @@
+This function takes two positive integers n and k as input, where 1 <= k <= n <= 10^4, and performs the following actions:

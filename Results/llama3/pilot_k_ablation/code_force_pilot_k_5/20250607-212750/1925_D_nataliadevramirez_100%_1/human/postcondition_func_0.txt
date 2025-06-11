@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of an integer t, followed by three integers n, m, and k, and then m lines containing three integers a_i, b_i, and f_i. It calculates a value based on these inputs using modular arithmetic and prints the result. The function processes all test cases and prints the corresponding results.

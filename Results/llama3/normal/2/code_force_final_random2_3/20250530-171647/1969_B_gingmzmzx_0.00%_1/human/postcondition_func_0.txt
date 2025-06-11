@@ -1,0 +1,1 @@
+This function reads a series of binary strings from standard input, where each string is preceded by the number of test cases. For each binary string, it counts the total number of times a 1 is followed by a 0 and prints this count. The function processes all test cases and does not return any value, only producing output through print statements.

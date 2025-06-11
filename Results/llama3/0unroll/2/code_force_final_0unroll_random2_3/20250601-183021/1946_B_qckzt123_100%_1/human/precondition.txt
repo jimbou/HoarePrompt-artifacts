@@ -1,0 +1,1 @@
+a is a list of n integers, k is a non-negative integer, and n and k are given as input in the first line of each test case, and the array a is given as input in the second line of each test case.

@@ -1,0 +1,1 @@
+n and k are positive integers, 1 <= k <= n <= 200000, a and b are lists of n positive integers, 1 <= a_i, b_i <= 10^9 for all i.

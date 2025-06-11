@@ -1,0 +1,1 @@
+start_pos is a positive integer, k is a positive integer, p is a list of positive integers representing a permutation, and a is a list of non-negative integers. The length of p and a is equal to the maximum value in p (or a), and start_pos is less than or equal to the length of p (or a).

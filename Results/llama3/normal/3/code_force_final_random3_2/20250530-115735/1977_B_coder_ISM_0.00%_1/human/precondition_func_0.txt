@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains a single positive integer x (1 ≤ x < 2^30).

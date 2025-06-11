@@ -1,0 +1,1 @@
+stdin contains t+2*t*n integers: the first integer is t (1 <= t <= 10^4), the next t*n integers are n (1 <= n <= 3*10^5) and n integers a_1, a_2, ..., a_n (0 <= a_i <= n).

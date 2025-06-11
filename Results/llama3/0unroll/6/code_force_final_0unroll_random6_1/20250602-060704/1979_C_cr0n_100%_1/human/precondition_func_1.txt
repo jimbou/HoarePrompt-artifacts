@@ -1,0 +1,1 @@
+vals is a list of integers, N is a positive integer such that N = len(vals) and all elements in vals are greater than or equal to 2.

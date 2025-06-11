@@ -1,0 +1,1 @@
+This function reads a series of test cases from standard input, where each test case consists of two integers (n and k) followed by a list of n integers. It then prints the value of k-1 for each test case, without modifying the input values. The function does not return any value, but instead prints the results directly to the console.

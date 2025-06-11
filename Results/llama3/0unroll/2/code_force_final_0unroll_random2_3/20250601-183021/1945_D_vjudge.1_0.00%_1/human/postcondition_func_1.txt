@@ -1,0 +1,1 @@
+Reads an integer from standard input representing the number of test cases, then calls another function (`func_1`) for each test case, leaving the input stream empty and the test case counter at 0 after execution.

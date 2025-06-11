@@ -1,0 +1,1 @@
+t is a positive integer, n is a positive integer, f, a, and b are positive integers, m_i is a positive integer for 1 <= i <= n, and 0 <= m_1 < m_2 < ... < m_n <= 10^9.

@@ -1,0 +1,1 @@
+Reads a line from the standard input and returns it as a string, containing two integers separated by a space.

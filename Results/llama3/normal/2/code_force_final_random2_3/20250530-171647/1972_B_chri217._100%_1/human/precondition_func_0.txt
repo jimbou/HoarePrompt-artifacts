@@ -1,0 +1,1 @@
+stdin contains multiple lines of input: the first line contains a positive integer t, and for each of the t test cases, the first line contains a positive integer n and the second line contains a string s of length n consisting only of "U" and "D".

@@ -1,0 +1,1 @@
+Calculates and prints the sum of a positive integer n and the sum of (n + i) integer divided by i squared for i from 2 to the square root of n plus 1, given n and another positive integer k as input, and then consumes the next test case from standard input.

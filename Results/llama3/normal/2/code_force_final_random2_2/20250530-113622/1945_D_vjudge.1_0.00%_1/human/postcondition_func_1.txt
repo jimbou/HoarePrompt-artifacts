@@ -1,0 +1,1 @@
+The function reads the number of test cases from standard input, then iterates through each test case, executing the `func_1()` function for each one, without returning any value or modifying the input variables.

@@ -1,0 +1,1 @@
+inputarray is a list of integers, all elements are non-negative and the list has at least 3 elements.

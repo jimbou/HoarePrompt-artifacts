@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (greater than 0 and less or equal than 50) and then a series of integers (greater or equal than 1 and less or equal than 50).

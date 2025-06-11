@@ -1,0 +1,1 @@
+stdin contains t test cases. Each test case contains two integers n and k (1 <= n <= 3 * 10^5, 0 <= k <= n) and k pairs of integers r_i and c_i (1 <= r_i, c_i <= n) such that no two pairs have the same row or column and no pair has r_i = c_i.

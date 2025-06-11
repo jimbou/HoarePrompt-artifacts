@@ -1,0 +1,1 @@
+This function calculates the total cost of buying a specified number of tickets over a series of days, considering daily ticket price limits and a maximum daily purchase limit. It takes no arguments and returns the total cost as output, processing multiple test cases from standard input.

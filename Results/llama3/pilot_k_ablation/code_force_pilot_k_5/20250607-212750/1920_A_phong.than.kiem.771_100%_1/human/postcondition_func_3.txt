@@ -1,0 +1,1 @@
+This function takes a string and a substring as input and returns a list of indices where the substring is found in the string. If the substring is not found, an empty list is returned. The function does not modify the original string or substring.

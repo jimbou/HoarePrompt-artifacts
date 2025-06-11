@@ -1,0 +1,1 @@
+This function reads input from stdin, constructs a tree from the input, and determines whether a given starting point is closer to one end of the tree or the other. It then prints 'Ron' if the starting point is closer to one end, or 'Hermione' if it is equidistant from both ends. The function assumes the input is well-formed and does not perform any error checking.

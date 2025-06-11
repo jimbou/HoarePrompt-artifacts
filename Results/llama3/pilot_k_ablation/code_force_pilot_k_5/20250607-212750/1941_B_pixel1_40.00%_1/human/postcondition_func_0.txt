@@ -1,0 +1,1 @@
+Decreases the values of three consecutive elements in a list by 1, 2, and 1 respectively, starting from the element at the specified index, and returns the modified list.

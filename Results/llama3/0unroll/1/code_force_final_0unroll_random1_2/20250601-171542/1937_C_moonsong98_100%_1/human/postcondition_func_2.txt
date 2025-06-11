@@ -1,0 +1,1 @@
+This function determines the maximum and minimum indices based on the results of the `func_1` function, and then calls the `func_2` function with these indices. If the input `n` is 2, it directly calls `func_2` with arguments 0 and 1. The function does not return any value.

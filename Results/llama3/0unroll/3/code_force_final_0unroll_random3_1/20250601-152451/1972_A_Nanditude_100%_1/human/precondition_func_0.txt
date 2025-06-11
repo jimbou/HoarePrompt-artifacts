@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three inputs: first an integer n, then two lists a and b of length n. a and b are lists of non-decreasing positive integers less than or equal to 10^9.

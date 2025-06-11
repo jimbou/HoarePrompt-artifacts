@@ -1,0 +1,1 @@
+This function reads two positive integers n and m from standard input, calculates the number of pairs (a, b) such that 1 <= a <= n, 1 <= b <= m, and gcd(a, b) = 1, and prints the result.

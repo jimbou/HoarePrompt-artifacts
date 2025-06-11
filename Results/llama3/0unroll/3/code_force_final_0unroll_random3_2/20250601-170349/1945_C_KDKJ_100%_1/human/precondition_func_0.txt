@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer n (n >= 3) and then a string a of length n consisting only of 0 and 1.

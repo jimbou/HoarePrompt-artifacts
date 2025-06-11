@@ -1,0 +1,1 @@
+stdin contains t test cases. Each test case contains two inputs: first an integer n and then n integers a_1, a_2, \ldots, a_n. 1 <= t <= 100, 1 <= n <= 100, and 1 <= a_i <= 100.

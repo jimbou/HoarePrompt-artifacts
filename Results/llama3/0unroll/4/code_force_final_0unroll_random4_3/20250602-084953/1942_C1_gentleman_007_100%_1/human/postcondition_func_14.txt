@@ -1,0 +1,1 @@
+Computes and returns a list of factorials modulo a given modulus, for all integers from 0 to a specified positive integer n. The function takes two positive integers, n and mod, as input and returns a list of n+1 elements, where each element at index i is the factorial of i modulo mod.

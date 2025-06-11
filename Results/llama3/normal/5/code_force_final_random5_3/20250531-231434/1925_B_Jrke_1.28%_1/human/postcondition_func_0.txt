@@ -1,0 +1,1 @@
+This function reads a series of input pairs (x, n) from standard input, where x and n are integers, and for each pair, it calculates and prints the maximum divisor of x that is less than or equal to n. The function repeats this process for a number of times specified by an initial integer input t.

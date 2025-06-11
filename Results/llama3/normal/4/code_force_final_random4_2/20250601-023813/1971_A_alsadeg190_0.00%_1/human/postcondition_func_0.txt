@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, compares each pair, and prints them in order, with the larger number first. It repeats this process for a number of iterations specified by the first input, which is also an integer.

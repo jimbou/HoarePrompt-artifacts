@@ -1,0 +1,1 @@
+Returns a decorator function that modifies the behavior of a repr function to return a specified fill value when encountering a recursive call, without altering the original fill value.

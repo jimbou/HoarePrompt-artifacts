@@ -1,0 +1,1 @@
+Reads a space-separated list of strings from standard input and returns a map object containing the strings, with each string explicitly converted to a string type.

@@ -1,0 +1,1 @@
+Reads a line from standard input, splits it into two space-separated integers, and returns them as a list, where the first integer is a positive integer and the second integer is a positive integer less than or equal to the first integer.

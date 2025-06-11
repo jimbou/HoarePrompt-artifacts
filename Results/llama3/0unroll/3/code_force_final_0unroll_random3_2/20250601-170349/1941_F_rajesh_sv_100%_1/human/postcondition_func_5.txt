@@ -1,0 +1,1 @@
+This function calls another function named `func_2()` and returns its result, effectively acting as a proxy or wrapper for `func_2()`. It does not perform any additional actions or modifications on the input variables since there are no parameters passed to this function. The final state of the program is determined solely by the execution and return value of `func_2()`.

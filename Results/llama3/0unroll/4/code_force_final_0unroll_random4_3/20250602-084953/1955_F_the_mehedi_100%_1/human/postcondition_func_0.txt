@@ -1,0 +1,1 @@
+This function reads a series of lines from standard input, where each line contains four integers. It calculates a count for each line by adding the number of odd integers in the line to the sum of the integer divisions of each integer by 2. The function then prints the count for each line.

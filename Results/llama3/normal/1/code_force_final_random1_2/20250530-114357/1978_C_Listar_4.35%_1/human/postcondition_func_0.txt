@@ -1,0 +1,1 @@
+Reorders a list of integers from 1 to n in a specific way based on the input k, resulting in a list where the last element is moved to a position determined by k, and the remaining elements are in reverse order.

@@ -1,0 +1,1 @@
+Reads a line from the standard input and returns the line as a string with trailing newlines and whitespace removed.

@@ -1,0 +1,1 @@
+Determines and prints the shape of a given grid of '0' and '1' characters for each test case. If a row contains exactly one '1', it outputs 'TRIANGLE'; otherwise, it outputs 'SQUARE'.

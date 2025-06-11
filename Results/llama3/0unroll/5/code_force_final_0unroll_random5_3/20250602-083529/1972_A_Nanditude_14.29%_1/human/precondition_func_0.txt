@@ -1,0 +1,1 @@
+arr is a list of three elements: the first element is a positive integer n, the second element is a list a of length n, and the third element is a list b of length n. a and b are lists of non-decreasing positive integers not greater than 10^9.

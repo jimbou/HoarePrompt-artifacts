@@ -1,0 +1,1 @@
+The function reads a space-separated list of integers from the standard input (stdin), converts each integer to an integer type, and returns a map object containing the sequence of integers.

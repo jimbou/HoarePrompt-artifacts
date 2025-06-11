@@ -1,0 +1,1 @@
+arr is a list of integers, k is an integer, and 2 <= k <= 100.

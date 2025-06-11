@@ -1,0 +1,1 @@
+This function takes a list of integers as input and returns a list containing the first integer if the input list has an odd number of elements, otherwise it returns an empty list.

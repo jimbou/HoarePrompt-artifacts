@@ -1,0 +1,1 @@
+This function generates a list of all prime numbers less than or equal to a given non-negative integer 'num'. It does not modify the input 'num' and returns a list of integers where each element is a prime number, with the length of the list equal to the number of prime numbers less than or equal to 'num'.

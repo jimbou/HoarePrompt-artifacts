@@ -1,0 +1,1 @@
+This function calculates the maximum number of consecutive equal elements that can be removed from the start and end of a list of integers, without removing all elements. It returns 0 if the list has only one element or all elements are equal, otherwise it returns the maximum number of elements that can be removed.

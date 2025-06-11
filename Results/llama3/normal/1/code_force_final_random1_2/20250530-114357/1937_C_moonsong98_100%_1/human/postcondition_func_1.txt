@@ -1,0 +1,1 @@
+Prints the values of two non-negative integers a and b, which are less than the number of elements in a secret sequence p, to the standard output, followed by a flush operation to ensure the output is displayed immediately.

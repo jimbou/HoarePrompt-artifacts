@@ -1,0 +1,1 @@
+a is a list of n integers, k is a non-negative integer, and n and k are such that 1 <= n, k <= 2 * 10^5.

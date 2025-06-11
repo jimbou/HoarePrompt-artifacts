@@ -1,0 +1,1 @@
+delimiter is a string, func_2() returns a string of space-separated integers.

@@ -1,0 +1,1 @@
+Searches for the first occurrence of a non-negative integer `x` in a list of non-negative integers `a` and returns the index plus 1 if found, or -1 if not found or if `x` is negative.

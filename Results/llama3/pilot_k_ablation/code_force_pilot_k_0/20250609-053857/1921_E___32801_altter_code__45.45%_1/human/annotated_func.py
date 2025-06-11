@@ -1,0 +1,26 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. The first line contains a single integer t (1 ≤ t ≤ 10^4) — the number of test cases. Each test case consists of a single line containing six integers h, w, x_a, y_a, x_b, y_b (1 ≤ x_a, x_b ≤ h ≤ 10^6, 1 ≤ y_a, y_b ≤ w ≤ 10^9) — the dimensions of the board and the initial positions of Alice's and Bob's chips.
+    r = list(map(int, input().split()))
+    n, m, x1, y1, x2, y2 = r[0], r[1], r[2], r[3], r[4], r[5]
+    if (x2 <= x1) :
+        print('draw')
+        #This is printed: draw
+        return
+        #The program returns nothing because the return statement is empty, 'draw' is printed, and the current value of x2 is less than or equal to the current value of x1.
+    #State: *n is an integer equal to the first input integer, m is an integer equal to the second input integer, x1 is an integer equal to the third input integer, y1 is an integer equal to the fourth input integer, x2 is an integer equal to the fifth input integer, y2 is an integer equal to the sixth input integer, stdin contains multiple test cases minus one test case, r is a list of six integers equal to the input values, and x2 is larger than x1
+    if ((x2 - x1) % 2 != 0) :
+        if (y1 == y2) :
+            print('Alice')
+            #This is printed: Alice
+            return
+            #The program returns nothing and 'Alice' is printed. The values of n, m, x1, y1, x2, and y2 remain unchanged as integers equal to the first, second, third, fourth, fifth, and sixth input integers respectively. The list r still contains the six input integers. The difference between x2 and x1 is still an odd number, and x2 is still larger than x1. The values of y1 and y2 are still equal.
+        #State: *n is an integer equal to the first input integer, m is an integer equal to the second input integer, x1 is an integer equal to the third input integer, y1 is an integer equal to the fourth input integer, x2 is an integer equal to the fifth input integer, y2 is an integer equal to the sixth input integer, stdin contains multiple test cases minus one test case, r is a list of six integers equal to the input values, x2 is larger than x1, and the difference between x2 and x1 is an odd number, y1 is not equal to y2
+    else :
+        if (y1 == y2) :
+            print('bob')
+            #This is printed: bob
+            return
+            #The program returns nothing and 'bob' is printed. The value of n is an integer equal to the first input integer, m is an integer equal to the second input integer, x1 is an integer equal to the third input integer, y1 is an integer equal to the fourth input integer, x2 is an integer equal to the fifth input integer, y2 is an integer equal to the sixth input integer, stdin contains multiple test cases minus one test case, r is a list of six integers equal to the input values, x2 is larger than x1, and the difference between x2 and x1 is even. The current value of y1 is equal to the current value of y2.
+        #State: *n is an integer equal to the first input integer, m is an integer equal to the second input integer, x1 is an integer equal to the third input integer, y1 is an integer equal to the fourth input integer, x2 is an integer equal to the fifth input integer, y2 is an integer equal to the sixth input integer, stdin contains multiple test cases minus one test case, r is a list of six integers equal to the input values, x2 is larger than x1, the difference between x2 and x1 is even, and y1 is not equal to y2
+
+#Overall this is what the function does:Determines the winner of a game based on the positions of two chips, Alice's and Bob's, on a board. The function takes six integers as input: the dimensions of the board (h and w) and the initial positions of the chips (x_a, y_a, x_b, and y_b). It prints 'draw' if Bob's chip is not ahead of Alice's chip, 'Alice' if the difference between the x-coordinates of the chips is odd and the y-coordinates are equal, and 'Bob' if the difference between the x-coordinates is even and the y-coordinates are equal. In all cases, the function returns nothing.
+

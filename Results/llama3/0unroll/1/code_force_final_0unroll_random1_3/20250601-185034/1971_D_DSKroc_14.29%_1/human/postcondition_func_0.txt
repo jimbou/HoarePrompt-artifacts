@@ -1,0 +1,1 @@
+The function reads an integer t from standard input, followed by t strings consisting of '0' and '1' characters. It then calculates the number of segments in each string where the current digit is greater than the next digit, adds 1 to this count, and prints the result for each string. The function does not modify the input strings or the value of t.

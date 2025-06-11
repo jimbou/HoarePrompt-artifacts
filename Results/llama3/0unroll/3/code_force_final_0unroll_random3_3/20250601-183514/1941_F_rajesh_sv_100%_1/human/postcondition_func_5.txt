@@ -1,0 +1,1 @@
+This function calls and returns the result of another function named func_2, effectively acting as a proxy or wrapper for func_2, without modifying or adding any additional functionality.

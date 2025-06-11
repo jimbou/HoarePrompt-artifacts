@@ -1,0 +1,1 @@
+This function reads a series of lines from standard input, where each line contains four integers. It calculates the sum of the integer divisions of these integers by 2, and adds 1 if the sum of the remainders of three of the integer divisions by 2 equals 3. This calculation is performed for each line of input, and the results are printed to standard output.

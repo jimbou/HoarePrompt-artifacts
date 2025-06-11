@@ -1,0 +1,1 @@
+This function takes a list of n non-negative integers in ascending order and returns a list of n-1 integers, where each integer represents the absolute difference between consecutive cities in the input list, or 1 if the difference is less than the previous difference. The returned list is in the same order as the original list.

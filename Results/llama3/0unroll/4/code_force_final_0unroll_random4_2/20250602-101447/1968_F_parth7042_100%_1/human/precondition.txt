@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three inputs: first an integer n and an integer q, then a list of n non-negative integers less than 2^30, and then q pairs of integers l and r such that 1 <= l < r <= n.

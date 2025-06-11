@@ -1,0 +1,1 @@
+Counts and returns the number of trailing zeros in a given list of integers, ignoring any non-integer values and stopping at the first non-zero integer encountered from the end of the list.

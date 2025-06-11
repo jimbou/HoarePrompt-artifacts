@@ -1,0 +1,1 @@
+This function calculates the sum of all pairs of integers in the input list `main_ar` where the sum of the pair is greater than or equal to 0, and returns this sum. The input list `sec_arr` is not used in the calculation, but its initial state is used to initialize a variable `sub_summ` to 0. The function does not modify the input lists.

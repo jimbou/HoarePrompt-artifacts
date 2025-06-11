@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains three inputs: first an integer n (2 <= n <= 2 * 10^5), then two binary strings a_11 a_12 ... a_1n and a_21 a_22 ... a_2n (a_1i and a_2i are either 0 or 1). The number of test cases t (1 <= t <= 10^4) is given on the first line.

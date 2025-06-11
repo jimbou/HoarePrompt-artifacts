@@ -1,0 +1,1 @@
+stdin contains a line of text that can be split into a list of values

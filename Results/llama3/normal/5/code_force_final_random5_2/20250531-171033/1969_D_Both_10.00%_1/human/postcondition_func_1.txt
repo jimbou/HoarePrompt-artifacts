@@ -1,0 +1,1 @@
+Converts a space-separated list of integers from standard input into a map object containing a sequence of integers.

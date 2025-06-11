@@ -1,0 +1,1 @@
+Converts a string of space-separated integers returned by func_1() into a list of integers and returns it.

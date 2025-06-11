@@ -1,0 +1,1 @@
+stdin contains t+2t lines. The first line contains a positive integer t. For each i from 1 to t, the 2i-th line contains a positive integer n and the (2i+1)-th line contains a string s of length n consisting of lowercase Latin letters.

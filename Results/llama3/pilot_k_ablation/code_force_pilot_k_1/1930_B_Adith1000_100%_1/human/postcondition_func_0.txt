@@ -1,0 +1,1 @@
+Reads multiple test cases from standard input, where each test case contains a single integer n, and prints a rearranged list of integers from 1 to n, with the first and second halves of the list swapped and the middle element adjusted if the length of the list is odd, repeating this process for each test case.

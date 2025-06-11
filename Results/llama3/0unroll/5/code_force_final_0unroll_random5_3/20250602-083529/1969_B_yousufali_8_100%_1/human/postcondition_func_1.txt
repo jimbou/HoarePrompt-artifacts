@@ -1,0 +1,1 @@
+The function reads an integer t from standard input, followed by t binary strings, and then executes a loop t times, calling a function func_1() in each iteration. After the loop finishes, the function does not return any value or modify the input binary strings, leaving the standard input unchanged. The only side effect is that the variable t is decremented to 0.

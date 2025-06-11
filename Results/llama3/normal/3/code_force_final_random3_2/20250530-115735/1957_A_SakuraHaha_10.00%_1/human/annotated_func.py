@@ -1,0 +1,20 @@
+#State of the program right berfore the function call: stdin contains multiple inputs: first an integer t, then for each test case, first an integer n and then a list of n integers. All integers are non-negative and less than or equal to 100.
+    n = int(input())
+    a = list(map(int, input().split()))
+    ans = 0
+    cnt = dict()
+    for x in a:
+        cnt[x] = cnt.get(x, 0) + 1
+        
+    #State: `stdin` contains multiple inputs: first an integer t-1, then for each test case, first an integer n and then a list of n integers, `n` is an integer greater than or equal to 0, `a` is an empty list, `ans` is 0, `cnt` is a dictionary where each key is an integer from the list `a` and the value is the count of that integer in the list `a`, `x` is the last integer in the list `a`.
+    for x in cnt.values():
+        ans += x // 4
+        
+    #State: Output State: `stdin` contains multiple inputs: first an integer t-1, then for each test case, first an integer n and then a list of n integers, `n` is an integer greater than or equal to 0, `a` is a list of integers, `ans` is `ans` + `x // 4` for all `x` in `cnt.values()`, `cnt` is a dictionary where each key is an integer from the list `a` and the value is the count of that integer in the list `a`, `x` is the last value in the dictionary `cnt`.
+    #
+    #In natural language, the output state after the loop executes all the iterations is that the value of `ans` is the sum of the integer division of each count in the `cnt` dictionary by 4, and the value of `x` is the last count in the `cnt` dictionary. The other variables remain unchanged.
+    print(ans)
+    #This is printed: The sum of the integer division of each count in the `cnt` dictionary by 4
+
+#Overall this is what the function does:This function reads a list of non-negative integers from standard input, counts the occurrences of each integer, and then calculates the sum of the integer divisions of these counts by 4. The result is printed to the console.
+

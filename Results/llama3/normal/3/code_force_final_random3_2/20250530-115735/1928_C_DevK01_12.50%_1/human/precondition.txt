@@ -1,0 +1,1 @@
+q and x are positive integers and x < q.

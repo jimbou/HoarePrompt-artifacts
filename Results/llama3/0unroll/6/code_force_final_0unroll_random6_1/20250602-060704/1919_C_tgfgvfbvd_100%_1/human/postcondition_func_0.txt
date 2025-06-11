@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of a list of integers. It then finds the number of times the smallest or second smallest number in the list needs to be updated, and prints this count for each test case.

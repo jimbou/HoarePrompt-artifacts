@@ -1,0 +1,1 @@
+stdin contains multiple sets of inputs: the first line contains an integer, the second line contains two integers n and k such that 1 <= k <= n <= 200000, the third line contains n integers, and the fourth line contains n integers.

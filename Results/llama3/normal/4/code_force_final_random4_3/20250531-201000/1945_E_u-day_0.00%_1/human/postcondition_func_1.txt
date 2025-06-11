@@ -1,0 +1,1 @@
+This function takes a generator as input, consumes all its yielded values, and returns them as a list. The generator is exhausted after the function call, and the returned list contains all the values yielded by the generator.

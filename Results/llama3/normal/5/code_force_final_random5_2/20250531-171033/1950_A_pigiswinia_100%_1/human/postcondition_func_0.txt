@@ -1,0 +1,1 @@
+The function reads a series of triple-digit numbers from standard input, determines whether each triple forms a "stair" (a < b < c), a "peak" (a < b > c), or neither, and prints the corresponding label ('STAIR', 'PEAK', or 'NONE') for each triple. The function processes a specified number of triples (t) and consumes all input lines, leaving the standard input empty.

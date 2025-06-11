@@ -1,0 +1,1 @@
+stdin is an open file object connected to an input stream.

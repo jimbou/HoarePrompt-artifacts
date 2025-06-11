@@ -1,0 +1,1 @@
+Counts and prints the total number of occurrences of the substrings 'map' and 'pie' in all test cases provided through standard input.

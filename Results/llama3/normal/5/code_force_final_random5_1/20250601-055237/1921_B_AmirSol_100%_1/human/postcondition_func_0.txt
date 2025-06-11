@@ -1,0 +1,1 @@
+This function calculates and returns the maximum number of cats to add or remove from two binary strings s1 and s2 of equal length n, by comparing the positions where s1 has '0' and s2 has '1' and vice versa, and returning the maximum of these two counts.

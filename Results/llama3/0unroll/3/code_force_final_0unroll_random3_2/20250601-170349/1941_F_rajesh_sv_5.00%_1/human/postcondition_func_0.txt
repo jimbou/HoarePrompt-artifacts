@@ -1,0 +1,1 @@
+Returns a wrapper function that is presumably defined elsewhere in the code, without modifying the input dictionary d.

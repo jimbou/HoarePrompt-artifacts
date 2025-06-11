@@ -1,0 +1,1 @@
+Functionality: This function calculates the sum of products of friendship values and a quadratic expression of k, modulo MOD, for all friendships in the input list, and returns the remainder.

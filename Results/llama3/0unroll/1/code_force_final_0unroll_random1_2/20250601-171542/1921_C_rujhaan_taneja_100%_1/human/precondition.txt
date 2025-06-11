@@ -1,0 +1,1 @@
+stdin contains an integer t, followed by t test cases. Each test case contains four integers n, f, a, and b, followed by n integers m_1, m_2, ..., m_n. All integers are non-negative. 1 <= t <= 10^4, 1 <= n <= 2 * 10^5, 1 <= f, a, b <= 10^9, and 1 <= m_i <= 10^9 for all i.

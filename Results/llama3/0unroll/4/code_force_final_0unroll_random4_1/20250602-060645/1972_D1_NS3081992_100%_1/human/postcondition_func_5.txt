@@ -1,0 +1,1 @@
+Reads a line of text from standard input, removes the newline character at the end, and decodes it from bytes to a string using the system's default encoding, returning the resulting string.
