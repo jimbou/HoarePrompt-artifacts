@@ -1,0 +1,1 @@
+x is a list of integers, where the first integer is the number of test cases, and each test case consists of a list of integers representing the operations and queries.

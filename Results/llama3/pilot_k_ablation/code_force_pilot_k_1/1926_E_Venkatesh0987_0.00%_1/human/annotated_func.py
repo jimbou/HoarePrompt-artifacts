@@ -29,7 +29,7 @@
         else:
             print(2 * k - 1)
         
-    #State: stdin is empty, n is not defined, k is not defined, s is not defined, i is not defined, d is not defined, h is not defined, p is not defined, g is not defined, _ is equal to t, f is not defined, y is not defined, and t lines have been printed, each containing an integer.
+    #State: stdin is empty, t is 0, n and k are the last two integers in the input, s is 0, i is 0, d is an integer equal to the last n, h is an integer equal to the last n, p is 1, g is 0, _ is t. If t is 0, then the values of n, k, s, i, d, h, p, and g are undefined.
 
-#Overall this is what the function does:This function reads a series of test cases from standard input, where each test case consists of two integers n and k. For each test case, it calculates and prints an integer value based on the values of n and k. If k is greater than half of n, it performs a series of calculations involving divisions and multiplications to determine the output value. If k is less than or equal to half of n, it simply prints 2 times k minus 1. The function continues this process until all test cases have been read from standard input, at which point the input is empty and the function has printed one integer value for each test case.
+#Overall this is what the function does:This function reads a series of test cases from standard input, where each test case consists of two integers n and k. For each test case, it calculates and prints the result of a specific operation based on the values of n and k. If k is greater than half of n, it performs a series of calculations involving divisions and multiplications, and prints the final result. If k is not greater than half of n, it simply prints 2 times k minus 1. After processing all test cases, the function leaves the input stream empty and the variables n, k, and other internal variables in an undefined state.
 

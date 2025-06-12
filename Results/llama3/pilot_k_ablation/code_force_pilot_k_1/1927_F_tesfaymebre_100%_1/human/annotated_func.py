@@ -1,34 +1,34 @@
-#State of the program right berfore the function call: stdin contains one input: an integer
+#State of the program right berfore the function call: stdin contains one input: an integer.
     return int(sys.stdin.readline().strip())
     #The program returns an integer that was provided as input through stdin.
 
-#Overall this is what the function does:The function reads an integer from standard input and returns it as an integer value.
+#Overall this is what the function does:The function reads an integer from standard input (stdin) and returns it as an integer value.
 
-#State of the program right berfore the function call: stdin is a file object that contains a string that can be stripped and returned.
+#State of the program right berfore the function call: No precondition can be extracted from this function as it does not have any parameters.
     return sys.stdin.readline().strip()
-    #The program returns a string that was read from the file object stdin and stripped of leading and trailing whitespace.
+    #The program returns a string that is the first line of input from standard input, with leading and trailing whitespace removed.
 
-#Overall this is what the function does:Reads a line from the standard input (stdin) and returns the string after removing leading and trailing whitespace.
-
-#State of the program right berfore the function call: stdin contains a line of space-separated integers.
-    return map(int, sys.stdin.readline().strip().split())
-    #The program returns a map object that contains a sequence of integers, where each integer is a space-separated integer from the line in stdin, and each integer has been converted from a string to an integer using the int() function.
-
-#Overall this is what the function does:Reads a line of space-separated integers from standard input, converts each integer from a string to an integer, and returns a map object containing the sequence of integers.
+#Overall this is what the function does:Reads and returns the first line of input from standard input, removing leading and trailing whitespace.
 
 #State of the program right berfore the function call: stdin contains a line of space-separated integers
+    return map(int, sys.stdin.readline().strip().split())
+    #The program returns a map object that contains integers, which are the result of converting the space-separated integers from the input line in stdin.
+
+#Overall this is what the function does:Reads a line of space-separated integers from standard input, converts them to integers, and returns a map object containing the converted integers.
+
+#State of the program right berfore the function call: stdin contains a line of space-separated integers.
     return list(map(int, sys.stdin.readline().strip().split()))
-    #The program returns a list of integers, where each integer is a space-separated integer from the input line in stdin.
+    #The program returns a list of integers that were read from the standard input, where each integer was separated by a space.
 
 #Overall this is what the function does:Reads a line of space-separated integers from standard input and returns them as a list of integers.
 
-#State of the program right berfore the function call: stdin contains a line of input: a string of space-separated values
+#State of the program right berfore the function call: stdin is a stream of input containing a string of space-separated values
     return list(sys.stdin.readline().strip().split())
-    #The program returns a list of strings, where each string is a space-separated value from the input line in stdin.
+    #The program returns a list of strings where each string is a space-separated value from the input stream stdin.
 
-#Overall this is what the function does:Reads a line of input from stdin, splits it into space-separated values, and returns them as a list of strings.
+#Overall this is what the function does:Reads a line of input from the standard input stream, splits it into space-separated values, and returns them as a list of strings.
 
-#State of the program right berfore the function call: n and m are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), and the graph represented by the edges in the input is an undirected weighted graph with n vertices and m edges, where each edge has a weight between 1 and 10^6, and there is at most one edge between each pair of vertices, and the graph does not contain loops (edges from a vertex to itself).
+#State of the program right berfore the function call: n and m are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), graph is a dictionary where each key is a vertex and its corresponding value is a list of its neighboring vertices, edges is a list of tuples where each tuple contains the weight of an edge and the two vertices it connects.
     n, m = func_3()
     graph = defaultdict(list)
     edges = []
@@ -41,7 +41,7 @@
         
         edges.append((w, u, v))
         
-    #State: n and m are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), graph is a dictionary with m number of edges where each edge is represented as a key-value pair with the key being a node and the value being a list of its adjacent nodes, edges is a list of m tuples, each tuple containing the weight and the two nodes of an edge.
+    #State: n and m are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), graph is a dictionary with m pairs of nodes, edges is a list of m tuples (w, u, v).
     edges.sort(reverse=True)
     dsu = DSU(n + 1)
     _min_edge = float('inf')
@@ -59,7 +59,7 @@
         else:
             dsu.union(u, v)
         
-    #State: n is an integer such that 3 <= n <= m, m is an integer such that n <= m <= min(n*(n-1)/2, 2*10^5), graph is a dictionary with m number of edges, edges is an empty list, dsu is a DSU object initialized with n + 1 elements where all elements are in the same set, _min_edge is the minimum weight of an edge in the graph, start and end are the nodes of the minimum weight edge. If the graph is empty, _min_edge is positive infinity, start is -1, and end is -1.
+    #State: n and m are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), graph is a dictionary with m pairs of nodes, edges is an empty list, dsu is a DSU object initialized with n + 1 elements where all nodes are in the same set, _min_edge is the weight of the minimum edge that connects two nodes that were initially in the same set, start and end are the nodes connected by the minimum edge. If no such edge exists, _min_edge is positive infinity, start is -1, end is -1.
     que = deque([start])
     prev = {start: -1}
     while que:
@@ -75,7 +75,7 @@
                 prev[nei] = node
                 que.append(nei)
         
-    #State: `n` is an integer such that 3 <= n <= m, `m` is an integer such that n <= m <= min(n*(n-1)/2, 2*10^5), `graph` is a dictionary with m number of edges, `edges` is an empty list, `dsu` is a DSU object initialized with n + 1 elements where all elements are in the same set, `_min_edge` is the minimum weight of an edge in the graph, `que` is an empty deque, `prev` is a dictionary with all nodes except the end node mapped to their respective parent nodes in the shortest path from the start node to the end node, `start` and `end` are the nodes of the minimum weight edge. If the graph is empty, _min_edge is positive infinity, start is -1, and end is -1. If there is no path from the start node to the end node, prev will not contain the end node.
+    #State: `n` and `m` are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), `graph` is a dictionary with m pairs of nodes, `edges` is an empty list, `dsu` is a DSU object initialized with n + 1 elements where all nodes are in the same set, `_min_edge` is the weight of the minimum edge that connects two nodes that were initially in the same set, `start` and `end` are the nodes connected by the minimum edge and `start` is not -1, `que` is an empty deque, `prev` is a dictionary mapping each node reachable from `start` (excluding `end`) to its previous node in the path from `start` to `end`.
     path = []
     curr = end
     while curr != -1:
@@ -83,20 +83,20 @@
         
         curr = prev[curr]
         
-    #State: `path` contains the shortest path from the start node to the end node in reverse order, `curr` is -1
+    #State: n is an integer, m is an integer, graph is a dictionary with m pairs of nodes, edges is an empty list, dsu is a DSU object initialized with n + 1 elements where all nodes are in the same set, _min_edge is the weight of the minimum edge that connects two nodes that were initially in the same set, start is a node, end is a node, que is an empty deque, prev is a dictionary mapping each node reachable from start (excluding end) to its previous node in the path from start to end, path is a list containing all nodes in the path from start to end in reverse order, curr is -1
     print(_min_edge, len(path))
-    #This is printed: _min_edge (the minimum edge weight in the shortest path), len(path) (the number of nodes in the shortest path)
+    #This is printed: _min_edge (the weight of the minimum edge that connects two nodes that were initially in the same set), len(path) (the number of nodes in the path from start to end in reverse order)
     print(*path[::-1])
-    #This is printed: the nodes in the shortest path from the start node to the end node in the correct order
+    #This is printed: the nodes in the path from start to end in the correct order, excluding the end node (where the path is obtained by reversing the list of nodes in the path from start to end)
 
-#Overall this is what the function does:This function takes no parameters and returns the minimum weight of an edge in the shortest path between two nodes in a weighted undirected graph, the number of nodes in this path, and the nodes in the path from start to end. If the graph is empty, it returns positive infinity as the minimum weight and -1 as the start and end nodes. If there is no path from the start node to the end node, it only returns the minimum weight and the number of nodes in the path (which will be 1).
+#Overall this is what the function does:This function takes no parameters and returns no values. It constructs a graph with n nodes and m edges, where n and m are integers such that 3 <= n <= m <= min(n*(n-1)/2, 2*10^5), and each edge has a weight. The function then finds the minimum edge that connects two nodes that were initially in the same set, and if such an edge exists, it prints the weight of this edge and the number of nodes in the path from the start node to the end node in reverse order. Finally, it prints the nodes in the path from the start node to the end node in the correct order, excluding the end node. If no such edge exists, it prints positive infinity as the weight and -1 as the start and end nodes.
 
-#State of the program right berfore the function call: test_cases is a non-negative integer.
+#State of the program right berfore the function call: No precondition can be extracted from this function as it does not have any parameters.
     test_cases = func_1()
     for _ in range(test_cases):
         func_6()
         
-    #State: `test_cases` is the value returned by `func_1()`, `func_6()` has been executed `test_cases` times.
+    #State: `test_cases` is assigned the value returned by `func_1()`, the function `func_6` has been executed `test_cases` times.
 
-#Overall this is what the function does:Executes a specified number of test cases by calling `func_6()` a number of times equal to the value returned by `func_1()`, without modifying the input variables.
+#Overall this is what the function does:Executes the function `func_6` a number of times determined by the return value of `func_1`, without modifying or returning any values.
 

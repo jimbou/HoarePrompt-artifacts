@@ -1,1 +1,1 @@
-x is an integer.
+x is a list of integers, where each integer represents the k-th element of array a, and the length of x is equal to the number of queries q.

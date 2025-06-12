@@ -1,1 +1,1 @@
-stdin contains multiple lines of input. The first line contains an integer t (1 ≤ t ≤ 1000). Each of the following lines contains two positive integers n and k (1 ≤ n, k ≤ 10^18).
+stdin contains an integer t (1 <= t <= 1000) followed by t lines, each containing two positive integers n and k (1 <= n, k <= 10^18).

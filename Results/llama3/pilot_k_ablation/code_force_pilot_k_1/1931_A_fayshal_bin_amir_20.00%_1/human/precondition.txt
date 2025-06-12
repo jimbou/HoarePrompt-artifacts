@@ -1,1 +1,1 @@
-num is an integer between 3 and 78 (inclusive).
+num is an integer such that 3 <= num <= 78.

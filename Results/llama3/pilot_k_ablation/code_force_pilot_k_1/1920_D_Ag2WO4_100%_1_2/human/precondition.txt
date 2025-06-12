@@ -1,0 +1,1 @@
+x is a list of integers, where the first element is the number of operations n, the second element is the number of queries q, the next n elements are pairs of integers (b, x) representing the operations, and the last q elements are integers representing the queries.

@@ -1,1 +1,1 @@
-m is a positive integer representing the largest value that can be obtained by splitting the array into exactly k subarrays such that all subarrays have the product of their length and their maximum equal to m.
+m is a positive integer representing the largest value m such that there exists a sequence c_1, \ldots, c_{k-1} such that 1 \leq c_1 < \ldots < c_{k-1} < n and f(1, c_1) = f(c_1 + 1, c_2) = \ldots = f(c_{k-1}+1, n) = m, or -1 if no such m exists.

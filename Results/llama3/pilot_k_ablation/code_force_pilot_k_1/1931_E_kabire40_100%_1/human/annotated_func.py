@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t test cases. Each test case consists of two lines. The first line contains two integers n and m (1 <= n <= 2 * 10^5, 0 <= m <= 2 * 10^6). The second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t test cases. Each test case contains two lines. The first line contains two integers n and m (1 <= n <= 2 * 10^5, 0 <= m <= 2 * 10^6). The second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).
     for y in range(int(input())):
         rev_res = ''
         
@@ -18,7 +18,7 @@
         else:
             print('Anna')
         
-    #State: stdin is empty, y is t, rev_res is an empty string, list_len is 0, operational_list is an empty list, max_power is 0.
+    #State: stdin is empty, y is equal to t, list_len and max_power are the last values read from stdin, operational_list is the last list of strings read from stdin, rev_res is a string that contains the concatenation of all the strings in operational_list, with the strings at even indices having their trailing zeros removed, for all test cases. If t is 0, stdin remains unchanged, y is 0, list_len and max_power are undefined, operational_list is undefined, and rev_res is an empty string.
 
-#Overall this is what the function does:This function reads a series of test cases from standard input, where each test case consists of two lines: the first line contains two integers n and m, and the second line contains n integers. It then processes these integers by sorting them based on their length without trailing zeros, concatenating them in a specific order (alternating between removing trailing zeros and keeping them), and comparing the length of the resulting string to the value of m. Based on this comparison, it prints either 'Sasha' or 'Anna' for each test case. After processing all test cases, the function leaves the input stream empty and the variables used within the function in their initial state.
+#Overall this is what the function does:This function reads a series of test cases from standard input, where each test case consists of two lines: the first line contains two integers (n and m) and the second line contains n strings. The function processes each test case by concatenating the strings in a specific order (even-indexed strings have their trailing zeros removed) and then checks if the length of the resulting string is greater than or equal to m+1. Based on this comparison, the function prints either 'Sasha' or 'Anna' for each test case. If there are no test cases (i.e., the input is 0), the function does not modify the input and leaves it unchanged.
 

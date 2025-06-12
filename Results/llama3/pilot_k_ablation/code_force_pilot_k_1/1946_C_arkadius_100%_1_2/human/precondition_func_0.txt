@@ -1,0 +1,1 @@
+tree is a Tree object with a 'vertices' attribute that maps vertices to objects with a 'children' attribute, s is a vertex in the tree, and x is a non-negative integer.

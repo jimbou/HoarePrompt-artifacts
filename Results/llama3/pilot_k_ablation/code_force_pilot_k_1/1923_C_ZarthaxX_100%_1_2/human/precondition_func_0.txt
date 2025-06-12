@@ -1,0 +1,1 @@
+stdin contains a series of inputs: first an integer, then a series of pairs of integers, then a list of integers, and finally a series of pairs of integers. The first integer is a positive integer. Each pair of integers is a pair of positive integers where the first integer is less than or equal to the second integer. The list of integers is a list of positive integers.

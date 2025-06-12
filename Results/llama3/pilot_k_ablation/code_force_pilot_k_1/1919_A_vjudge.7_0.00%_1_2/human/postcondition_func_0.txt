@@ -1,0 +1,1 @@
+This function reads input from stdin, expecting a specific format: an integer t followed by t lines, each containing two space-separated integers a and b. It then compares each pair of integers and prints 'Alice' if a is less than b, 'Bob' if a is greater than or equal to b. The function processes all input lines and empties stdin.

@@ -1,1 +1,1 @@
-Searches a 2D list of integers for a sub-array where the element at a specified index matches a given value, returning the first matching sub-array if found, or None if no match is found after iterating over all sub-arrays.
+This function searches a 2D list of lists for a sub-array that contains a specified value at a specified index. If such a sub-array is found, it is returned; otherwise, the function returns None, indicating that no matching sub-array was found.

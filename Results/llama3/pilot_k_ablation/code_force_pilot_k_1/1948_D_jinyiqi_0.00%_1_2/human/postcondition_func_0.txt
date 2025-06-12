@@ -1,0 +1,1 @@
+This function takes a string `s` as input and searches for the longest palindromic substring that contains at least one question mark. If such a substring is found, it prints the length of the substring multiplied by 2 and returns. If no such substring is found, it returns 0.

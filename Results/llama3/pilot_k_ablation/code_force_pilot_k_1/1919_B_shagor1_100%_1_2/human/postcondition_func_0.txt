@@ -1,0 +1,1 @@
+The function reads an integer (n) and a string (s) of length n from standard input, counts the number of "-" characters in the string, and prints the absolute difference between the length of the string and twice the number of "-" characters, unless all characters are "-", in which case it prints the length of the string.

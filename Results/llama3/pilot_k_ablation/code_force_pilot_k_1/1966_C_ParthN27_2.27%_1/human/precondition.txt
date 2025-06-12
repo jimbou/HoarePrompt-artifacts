@@ -1,1 +1,1 @@
-stdin contains t+1 lines of input, where t is a positive integer. The first line contains the integer t. Each of the following t lines contains a positive integer n. Each of the following t lines contains n positive integers.
+stdin contains t test cases, each test case consists of two lines: the first line contains an integer n (1 <= n <= 2*10^5), the second line contains n integers a_1, a_2, ..., a_n (1 <= a_i <= 10^9).

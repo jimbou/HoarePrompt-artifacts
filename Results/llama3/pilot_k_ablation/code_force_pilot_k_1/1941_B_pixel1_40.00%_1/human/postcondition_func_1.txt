@@ -1,1 +1,1 @@
-Checks if all elements in the input list are 0 or if the list is empty, returning True if the condition is met and False otherwise.
+This function checks if a given list of integers contains only zeros or is empty. It iterates through the list and returns False as soon as it encounters a non-zero integer. If the list is empty or contains only zeros, the function returns True.

@@ -1,1 +1,1 @@
-Calculates the nth value of a sequence defined by a recurrence relation, storing the results in the dp array, where dp[i] represents the ith value in the sequence, and returns the calculated values.
+Calculates and stores the results of a recurrence relation in the dp array for a given positive integer n, where dp[i] is computed as (dp[i - 1] + 2 * (i - 1) * dp[i - 2]) % 1000000007 for i in range(3, n + 1), with base cases dp[1] = 1 and dp[2] = 3.

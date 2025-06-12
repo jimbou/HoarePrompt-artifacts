@@ -1,0 +1,1 @@
+The function prints the values of two positive integers 'l' and 'x' to the console, waits for user input, reads an integer from the input, and returns that integer.

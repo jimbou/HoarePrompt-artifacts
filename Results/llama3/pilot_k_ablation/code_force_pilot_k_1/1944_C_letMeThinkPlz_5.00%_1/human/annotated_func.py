@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains two inputs: first an integer and then a list of integers. The first integer is a positive integer (1 <= n <= 2 * 10^5). The second input is a list of n integers (0 <= a_i < n). The sum of n over all test cases does not exceed 2 * 10^5.
+#State of the program right berfore the function call: stdin contains multiple test cases. The first line of each test case contains a single integer n (1 <= n <= 2 * 10^5). The second line of each test case contains n integers a_1, a_2, ..., a_n (0 <= a_i < n).
     t = int(input())
     for _ in range(t):
         n = int(input())
@@ -25,7 +25,7 @@
         
         print(ans)
         
-    #State: t is 0, _ is t, n is undefined, arr is undefined, counter is an empty dictionary, stdin is empty, ans is undefined, once is False, and all the answers are printed.
+    #State: `t` is 0, `_` is `t`, `n` is undefined, `arr` is undefined, `counter` is undefined, `stdin` contains no input, `ans` is undefined, and `once` is undefined.
 
-#Overall this is what the function does:This function reads multiple test cases from standard input, where each test case consists of a positive integer n and a list of n integers. It then finds the smallest positive integer that is not present in the list or the smallest positive integer that appears only once in the list, and prints this value for each test case. The function processes all test cases and prints all answers before terminating.
+#Overall this is what the function does:This function reads multiple test cases from standard input, where each test case consists of a single integer n followed by n integers. It then finds the smallest integer between 0 and n (inclusive) that is either missing from the list or appears only once, and prints this integer for each test case.
 

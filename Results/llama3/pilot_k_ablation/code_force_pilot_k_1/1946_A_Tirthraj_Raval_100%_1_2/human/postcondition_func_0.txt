@@ -1,0 +1,1 @@
+This function reads multiple test cases from standard input, where each test case consists of an integer (the length of the array) followed by a list of integers. It sorts each array, finds the median value, and counts the number of occurrences of the median value. The function then prints the count of median value occurrences for each test case.

@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: test_cases is a list of tuples, where each tuple contains four values: n, x, y, and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers.
+#State of the program right berfore the function call: test_cases is a list of tuples, where each tuple contains four elements: n, x, y, and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers.
     results = []
     for (n, x, y, arr) in test_cases:
         count = 0
@@ -16,13 +16,13 @@
         
         results.append(count)
         
-    #State: `test_cases` is a list of tuples, `results` is a list of integers where each integer is the sum of the products of the values of `rem_x` in `mod_x` and `rem_y` in `mod_y` for all numbers in `arr` for each tuple in `test_cases`. If `test_cases` is an empty list, `results` is an empty list.
+    #State: `test_cases` is a list of tuples, `results` is a list with the sum of the products of the counts of each remainder modulo `x` and modulo `y` for each tuple in `test_cases`.
     return results
-    #The program returns a list of integers where each integer is the sum of the products of the values of `rem_x` in `mod_x` and `rem_y` in `mod_y` for all numbers in `arr` for each tuple in `test_cases`. If `test_cases` is an empty list, the program returns an empty list.
+    #The program returns a list with the sum of the products of the counts of each remainder modulo `x` and modulo `y` for each tuple in `test_cases`.
 
-#Overall this is what the function does:This function takes a list of test cases as input, where each test case is a tuple containing a positive integer n, two positive integers x and y, and a list of positive integers arr. It processes each test case by iterating over the numbers in arr, calculating the remainders when divided by x and y, and counting the products of these remainders. The function returns a list of integers, where each integer represents the total count of these products for each test case. If the input list is empty, the function returns an empty list.
+#Overall this is what the function does:Functionality: This function takes a list of test cases as input, where each test case is a tuple containing a positive integer n, two positive integers x and y, and a list of positive integers arr. It processes each test case by iterating through the list of integers, calculating the remainder of each integer modulo x and modulo y, and counting the number of pairs that have the same remainder modulo x and modulo y. The function returns a list of counts, where each count represents the sum of the products of the counts of each remainder modulo x and modulo y for each test case.
 
-#State of the program right berfore the function call: test_cases is a list of tuples, where each tuple contains four elements: n, x, y, and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers.
+#State of the program right berfore the function call: test_cases is a list of tuples, each tuple contains four values: n, x, y and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers.
     input = sys.stdin.read
     data = input().splitlines()
     t = int(data[0])
@@ -37,12 +37,12 @@
         
         idx += 2
         
-    #State: test_cases is a list of t tuples, where each tuple contains four elements: n, x, y, and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers. idx is 2 * t + 1, data is a list of strings, where the first element is the string representation of t. input is a function that reads from sys.stdin.
+    #State: test_cases is a list of tuples, each tuple contains four values: n, x, y and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers, t is an integer and must be greater than or equal to 0, data is a list of strings, idx is an integer equal to 1 + 2 * t
     results = func_1(test_cases)
     for result in results:
         print(result)
         
-    #State: `test_cases` is a list of t tuples, where each tuple contains four elements: n, x, y, and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers. `idx` is 2 * t + 1, `data` is a list of strings, where the first element is the string representation of t. `results` is a list of t values, where each value is the result of applying `func_1` to the corresponding tuple in `test_cases`, and all results have been printed.
+    #State: test_cases is a list of tuples, each tuple contains four values: n, x, y and arr. n is a positive integer, x and y are positive integers, and arr is a list of positive integers, t is an integer and must be greater than or equal to 0, data is a list of strings, idx is an integer equal to 1 + 2 * t, results is returned by func_1(test_cases) and must be empty, all elements of the results list which is returned by func_1(test_cases) have been printed
 
-#Overall this is what the function does:This function processes a list of test cases, where each test case contains four elements: a positive integer n, two positive integers x and y, and a list of positive integers arr. The function applies an unspecified operation (func_1) to each test case and returns a list of results, one for each test case. The results are then printed to the console. The function does not modify the original test cases or any other input variables.
+#Overall this is what the function does:The function accepts a list of test cases, where each test case is a tuple containing four values: a positive integer n, two positive integers x and y, and a list of positive integers arr. The function processes these test cases and returns a list of results. The function then prints each result from the returned list. The function does not modify the input test cases or any other external state. Its sole purpose is to process the input test cases and produce output based on the results.
 

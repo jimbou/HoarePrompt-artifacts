@@ -1,1 +1,1 @@
-The function reads the largest value that can be obtained by splitting an array into exactly k subarrays such that all subarrays have the product of their length and their maximum equal to m from user input and returns it as an integer.
+Prints the largest value m such that there exists a sequence c_1, \ldots, c_{k-1} satisfying certain conditions, or -1 if no such m exists, and then reads an integer from standard input and returns it.

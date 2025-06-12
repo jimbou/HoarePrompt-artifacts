@@ -1,1 +1,1 @@
-stdin is a file object that contains a string that can be stripped and returned.
+No precondition can be extracted from this function as it does not have any parameters.

@@ -1,0 +1,1 @@
+stdin contains a sequence of inputs: first an integer t, then for each test case, an integer n, a list of n integers, an integer q, and q pairs of integers.

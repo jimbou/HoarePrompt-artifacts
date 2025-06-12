@@ -1,0 +1,1 @@
+stdin contains t+1 inputs: first an integer t (1 <= t <= 100), then t sets of inputs. Each set of inputs contains an integer n (2 <= n <= 10) and n strings of length n consisting of characters '0' or '1'.

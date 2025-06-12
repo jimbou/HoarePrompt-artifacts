@@ -1,0 +1,1 @@
+This function reads an integer input from the user and attempts to call another function (`func_1`) a specified number of times based on the input value. If the input is a valid integer, the function calls `func_1` the specified number of times. If the input is not a valid integer, the function prints an error message ("Invalid input format") and does not call `func_1`.

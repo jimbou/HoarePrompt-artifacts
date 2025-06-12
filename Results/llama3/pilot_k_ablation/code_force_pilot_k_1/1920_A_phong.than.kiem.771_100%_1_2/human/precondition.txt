@@ -1,0 +1,1 @@
+stdin contains one or more inputs: a positive integer (t) followed by t blocks of input, each block containing a positive integer (n) followed by n lines, each line containing two integers (a, x) where a is 1, 2, or 3 and 1 <= x <= 10^9.

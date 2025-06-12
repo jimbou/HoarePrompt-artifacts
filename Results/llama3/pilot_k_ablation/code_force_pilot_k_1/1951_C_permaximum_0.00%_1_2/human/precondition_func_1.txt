@@ -1,0 +1,1 @@
+n, m, and k are positive integers, prices is a list of n positive integers.

@@ -1,1 +1,1 @@
-stdin contains an integer t (1 <= t <= 1000) followed by t lines, each containing an integer x (2 <= x <= 1000).
+t is an integer such that 1 <= t <= 1000, and for each test case, x is an integer such that 2 <= x <= 1000.

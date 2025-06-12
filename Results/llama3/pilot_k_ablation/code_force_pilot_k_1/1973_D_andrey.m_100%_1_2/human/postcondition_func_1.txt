@@ -1,0 +1,1 @@
+The function takes a positive integer `m` as input, prints an exclamation mark followed by the value of `m`, waits for user input, and returns the user's input as an integer.

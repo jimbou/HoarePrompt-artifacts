@@ -1,1 +1,1 @@
-stdin contains an integer t (1 <= t <= 1000) followed by t pairs of integers x and y, where x and y are strings of digits from 1 to 9 and have the same length.
+stdin contains an integer t (1 <= t <= 1000) followed by 2t lines, where each pair of lines contains two integers x and y of the same length, consisting of digits from 1 to 9.

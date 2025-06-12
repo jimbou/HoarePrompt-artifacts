@@ -1,0 +1,1 @@
+n is a positive integer, and the next n lines of stdin contain two space-separated integers, t and v, where t is an integer in {1,2,3} and v is a non-negative integer less than or equal to 1000000000.

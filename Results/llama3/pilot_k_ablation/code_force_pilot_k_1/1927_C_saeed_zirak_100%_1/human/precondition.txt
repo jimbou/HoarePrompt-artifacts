@@ -1,1 +1,1 @@
-a is a list of integers, b is a list of integers, k is an even integer, 1 <= k <= 2 * min(len(a), len(b)), 1 <= a_i, b_j <= 10^6 for all i in range(len(a)) and j in range(len(b)).
+t is a positive integer, for each test case, n and m are positive integers, k is an even integer such that 2 <= k <= 2 * min(n, m), a is a list of n integers, b is a list of m integers, 1 <= a_i, b_j <= 10^6 for all i and j.

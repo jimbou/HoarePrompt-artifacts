@@ -1,0 +1,1 @@
+stdin contains two inputs: an integer t (1 <= t <= 10^4) and t pairs of integers n and k (2 <= k <= n <= 2 * 10^5, k is even).

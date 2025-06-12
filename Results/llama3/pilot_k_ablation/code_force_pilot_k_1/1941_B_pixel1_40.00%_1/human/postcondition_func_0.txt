@@ -1,1 +1,1 @@
-Decrements the elements at index - 1, index, and index + 1 in the input list by 1, 2, and 1 respectively, and returns the modified list.
+Decrements the elements at indices index - 1, index, and index + 1 in the input list by 1, 2, and 1 respectively, and returns the modified list.

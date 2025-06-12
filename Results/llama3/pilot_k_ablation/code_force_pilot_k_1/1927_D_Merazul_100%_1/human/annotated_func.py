@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains a number of test cases t, each test case contains an integer n, an array a of n integers, an integer q, and q queries, each query contains two integers l and r. 1 <= t <= 10^4, 2 <= n <= 2 * 10^5, 1 <= a_i <= 10^6, 1 <= q <= 2 * 10^5, 1 <= l < r <= n.
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains four inputs: first an integer, then a list of integers, then an integer, and then multiple pairs of integers. The first integer is the length of the list. The second integer is the number of pairs. Each pair contains two integers.
     R = lambda : map(int, input().split())
     t, = R()
     while t:
@@ -23,7 +23,7 @@
             l, r = R()
             print(*((a[r], r), [-1] * 2)[a[r] < l])
         
-    #State: t is 0, stdin contains 0 test cases, a is a list of length equal to the number of elements in the last R() plus 1, p is the last element in the last R(), i is equal to the number of elements in the last R(), j is either 0 or i depending on whether the last element in the last R() is equal to the second last element in the last R(), q is 0, l is the first element in the last R(), r is the second element in the last R(), and for each query in the original q queries, if the value of a at index r is less than l, then -1 is printed twice, otherwise the value of a at index r and r are printed
+    #State: t is 0, a is a list of 0s and 1s, p is the second last element in R(), i is equal to the number of elements in R() minus 1, j is either 0 or 1 depending on whether the last element in R() is equal to the third last element in R(), q is 0, and the following has been printed for each iteration of the loop: either (a[r], r) if a[r] is not less than l, or [-1, -1] if a[r] is less than l, and this process has been repeated for the number of test cases equal to the initial value of t
 
-#Overall this is what the function does:This function reads a number of test cases from standard input, where each test case consists of an integer n, an array a of n integers, an integer q, and q queries, each containing two integers l and r. For each query, it prints the value of a at index r and r if a[r] is greater than or equal to l, otherwise it prints -1 twice. The function processes all test cases and queries, and upon completion, the standard input is exhausted, and all queries have been processed and printed accordingly.
+#Overall this is what the function does:The function reads multiple test cases from standard input, where each test case consists of an integer, a list of integers, another integer, and multiple pairs of integers. It then processes each test case by creating a list 'a' of 0s and 1s based on the input list, and for each pair of integers, it prints either the value at the corresponding index in list 'a' along with the index, or [-1, -1] if the value at that index is less than the first integer in the pair. This process is repeated for the number of test cases specified at the beginning.
 

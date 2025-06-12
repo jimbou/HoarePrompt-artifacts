@@ -1,0 +1,1 @@
+This function checks if all elements in the input list `arrayForSuccess` are 0. It returns `True` if all elements are 0 or if the list is empty, and `False` otherwise. The function does not modify the input list.

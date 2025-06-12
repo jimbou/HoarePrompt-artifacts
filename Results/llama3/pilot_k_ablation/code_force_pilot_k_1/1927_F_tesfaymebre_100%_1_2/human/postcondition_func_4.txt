@@ -1,0 +1,1 @@
+Reads a line of input from standard input, splits it into a list of values separated by spaces, and returns the list. The list can contain values of any type and value that were present in the input string.

@@ -1,1 +1,1 @@
-stdin contains a line of input: a string of space-separated values
+stdin is a stream of input containing a string of space-separated values

@@ -1,1 +1,1 @@
-The function takes a list of non-negative integers and a non-negative integer as input, and returns the result of calling the function find_new with these inputs.
+The function calls another function named find_new with a list of non-negative integers and the integer 30 as arguments, and returns the result. The actual output cannot be determined as the function find_new is not defined.

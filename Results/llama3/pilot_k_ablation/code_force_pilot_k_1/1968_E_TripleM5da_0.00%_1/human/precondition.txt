@@ -1,1 +1,1 @@
-stdin contains two inputs: first an integer t (1 <= t <= 50) and then t lines each containing a single integer n (2 <= n <= 10^3).
+stdin contains two inputs: first an integer (the number of test cases) and then a sequence of integers (the size of the grid for each test case). Each integer in the sequence is greater than or equal to 2 and less than or equal to 10^3.

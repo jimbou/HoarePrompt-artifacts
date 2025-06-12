@@ -1,1 +1,1 @@
-t is a positive integer, for each test case, n and m are positive integers such that 1 <= n, m <= 2 * 10^6.
+The input contains multiple test cases. The first line contains a positive integer t (1 <= t <= 10^4), representing the number of test cases. Each test case consists of a line containing two positive integers n and m (1 <= n, m <= 2 * 10^6).

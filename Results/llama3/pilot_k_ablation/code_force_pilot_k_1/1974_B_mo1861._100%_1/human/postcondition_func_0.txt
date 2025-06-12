@@ -1,1 +1,1 @@
-This function accepts a string of lowercase Latin letters as input, replaces each character with its corresponding character in a sorted string of unique characters from the input, and returns the resulting string. The function effectively performs a character substitution, where each character in the input string is mapped to a new character in a sorted order of unique characters, without modifying the original input string.
+Reverses the order of unique characters in a given string of lowercase Latin letters, returning the modified string.

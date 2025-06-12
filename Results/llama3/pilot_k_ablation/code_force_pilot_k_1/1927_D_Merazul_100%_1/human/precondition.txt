@@ -1,1 +1,1 @@
-stdin contains an integer t, followed by t test cases. Each test case contains an integer n, followed by a list of n integers, followed by an integer q, followed by q pairs of integers.
+t is a positive integer, n is a positive integer greater than 1, a is a list of n positive integers, q is a positive integer, and each query is a pair of positive integers l and r such that 1 <= l < r <= n.

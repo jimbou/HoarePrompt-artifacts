@@ -1,0 +1,1 @@
+This function takes a non-negative integer `a` and a non-negative prime number `b` as inputs, calls `func_1(b, 1000000007)` to obtain values `c` and `d`, and returns the product of `c` and `a` modulo 1000000007, effectively computing a modular product involving the result of `func_1` and input `a`.

@@ -9,7 +9,7 @@
         else:
             print(-1)
         
-    #State: stdin is empty, _ is equal to the initial value of t, n and k are the last values read from stdin (if t is greater than 0) or are undefined (if t is 0).
+    #State: stdin is empty, _ is t, for each line of the input, if `n` equals `k`, a string of '1 ' repeated n times, excluding the last space is printed, if `n` is not equal to `k`, then if `k` is 1, a string of numbers from 1 to n is printed, where each number is separated by a space, otherwise, -1 is printed.
 
-#Overall this is what the function does:The function reads a series of test cases from standard input, where each test case consists of two integers n and k. For each test case, it prints a specific sequence of numbers based on the values of n and k. If n equals k, it prints a sequence of 1s repeated n times. If k equals 1, it prints a sequence of numbers from 1 to n. If neither condition is met, it prints -1. The function continues this process until all test cases have been read from standard input, leaving the input stream empty.
+#Overall this is what the function does:This function reads a series of input lines from standard input, where each line contains two integers, n and k. For each line, it checks the values of n and k and prints a specific output based on their relationship. If n equals k, it prints a string of '1' repeated n times. If n does not equal k but k is 1, it prints a string of numbers from 1 to n. In all other cases, it prints -1. The function continues this process until all input lines have been processed, leaving the standard input empty.
 

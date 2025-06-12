@@ -1,1 +1,1 @@
-stdin contains the following inputs: two integers N and M, N lines of M pairs of characters separated by spaces, an integer T, and T lines each containing a pair of characters and an action.
+stdin contains the following inputs: two space-separated integers N and M, N lines of M pairs of characters separated by spaces, and an integer T followed by T lines, each describing one action. N and M are odd integers such that 3 <= N, M <= 99. T is an integer such that 0 <= T <= 10000.

@@ -1,1 +1,1 @@
-test_cases is a list of test cases, where each test case is a list containing three integers n, x, and y, followed by a list of n integers a_1, a_2, ..., a_n.
+test_cases is a list of test cases where each test case is a list of three elements: n, x, and y, followed by a list of n integers. n is an integer between 2 and 2*10^5, x and y are integers between 1 and 10^9, and the list of n integers contains integers between 1 and 10^9.

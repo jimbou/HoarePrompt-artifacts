@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t test cases. Each test case consists of three integers n, m, and k (1 <= n, m <= 2*10^5, 2 <= k <= 2*min(n, m), k is even) followed by two lists of integers a and b of lengths n and m respectively (1 <= a_i, b_j <= 10^6).
+#State of the program right berfore the function call: stdin contains an integer t, followed by t test cases. Each test case consists of three integers n, m, and k, followed by n integers a_1, a_2, ..., a_n, and m integers b_1, b_2, ..., b_m. n and m are positive integers, k is an even positive integer such that 2 <= k <= 2 * min(n, m). a_i and b_j are positive integers such that 1 <= a_i, b_j <= 10^6.
     for t in range(int(input())):
         n, m, k = map(int, input().split())
         
@@ -41,7 +41,7 @@
         else:
             print('no')
         
-    #State: stdin is empty, `t` is 0, `n`, `m`, `k`, `a`, `b`, `newk`, `i`, `leftOnes`, `aOnes`, `bOnes` are undefined.
+    #State: `t` is 0, `n`, `m`, `k`, `a`, `b`, `leftOnes`, `newk`, `i`, `aOnes`, and `bOnes` are undefined, and stdin contains no input.
 
-#Overall this is what the function does:This function reads input from stdin, processes multiple test cases, and determines whether it's possible to make two sets of numbers equal by adding a certain number of ones to each set. It prints 'yes' if it's possible and 'no' otherwise. The function does not modify the input sets or any other external state, and it does not return any value. After execution, stdin is empty, and all variables used within the function are undefined.
+#Overall this is what the function does:This function reads input from stdin, processes it, and prints 'yes' or 'no' to the console. It accepts no parameters and returns no values. The function iterates over a specified number of test cases, each consisting of three integers and two sets of integers. It then checks if it's possible to make the two sets have the same number of elements by adding or removing elements from the sets, while maintaining a specific constraint. If it's possible, it prints 'yes'; otherwise, it prints 'no'. After processing all test cases, the function leaves the program in a state where all variables are undefined and stdin contains no input.
 

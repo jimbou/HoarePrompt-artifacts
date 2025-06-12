@@ -1,1 +1,1 @@
-stdin contains multiple test cases. Each test case contains three integers k, x, and a, where k is an integer between 2 and 30, x is an integer between 1 and 100, and a is an integer between 1 and 10^9.
+stdin contains multiple test cases. Each test case contains three space-separated integers: k, x, and a, where k is an integer between 2 and 30, x is an integer between 1 and 100, and a is an integer between 1 and 10^9.

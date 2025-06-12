@@ -1,1 +1,1 @@
-The function reads a positive integer from standard input and repeatedly calls another function (`func_1`) a number of times equal to the input integer, until no more input is left in standard input.
+Executes the function func_1() a specified number of times, as determined by the initial value of the input integer t, until t reaches 0.

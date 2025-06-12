@@ -1,0 +1,1 @@
+n and k are positive integers, 1 <= k < n <= 10^5, edges is a list of n-1 pairs of integers (v, u) such that 1 <= v, u <= n, and the graph represented by edges is a tree.

@@ -1,0 +1,1 @@
+This function reads a series of pairs of integers from standard input, calculates the number of common prefix bits in their binary representations, and prints the result as a power of 2 for each pair. It processes multiple pairs as specified by an initial count read from standard input.

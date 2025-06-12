@@ -1,1 +1,1 @@
-Determines the status of a given position on a field relative to two goal positions, returning 0 if the position is in the first goal, 1 if it's in the second goal, or -1 if it's in neither.
+Determines the goal status of a given position on a field. It checks if the position is in the red goals, blue goals, or neither, and returns a corresponding value: 0 for red goals, 1 for blue goals, and -1 for positions not in any goal.

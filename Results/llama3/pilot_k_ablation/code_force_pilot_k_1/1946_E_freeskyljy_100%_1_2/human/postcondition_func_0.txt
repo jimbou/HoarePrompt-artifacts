@@ -1,0 +1,1 @@
+Calculates the binomial coefficient (n1 choose n2) modulo MOD, where n1 and n2 are non-negative integers and n2 <= n1. If n1 equals n2 or n2 equals 0, returns 1. Otherwise, returns the product of the factorial of n1 modulo MOD and the modular multiplicative inverse of the product of the factorial of n2 modulo MOD and the factorial of the difference between n1 and n2 modulo MOD.

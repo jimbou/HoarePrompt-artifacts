@@ -1,1 +1,1 @@
-Determines if it's possible to distribute water evenly among containers.
+Determines whether it is possible to distribute water evenly among n containers, given a list of non-negative integers representing the initial water levels in each container. The function returns 'YES' if the water can be distributed evenly, and 'NO' otherwise.

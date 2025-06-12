@@ -1,1 +1,1 @@
-stdin contains an integer t (1 <= t <= 32) followed by t strings, each of length 5 consisting of letters A and B.
+stdin contains t+1 inputs: the first input is an integer t (1 ≤ t ≤ 32), and the remaining t inputs are strings of length 5 consisting of letters A and B.

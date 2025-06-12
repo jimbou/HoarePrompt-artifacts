@@ -1,0 +1,1 @@
+This function performs a binary search on a tree data structure with n vertices to find the smallest value of mid for which func_3(tree, n, k, mid) is True. If such a mid exists, it returns the smallest value; otherwise, it returns n. The function takes a tree, a positive integer n, and a non-negative integer k as input and returns an integer value.

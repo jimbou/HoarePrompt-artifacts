@@ -1,1 +1,1 @@
-stdin contains one or more inputs: a positive integer.
+stdin contains one or more inputs: a single integer (greater than 0) followed by a single integer (greater than 1) followed by a series of pairs of integers (a and x) where a is 1, 2, or 3 and 1 <= x <= 10^9.

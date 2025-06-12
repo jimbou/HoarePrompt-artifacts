@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains t+2t lines. The first line contains one integer t (1 ≤ t ≤ 1000). Each of the following t pairs of lines contains an integer n (2 ≤ n ≤ 50) and a list of n space-separated integers (0 ≤ a_i ≤ 1).
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 1000) followed by t test cases. Each test case consists of an integer n (2 <= n <= 50) followed by n integers a_1, a_2, ..., a_n (0 <= a_i <= 1).
     """
      
     0 과 1로 이루어진 배열을 받고 난 후 
@@ -43,7 +43,7 @@
         
         print(ans)
         
-    #State: `t` is an integer between 1 and 1000, `stdin` is empty, `length`, `arrs`, `cnt0`, `cnt1`, and `ans` are no longer defined as they are local variables within the loop, `_` is `t-1`.
+    #State: `t` is 0, `stdin` is empty, `length`, `arrs`, `cnt0`, `cnt1`, and `ans` are undefined (or have arbitrary values) because they are only defined within the scope of the loop.
 
-#Overall this is what the function does:This function reads input from stdin, processes it, and prints the minimum number of zeros required to separate blocks of ones and zeros in a given list of binary numbers. It takes no arguments and returns no value, instead printing the result directly. The function iterates over multiple test cases, each consisting of a list of binary numbers, and for each test case, it calculates and prints the minimum number of zeros required to separate the blocks.
+#Overall this is what the function does:This function reads a series of test cases from standard input, where each test case consists of an integer n followed by n binary digits (0s and 1s). It then calculates and prints the minimum number of moves required to rearrange the binary digits into a single block of 0s followed by a single block of 1s, or 0 if the input is already in this form or contains only one 1. The function processes all test cases and leaves the input stream empty.
 

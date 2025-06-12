@@ -1,0 +1,1 @@
+n is a positive integer and a is a list of n non-negative integers such that for all i, 0 <= a[i] < n.

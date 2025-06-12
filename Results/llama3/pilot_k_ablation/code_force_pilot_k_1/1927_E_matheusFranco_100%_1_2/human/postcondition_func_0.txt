@@ -1,0 +1,1 @@
+Generates a permutation of the numbers from 1 to n, where every k-th index is filled in an alternating pattern starting from 1 and n, and the rest are zeros, and returns it as a string with the elements separated by spaces.

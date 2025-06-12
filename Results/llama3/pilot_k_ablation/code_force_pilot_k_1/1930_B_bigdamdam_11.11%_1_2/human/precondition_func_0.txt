@@ -1,0 +1,1 @@
+stdin contains two inputs: first an integer (1 <= t <= 10^3) and then t space-separated integers (3 <= n <= 10^5).

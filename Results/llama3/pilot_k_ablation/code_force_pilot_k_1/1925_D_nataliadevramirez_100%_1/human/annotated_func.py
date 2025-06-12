@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains an integer t, followed by t sets of input. Each set of input contains an integer k, followed by k lines, each containing three integers a_i, b_i, f_i.
+#State of the program right berfore the function call: stdin contains multiple test cases. Each test case contains 3 integers n, m, and k, followed by m lines, each containing three integers a_i, b_i, and f_i. n is the number of children, m is the number of pairs of friends, and k is the number of excursions. a_i and b_i are the indices of the pair of children who are friends, and f_i is their friendship value. 2 <= n <= 10^5, 0 <= m <= min(10^5, n(n-1)/2), 1 <= k <= 2*10^5, 1 <= a_i, b_i <= n, 1 <= f_i <= 10^9, and a_i != b_i.
     MOD = 1000000007
     T = int(input())
     for _ in range(T):
@@ -27,7 +27,7 @@
         
         print(ans)
         
-    #State: T is 0, stdin is empty, MOD is 1000000007, n, p, k, S, C, num, den, g, ans are undefined (or more accurately, they are the values from the last iteration of the loop, but since we don't know the input, we can't determine their exact values).
+    #State: T is 0, stdin is empty, n, p, k, S, i, C, num, den, ans are undefined (or have arbitrary values), and nothing is printed.
 
-#Overall this is what the function does:This function reads multiple test cases from standard input, where each test case contains an integer t, followed by t sets of input. Each set of input contains an integer k, followed by k lines, each containing three integers a_i, b_i, f_i. It then calculates a value based on the input and prints the result for each test case, modulo 1000000007. The function consumes all input from standard input and leaves it empty.
+#Overall this is what the function does:This function reads multiple test cases from standard input, each containing the number of children, pairs of friends, and excursions. It calculates the probability of a child going on an excursion with a friend, given the friendship values and the number of excursions. The function then prints the result for each test case, modulo 1,000,000,007. After processing all test cases, the function leaves the input stream empty and does not retain any information from the input.
 

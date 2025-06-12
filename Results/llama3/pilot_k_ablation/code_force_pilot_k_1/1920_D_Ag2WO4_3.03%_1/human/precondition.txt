@@ -1,1 +1,1 @@
-x is a list of integers, where each integer is either 1 or 2, and the length of x is equal to the number of operations n.
+x is a list of integers, where each integer is either 1 or 2, and the list is of length n, where n is a positive integer. The list represents a sequence of operations, where 1 represents appending an integer to the end of an array, and 2 represents appending copies of the array to the end of the array. The input also includes a list of queries, which are positive integers representing the indices of the elements in the array that Jayden wants to know.

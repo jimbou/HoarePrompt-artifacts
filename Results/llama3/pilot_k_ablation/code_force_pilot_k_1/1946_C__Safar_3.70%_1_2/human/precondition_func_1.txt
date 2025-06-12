@@ -1,0 +1,1 @@
+x and y are positive integers, g is a dictionary representing an adjacency list of a tree, visited is a set of vertices that have been visited in the DFS traversal, and the function is initially called with a vertex x and y as the number of edges to be removed.

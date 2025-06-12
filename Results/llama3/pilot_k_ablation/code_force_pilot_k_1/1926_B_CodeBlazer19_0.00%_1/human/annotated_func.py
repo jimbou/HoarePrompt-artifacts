@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 100) followed by t test cases. Each test case contains an integer n (2 <= n <= 10) followed by n lines each containing n characters '0' or '1'. The grid contains exactly one triangle or exactly one square that contains all the '1's in the grid. The size of the triangle or square is greater than 1.
+#State of the program right berfore the function call: stdin contains t test cases. Each test case contains an integer n followed by n lines each containing a string of n characters that are either '0' or '1'.
     t = int(input())
     for i in range(t):
         n = int(input())
@@ -19,7 +19,7 @@
         else:
             print(b)
         
-    #State: `t` is an integer between 1 and 100, inclusive, `n` is an integer between 2 and 10, inclusive, `i` is `t`, stdin contains 0 test cases, `a` is either 'Triangle' or 0, `b` is either 'Square' or an empty string. If the grid contains exactly one triangle, then `a` is 'Triangle' and it was printed. If the grid contains exactly one square, then `b` is 'Square' and it was printed. If the grid contains neither a triangle nor a square, then `a` is 0 and `b` is an empty string, and an empty string was printed.
+    #State: `t` is a positive integer, `i` is `t-1`, `n` is an integer, `a` is either 'Triangle' or 0, `b` is either 'Square' or an empty string. If `a` is 'Triangle', then at least one string `s` contains exactly one '1'. If `a` is 0, then no string `s` contains exactly one '1' and `b` is either 'Square' or an empty string.
 
-#Overall this is what the function does:This function reads input from stdin, processes a series of test cases, and prints the shape ('Triangle' or 'Square') of a single shape composed of '1's in a grid, or an empty string if no shape is found. It accepts no parameters and returns no value, instead printing the shape of the grid for each test case. After execution, the function has processed all test cases and printed the corresponding shapes or empty strings.
+#Overall this is what the function does:This function reads input from stdin, processes it, and prints output. It accepts a positive integer `t` representing the number of test cases. For each test case, it reads an integer `n` and `n` lines of strings containing '0' or '1' characters. It checks each string for the presence of exactly one '1' (indicating a 'Triangle') or more than one '1' (indicating a 'Square'). If a 'Triangle' is found, it prints 'Triangle'. Otherwise, it prints 'Square' if a 'Square' is found; otherwise, it prints nothing. The function processes all `t` test cases and prints the corresponding results.
 

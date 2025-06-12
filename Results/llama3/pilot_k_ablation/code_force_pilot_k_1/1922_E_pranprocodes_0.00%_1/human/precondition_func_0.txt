@@ -1,1 +1,1 @@
-stdin contains two inputs: first an integer (the number of test cases) and then a list of integers (the values of X).
+stdin contains two inputs: first an integer (1 <= t <= 1000) and then t space-separated integers (2 <= X <= 10^18).

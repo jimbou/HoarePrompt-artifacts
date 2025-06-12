@@ -1,1 +1,1 @@
-Constructs a tree with n nodes and n-1 edges, roots the tree at node 0, and then calls the func_4 function with the constructed tree, n, and k as arguments, printing the result.
+Constructs a tree with n nodes and n-1 edges, roots the tree, and then calls func_4 with the tree, n, and k as arguments, printing the return value.

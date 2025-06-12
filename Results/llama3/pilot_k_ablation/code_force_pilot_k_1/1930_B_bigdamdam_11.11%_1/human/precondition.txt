@@ -1,1 +1,1 @@
-stdin contains two inputs: first an integer (1 <= t <= 10^3) and then t number of integers (3 <= n <= 10^5).
+stdin contains multiple lines of input. The first line contains a single integer t (1 <= t <= 10^3), which is the number of test cases. Each of the following lines contains a single integer n (3 <= n <= 10^5), which is the length of the permutation p.

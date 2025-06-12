@@ -1,1 +1,1 @@
-This function returns an integer value based on the input parameter 'isOne'. If 'isOne' is False, it reads an integer from the standard input and returns it. If 'isOne' is True, it returns the integer value 1.
+This function returns an integer value based on the input boolean parameter `isOne`. If `isOne` is False, the function prompts the user to input an integer value and returns it. If `isOne` is True, the function returns the number 1.

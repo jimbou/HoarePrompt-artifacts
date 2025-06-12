@@ -1,0 +1,1 @@
+This function searches for a sub-array within a given list of lists (`arr`) where the element at a specified `index` matches a given `value`. If a match is found, it returns the entire sub-array. If no match is found after iterating through all sub-arrays, it returns `None`.

@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains multiple inputs: first an integer t, then t blocks of inputs. Each block contains an integer n and then a list of n integers. The sum of the integers in each block is divisible by n.
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 10^4) followed by t test cases. Each test case consists of an integer n (1 <= n <= 2 * 10^5) followed by n integers a_1, a_2, ..., a_n (0 <= a_i <= 10^9) such that the sum of a_i is divisible by n.
     t = int(input())
     for _ in range(t):
         n = int(input())
@@ -12,7 +12,7 @@
         else:
             print('NO')
         
-    #State: t is an integer, _ is t, stdin is empty, n is not defined, arr is not defined.
+    #State: t is 0, stdin is empty, n is not defined, arr is not defined, _ is t.
 
-#Overall this is what the function does:This function reads multiple blocks of input from stdin, where each block contains an integer n followed by a list of n integers. It checks if the list is sorted in ascending order and prints 'YES' if it is, and 'NO' otherwise. The function repeats this process for a number of blocks specified by the first integer input, t.
+#Overall this is what the function does:This function reads a series of test cases from standard input, where each test case consists of an integer n followed by n integers. It checks if the integers in each test case are sorted in non-decreasing order and prints 'YES' if they are, and 'NO' otherwise. The function processes all test cases and then terminates, leaving the input stream empty.
 

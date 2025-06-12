@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 1000) followed by 2t lines, each containing a string of digits from 1 to 9. The strings on each pair of lines have the same length.
+#State of the program right berfore the function call: stdin contains an integer t (1 <= t <= 1000) followed by t pairs of integers x and y, where x and y are non-negative integers of the same length, consisting only of digits from 1 to 9.
     for _ in range(int(input())):
         a = list(map(int, list(input())))
         
@@ -26,7 +26,7 @@
         
         print(''.join(str(x) for x in new2))
         
-    #State: stdin is empty, `a` and `b` are empty lists, `new` and `new2` are empty lists, `mid` is 0, `i` is 0, and 2t strings of digits have been printed, where each string is the result of comparing the corresponding digits from the input strings.
+    #State: `stdin` is empty, `new` and `new2` are not defined, `a` and `b` are not defined, `mid` is not defined, `i` is not defined, `_` is `t`, and `t` pairs of strings are printed, each pair consisting of the maximum and minimum of the corresponding input pairs.
 
-#Overall this is what the function does:This function reads input from stdin, where the input consists of an integer t followed by 2t lines of strings of digits. It then compares the corresponding digits from each pair of strings, printing two new strings for each pair: one with the maximum digit at each position in the first half and the minimum digit at each position in the second half, and another with the minimum digit at each position in the first half and the maximum digit at each position in the second half. The function repeats this process t times, emptying the stdin and leaving no residual data in the variables used.
+#Overall this is what the function does:This function reads input from stdin, processes it in pairs of integers, and prints out the maximum and minimum of each pair. It takes no parameters and returns no value, instead printing the results directly. The function's purpose is to compare pairs of integers and output the maximum and minimum values for each pair. After execution, the stdin is empty, and the function's variables are no longer defined. The function performs the action of comparing and printing the maximum and minimum of input pairs.
 

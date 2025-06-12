@@ -1,1 +1,1 @@
-Reads an integer `t` from standard input, then reads `t` integers from standard input, and executes the function `func_1()` `t` times, discarding its return value.
+Executes the function `func_1()` a specified number of times, where the number of executions is determined by user input, which is a positive integer between 1 and 50 (inclusive).

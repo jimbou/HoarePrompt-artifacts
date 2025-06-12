@@ -1,0 +1,1 @@
+Calculates the number of players remaining for each game from 1 to 100, given a list of unique integers representing player positions, and returns a list of 101 integers where each integer at index `n` represents the number of players remaining for the game with number `n`.

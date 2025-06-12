@@ -1,0 +1,1 @@
+This function reads input from stdin, processes multiple test cases, and prints the result for each case. It accepts no parameters and returns no value. The function's purpose is to calculate and print the result for each test case based on the given input. The final state of the program is that stdin is empty, and the results for all test cases have been printed.

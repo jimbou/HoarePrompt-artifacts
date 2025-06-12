@@ -1,1 +1,1 @@
-s is a string consisting of "+" and "-" characters, n is a positive integer representing the length of s.
+s is a string consisting of characters "+" and "-", n is a positive integer representing the length of s.

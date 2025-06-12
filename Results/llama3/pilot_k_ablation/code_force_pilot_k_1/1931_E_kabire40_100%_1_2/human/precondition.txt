@@ -1,0 +1,1 @@
+The input consists of a sequence of test cases. Each test case starts with a line containing two integers n and m. The second line of each test case contains n integers a_1, a_2, ..., a_n. 1 <= n <= 2 * 10^5, 0 <= m <= 2 * 10^6, and 1 <= a_i <= 10^9. The sum of n for all test cases does not exceed 2 * 10^5.

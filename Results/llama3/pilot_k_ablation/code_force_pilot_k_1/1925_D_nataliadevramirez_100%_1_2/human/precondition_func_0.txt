@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains an integer t (1 <= t <= 5 * 10^4) on the first line, followed by 3 integers n, m, and k (2 <= n <= 10^5, 0 <= m <= min(10^5, n(n-1)/2), 1 <= k <= 2 * 10^5) on the next line. Then, for each test case, there are m lines, each containing three integers a_i, b_i, and f_i (a_i != b_i, 1 <= a_i, b_i <= n, 1 <= f_i <= 10^9).

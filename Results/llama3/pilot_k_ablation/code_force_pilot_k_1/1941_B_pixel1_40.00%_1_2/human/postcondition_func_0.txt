@@ -1,0 +1,1 @@
+Decrements the elements at the specified index and its neighbors in a list of integers.

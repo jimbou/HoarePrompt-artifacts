@@ -1,0 +1,1 @@
+stdin contains a sequence of lines. The first line contains an integer. The following lines are grouped into test cases. Each test case starts with a line containing two integers. The next line contains a sequence of integers. The following lines contain pairs of integers.

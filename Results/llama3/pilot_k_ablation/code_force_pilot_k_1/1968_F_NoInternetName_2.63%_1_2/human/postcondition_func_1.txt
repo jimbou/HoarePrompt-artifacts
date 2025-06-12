@@ -1,0 +1,1 @@
+Searches for the first index in a list where a given predicate is true, returning the index if found or None if not. If the predicate is never true, returns the length of the list.

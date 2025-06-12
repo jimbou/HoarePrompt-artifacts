@@ -1,1 +1,1 @@
-Reads a line of input from stdin, splits it into space-separated values, and returns them as a list of strings.
+Reads a line of input from the standard input stream, splits it into space-separated values, and returns them as a list of strings.

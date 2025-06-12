@@ -1,0 +1,1 @@
+stdin contains multiple test cases. Each test case contains two inputs: first an integer (the number of books Alice has) and then a space-separated list of integers (the number of pages in each book). The number of books is a non-negative integer and the number of pages in each book is a positive integer.

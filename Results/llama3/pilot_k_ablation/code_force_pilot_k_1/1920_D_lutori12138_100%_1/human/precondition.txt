@@ -1,1 +1,1 @@
-x is a list of integers where the first two elements are non-negative integers n and q, the next n elements are lists of two integers b and x where b is either 1 or 2 and x is a non-negative integer, and the last q elements are non-negative integers.
+x is a list of integers where the first two integers represent the number of operations (n) and the number of queries (q), the next n integers represent the operations (b and x), and the last q integers represent the queries (k_1, k_2, ..., k_q).

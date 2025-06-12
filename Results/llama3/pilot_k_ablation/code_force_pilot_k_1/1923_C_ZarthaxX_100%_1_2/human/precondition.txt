@@ -1,0 +1,1 @@
+stdin contains a sequence of lines where the first line contains an integer t (1 <= t <= 10^4), each of the next t lines contains two integers n and q (1 <= n, q <= 3 * 10^5), each of the next t lines contains n integers c_1, c_2, ..., c_n (1 <= c_i <= 10^9), and each of the next t * q lines contains two integers l_i and r_i (1 <= l_i <= r_i <= n).

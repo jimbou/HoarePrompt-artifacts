@@ -1,39 +1,39 @@
-#State of the program right berfore the function call: isOne is a boolean value indicating whether to return 1 or to return an integer read from the standard input.
+#State of the program right berfore the function call: isOne is a boolean value.
     if (not isOne) :
         return int(input())
-        #The program returns an integer read from the standard input.
+        #The program returns an integer value that is provided by the user through input. The value of isOne is not used in the return statement, so it remains False.
     else :
         return 1
-        #The program returns 1, which is an integer value.
+        #The program returns the number 1.
 
-#Overall this is what the function does:This function returns an integer value based on the input parameter 'isOne'. If 'isOne' is False, it reads an integer from the standard input and returns it. If 'isOne' is True, it returns the integer value 1.
+#Overall this is what the function does:This function returns an integer value based on the input boolean parameter `isOne`. If `isOne` is False, the function prompts the user to input an integer value and returns it. If `isOne` is True, the function returns the number 1.
 
-#State of the program right berfore the function call: space is a boolean value indicating whether the input should be split into items based on spaces, to_int is a boolean value indicating whether the items should be converted to integers.
+#State of the program right berfore the function call: space is a boolean value, to_int is a boolean value.
     line = input()
     if space :
         items = line.split()
     else :
         items = list(line)
-    #State: `space` is a boolean value, `to_int` is a boolean value, `line` is a string containing the input from stdin, stdin is empty. If `space` is true, `items` is a list of substrings split from `line` based on spaces. Otherwise, `items` is a list of characters in `line`.
+    #State: *`space` is a boolean value, `to_int` is a boolean value, `line` is a string. If `space` is true, `items` is a list of substrings split from `line` by spaces. If `space` is false, `items` is a list of characters in `line`.
     if to_int :
         return [int(i) for i in items]
-        #The program returns a list of integers. If `space` is true, the list contains integers converted from substrings split from the input string `line` based on spaces. Otherwise, the list contains integers converted from individual characters in the input string `line`.
+        #The program returns a list of integers. If `space` is true, the list contains integers converted from substrings split from `line` by spaces. If `space` is false, the list contains integers converted from individual characters in `line`.
     else :
         return items
-        #The program returns a list of substrings or characters from the input string 'line'. If 'space' is true, the list contains substrings split from 'line' based on spaces. Otherwise, the list contains individual characters from 'line'.
+        #The program returns a list of substrings or characters from the string 'line'. If 'space' is true, the list contains substrings split from 'line' by spaces. If 'space' is false, the list contains individual characters from 'line'.
 
-#Overall this is what the function does:This function reads a line of input from stdin, splits it into items based on spaces if specified, and returns the items as either a list of substrings or a list of integers if conversion to integers is specified. The function takes two boolean parameters, `space` and `to_int`, which determine how the input is processed. If `space` is true, the input is split into substrings based on spaces; otherwise, it is split into individual characters. If `to_int` is true, the resulting items are converted to integers. The function returns the processed list of items, which can be either a list of integers or a list of substrings/characters, depending on the values of `space` and `to_int`.
+#Overall this is what the function does:This function reads a line of input and processes it based on two boolean parameters: `space` and `to_int`. If `space` is true, the function splits the input line into substrings separated by spaces; otherwise, it treats the input line as individual characters. If `to_int` is true, the function converts the resulting substrings or characters into integers. The function then returns the processed list, which can contain either integers or substrings/characters, depending on the values of `space` and `to_int`.
 
-#State of the program right berfore the function call: arr is a list of integers and sym is a string.
+#State of the program right berfore the function call: arr is a list of integers and sym is a string of length 1.
     string = ''
     for i in arr:
         string += str(i) + sym
         
-    #State: `arr` is a list of integers, `sym` is a string, `string` is a string that contains all integers in the list separated by `sym`.
+    #State: `arr` is a list of integers, `sym` is a string of length 1, `string` is a concatenation of the string representation of all integers in `arr` separated by `sym`.
     return string
-    #The program returns a string that contains all integers in the list 'arr' separated by the string 'sym'.
+    #The program returns a string that is a concatenation of the string representation of all integers in the list `arr`, separated by the string `sym` of length 1.
 
-#Overall this is what the function does:This function takes a list of integers and a string as input, and returns a string that contains all integers in the list separated by the input string. The input list and string remain unchanged. The function effectively concatenates the string representation of each integer in the list, interspersed with the input string.
+#Overall this is what the function does:This function takes a list of integers and a single-character string as input, and returns a string where the integer values are concatenated together, separated by the provided separator string. The input list and separator string remain unchanged. The function effectively converts the list of integers into a single string, with the separator string used to delimit the integer values.
 
 #State of the program right berfore the function call: string and substring are strings.
     indices = []
@@ -43,30 +43,30 @@
         
         index = string.find(substring, index + 1)
         
-    #State: indices contains all the indices of all occurrences of substring in string, index is -1
+    #State: string is a string, substring is a string, indices is a list containing all the indices of all occurrences of substring in string, index is -1
     return indices
-    #The program returns a list of indices that contains all the indices of all occurrences of a substring in a string.
+    #The program returns a list of indices containing all the indices of all occurrences of substring in string.
 
-#Overall this is what the function does:This function finds all occurrences of a given substring within a string and returns a list of indices corresponding to the starting positions of these occurrences. If the substring is not found, an empty list is returned.
+#Overall this is what the function does:This function finds all occurrences of a given substring within a string and returns a list of indices corresponding to the starting positions of these occurrences. The function accepts two parameters: a string and a substring, and returns a list of indices. If the substring is not found in the string, the function returns an empty list.
 
-#State of the program right berfore the function call: arr is a list of values and element is a value such that element is present in arr.
+#State of the program right berfore the function call: arr is a list of values and element is a value of any type such that element is present in arr.
     return [index for index, value in enumerate(arr) if value == element]
-    #The program returns a list of indices where the element is found in the list 'arr'.
+    #The program returns a list of indices where the element is found in the list 'arr'. The list 'arr' contains a collection of values, and the element is a value of any type that is present in 'arr'. The returned list contains the positions of the element in 'arr', with the first occurrence having an index of 0, the second occurrence having an index of 1, and so on.
 
-#Overall this is what the function does:This function finds and returns the indices of all occurrences of a specified element within a given list. It takes a list and an element as input and returns a list of indices where the element is found. If the element is not present in the list, it returns an empty list.
+#Overall this is what the function does:This function finds and returns the indices of all occurrences of a specified element within a given list. It takes a list 'arr' and an element as input, and returns a list of indices where the element is found in 'arr', with the first occurrence having an index of 0, the second occurrence having an index of 1, and so on. If the element is not found in the list, it will return an empty list.
 
-#State of the program right berfore the function call: arr is a 2D list of integers, index is a non-negative integer such that 0 <= index < len(arr[0]), and value is an integer.
+#State of the program right berfore the function call: arr is a 2D list of lists, index is a non-negative integer such that 0 <= index < len(arr[0]), and value is a value of any type.
     for subArray in arr:
         if subArray[index] == value:
             return subArray
         
-    #State: `arr` is a 2D list of integers, `index` is a non-negative integer such that 0 <= `index` < `len(arr[0])`, `value` is an integer, and either the function has returned a sub-array where the element at position `index` is equal to `value`, or the loop has finished iterating over all sub-arrays without finding a match, in which case the function has not returned a sub-array.
+    #State: arr is a 2D list of lists, index is a non-negative integer such that 0 <= index < len(arr[0]), value is a value of any type, either a sub-array in arr has an element at index equal to value and the function has returned that sub-array, or no sub-array in arr has an element at index equal to value and the function has not returned anything.
     return None
-    #The program returns None, indicating that the loop has finished iterating over all sub-arrays without finding a match where the element at position `index` is equal to `value`.
+    #The program returns None, indicating that no sub-array in arr has an element at index equal to value.
 
-#Overall this is what the function does:Searches a 2D list of integers for a sub-array where the element at a specified index matches a given value, returning the first matching sub-array if found, or None if no match is found after iterating over all sub-arrays.
+#Overall this is what the function does:This function searches a 2D list of lists for a sub-array that contains a specified value at a specified index. If such a sub-array is found, it is returned; otherwise, the function returns None, indicating that no matching sub-array was found.
 
-#State of the program right berfore the function call: stdin contains n+1 inputs: first an integer n, and then n lines each containing two integers t and v, where t is an integer in {1,2,3} and v is a non-negative integer less than or equal to 1000000000.
+#State of the program right berfore the function call: stdin contains two inputs: first an integer n (2 <= n <= 100) and then n lines each containing two integers t and v (t in {1,2,3} and 1 <= v <= 10^9).
     n = int(input())
     start = -1
     end = int(1000000000.0)
@@ -85,7 +85,7 @@
         if t == 3:
             num.append(v)
         
-    #State: `n` is an integer, `start` is the maximum value of `v` when `t` is 1, `end` is the minimum value of `v` when `t` is 2, `num` is a list of all `v` when `t` is 3, stdin is empty.
+    #State: `n` is an integer between 2 and 100 inclusive, `start` is the maximum of -1 and the maximum value of `v` when `t` is 1, `end` is the minimum of 1000000000 and the minimum value of `v` when `t` is 2, `num` is a list of values of `v` when `t` is 3, `stdin` is empty.
     count_num = 0
     for i in num:
         if i < start or i > end:
@@ -93,9 +93,9 @@
         else:
             count_num += 1
         
-    #State: `n` is an integer, `start` is the maximum value of `v` when `t` is 1, `end` is the minimum value of `v` when `t` is 2, `num` is a list of all `v` when `t` is 3, `count_num` is the number of elements in `num` that are within the range of `start` and `end` (inclusive).
+    #State: `n` is an integer between 2 and 100 inclusive, `start` is the maximum of -1 and the maximum value of `v` when `t` is 1, `end` is the minimum of 1000000000 and the minimum value of `v` when `t` is 2, `num` is a list of values of `v` when `t` is 3, `count_num` is the number of values in `num` that are within the range of `start` and `end` (inclusive), `stdin` is empty.
     return end - start + 1 - count_num if start <= end else 0
-    #The program returns the difference between the maximum value of `v` when `t` is 1 and the minimum value of `v` when `t` is 2, plus 1, minus the number of elements in `num` that are within the range of `start` and `end` (inclusive), but only if the maximum value of `v` when `t` is 1 is less than or equal to the minimum value of `v` when `t` is 2, otherwise it returns 0.
+    #The program returns the difference between the minimum value of `v` when `t` is 2 and the maximum value of `v` when `t` is 1, plus 1, minus the number of values in `num` that are within the range of the maximum of -1 and the maximum value of `v` when `t` is 1 and the minimum of 1000000000 and the minimum value of `v` when `t` is 2 (inclusive), if the maximum of -1 and the maximum value of `v` when `t` is 1 is less than or equal to the minimum of 1000000000 and the minimum value of `v` when `t` is 2, otherwise it returns 0.
 
-#Overall this is what the function does:This function calculates the number of integers within a specified range that are not present in a given list of numbers. The range is defined by the maximum value of 'v' when 't' is 1 and the minimum value of 'v' when 't' is 2, and the list of numbers is composed of 'v' values when 't' is 3. If the maximum value of 'v' when 't' is 1 is greater than the minimum value of 'v' when 't' is 2, the function returns 0. Otherwise, it returns the difference between the range size and the count of numbers within the range.
+#Overall this is what the function does:This function calculates the number of integers within a specified range that are not included in a given list of numbers. The range is defined by the maximum and minimum values of 'v' when 't' is 1 and 2, respectively, and the list of numbers is defined by the values of 'v' when 't' is 3. The function returns the count of integers within the range that are not in the list, or 0 if the range is invalid.
 

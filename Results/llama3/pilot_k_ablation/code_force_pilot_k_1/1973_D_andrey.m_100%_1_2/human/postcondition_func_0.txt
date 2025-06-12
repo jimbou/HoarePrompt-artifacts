@@ -1,0 +1,1 @@
+The function takes two positive integers, l and x, as input, where l is between 1 and n (the length of a hidden array) and x is between 1 and 10^9. It prints a query in the format '? l x' and waits for an integer response, which it then returns as the output.

@@ -1,0 +1,26 @@
+#State of the program right berfore the function call: stdin contains multiple test cases. The first line of stdin contains a single integer t (1 ≤ t ≤ 10^4) — the number of test cases. Each test case consists of a single line containing six integers h, w, x_a, y_a, x_b, y_b (1 ≤ x_a, x_b ≤ h ≤ 10^6, 1 ≤ y_a, y_b ≤ w ≤ 10^9) — the dimensions of the board and the initial positions of Alice's and Bob's chips. It is guaranteed that either x_a ≠ x_b or y_a ≠ y_b.
+    r = list(map(int, input().split()))
+    n, m, x1, y1, x2, y2 = r[0], r[1], r[2], r[3], r[4], r[5]
+    if (x2 <= x1) :
+        print('draw')
+        #This is printed: draw
+        return
+        #The program returns nothing because there is no return value specified in the code snippet. The state of the variables remains the same: n is an integer equal to the first input, m is an integer equal to the second input, x1 is an integer equal to the third input, y1 is an integer equal to the fourth input, x2 is an integer equal to the fifth input, y2 is an integer equal to the sixth input, r is a list of six integers equal to the first six inputs, stdin contains one less test case than initially, and 'draw' is still printed.
+    #State: *n is an integer equal to the first input, m is an integer equal to the second input, x1 is an integer equal to the third input, y1 is an integer equal to the fourth input, x2 is an integer equal to the fifth input, y2 is an integer equal to the sixth input, r is a list of six integers equal to the first six inputs, stdin contains one less test case than initially, and x2 is larger than x1
+    if ((x2 - x1) % 2 != 0) :
+        if (y1 == y2) :
+            print('Alice')
+            #This is printed: Alice
+            return
+            #The program returns nothing because there is no value or variable specified in the return statement.
+        #State: *n is an integer equal to the first input, m is an integer equal to the second input, x1 is an integer equal to the third input, y1 is an integer equal to the fourth input, x2 is an integer equal to the fifth input, y2 is an integer equal to the sixth input, r is a list of six integers equal to the first six inputs, stdin contains one less test case than initially, x2 is larger than x1, the difference between x2 and x1 is an odd number, and y1 is not equal to y2
+    else :
+        if (y1 == y2) :
+            print('bob')
+            #This is printed: bob
+            return
+            #The program returns nothing, 'bob' is printed, stdin contains one less test case than initially, 'n' is an integer equal to the first input, 'm' is an integer equal to the second input, 'x1' is an integer equal to the third input, 'y1' is an integer equal to the fourth input, 'x2' is an integer equal to the fifth input, 'y2' is an integer equal to the sixth input, 'r' is a list of six integers equal to the first six inputs, 'x2' is larger than 'x1', the difference between 'x2' and 'x1' is even, and the current values of 'y1' and 'y2' are equal.
+        #State: *n is an integer equal to the first input, m is an integer equal to the second input, x1 is an integer equal to the third input, y1 is an integer equal to the fourth input, x2 is an integer equal to the fifth input, y2 is an integer equal to the sixth input, r is a list of six integers equal to the first six inputs, stdin contains one less test case than initially, x2 is larger than x1, the difference between x2 and x1 is even, and y1 is not equal to y2
+
+#Overall this is what the function does:Determines the winner of a game based on the positions of two chips on a board. The function takes six integers as input: the dimensions of the board (h and w) and the initial positions of two chips (x_a, y_a, x_b, and y_b). It then prints 'draw' if the chips are in the same row, 'Alice' if the difference between the x-coordinates is odd and the y-coordinates are different, or 'Bob' if the difference between the x-coordinates is even and the y-coordinates are different. The function does not return any value.
+

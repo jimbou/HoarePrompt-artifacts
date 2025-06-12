@@ -1,1 +1,1 @@
-Reads a positive integer from standard input, then calls the function `func_3()` that many times, leaving the input stream empty.
+Reads a positive integer t from standard input, representing the number of test cases, and calls the function func_3() t times.

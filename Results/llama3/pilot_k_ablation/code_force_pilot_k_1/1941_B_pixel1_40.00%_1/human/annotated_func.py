@@ -1,29 +1,29 @@
-#State of the program right berfore the function call: array is a list of integers and index is an integer such that 2 <= index <= len(array) - 1.
+#State of the program right berfore the function call: array is a list of integers and index is an integer such that 2 <= index <= len(array) - 2.
     array[index - 1] = array[index - 1] - 1
     array[index] = array[index] - 2
     array[index + 1] = array[index + 1] - 1
     return array
-    #The program returns a list of integers where the element at index - 1 is decremented by 1, the element at index is decremented by 2, and the element at index + 1 is decremented by 1, and index remains unchanged.
+    #The program returns a list of integers where the element at index - 1 is one less than its original value, the element at index is two less than its original value, and the element at index + 1 is one less than its original value.
 
-#Overall this is what the function does:Decrements the elements at index - 1, index, and index + 1 in the input list by 1, 2, and 1 respectively, and returns the modified list.
+#Overall this is what the function does:Decrements the elements at indices index - 1, index, and index + 1 in the input list by 1, 2, and 1 respectively, and returns the modified list.
 
 #State of the program right berfore the function call: arrayForSuccess is a list of integers.
     for x in arrayForSuccess:
         if x != 0:
             return False
         
-    #State: arrayForSuccess is a list of integers, if the loop executes then all elements in the list are 0, if the loop does not execute then arrayForSuccess is an empty list.
+    #State: arrayForSuccess is a list of integers, x is the last integer in the list, if the list is not empty and contains only zeros, the function will not return False, otherwise it will return False
     return True
-    #The program returns True, indicating that either all elements in the list arrayForSuccess are 0 or the list is empty.
+    #The program returns True, indicating that the list arrayForSuccess is either empty or contains only zeros, or x is not the last integer in the list, or the list contains at least one non-zero integer.
 
-#Overall this is what the function does:Checks if all elements in the input list are 0 or if the list is empty, returning True if the condition is met and False otherwise.
+#Overall this is what the function does:This function checks if a given list of integers contains only zeros or is empty. It iterates through the list and returns False as soon as it encounters a non-zero integer. If the list is empty or contains only zeros, the function returns True.
 
-#State of the program right berfore the function call: inputarray is a list of integers, and answers is a list that is accessible within the scope of this function.
+#State of the program right berfore the function call: inputarray is a list of integers, and answers is a list of strings that is accessible within the scope of this function.
     if func_2(inputarray) :
         answers.append('YES')
         return
-        #The program returns the string 'YES' from the list 'answers'.
-    #State: *inputarray is a list of integers, and answers is a list that is accessible within the scope of this function. The function func_2(inputarray) returns False
+        #The program returns nothing
+    #State: *inputarray is a list of integers, and answers is a list of strings that is accessible within the scope of this function. The function func_2(inputarray) returns False
     loop_counter = 1
     while loop_counter != 100:
         length = len(inputarray)
@@ -49,8 +49,8 @@
         
         loop_counter += 1
         
-    #State: `loop_counter` is 100, `answers` is a list containing either 'YES' or 'NO', `inputarray` is a list of integers, `length` is the number of elements in `inputarray`, `highestNumber` is the maximum value in `inputarray` excluding the first and last elements, `highestIndex` is the index of `highestNumber` in `inputarray`. If `func_2(inputarray)` returns True at any point, `answers` will contain 'YES' and the loop will terminate early. If `func_2(inputarray)` never returns True, `answers` will contain 'NO' and the loop will run for 99 iterations.
+    #State: loop_counter is 100, inputarray is a list of integers, answers is a list of strings. If at any point during the loop's execution, func_2(inputarray) returns True, then answers will contain 'YES' and the loop will terminate early. If at any point during the loop's execution, the highestNumber is less than 0, then answers will contain 'NO' and the loop will terminate early. If the loop executes 99 times without func_2(inputarray) returning True or highestNumber being less than 0, then answers will not contain 'YES' or 'NO'.
     answers.append('NO')
 
-#Overall this is what the function does:This function determines whether a given list of integers meets a certain condition defined by the function func_2. It iterates through the list, finding the maximum value excluding the first and last elements, and applies the function func_1 to the list. If func_2 returns True at any point, the function appends 'YES' to the answers list and returns. If the loop runs for 99 iterations without func_2 returning True, the function appends 'NO' to the answers list. The function returns the answers list containing either 'YES' or 'NO'.
+#Overall this is what the function does:This function determines whether a given list of integers can be transformed into a desired state by repeatedly applying a transformation function (func_1) and checks if the transformed list meets a certain condition (func_2). It appends 'YES' to the answers list if the condition is met, 'NO' if the highest number in the list becomes negative, and 'NO' by default if the transformation is repeated 100 times without meeting the condition. The function returns nothing.
 

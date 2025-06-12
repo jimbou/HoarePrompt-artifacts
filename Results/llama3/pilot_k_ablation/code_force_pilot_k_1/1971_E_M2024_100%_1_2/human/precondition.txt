@@ -1,0 +1,1 @@
+t is a positive integer, n, k, and q are positive integers such that k <= n <= 10^9 and 1 <= k, q <= 10^5, a is a list of k integers such that 1 <= a_i <= n, a_i < a_{i+1} for every 1 <= i <= k-1, and a_k = n, b is a list of k integers such that 1 <= b_i <= 10^9, b_i < b_{i+1} for every 1 <= i <= k-1, and d is a list of q integers such that 0 <= d_i <= n.

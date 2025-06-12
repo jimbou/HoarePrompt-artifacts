@@ -1,1 +1,1 @@
-t is a positive integer, for each test case, n and m are positive integers, a is a list of n integers between 1 and 10^4 (inclusive), and s is a string of n characters, each of which is either 'L' or 'R'.
+The input contains an integer t, followed by t test cases. Each test case consists of three lines: the first line contains two integers n and m, the second line contains n integers a_1, a_2, ..., a_n, and the third line contains a string s of length n consisting of characters 'L' and 'R'.

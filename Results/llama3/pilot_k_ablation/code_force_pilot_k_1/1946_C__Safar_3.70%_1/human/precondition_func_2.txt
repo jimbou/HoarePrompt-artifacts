@@ -1,1 +1,1 @@
-x is a positive integer, k is a non-negative integer, visited is a set, and dfs is a function that takes two arguments and returns a tuple of two values.
+x is a positive integer, k is a non-negative integer, visited is a set or list that keeps track of visited nodes, and dfs is a function that takes two parameters (a node and an integer) and returns a tuple of two values (a boolean and an integer).

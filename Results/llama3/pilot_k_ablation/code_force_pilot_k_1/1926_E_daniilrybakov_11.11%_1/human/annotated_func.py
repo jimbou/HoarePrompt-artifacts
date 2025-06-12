@@ -1,4 +1,4 @@
-#State of the program right berfore the function call: stdin contains t+1 inputs: first an integer t (1 <= t <= 50000) and then t pairs of integers n and k (1 <= k <= n <= 10^9).
+#State of the program right berfore the function call: stdin contains multiple lines of input. The first line contains an integer t (1 <= t <= 5 * 10^4). Each of the following t lines contains two integers n and k (1 <= k <= n <= 10^9).
     t = int(input())
     for _ in range(t):
         n, k = map(int, input().split())
@@ -22,7 +22,7 @@
         
         print((2 * (k - (s - n)) - 1) * m)
         
-    #State: t is 0, stdin is empty, n_back, s, n, m, and k are undefined (or have arbitrary values), and the loop has printed t lines of output.
+    #State: `t` is an integer between 0 and 5 * 10^4 (inclusive), `n_back` is an integer between 1 and 10^9 (inclusive), `s` is equal to `k`, `n` is an integer between 1 and 5 * 10^8 (inclusive) divided by 2 to the power of the number of times the loop executed, `m` is 2 to the power of the number of times the loop executed, stdin is empty.
 
-#Overall this is what the function does:The function reads a series of input pairs from stdin, where each pair consists of two integers, n and k. It then calculates and prints a value for each pair, based on a series of mathematical operations involving n and k. The function continues this process until all input pairs have been processed, at which point stdin is empty and the function has printed a corresponding number of output lines.
+#Overall this is what the function does:The function reads multiple lines of input from stdin, where the first line contains an integer t (1 <= t <= 5 * 10^4) and each of the following t lines contains two integers n and k (1 <= k <= n <= 10^9). It then performs calculations based on these inputs and prints the results. The function iteratively updates the values of n, s, and m until s is equal to k, and then prints the calculated result. The function does not modify the input variables and leaves stdin empty after execution.
 

@@ -1,0 +1,1 @@
+This function reads a specified number of strings from standard input, each consisting of letters 'A' and 'B', and prints the dominant letter ('A' or 'B') for each string. After processing all strings, the function leaves the input stream empty and resets its internal counters.

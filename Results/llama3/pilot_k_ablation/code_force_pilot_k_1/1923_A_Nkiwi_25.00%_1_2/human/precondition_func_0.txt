@@ -1,0 +1,1 @@
+stdin contains t+2t lines. The first line contains an integer t (1 ≤ t ≤ 1000). Each of the following t lines contains an integer n (2 ≤ n ≤ 50). Each of the following tn lines contains n integers a_1, a_2, …, a_n (0 ≤ a_i ≤ 1). In each test case, at least one cell contains a chip.
